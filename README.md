@@ -15,8 +15,10 @@ metadata files.
 The development of the Metadata Editor executed by Siemens Convergence
 Creators, Prague, is funded by the European Space Agency.
 
-Authors: Natasha Neumaerker, Siemens Convergence Creators, Prague (CZ)
-         Milan Novacek, Siemens Convergence Creators, Prague (CZ)
-         Radim Zajonc,  Siemens Convergence Creators, Prague (CZ)
-Contributors: Stanislav Kascak. Siemens Convergence Creators
+### Authors: 
+    Natascha Neumaerker, Siemens Convergence Creators, Prague (CZ)
+    Milan Novacek, Siemens Convergence Creators, Prague (CZ)
+    Radim Zajonc,  Siemens Convergence Creators, Prague (CZ)
+### Contributors: 
+    Stanislav Kascak. Siemens Convergence Creators
 
