@@ -1,5 +1,5 @@
 # obeos-samde
-This is the OBEOS Metadata Editor repository.
+This is the OBEOS Semantic Annotation MetaData Editor repository.
 
 Copyright (C) 2017 Siemens Convergence Creators, Prague (CZ)
 
@@ -15,10 +15,10 @@ metadata files.
 The development of the Metadata Editor executed by Siemens Convergence
 Creators, Prague, is funded by the European Space Agency.
 
-### Authors: 
+#### Authors: 
     Natascha Neumaerker, Siemens Convergence Creators, Prague (CZ)
     Milan Novacek, Siemens Convergence Creators, Prague (CZ)
     Radim Zajonc,  Siemens Convergence Creators, Prague (CZ)
-### Contributors: 
+#### Contributors: 
     Stanislav Kascak. Siemens Convergence Creators
 
