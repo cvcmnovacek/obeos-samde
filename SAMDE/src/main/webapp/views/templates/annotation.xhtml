@@ -1,0 +1,173 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:c="http://java.sun.com/jsp/jstl/core"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui"
+	xmlns:ui="http://java.sun.com/jsf/facelets">
+<!-- Copyright (C) 2017 Siemens Convergence Creators, Prague (CZ) -->
+<!-- Licensed under the OBEOS SAMDE License, see LICENSE.txt      -->
+<ui:composition>
+<!--.hide-column-names table thead tr {  -->
+<!--	display: none;  -->
+<!--	background: none;  -->
+<!--}  -->
+<style> 
+.ui-datatable-footer { 
+   background-color: transparent; 
+} 
+</style>
+
+	<h:form id="annotationMainForm">
+				<p:remoteCommand name="loadAnnotationFromResource" update="annotationTbl platformTbl firstLevelInstrumentsDT tablePanel" 
+				action="#{annotationAdministratorBean.annotationFromSelection}"/>
+				
+<!-- 		<p:commandButton value="Load annotation from resource" -->
+<!-- 			action="#{annotationAdministratorBean.annotationFromSelection}" -->
+<!-- 			update="annotationTbl platformTbl firstLevelInstrumentsDT tablePanel" /> -->
+
+		<p:spacer style="width:600px;height:4px;" />
+
+		<p:scrollPanel id="tablePanel" mode="native" style="width:650px;height:400px">
+		
+		
+			<p:dataTable id="annotationTbl"
+				value="#{annotationAdministratorBean.keywordAnnotObjectEntries}"
+				var="entry" scrollable="true" resizableColumns="true"
+				liveResize="true">
+
+				<f:facet name="header">
+                   DescriptiveKeywords
+                </f:facet>
+
+				<p:column headerText="Thesaurus URI">
+                #{entry.key} 
+             </p:column>
+
+				<p:column headerText="Keywords">
+					<p:dataTable value="#{entry.value.keywordList}" var="kw"
+						styleClass="hide-column-names">
+						<p:column thead="display:none">
+							<h:outputLink target="_blank" value="#{kw.conceptURI}">
+								<h:outputText value="#{kw.conceptName}" />
+							</h:outputLink>
+						</p:column>
+						
+						<p:column thead="display:none">
+						   <p:commandButton value="check" title="look up concept" action="#{annotationInserterBean.checkConcept(kw,entry.value)}"/>
+						</p:column>
+
+						<p:column thead="display:none">
+						   <p:commandButton value="delete" action="#{annotationInserterBean.deleteKeywordFromBlockAndUpdateGUI(kw,entry.value)}"/>
+						</p:column>
+					</p:dataTable>
+				</p:column>
+
+				<p:column>
+					<p:commandButton value="Add"
+						title="Add keywords from same thesaurus"
+						action="#{annotationInserterBean.processCreationRequest(entry)}" />
+				</p:column>
+
+				<f:facet name="footer">
+					<p:commandButton value="New descriptiveKeywords" 
+					actionListener="#{annotationInserterBean.propagateAnnotationType('descriptiveKeywords')}" 
+					onclick="PF('newKeywordBlockDlg').show();"
+					update="#{p:component('thesaurusUriTxt')}"/>
+				</f:facet>
+			</p:dataTable>
+			<p:spacer style="width:600px;height:10px" />
+
+<!--  standalone instruments -->
+<!--  ***********************-->
+			<p:dataTable id="firstLevelInstrumentsDT" value="#{annotationAdministratorBean.firstLevelInstrDispFile}" 
+			var="instrP" >
+			
+			
+				<f:facet name="header">
+                      Instruments                      
+                </f:facet>
+				<p:column headerText="title">
+					<h:outputLink target="_blank"
+						value="#{instrP.citationTitle.conceptURI}">
+						<h:outputText value="#{instrP.citationTitle.conceptName}" />
+					</h:outputLink>
+				</p:column>
+				<p:column headerText="identifiers">
+					<h:outputLink target="_blank"
+						value="#{instrP.firstIdentifier.conceptURI}">
+						<h:outputText
+							value="#{instrP.firstIdentifier.conceptName}  (#{instrP.nmbrOfIdentifiers})" />
+					</h:outputLink>
+				</p:column>
+
+				<f:facet name="footer">
+					<p:commandButton value="Add instrument" 
+					action="#{annotationInserterBean.collectDataForNewInstrumentRequest()}"/>
+				</f:facet>
+
+			</p:dataTable>
+			
+			<p:spacer style="width:600px;height:10px" />
+<!--  platforms -->
+<!--  ***********************-->
+			<p:dataTable id="platformTbl"
+				value="#{annotationAdministratorBean.platformsDispFile}" var="platf"
+				scrollable="true" resizableColumns="true" liveResize="true">
+<!-- 				scrollHeight="#{dimensions.tablePanelHeight_reduced}"> -->
+
+				<f:facet name="header">
+				         Platforms
+               </f:facet>
+
+				<p:column headerText="identifier">
+					<h:outputLink target="_blank"
+						value="#{platf.platformIdentifier.conceptURI}">
+						<h:outputText value="#{platf.platformIdentifier.conceptName}" />
+					</h:outputLink>
+				</p:column>
+				<p:column headerText="description">
+		            #{platf.platformDescription}
+		       </p:column>
+				<p:column headerText="instruments">
+					<p:dataTable id="instrumentsDT" value="#{platf.instrumentList}"
+						var="instr">
+						<p:column headerText="title">
+							<h:outputLink target="_blank"
+								value="#{instr.citationTitle.conceptURI}">
+								<h:outputText value="#{instr.citationTitle.conceptName}" />
+							</h:outputLink>
+						</p:column>
+						<p:column headerText="identifiers">
+							<h:outputLink target="_blank"
+								value="#{instr.firstIdentifier.conceptURI}">
+								<h:outputText
+									value="#{instr.firstIdentifier.conceptName}  (#{instr.nmbrOfIdentifiers})" />
+							</h:outputLink>
+						</p:column>
+
+					</p:dataTable>
+				</p:column>
+
+				<p:column>
+					<p:commandButton value="add instrument" 
+					    actionListener="#{annotationAdministratorBean.setPlatformToAddInstrumentTo(platf)}"
+					    action="#{annotationInserterBean.collectDataForNewInstrumentRequest}"
+						title="Add instrument to this platform" />
+				</p:column>
+				
+				<p:column>
+				   <p:commandButton value="delete platform" action="#{annotationInserterBean.deletePlatformInSelection(platf)}" 
+				   title="Delete this platform"/>
+				</p:column>
+
+
+				<f:facet name="footer">
+					<p:commandButton value="Add platform" onclick="PF('newPlatformDlg').show();"/>
+				</f:facet>
+
+			</p:dataTable>
+		</p:scrollPanel>
+
+	</h:form>
+</ui:composition>
+</html>

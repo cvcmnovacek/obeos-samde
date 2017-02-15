@@ -1,0 +1,31 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:c="http://java.sun.com/jsp/jstl/core"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui"
+	xmlns:ui="http://java.sun.com/jsf/facelets">
+<!-- Copyright (C) 2017 Siemens Convergence Creators, Prague (CZ) -->
+<!-- Licensed under the OBEOS SAMDE License, see LICENSE.txt      -->
+<ui:composition>
+			<h:form id="treeform">
+				<p:hotkey bind="ctrl+d" actionListener="#{treeBean.onCheckedDelete}"
+					process="@form" />
+				<p:outputPanel>
+					<p:tree id="uitree" widgetVar="wvUITree" value="#{treeBean.root}"
+						var="node" dynamic="true" selectionMode="single"
+						selection="#{treeBean.selectedNode}">
+						<p:ajax event="select" listener="#{treeBean.onNodeSelect}"
+							update="#{p:component('nodeselectionform')} 
+									#{p:component('childdatalist')}
+                                  	#{p:component('nodecontentsform')} 
+                                  	#{p:component('attrList')} 
+                                  	#{p:component('attrLbl')}" />
+						<p:ajax event="expand" listener="#{treeBean.onNodeExpand}" />
+						<p:treeNode>
+							<h:outputText value="#{node}" />
+						</p:treeNode>
+					</p:tree>
+				</p:outputPanel>
+			</h:form>
+</ui:composition>
+</html>

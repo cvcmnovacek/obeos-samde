@@ -1,0 +1,29 @@
+.ui-tree{
+     border: none;
+     background: none;
+     width: 300px !important;	
+     height: 400px;
+     overflow: auto
+}
+
+.ui-datalist-data {
+   width: 350px;
+   height:200px;
+   overflow:auto
+}
+
+.hide-column-names table thead tr {
+	display: none;
+	background: none;
+}
+.ui-datatable-footer {
+    background-color: transparent;
+}
+
+.ui-panelgrid tr, .ui-panelgrid td{
+  border:none !important;
+}
+
+.CodeMirror {
+	width: 600px;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!-- Copyright (C) 2017 Siemens Convergence Creators, Prague (CZ) -->
+<!-- Licensed under the OBEOS SAMDE License, see LICENSE.txt      -->
+
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui"
+	xmlns:ui="http://java.sun.com/jsf/facelets">
+	<p:dialog widgetVar="freeKeywordsDlg">
+	<h:form id="freeKeywordsForm">
+
+
+   <p:dataTable id="keywordlist" style="width:500px" value="#{dictionaryBean.freeKeywords}" var="word">
+      <p:column style="width:auto">
+         <h:outputText value="#{word}"/>
+      </p:column>
+      <p:column style="width:auto">
+         <p:commandButton icon="ui-icon-trash" action="#{dictionaryBean.removeFreeKeyword(word)}" update="keywordlist"/>
+      </p:column>
+   </p:dataTable>
+   </h:form>
+	
+	<h:form>
+	<p:panelGrid columns="2">
+	   <p:inputText id="kwInputBox" value="#{dictionaryBean.keywordToAdd}"/>
+	   <p:commandButton value="Add" actionListener="#{dictionaryBean.addFreeKeyword}" update="#{p:component('keywordlist')}"/>
+    </p:panelGrid>
+	</h:form>
+	
+	<h:form>
+	   <p:commandButton value="Insert keywords into document(s)" 
+	   actionListener="#{annotationInserterBean.setFreeKeywords('true')}" action="#{annotationInserterBean.addFreeKeywords}"
+	   oncomplete="PF('freeKeywordsDlg').hide();"/>
+	   <p:commandButton value="Close dialogue" actionListener="#{dictionaryBean.clearFreeKwList}" onclick="PF('freeKeywordsDlg').hide();"/>
+	</h:form>
+	</p:dialog>
+</ui:composition>

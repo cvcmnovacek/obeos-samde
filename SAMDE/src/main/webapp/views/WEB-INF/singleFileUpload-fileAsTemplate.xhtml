@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<!-- Copyright (C) 2017 Siemens Convergence Creators, Prague (CZ) -->
+<!-- Licensed under the OBEOS SAMDE License, see LICENSE.txt      -->
+
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui"
+	xmlns:ui="http://java.sun.com/jsf/facelets">
+	<p:dialog widgetVar="templateUploadDlg"
+		header="Use existing file as template">
+		<h:form enctype="multipart/form-data">
+
+
+
+			<p:fileUpload mode="simple" multiple="false"
+				value="#{fileCreatorBean.uploadedTemplate}" />
+
+			<p:selectOneMenu id="templateTypeVersion"
+				value="#{fileCreatorBean.modelVersion}">
+				<f:selectItem itemLabel="Beta"
+					itemValue="#{fileCreatorBean.betaVersion}" />
+				<f:selectItem itemLabel="Release"
+					itemValue="#{fileCreatorBean.releaseVersion}" />
+				<p:ajax event="change" update="#{p:component('templatelist')}" />
+			</p:selectOneMenu>
+
+
+			<p:selectOneMenu id="templateTypeRoot"
+				value="#{fileCreatorBean.modelType}">
+				<f:selectItem itemLabel="GMI" itemValue="#{fileCreatorBean.gmiType}" />
+				<f:selectItem itemLabel="GMD" itemValue="#{fileCreatorBean.gmdType}" />
+			</p:selectOneMenu>
+
+
+			<p:outputLabel for="givenBaseName" value="Base name of new file(s):" />
+			<p:inputText id="givenBaseName"
+				value="#{fileCreatorBean.givenFileName}" />
+			<h:outputLabel for="nmbr" value="Number of files to generate: " />
+			<p:spinner id="nmbr" value="#{fileCreatorBean.numberToGenerate}" />
+			<br />
+			<p:commandButton ajax="false" value="Create File(s)"
+				actionListener="#{fileCreatorBean.createFileSeries}"
+				action="#{treeBean.communicateDispFileAndBuildTree}"
+				update="#{p:component('filelist')}"
+				oncomplete="PF('templateUploadDlg').hide();" />
+			<br />
+			<p:panelGrid columns="2">
+				<p:outputLabel for="dispNewFile" value="display new file" />
+				<p:selectBooleanCheckbox id="dispNewFile"
+					value="#{fileCreatorBean.newFileAsDisplay}" />
+					
+				<p:outputLabel for="validTemplate" value="validate template"/>
+				<p:selectBooleanCheckbox id="validTemplate" value="#{fileCreatorBean.validTemplate}"/>
+			</p:panelGrid>
+		</h:form>
+
+	</p:dialog>
+</ui:composition>

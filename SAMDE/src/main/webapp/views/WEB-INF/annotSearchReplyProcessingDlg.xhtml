@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<!-- Copyright (C) 2017 Siemens Convergence Creators, Prague (CZ) -->
+<!-- Licensed under the OBEOS SAMDE License, see LICENSE.txt      -->
+
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui"
+	xmlns:ui="http://java.sun.com/jsf/facelets">
+	<p:dialog widgetVar="annotSearchReplyProcessingDlg" style="width:500px">
+		<h:form id="annotationForm">
+
+			<p:remoteCommand name="processDataTable" update="annotTableObjects"
+				action="#{dictionaryBean.printAnnotationObjects}" />
+
+			<p:dataTable id="annotTableObjects" var="obj"
+				value="#{dictionaryBean.annotationObjList}"
+				selection="#{dictionaryBean.selectedAnnotObjects}"
+				rowKey="#{obj.keyword}"
+				style="overflow:auto; width:700px;min-height:50px; max-height:400px"
+				resizableColumns="true" liveResize="true">
+				<f:facet name="header">
+                    Choose annotation items to insert
+                </f:facet>
+				<p:column selectionMode="multiple"
+					style="width:16px;text-align:center" />
+				<p:column headerText="keyword">
+					<h:outputLink target="_blank" value="#{obj.keywordUri}">
+						<h:outputText value="#{obj.keyword}" />
+					</h:outputLink>
+				</p:column>
+				<p:column headerText="definition" style="white-space:normal;">
+
+					<h:outputText value="#{obj.definition}" />
+				</p:column>
+				<p:column headerText="broader">
+					<p:dataTable styleClass="hide-column-names"
+						value="#{obj.broaderAnnotObjects}" var="broaderObj"
+						style="overflow:auto">
+						<p:column thead="display:none">
+							<p:commandLink action="#{dictionaryBean.addToTable(broaderObj)}">
+								<h:outputText value="#{broaderObj.concept.conceptName}" />
+							</p:commandLink>
+						</p:column>
+					</p:dataTable>
+				</p:column>
+				<p:column headerText="narrower">
+					<p:dataTable styleClass="hide-column-names"
+						value="#{obj.narrowerAnnotObjects}" var="narrowerObj"
+						style="overflow:auto">
+						<p:column thead="display:none">
+							<p:commandLink action="#{dictionaryBean.addToTable(narrowerObj)}">
+								<h:outputText value="#{narrowerObj.concept.conceptName}" />
+							</p:commandLink>
+						</p:column>
+					</p:dataTable>
+				</p:column>
+			</p:dataTable>
+		</h:form>
+		<br />
+
+		<h:form id="searchReplySubmitForm" >
+
+			<h:outputText value="  Thesaurus URI: " />
+			<br />
+			<p:inputText id="thesaurusUriTxt" style="width:600px"
+				value="#{annotationInserterBean.thesaurusURI}" disabled="#{!annotationInserterBean.thesaurusUriNeeded}"/>
+			<br />
+				<p:commandButton value="Submit" onmousedown="processDataTable();"
+				action="#{annotationInserterBean.processAnnotationCreationRequest}"
+				oncomplete="PF('annotSearchReplyProcessingDlg').hide();" />
+			<p:commandButton value="Cancel"
+				onclick="PF('annotSearchReplyProcessingDlg').hide();" />
+		</h:form>
+	</p:dialog>
+</ui:composition>

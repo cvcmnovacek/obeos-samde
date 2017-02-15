@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<!-- Copyright (C) 2017 Siemens Convergence Creators, Prague (CZ) -->
+<!-- Licensed under the OBEOS SAMDE License, see LICENSE.txt      -->
+
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui"
+	xmlns:ui="http://java.sun.com/jsf/facelets">
+
+	<p:dialog widgetVar="confirmationDlg" header="Confirm">
+		<h:form>
+		  <p:remoteCommand name="prepare" actionListener="#{fileCreatorBean.replaceSelectedFilesByTextfieldContents}"/>
+		  <p:remoteCommand name="complete" actionListener="#{multipleFileEditingBean.createSingleMetadataContainerFromSelection}"/>
+			<h:outputText
+				value="Are you sure you want to overwrite all documents in selection by 
+	      current contents of text field?" />
+			<br />
+			<p:panelGrid columns="2">
+				<p:commandButton value="Ok"
+					onmouseup="PF('confirmationDlg').hide();" oncomplete="prepare();complete();">
+					<f:setPropertyActionListener value="#{textViewBean.textRepresentation}" target="#{fileCreatorBean.text}"/>
+				</p:commandButton>
+				<p:commandButton value="Cancel"
+					onclick="PF('confirmationDlg').hide();" />
+			</p:panelGrid>
+		</h:form>
+	</p:dialog>
+</ui:composition>

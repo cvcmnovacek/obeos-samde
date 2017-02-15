@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<!-- Copyright (C) 2017 Siemens Convergence Creators, Prague (CZ) -->
+<!-- Licensed under the OBEOS SAMDE License, see LICENSE.txt      -->
+
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui"
+	xmlns:ui="http://java.sun.com/jsf/facelets">
+
+	<p:dialog header="Save as building block for later use" widgetVar="saveBuildingBlockDlg" minHeight="60">
+
+       <h:form id="blockSavingForm">
+       <h:outputText value="enter key under which block can be retrieved later: "/>
+       <h:inputText id="keytextbox" value="#{buildingBlockCollectionBean.currentName}"/>
+     
+		<p:commandButton value="Ok" process=":blockSavingForm:keytextbox @this" 
+		 update="#{p:component('blockselectionlist')} #{p:component('nmbrAvailBlocks')}"
+		 oncomplete="PF('saveBuildingBlockDlg').hide();" action="#{buildingBlockCollectionBean.addBuildingBlock}">
+		   <f:setPropertyActionListener
+		      target="#{buildingBlockCollectionBean.currentBuildingBlock}"   
+		      value="#{textViewBean.textRepresentation}"
+		   />
+		</p:commandButton>
+       </h:form>
+
+	</p:dialog>
+</ui:composition>

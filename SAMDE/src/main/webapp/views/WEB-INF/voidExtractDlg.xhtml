@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<!-- Copyright (C) 2017 Siemens Convergence Creators, Prague (CZ) -->
+<!-- Licensed under the OBEOS SAMDE License, see LICENSE.txt      -->
+
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui"
+	xmlns:ui="http://java.sun.com/jsf/facelets">
+	<p:dialog widgetVar="voidExtractDlg" header="Create Search Request">
+		<h:form id="voidInfo">
+			<h:outputText id="statusMsg" value="#{dictionaryBean.statusMsg}" />
+			<br/>
+			<h:outputText
+				value="number of datasets: #{dictionaryBean.nmbrDatasets}" />
+
+			<p:panelGrid id="voidGrid" columns="2">
+
+				<h:outputLabel for="uriDropdown" value="URI space: " />
+				<p:selectOneMenu id="uriDropdown"
+					value="#{dictionaryBean.selectedRDFdatasetURI}">
+					<f:selectItems value="#{dictionaryBean.datasets.entrySet()}"
+						var="entry" itemValue="#{entry.key}" itemLabel="#{entry.key}" />
+				</p:selectOneMenu>
+				<br />
+				<p:commandButton value="load data for selected URI space"
+					process="@form" action="#{dictionaryBean.updateData}" />
+
+			</p:panelGrid>
+
+		</h:form>
+
+	<h:form id="rdfDataForm">
+
+		<p:panelGrid columns="2">
+			<h:outputLabel for="description" value="\'description\' attribute:" />
+			<h:outputText id="description" value="#{dictionaryBean.description}" />
+
+			<h:outputLabel for="aboutAttribute" value="\'about\' attribute:" />
+			<h:outputText id="aboutAttribute"
+				value="#{dictionaryBean.aboutAttribute}" />
+		</p:panelGrid>
+
+		<p:panel id="endptConceptPanel" toggleable="true"
+			collapsed="#{dictionaryBean.noLookupEndpoint}">
+
+			<h:outputLabel for="lookupEndpoint" value="URI lookup endpoint:" />
+			<h:outputText id="lookupEndpoint"
+				value="#{dictionaryBean.lookupEndpoint}" />
+
+			<h:outputLabel for="conceptURI" value="concept ID" />
+			<p:inputText id="conceptURI" style="width:700px"
+				value="#{dictionaryBean.conceptURI}"
+				disabled="#{dictionaryBean.noLookupEndpoint}" />
+			<br />
+			<p:commandButton value="Query concept"
+				action="#{dictionaryBean.queryFromLookupEndpoint}"
+				disabled="#{dictionaryBean.noLookupEndpoint}" />
+		</p:panel>
+
+		<br />
+
+		<p:panel id="osddPanel" toggleable="true"
+			collapsed="#{dictionaryBean.noOSDD}">
+
+			<h:outputLabel for="osddURL" value="OSDD: " />
+			<p:inputText id="osddURL" style="width:700px"
+				value="#{dictionaryBean.osddURL}"
+				disabled="#{dictionaryBean.noOSDD}" />
+			<br />
+			<p:commandButton disabled="#{dictionaryBean.noOSDD}"
+				value="get and read OSDD" action="#{dictionaryBean.processOSDD}" />
+
+			<h:outputLabel for="searchTemp" value="search template" />
+			<p:inputText id="searchTemp" style="width:700px"
+				value="#{dictionaryBean.template}" />
+
+			<br />
+			<p:commandButton value="Send query"
+				action="#{dictionaryBean.sendTemplateAsQuery}" />
+		</p:panel>
+
+		<p:commandButton value="Close" onclick="PF('voidExtractDlg').hide();" />
+	</h:form>
+	</p:dialog>
+</ui:composition>

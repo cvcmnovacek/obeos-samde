@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<!-- Copyright (C) 2017 Siemens Convergence Creators, Prague (CZ) -->
+<!-- Licensed under the OBEOS SAMDE License, see LICENSE.txt      -->
+
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui"
+	xmlns:ui="http://java.sun.com/jsf/facelets">
+
+	<p:dialog header="Upload selection to Catalog" widgetVar="uploadToCatalogDlg" minHeight="60">
+		<h:form id="uploadToCatalogForm">
+			<p:dataTable value="#{multipleFileEditingBean.selectedFiles}" var="item" style="width: 600px">
+				<p:column headerText="Metadata" width="30%">
+					<h:outputText value="#{item.displayname}" />
+				</p:column>
+				<p:column headerText="Catalog Upload URL">
+					<h:inputText value="#{item.uploadUrl}" style="width: 90%"/>
+				</p:column>
+			</p:dataTable>
+			<p:commandButton value="Upload" onclick="PF('uploadToCatalogDlg').hide();"
+				action="#{multipleFileEditingBean.uploadToCatalog}" />
+		</h:form>
+	</p:dialog>
+</ui:composition>

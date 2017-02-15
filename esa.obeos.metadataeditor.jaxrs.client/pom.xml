@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+ Project: OBEOS METADATA EDITOR
+ Authors: Natasha Neumaerker, Siemens Convergence Creators, Prague (CZ)
+          Milan Novacek, Siemens Convergence Creators, Prague (CZ)
+
+ Copyright (C) 2017 Siemens Convergence Creators, Prague (CZ)
+    ===============================================================
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to deal
+ in the Software without restriction, including without limitation the rights
+ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
+
+ The above copyright notice and this permission notice shall be included in
+ all copies of this Software or works derived from this Software.
+
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ THE SOFTWARE.
+ -->
+ <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>esa.obeos.metadataeditor</groupId>
+        <artifactId>esa.obeos.metadataeditor.parentPom</artifactId>
+        <version>0.1.0</version>
+        <relativePath>../esa.obeos.metadataeditor.parent-pom</relativePath>
+    </parent>
+
+    <artifactId>esa.obeos.metadataeditor.jaxrs.client</artifactId>
+    <packaging>jar</packaging>
+    <name>ESA OBEOS Metadata Editor - JAX-RS Client</name>
+
+    <properties>
+        <skipTests>true</skipTests>
+    </properties>
+
+    <dependencies>
+
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.glassfish.jersey.core</groupId>
+            <artifactId>jersey-client</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.glassfish.jersey.core</groupId>
+            <artifactId>jersey-common</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.glassfish.jersey.media</groupId>
+            <artifactId>jersey-media-jaxb</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>esa.obeos.metadataeditor</groupId>
+            <artifactId>esa.obeos.metadataeditor.jaxrs.api</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>esa.obeos.metadataeditor</groupId>
+            <artifactId>esa.obeos.metadataeditor.common</artifactId>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>esa.obeos.metadataeditor</groupId>
+            <artifactId>esa.obeos.metadataeditor.model</artifactId>
+            <scope>test</scope>
+        </dependency>
+
+    </dependencies>
+
+    <!-- The MDE JAX-RS client unit tests need to have up and running a HTTP 
+        server w/ installed the MDE JAX-RS service that's why they are skipped by 
+        default. -->
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>2.12.4</version>
+                <configuration>
+                    <skipTests>${skipTests}</skipTests>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>

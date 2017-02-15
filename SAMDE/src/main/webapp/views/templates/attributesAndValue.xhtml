@@ -1,0 +1,70 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:c="http://java.sun.com/jsp/jstl/core"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui"
+	xmlns:ui="http://java.sun.com/jsf/facelets">
+<!-- Copyright (C) 2017 Siemens Convergence Creators, Prague (CZ) -->
+<!-- Licensed under the OBEOS SAMDE License, see LICENSE.txt      -->
+<ui:composition>
+	<p:outputPanel>
+		<h:form id="nodecontentsform">
+			<h:outputText value="Leaf node contents" style="font-weight:bold" />
+			<h:outputText value="(type: #{valueHandlerBean.leafContentsType} )" />
+
+			<p:panelGrid columns="2">
+				<c:if test="#{valueHandlerBean.leafContentsType eq 'String'}">
+					<ui:include src="../WEB-INF/stringValue.xhtml" />
+				</c:if>
+				<c:if test="#{valueHandlerBean.leafContentsType eq 'enum'}">
+					<ui:include src="../WEB-INF/enumValue.xhtml" />
+				</c:if>
+				<c:if test="#{valueHandlerBean.leafContentsType eq 'date'}">
+					<ui:include src="../WEB-INF/dateValue.xhtml" />
+				</c:if>
+				<c:if test="#{valueHandlerBean.leafContentsType eq ''}">
+					<ui:include src="../WEB-INF/notALeaf.xhtml" />
+				</c:if>
+
+                <p:panelGrid columns="2">
+				<p:commandButton value="Set Value"
+					actionListener="#{treeBean.onSetValue}" />
+					<p:commandButton value="Check label" disabled="#{valueHandlerBean.notGoodForLookup}" action="#{annotationAdministratorBean.checkAnchor}">
+					      <f:setPropertyActionListener target="#{annotationAdministratorBean.leafForLookup}" value="#{elementProcessingBean.element}"/>
+					</p:commandButton>
+					</p:panelGrid>
+
+			</p:panelGrid>
+
+		</h:form>
+
+		<h:form id="attributeform">
+			<p:separator style="height:5px" />
+
+			<p:outputLabel for="attrList" value="Attributes"
+				style="font-weight:bold" />
+			<p:selectOneListbox id="attrList"
+				value="#{valueHandlerBean.selectedAttributeName}"
+				style="width:200px">
+
+				<f:selectItems value="#{valueHandlerBean.attributeMap.entrySet()}"
+					var="item" itemLabel="#{item.value}" itemValue="#{item.key}" />
+
+				<p:ajax event="click" listener="#{treeBean.showAttribute}"
+					update="attrLbl" />
+			</p:selectOneListbox>
+			<br />
+			<h:outputLabel for="attrLbl"
+				value="Attribute value: " />
+			<br />
+			<p:inputText id="attrLbl"
+				value="#{valueHandlerBean.selectedAttributeValue}" />
+<!-- 		</h:form> -->
+<!-- 		<h:form> -->
+			<p:commandButton value="set attribute"
+				actionListener="#{treeBean.onSetAttribute}"
+				update="#{p:component('attrList')}" />
+		</h:form>
+	</p:outputPanel>
+</ui:composition>
+</html>

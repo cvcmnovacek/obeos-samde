@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!-- Copyright (C) 2017 Siemens Convergence Creators, Prague (CZ) -->
+<!-- Licensed under the OBEOS SAMDE License, see LICENSE.txt      -->
+
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:c="http://java.sun.com/jstl/core">
+	<h:form id="osRequestForm">
+		<p:dialog header="Enter Parameters for Open Search Request"
+			widgetVar="osRequestDlg" minWidth="200" style="minWidth:200px; minHeight:300px">
+			<h:outputLabel for="templateTxt" value="search template:" />
+			<h:outputText style="display:block; width:550px;" id="templateTxt"
+				value="#{catalogueBean.requestData.template}" />
+			<br />
+			<br />
+			<p:dataTable id="requestParamSelection" style="overflow:auto; width:550px; height:400px" var="a"
+				value="#{catalogueBean.parameterList}" editable="true"
+				editMode="cell" >
+				<f:facet name="header">
+                    Parameters to substitute in template
+                </f:facet>
+
+				<p:column headerText="parameter name">
+					<h:outputText value="#{a.name}" />
+				</p:column>
+				<p:ajax event="rowSelect"
+					listener="#{catalogueBean.greetingsFromCatalogueBean}" />
+				<p:column headerText="select value">
+					<p:cellEditor>
+						<f:facet name="output">
+							<h:outputText value="#{a.displayLabel}" />
+						</f:facet>
+						<f:facet name="input">
+							<ui:fragment rendered="#{not empty a.options}">
+								<h:selectOneMenu value="#{a.selEnumKey}"
+									style="width:100%">
+									<p:ajax event="change" update="@this" />
+									<f:selectItem itemValue="" itemLabel="-- select --" />
+									<f:selectItems value="#{a.options.entrySet()}" var="entry" 
+									             itemValue="#{entry.key}" itemLabel="#{entry.key}">
+									</f:selectItems>
+								</h:selectOneMenu>
+							</ui:fragment>
+							<ui:fragment rendered="#{empty a.options}">
+								<p:inputText value="#{a.textValue}" style="width:100%">
+								</p:inputText>
+							</ui:fragment>
+						</f:facet>
+					</p:cellEditor>
+				</p:column>
+			</p:dataTable>
+			<p:commandButton value="Submit" actionListener="#{catalogueBean.generateUrl}" action="#{urlLoaderBean.loadMdFromUrl}">
+			   <f:setPropertyActionListener value="#{catalogueBean.queryUrl}" target="#{urlLoaderBean.url}"></f:setPropertyActionListener>
+			</p:commandButton>
+	       <p:commandButton value="Close dialogue" onclick="PF('osRequestDlg').hide();"/>
+		</p:dialog>
+	</h:form>
+</ui:composition>

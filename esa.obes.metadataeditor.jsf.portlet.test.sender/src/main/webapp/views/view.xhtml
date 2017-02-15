@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<!-- Copyright (C) 2017 Siemens Convergence Creators, Prague (CZ) -->
+<!-- Licensed under the OBEOS SAMDE License, see LICENSE.txt      -->
+<f:view
+	xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:c="http://java.sun.com/jsp/jstl/core"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:p="http://primefaces.org/ui"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+>
+    <h:head>
+        <script type="text/javascript">
+        function doFireCloseEvent() 
+        {
+        	
+        	event = 'closeMD';
+        	data = "{urlOrFilename: ''}";
+			console.log('Firing event ' + event + ' with data ' + JSON.stringify(data))
+            Liferay.fire(event, data);
+        }
+        
+        function doFireEvent(event, inputs) 
+        {
+            var data = {};
+			for(i in inputs)
+			{
+            	var input = document.getElementById(inputs[i]);
+            	if(null != input)
+            	{
+            		data[i] = input.value
+            	}
+            	else
+            	{
+            		alert("input not found: " + inputs[i]);
+            		return;
+            	}
+            }
+			console.log('Firing event ' + event + ' with data ' + JSON.stringify(data))
+            Liferay.fire(event, data);
+        }
+        </script>
+    </h:head>
+
+    <h:body>
+        <h:outputText value="#{i18n['JSF Sender']}" />
+
+        <table>
+        	<tr style="border: 1px solid #c4c4c4">
+				<td>
+					<h:outputLabel value="MDESchemaType" for="mdeSchemaType"/><h:inputText id="mdeSchemaType" value="2015"/>
+					<h:outputLabel value="Url" for="url"/><h:inputText id="url" value="http://test.url"/>
+        		</td>
+		        <td><h:button value="Fire editMD" onclick="doFireEvent('editMD',{MDESchemaType: '#{p:component('mdeSchemaType')}', url: '#{p:component('url')}'}); return false;"/></td>
+			</tr>
+			
+			<tr style="border: 1px solid #c4c4c4">
+				<td><h:button value="Fire closeMD" onclick="doFireCloseEvent(); return false;"/></td>
+			</tr>
+		</table>
+    </h:body>
+ 
+</f:view>

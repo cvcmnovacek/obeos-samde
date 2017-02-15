@@ -1,0 +1,46 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:c="http://java.sun.com/jsp/jstl/core"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:pe="http://primefaces.org/ui/extensions">
+<!-- Copyright (C) 2017 Siemens Convergence Creators, Prague (CZ) -->
+<!-- Licensed under the OBEOS SAMDE License, see LICENSE.txt      -->
+<ui:composition>
+	<h:form>
+
+			<p:panelGrid columns="4">
+				<p:commandButton value="write back"
+					action="#{textViewBean.insertXmlFragment}"
+					title="insert xml fragment in text box into document" />
+
+				<p:commandButton value="save for later"
+					title="saves the currently displayed textblock in a temporary collection from which it can be selected later in
+				     this session"
+					onclick="PF('saveBuildingBlockDlg').show();" />
+
+				<p:commandButton value="load from collection"
+				    actionListener="#{buildingBlockCollectionBean.suggestBuildingBlocks}"
+					oncomplete="PF('suitableBlocksDlg').show()"
+					update="#{p:component('bbSuggestionPanel')}"
+					title="load previously saved text block from temporary collection" />
+
+				<p:commandButton value="upload from disk "
+					onclick="PF('genUplDlg').show()"
+					title="upload textfile and replace current xml fragment with file contents">
+				</p:commandButton>
+		    </p:panelGrid>
+
+            <br/>
+
+			<p:outputPanel id="textfieldpanel">
+				<p:outputLabel id="fragmentLabel" for="textarea"
+					value="edit XML subtree of element #{textViewBean.path}" />
+				<pe:codeMirror id="textarea" mode="xml" smartIndent="false"
+    				value="#{textViewBean.textRepresentation}" lineNumbers="true"/> 
+			</p:outputPanel>
+
+	</h:form>
+</ui:composition>
+</html>

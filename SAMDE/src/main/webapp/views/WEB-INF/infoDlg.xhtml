@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<!-- Copyright (C) 2017 Siemens Convergence Creators, Prague (CZ) -->
+<!-- Licensed under the OBEOS SAMDE License, see LICENSE.txt      -->
+
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui"
+	xmlns:ui="http://java.sun.com/jsf/facelets">
+
+	<p:dialog header="Info dialogue" widgetVar="infoDlg"
+		minHeight="60">
+
+				<h:form id="infoForm">
+					<p:dataList id="infoList"
+						value="#{validatorBean.validationMsgs}" var="msg" 
+						type="ordered">
+						<f:facet name="header"> Validation messages for file selection </f:facet>
+						<h:outputText value="#{msg}"/>
+					</p:dataList>
+					<p:commandButton value="Close" onclick="PF('infoDlg').hide();"/>
+				</h:form>
+
+	</p:dialog>
+</ui:composition>

@@ -1,0 +1,63 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:c="http://java.sun.com/jsp/jstl/core"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui"
+	xmlns:ui="http://java.sun.com/jsf/facelets">
+<!-- Copyright (C) 2017 Siemens Convergence Creators, Prague (CZ) -->
+<!-- Licensed under the OBEOS SAMDE License, see LICENSE.txt      -->
+<ui:composition>
+
+	<p:outputPanel style="width:#{dimensions.tablePanelWidth}px; height:#{dimensions.tablePanelHeight}px">
+<!-- 		<p:panelGrid columns="2"> -->
+
+			<h:form id="nodeselectionform">
+
+				<p:dataTable id="childdatalist" var="child"
+					value="#{valueHandlerBean.childRecords}" scrollable="true"
+					scrollHeight="#{dimensions.tablePanelHeight_reduced}">
+
+					<f:facet name="header">
+			       Children of element "#{valueHandlerBean.selectedTreeNodeName}"
+			    </f:facet>
+					<p:ajax event="rowSelect"
+						listener="#{valueHandlerBean.printSelectedChild}" />
+					<p:column headerText="child name" style="width:110px">
+						<h:outputText value="#{child.elementName}" />
+					</p:column>
+					<p:column headerText="exists?" style="width:50px">
+<!-- 						<h:outputText value="#{child.existsStr}" /> -->
+						<h:outputText styleClass="ui-icon #{child.existsStr}" />
+					</p:column>
+					<p:column headerText="required?" style="width:50px">
+<!-- 						<h:outputText value="#{child.requStr}" /> -->
+						<h:outputText styleClass="ui-icon #{child.requStr}" />
+					</p:column>
+					<p:column headerText="#allowed" style="width:50px">
+						<h:outputText value="#{child.multiplStr}" />
+					</p:column>
+					<p:column style="text-align: center; width:50px">
+						<p:commandButton update="childdatalist" icon="ui-icon-plusthick"
+							title="create and insert child #{child.elementName}"
+							rendered="#{child.creatable}" action="#{treeBean.addChild}">
+							<f:setPropertyActionListener value="#{child}"
+								target="#{valueHandlerBean.selectedChild}" />
+						</p:commandButton>
+					</p:column>
+					<p:column style="width:50px">
+						<p:commandButton update="childdatalist" icon="ui-icon-trash"
+							title="delete (first) child of type #{child.elementName}"
+							rendered="#{child.deletable}" action="#{treeBean.deleteChild}">
+							<f:setPropertyActionListener value="#{child}"
+								target="#{valueHandlerBean.selectedChild}" />
+						</p:commandButton>
+					</p:column>
+				</p:dataTable>
+			</h:form>
+
+
+
+<!-- 		</p:panelGrid> -->
+		</p:outputPanel>
+</ui:composition>
+</html>

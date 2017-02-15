@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- Copyright (C) 2017 Siemens Convergence Creators, Prague (CZ) -->
+<!-- Licensed under the OBEOS SAMDE License, see LICENSE.txt      -->
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui"
+	xmlns:ui="http://java.sun.com/jsf/facelets">
+	<p:dialog widgetVar="newPlatformDlg" style="width:500px">
+		<h:form id="newPlatformForm">
+			<h:outputText value="platform identifier" />
+			<p:panelGrid columns="2">
+				<p:selectOneRadio id="identifierOptions"
+					value="#{annotationAdministratorBean.retrievalOption}">
+					<f:selectItem itemLabel="Look up concept id" itemValue="lookupId" />
+					<f:selectItem itemLabel="Look up by request based on VoID"
+						itemValue="requestFromVoID" />
+					<f:selectItem itemLabel="Provide identifier string"
+						itemValue="provided" />
+					<p:ajax event="click"
+						listener="#{annotationAdministratorBean.printSelection}"
+						update="idUri idName fieldsPanel" process="@this" />
+				</p:selectOneRadio>
+			</p:panelGrid>
+			<p:panel id="fieldsPanel" toggleable="true"
+				collapsed="#{annotationAdministratorBean.fieldsCollapsed}">
+				<p:outputLabel for="idUri" value="platform URI" />
+				<p:inputText id="idUri" style="width: 500px"
+					value="#{annotationInserterBean.platformIdentifierUri}"
+					disabled="#{!annotationAdministratorBean.lookup}" />
+				<p:outputLabel for="idName" value="platform name" />
+				<p:inputText id="idName" style="width: 500px"
+					value="#{annotationInserterBean.platformIdentifierName}"
+					disabled="#{!annotationAdministratorBean.provided}" />
+			</p:panel>
+			<br />
+			<h:outputLabel for="descr" value="description" />
+			<p:inputText id="descr" style="width: 500px"
+				value="#{annotationInserterBean.platformBlockData.description}" />
+			<br />
+			<p:commandButton value="Continue"
+				actionListener="#{annotationInserterBean.propagateAnnotationType('platformIdentifier')}"
+				action="#{annotationInserterBean.continuePlatformCreation}">
+			</p:commandButton>
+		</h:form>
+	</p:dialog>
+</ui:composition>

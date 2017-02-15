@@ -1,0 +1,148 @@
+<?xml version="1.0"?>
+<!-- Copyright (C) 2017 Siemens Convergence Creators, Prague (CZ) -->
+<!-- Licensed under the OBEOS SAMDE License, see LICENSE.txt      -->
+<f:view xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:c="http://java.sun.com/jsp/jstl/core"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui"
+	xmlns:pe="http://primefaces.org/ui/extensions"
+	xmlns:ui="http://java.sun.com/jsf/facelets">
+<h:head>
+
+<title>##SAMDE##</title>
+</h:head>
+<h:body>
+
+	<ui:insert name="top">
+		<ui:include src="templates/#{navigatorBean.top}.xhtml" />
+	</ui:insert>
+	<!-- 	<h1 class="title">viewTempl: Semantic Annotation Metadata Editor</h1> -->
+
+	<ui:include src="WEB-INF/menu.xhtml" />
+	
+<!-- 	<ui:include src="templates/requestFromVoID.xhtml"/> -->
+
+	<ui:include src="WEB-INF/eltChoiceDlg.xhtml" />
+	<ui:include src="WEB-INF/singleFileUploadDlg2.xhtml" />
+	<ui:include src="WEB-INF/fileDisplaySelection.xhtml" />
+	<ui:include src="WEB-INF/TemplateChoiceDlg.xhtml" />
+	<ui:include src="WEB-INF/namingNewFileDlg.xhtml" />
+	<ui:include src="WEB-INF/confirmationDlg.xhtml" />
+	<ui:include src="WEB-INF/confirmUnloadDlg.xhtml" />
+	<ui:include src="WEB-INF/osddDlg.xhtml" />
+	<ui:include src="WEB-INF/osRequestForm.xhtml" />
+	<ui:include src="WEB-INF/configParamsDlg.xhtml" />
+    <ui:include src="WEB-INF/downloadDlg.xhtml" />
+    <ui:include src="WEB-INF/infoDlg.xhtml" />
+    <ui:include src="WEB-INF/singleFileUpload-fileAsTemplate.xhtml"/>
+    <ui:include src="WEB-INF/singleFileUploadVOID.xhtml"/>
+    <ui:include src="WEB-INF/voidExtractDlg.xhtml"/>
+    <ui:include src="WEB-INF/blockCollectionDlg.xhtml"/>
+    <ui:include src="WEB-INF/saveBuildingBlockDlg.xhtml"/>
+    <ui:include src="WEB-INF/downloadBuildingBlocksDlg.xhtml"/>
+
+
+    <ui:include src="WEB-INF/annotSearchReplyProcessingDlg.xhtml"/>
+
+    <ui:include src="WEB-INF/freeKeywordsDlg.xhtml"/>
+    <ui:include src="WEB-INF/suitableBuildingBlocksDlg.xhtml"/>
+    <ui:include src="WEB-INF/keywordsAddingDlg.xhtml"/>
+    <ui:include src="WEB-INF/newKeywordBlockDlg.xhtml"/>
+    <ui:include src="WEB-INF/kwVersionSelectionDlg.xhtml"/>
+    <ui:include src="WEB-INF/userEditableThesaurusParamsDlg.xhtml"/>
+    <ui:include src="WEB-INF/uploadToCatalogDlg.xhtml"/>
+    <ui:include src="WEB-INF/newPlatformDlg.xhtml"/>
+    <ui:include src="WEB-INF/newInstrumentDlg.xhtml"/>
+    <ui:include src="WEB-INF/plainLookupDlg.xhtml"/>
+    <ui:include src="WEB-INF/kwCheckReplyDlg.xhtml"/>
+    <ui:include src="WEB-INF/errorDlg.xhtml"/>
+
+
+	<p:messages autoUpdate="true" />
+
+
+	<ui:insert name="checkbox">
+		<ui:include src="templates/fileAndDisplay.xhtml" />
+	</ui:insert>
+
+
+	<p:panelGrid id="mainPanelGrid" columns="2">
+
+		<ui:insert name="tree">
+			<ui:include src="templates/tree.xhtml" />
+		</ui:insert>
+
+		<p:tabView id="tabview" activeIndex="#{navigatorBean.tabIndex}">
+			<p:ajax event="tabChange" listener="#{navigatorBean.onTabChange}"
+				update="#{p:component('textarea')}" />
+			<p:tab id="childTab" title="Add/Delete children">
+				<ui:insert name="addDeleteChild">
+					<ui:include src="templates/childrenTable.xhtml" />
+				</ui:insert>
+			</p:tab>
+			<p:tab id="valuesTab" title="attributes and leaf value">
+				<ui:insert name="editValues">
+					<ui:include src="templates/attributesAndValue.xhtml" />
+				</ui:insert>
+			</p:tab>
+			<p:tab id="textTab" title="Text view">
+				<ui:insert name="textview">
+					<ui:include src="templates/textView.xhtml" />
+				</ui:insert>
+			</p:tab>
+			<p:tab id="annotationTab" title="Annotation">
+			      <ui:insert name="annotation">
+					<ui:include src="templates/annotation.xhtml" />
+				  </ui:insert>
+			</p:tab>
+
+		</p:tabView>
+
+	</p:panelGrid>
+	<h:form>
+<!-- <p:commandButton value="Scroll to dateStamp" actionListener="#{treeBean.scrollToDateStamp}"/> -->
+<!-- <p:commandButton value="Scroll to root" actionListener="#{treeBean.scrollToRoot}"/> -->
+<!-- 	  <h:commandButton value="Feuer" onclick="fireBasicEvent('fire-button','some greetings from fire button'); doFireEvent1();return false;"/> -->
+	  <p:remoteCommand name="treeReset" actionListener="#{treeBean.reset}"/>
+	  <pe:remoteCommand name="loadUrl" actionListener="#{urlLoaderBean.loadMdFromUrl}">
+	  	<pe:assignableParam name="url" assignTo="#{urlLoaderBean.url}"/> 
+	  </pe:remoteCommand>
+	</h:form>
+   <script type="text/javascript">
+    function fireBasicEvent(event, data)
+    {
+    	
+        if (null != data)
+        {
+            Liferay.fire(event, data);
+        }
+        else
+        {
+            alert("data is null");
+        }
+    }
+    function handleCloseMD(event)
+    {
+        console.log('got event ' + event.type);
+        var r = confirm("Reset tree");
+        if(r==true) {
+          treeReset();
+        }
+    }
+    function handleEditMD(event)
+    {
+        console.log('got event ' + event.type);
+        var r = confirm("Load url " + event.url + " (" + event.MDESchemaType + ")");
+        if(r==true) {
+          loadUrl(event.url);
+        }
+    }
+    
+    Liferay.on('closeMD', handleCloseMD);
+    Liferay.on('editMD', handleEditMD);
+    </script>
+
+</h:body>
+
+</f:view>

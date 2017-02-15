@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- Copyright (C) 2017 Siemens Convergence Creators, Prague (CZ) -->
+<!-- Licensed under the OBEOS SAMDE License, see LICENSE.txt      -->
+
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui"
+	xmlns:ui="http://java.sun.com/jsf/facelets">
+	<p:dialog widgetVar="userEditableThesaurusParamsDlg" style="width:80%"
+		header="Review data in annotation block">
+
+		<h:form>
+			<p:dataTable id="userEditableParams"
+				value="#{annotationInserterBean.userEditableParams.entrySet()}"
+				style="overflow:auto;width:600px" var="entry"
+				resizableColumns="true" liveResize="true">
+				<f:facet name="header">
+            Parameters found in file
+        </f:facet>
+				<p:column headerText="Parameter">
+					<h:outputText value="#{entry.value[0]}" />
+				</p:column>
+
+				<p:column headerText="Value">
+					<p:inputText value="#{entry.value[1]}" style="width:98%" />
+				</p:column>
+			</p:dataTable>
+			<p:spacer height="15" />
+			<p:dataTable id="paramsNotFound" style="width:800px"
+				value="#{annotationInserterBean.paramsNotFound.entrySet()}"
+				var="paramId">
+				<f:facet name="header">
+            Parameters missing in block
+        </f:facet>
+				<p:column>
+					<h:outputText value="#{paramId.value[0]}" />
+				</p:column>
+
+				<p:column>
+					<p:inputText value="#{paramId.value[1]}" style="width:98%" />
+				</p:column>
+			</p:dataTable>
+			<br />
+			<p:panelGrid columns="2">
+				<p:commandButton value="Update"
+					actionListener="#{annotationInserterBean.printUserEditableParams}"
+					action="#{annotationInserterBean.createKeywordsAndUpdateParams}"
+					update="userEditableParams paramsNotFound"
+					oncomplete="PF('userEditableThesaurusParamsDlg').hide();PF('voidExtractDlg').hide();" />
+
+				<p:commandButton value="Close"
+					actionListener="#{annotationInserterBean.printUserEditableParams}"
+					oncomplete="PF('userEditableThesaurusParamsDlg').hide();" />
+			</p:panelGrid>
+		</h:form>
+	</p:dialog>
+</ui:composition>

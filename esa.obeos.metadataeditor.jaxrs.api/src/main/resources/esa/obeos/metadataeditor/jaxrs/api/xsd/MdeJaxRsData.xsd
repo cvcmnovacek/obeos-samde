@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns:mde="datatypes.api.jaxrs.metadataeditor.obeos.esa"
+    targetNamespace="datatypes.api.jaxrs.metadataeditor.obeos.esa"
+    elementFormDefault="qualified" attributeFormDefault="qualified">
+
+    <!-- Meta-data operation data Types -->
+
+    <xs:simpleType name="MetadataType">
+        <xs:annotation>
+            <xs:documentation>This type defines MDE model type.
+            </xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="GMD" />
+            <xs:enumeration value="GMI" />
+            <xs:enumeration value="INVALID" />
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="MetadataVersionType">
+        <xs:annotation>
+            <xs:documentation>This type defines MDE model type.
+            </xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="BETA" />
+            <xs:enumeration value="REL_2015" />
+            <xs:enumeration value="INVALID" />
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="SeverityType">
+        <xs:annotation>
+            <xs:documentation>This type defines severities.
+            </xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="SUCCESS" />
+            <xs:enumeration value="FAILURE" />
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="DiagnosticCodeType">
+        <xs:annotation>
+            <xs:documentation>This type defines the diagnostic codes.
+            </xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="INVALID_ARG" />
+            <xs:enumeration value="INVALID_ID" />
+            <xs:enumeration value="INVALID_METADATA_TYPE" />
+            <xs:enumeration value="INVALID_METADATA_VERSION" />
+            <xs:enumeration value="INVALID_METADATA" />
+            <xs:enumeration value="INVALID_NODE_NAME" />
+            <xs:enumeration value="INVALID_PATH" />
+            <xs:enumeration value="INVALID_VALUE" />
+            <xs:enumeration value="INVALID_ATTRIBUTE" />
+            <xs:enumeration value="NULL_PTR" />
+            <xs:enumeration value="NO_PARENT" />
+            <xs:enumeration value="UNABLE_TO_CREATE" />
+            <xs:enumeration value="UNABLE_TO_INSERT" />
+            <xs:enumeration value="UNABLE_TO_DELETE" />
+            <xs:enumeration value="UNABLE_TO_SET_VALUE" />
+            <xs:enumeration value="UNABLE_TO_SET_ATTRIBUTE" />
+            <xs:enumeration value="OTHER_REASON" />
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:complexType name="DiagnosticType">
+        <xs:annotation>
+            <xs:documentation>This type defines the diagnostic type.
+            </xs:documentation>
+        </xs:annotation>
+        <xs:sequence>
+            <xs:element name="code" type="mde:DiagnosticCodeType" />
+            <xs:element name="mesage" type="xs:string" />
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="ResultType">
+        <xs:annotation>
+            <xs:documentation>This type defines the result type.
+            </xs:documentation>
+        </xs:annotation>
+        <xs:sequence>
+            <xs:element name="result" type="mde:SeverityType" />
+            <xs:element name="diagnostic" type="mde:DiagnosticType"
+                minOccurs="0" />
+            <xs:element name="metadataId" type="xs:string"
+                minOccurs="0" />
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="DoubleResultType">
+        <xs:annotation>
+            <xs:documentation>This type defines the result type and two metadata Ids.
+            </xs:documentation>
+        </xs:annotation>
+        <xs:sequence>
+            <xs:element name="result" type="mde:SeverityType" />
+            <xs:element name="diagnostic" type="mde:DiagnosticType"
+                minOccurs="0" />
+            <xs:element name="mdMetadataId" type="xs:string"
+                minOccurs="0" />
+            <xs:element name="miMetadataId" type="xs:string"
+                minOccurs="0" />
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:element name="MetadataResultType">
+        <xs:complexType>
+            <xs:annotation>
+                <xs:documentation>This type defines the generic result
+                    of a meta data
+                    operation.
+                </xs:documentation>
+            </xs:annotation>
+            <xs:complexContent>
+                <xs:extension base="mde:ResultType">
+                    <xs:sequence>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="DoubleMetadataResultType">
+        <xs:complexType>
+            <xs:annotation>
+                <xs:documentation>This type defines the generic result
+                    of a meta data
+                    operation and provides tow metadata ids (one for GMD and GMI).
+                </xs:documentation>
+            </xs:annotation>
+            <xs:complexContent>
+                <xs:extension base="mde:DoubleResultType">
+                    <xs:sequence>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:complexType name="MetadataEntryType">
+        <xs:annotation>
+            <xs:documentation>This type defines the operation stack
+                entry.
+            </xs:documentation>
+        </xs:annotation>
+        <xs:sequence>
+            <xs:element name="type" type="mde:MetadataType" />
+            <xs:element name="version" type="mde:MetadataVersionType" />
+            <xs:element name="id" type="xs:string" />
+            <xs:element name="edited" type="xs:boolean" />
+            <xs:choice>
+                <xs:element name="creationTime" type="xs:dateTime" />
+                <xs:element name="uploadTime" type="xs:dateTime" />
+            </xs:choice>
+        </xs:sequence>
+    </xs:complexType>
+
+        <xs:complexType name="ModelElementType">
+            <xs:annotation>
+                <xs:documentation>This type defines the placeholder for
+                    any meta data (e.g.: MIMetadata or MDMetadata).
+                </xs:documentation>
+            </xs:annotation>
+            <xs:sequence>
+                <xs:element name="fileName" type="xs:string" />
+                <xs:any processContents="skip" />
+            </xs:sequence>
+        </xs:complexType>
+
+    <xs:element name="MetadataCotainerType">
+        <xs:complexType>
+            <xs:annotation>
+                <xs:documentation>This type defines the placeholder for
+                    any meta data
+                    (e.g.: MIMetadata or MDMetadata).
+                </xs:documentation>
+            </xs:annotation>
+            <xs:sequence>
+                <xs:element name="type" type="mde:MetadataType" />
+                <xs:element name="version" type="mde:MetadataVersionType" />
+                <xs:element name="metadata" type="mde:ModelElementType" maxOccurs="unbounded" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="DownloadMetadataResultType">
+        <xs:complexType>
+            <xs:annotation>
+                <xs:documentation>This type defines the result of the
+                    download meta data
+                    operation.
+                </xs:documentation>
+            </xs:annotation>
+            <xs:complexContent>
+                <xs:extension base="mde:ResultType">
+                    <xs:sequence>
+                        <xs:element ref="mde:MetadataCotainerType"
+                            minOccurs="0" />
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="GetMetadataListResultType">
+        <xs:complexType>
+            <xs:annotation>
+                <xs:documentation>This type defines the result of the
+                    get meta data
+                    list
+                    operation.
+                </xs:documentation>
+            </xs:annotation>
+            <xs:complexContent>
+                <xs:extension base="mde:ResultType">
+                    <xs:sequence>
+                        <xs:element name="entry"
+                            type="mde:MetadataEntryType" minOccurs="0"
+                            maxOccurs="unbounded" />
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:complexType name="ChildNamesListType">
+        <xs:annotation>
+            <xs:documentation>This type defines the list of children
+                names.
+            </xs:documentation>
+        </xs:annotation>
+        <xs:sequence>
+            <xs:element name="childName" type="xs:string"
+                minOccurs="0" maxOccurs="unbounded" />
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="AllowedChildrenType">
+        <xs:annotation>
+            <xs:documentation>This type defines the allowed children.
+            </xs:documentation>
+        </xs:annotation>
+        <xs:sequence>
+            <xs:element name="metadataId" type="xs:string" />
+            <xs:element name="childNames" type="mde:ChildNamesListType" />
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:element name="GetAllowedChildrenResultType">
+        <xs:complexType>
+            <xs:annotation>
+                <xs:documentation>This type defines the result of the
+                    get allowed
+                    children
+                    operation.
+                </xs:documentation>
+            </xs:annotation>
+            <xs:complexContent>
+                <xs:extension base="mde:ResultType">
+                    <xs:sequence>
+                        <xs:element name="allowedChildren"
+                            type="mde:AllowedChildrenType" minOccurs="0"
+                            maxOccurs="unbounded" />
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:complexType name="ArgumentType">
+        <xs:annotation>
+            <xs:documentation>This type defines the argument containing
+                a meta data id and a path.
+            </xs:documentation>
+        </xs:annotation>
+        <xs:sequence>
+            <xs:element name="metadataId" type="xs:string" />
+            <xs:element name="path" type="xs:string" />
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:element name="NodeType">
+        <xs:complexType>
+            <xs:annotation>
+                <xs:documentation>This type defines the argument
+                    containing
+                    a meta data id and a path.
+                </xs:documentation>
+            </xs:annotation>
+            <xs:sequence>
+                <xs:any processContents="skip" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="NodeArgumentType">
+        <xs:complexType>
+            <xs:annotation>
+                <xs:documentation>This type defines the argument for
+                    node insertion operation.
+                </xs:documentation>
+            </xs:annotation>
+            <xs:complexContent>
+                <xs:extension base="mde:ArgumentType">
+                    <xs:sequence>
+                        <xs:choice>
+                            <xs:element name="nodeName" type="xs:string" />
+                            <xs:element ref="mde:NodeType" />
+                            <xs:element name="xmlFragment"
+                                type="xs:string" />
+                        </xs:choice>
+                        <xs:element name="index" type="xs:int"
+                            minOccurs="0"></xs:element>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="NodeValueArgumentType">
+        <xs:complexType>
+            <xs:annotation>
+                <xs:documentation>This type defines the argument for
+                    node insertion operation.
+                </xs:documentation>
+            </xs:annotation>
+            <xs:complexContent>
+                <xs:extension base="mde:ArgumentType">
+                    <xs:sequence>
+                        <xs:element name="nodeValue" type="xs:string" />
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="NodeAttributeArgumentType">
+        <xs:complexType>
+            <xs:annotation>
+                <xs:documentation>This type defines the argument for
+                    node insertion operation.
+                </xs:documentation>
+            </xs:annotation>
+            <xs:complexContent>
+                <xs:extension base="mde:ArgumentType">
+                    <xs:sequence>
+                        <xs:element name="attributeName"
+                            type="xs:string" />
+                        <xs:element name="attributeValue"
+                            type="xs:string" />
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="BuildingBlockResultType">
+        <xs:complexType>
+            <xs:annotation>
+                <xs:documentation>This type defines the generic result
+                    of a building block operation.
+                </xs:documentation>
+            </xs:annotation>
+            <xs:complexContent>
+                <xs:extension base="mde:ResultType">
+                    <xs:sequence>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="BuildingBlockInfoType">
+        <xs:complexType>
+            <xs:annotation>
+                <xs:documentation>This type defines the
+                    building block info type.
+                </xs:documentation>
+            </xs:annotation>
+            <xs:sequence>
+                <xs:element name="name" type="xs:string" />
+                <xs:element name="type" type="xs:string" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="BuildingBlockArgumentType">
+        <xs:complexType>
+            <xs:annotation>
+                <xs:documentation>This type defines the argument for
+                    building block addition operation.
+                </xs:documentation>
+            </xs:annotation>
+            <xs:sequence>
+                <xs:element ref="mde:BuildingBlockInfoType" />
+                <xs:element name="body" type="xs:string" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="GetBuildingBlockInfoListResultType">
+        <xs:complexType>
+            <xs:annotation>
+                <xs:documentation>This type defines the result of the
+                    get building block info list operation.
+                </xs:documentation>
+            </xs:annotation>
+            <xs:complexContent>
+                <xs:extension base="mde:ResultType">
+                    <xs:sequence>
+                        <xs:element ref="mde:BuildingBlockInfoType" minOccurs="0"
+                            maxOccurs="unbounded" />
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+
+</schema>

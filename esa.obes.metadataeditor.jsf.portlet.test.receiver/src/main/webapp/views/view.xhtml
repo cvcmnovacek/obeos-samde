@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<!-- Copyright (C) 2017 Siemens Convergence Creators, Prague (CZ) -->
+<!-- Licensed under the OBEOS SAMDE License, see LICENSE.txt      -->
+<f:view
+	xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:c="http://java.sun.com/jsp/jstl/core"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:p="http://primefaces.org/ui"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+>
+    <h:head>
+        <script type="text/javascript">
+
+        //filesOpened = [];
+        function handleEvent(event) 
+        {
+        	var content;
+        	for(i in event)
+        	{
+        		if(typeof event[i] != 'function')
+        		{
+        			content += i + ': ' + event[i] + ', ';
+        		}
+        	}
+            console.log('got event ' + content);
+
+            document.getElementById("#{p:component('event')}").innerHTML = content;
+            
+        }
+
+        Liferay.on('editMD', handleEvent);
+        Liferay.on('closeMD', handleEvent);
+        Liferay.on('MDEeditedMD', handleEvent);
+        Liferay.on('MDEuploadedMD', handleEvent);
+        Liferay.on('MDEclosedMD', handleEvent);
+        
+
+        </script>
+
+    </h:head>
+    <h:body>
+        <h:outputText value="#{i18n['JSF Receiver']}" />
+        <br/>
+        <h:outputText value="Event: " />
+        <h:outputText id="event" value="NULL" />
+    </h:body>
+
+</f:view>

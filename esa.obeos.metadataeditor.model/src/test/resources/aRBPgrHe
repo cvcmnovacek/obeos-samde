@@ -1,0 +1,1543 @@
+<?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dct="http://purl.org/dc/terms/" xmlns:echo="http://www.echo.nasa.gov/esip" xmlns:eo="http://a9.com/-/opensearch/extensions/eo/1.0/" xmlns:geo="http://a9.com/-/opensearch/extensions/geo/1.0/" xmlns:georss="http://www.georss.org/georss" xmlns:gml="http://www.opengis.net/gml" xmlns:media="http://search.yahoo.com/mrss/" xmlns:os="http://a9.com/-/spec/opensearch/1.1/" xmlns:semantic="http://a9.com/-/opensearch/extensions/semantic/1.0/" xmlns:sru="http://a9.com/-/opensearch/extensions/sru/2.0/" xmlns:time="http://a9.com/-/opensearch/extensions/time/1.0/" xmlns:urlencoder="java.net.URLEncoder">
+<os:totalResults>106</os:totalResults>
+<os:startIndex>1</os:startIndex>
+<os:itemsPerPage>10</os:itemsPerPage>
+<os:Query count="10" eo:parentIdentifier="EOP:NASA:ECHO" eo:platform="METEOROLOGICAL+STATION" role="request" sru:recordSchema="iso" startIndex="1" startPage="1"/>
+<author>
+<name>FEDEO Clearinghouse</name>
+</author>
+<generator>FEDEO Clearinghouse</generator>
+<id>http://geo.spacebel.be/opensearch/request</id>
+<title>FEDEO Clearinghouse - Search Response</title>
+<updated>2015-12-10T10:49:27Z</updated>
+<link href="http://geo.spacebel.be/opensearch/request/?httpAccept=application/atom%2Bxml&amp;parentIdentifier=EOP:NASA:ECHO&amp;platform=METEOROLOGICAL%2BSTATION&amp;recordSchema=iso" rel="self" type="application/atom+xml"/>
+<link href="http://geo.spacebel.be/opensearch/request/?httpAccept=application/atom%2Bxml&amp;parentIdentifier=EOP:NASA:ECHO&amp;platform=METEOROLOGICAL%2BSTATION&amp;recordSchema=iso&amp;startRecord=1" rel="first" type="application/atom+xml"/>
+<link href="http://geo.spacebel.be/opensearch/request/?httpAccept=application/atom%2Bxml&amp;parentIdentifier=EOP:NASA:ECHO&amp;platform=METEOROLOGICAL%2BSTATION&amp;recordSchema=iso&amp;startRecord=11" rel="next" type="application/atom+xml"/>
+<link href="http://geo.spacebel.be/opensearch/request/?httpAccept=application/atom%2Bxml&amp;parentIdentifier=EOP:NASA:ECHO&amp;platform=METEOROLOGICAL%2BSTATION&amp;recordSchema=iso&amp;startRecord=101" rel="last" type="application/atom+xml"/>
+<entry>
+<id>http://geo.spacebel.be/opensearch/request/?httpAccept=application/atom%2Bxml&amp;parentIdentifier=EOP%3ANASA%3AECHO&amp;uid=C179002914-ORNL_DAAC&amp;recordSchema=iso</id>
+<link href="http://geo.spacebel.be/opensearch/request/?httpAccept=application/atom%2Bxml&amp;parentIdentifier=EOP%3ANASA%3AECHO&amp;uid=C179002914-ORNL_DAAC&amp;recordSchema=iso" rel="alternate" title="Atom format" type="application/atom+xml"/>
+<link href="http://geo.spacebel.be/opensearch/description.xml?parentIdentifier=EOP:NASA:ECHO:doi:10.3334/ORNLDAAC/2&amp;archivingCenter=ORNL_DAAC" rel="search" type="application/opensearchdescription+xml"/>
+<title>30 Minute Rainfall Data (FIFE)</title>
+<dc:identifier>C179002914-ORNL_DAAC</dc:identifier>
+<author>
+<name>CMR</name>
+<email>support@echo.nasa.gov</email>
+</author>
+<updated>1994-07-24T00:00:00.000Z</updated>
+<dc:date>1987-05-29T00:00:00.000Z/1987-10-26T00:00:00.000Z</dc:date>
+<summary xmlns:dc="http://purl.org/dc/terms/" xmlns:esipdiscovery="http://commons.esipfed.org/ns/discovery/1.2/" type="text">30 minute rainfall data for the Konza Prairie</summary>
+<link href="http://daac.ornl.gov/cgi-bin/dsviewer.pl?ds_id=2" rel="enclosure" type="text/html"/>
+<link href="http://gcmd.nasa.gov/getdif.htm?FIFE_RAIN_30M" rel="enclosure" title="doi:10.3334/ORNLDAAC/2" type="text/html"/>
+<link href="http://daac.ornl.gov/FIFE/guides/30_Min_Rain_Data.html" rel="describedby" title="Description" type="text/html"/>
+<link href="http://cmr.earthdata.nasa.gov/search/concepts/C179002914-ORNL_DAAC.xml" rel="via" title="Product metadata" type="application/xml"/>
+<georss:box>39.08 -96.6 39.11 -96.55</georss:box>
+<gmi:MI_Metadata xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:ows="http://www.opengis.net/ows/2.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<gmd:fileIdentifier>
+<gco:CharacterString>C179002914-ORNL_DAAC</gco:CharacterString>
+</gmd:fileIdentifier>
+<gmd:language>
+<gmd:LanguageCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
+</gmd:language>
+<gmd:hierarchyLevel>
+<gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_ScopeCode" codeListValue="series">series</gmd:MD_ScopeCode>
+</gmd:hierarchyLevel>
+<gmd:contact>
+<gmd:CI_ResponsibleParty>
+<gmd:organisationName>
+<gco:CharacterString>CMR</gco:CharacterString>
+</gmd:organisationName>
+<gmd:contactInfo>
+<gmd:CI_Contact>
+<gmd:address>
+<gmd:CI_Address>
+<gmd:electronicMailAddress>
+<gco:CharacterString>support@echo.nasa.gov</gco:CharacterString>
+</gmd:electronicMailAddress>
+</gmd:CI_Address>
+</gmd:address>
+</gmd:CI_Contact>
+</gmd:contactInfo>
+<gmd:role>
+<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+</gmd:role>
+</gmd:CI_ResponsibleParty>
+</gmd:contact>
+<gmd:dateStamp>
+<gco:DateTime>1987-05-29T00:00:00.000Z</gco:DateTime>
+</gmd:dateStamp>
+<gmd:metadataStandardName>
+<gco:CharacterString>ISO19115</gco:CharacterString>
+</gmd:metadataStandardName>
+<gmd:metadataStandardVersion>
+<gco:CharacterString>2005/Cor.1:2006</gco:CharacterString>
+</gmd:metadataStandardVersion>
+<gmd:identificationInfo>
+<gmd:MD_DataIdentification>
+<gmd:citation>
+<gmd:CI_Citation>
+<gmd:title>
+<gco:CharacterString>30 Minute Rainfall Data (FIFE)</gco:CharacterString>
+</gmd:title>
+<gmd:date>
+<gmd:CI_Date>
+<gmd:date>
+<gco:DateTime>1987-05-29T00:00:00.000Z</gco:DateTime>
+</gmd:date>
+<gmd:dateType>
+<gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="creation"/>
+</gmd:dateType>
+</gmd:CI_Date>
+</gmd:date>
+<gmd:identifier>
+<gmd:RS_Identifier>
+<gmd:code>
+<gco:CharacterString>C179002914-ORNL_DAAC</gco:CharacterString>
+</gmd:code>
+</gmd:RS_Identifier>
+</gmd:identifier>
+</gmd:CI_Citation>
+</gmd:citation>
+<gmd:abstract>
+<gco:CharacterString>30 minute rainfall data for the Konza Prairie</gco:CharacterString>
+</gmd:abstract>
+<gmd:pointOfContact>
+<gmd:CI_ResponsibleParty>
+<gmd:organisationName>
+<gco:CharacterString>CMR</gco:CharacterString>
+</gmd:organisationName>
+<gmd:contactInfo>
+<gmd:CI_Contact>
+<gmd:address>
+<gmd:CI_Address>
+<gmd:electronicMailAddress>
+<gco:CharacterString>support@echo.nasa.gov</gco:CharacterString>
+</gmd:electronicMailAddress>
+</gmd:CI_Address>
+</gmd:address>
+</gmd:CI_Contact>
+</gmd:contactInfo>
+<gmd:role>
+<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+</gmd:role>
+</gmd:CI_ResponsibleParty>
+</gmd:pointOfContact>
+<gmd:language>
+<gmd:LanguageCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
+</gmd:language>
+<gmd:topicCategory>
+<gmd:MD_TopicCategoryCode>geoscientificInformation</gmd:MD_TopicCategoryCode>
+</gmd:topicCategory>
+<gmd:extent>
+<gmd:EX_Extent>
+<gmd:temporalElement>
+<gmd:EX_TemporalExtent>
+<gmd:extent>
+<gml:TimePeriod gml:id="timeperiod1">
+<gml:beginPosition>1987-05-29T00:00:00.000Z</gml:beginPosition>
+<gml:endPosition>1987-10-26T00:00:00.000Z</gml:endPosition>
+</gml:TimePeriod>
+</gmd:extent>
+</gmd:EX_TemporalExtent>
+</gmd:temporalElement>
+</gmd:EX_Extent>
+</gmd:extent>
+<gmd:extent>
+<gmd:EX_Extent>
+<gmd:geographicElement>
+<gmd:EX_GeographicBoundingBox>
+<gmd:westBoundLongitude>
+<gco:Decimal>-96.6</gco:Decimal>
+</gmd:westBoundLongitude>
+<gmd:eastBoundLongitude>
+<gco:Decimal>-96.55</gco:Decimal>
+</gmd:eastBoundLongitude>
+<gmd:southBoundLatitude>
+<gco:Decimal>39.08</gco:Decimal>
+</gmd:southBoundLatitude>
+<gmd:northBoundLatitude>
+<gco:Decimal>39.11</gco:Decimal>
+</gmd:northBoundLatitude>
+</gmd:EX_GeographicBoundingBox>
+</gmd:geographicElement>
+</gmd:EX_Extent>
+</gmd:extent>
+</gmd:MD_DataIdentification>
+</gmd:identificationInfo>
+</gmi:MI_Metadata>
+</entry>
+<entry>
+<id>http://geo.spacebel.be/opensearch/request/?httpAccept=application/atom%2Bxml&amp;parentIdentifier=EOP%3ANASA%3AECHO&amp;uid=C179003397-ORNL_DAAC&amp;recordSchema=iso</id>
+<link href="http://geo.spacebel.be/opensearch/request/?httpAccept=application/atom%2Bxml&amp;parentIdentifier=EOP%3ANASA%3AECHO&amp;uid=C179003397-ORNL_DAAC&amp;recordSchema=iso" rel="alternate" title="Atom format" type="application/atom+xml"/>
+<link href="http://geo.spacebel.be/opensearch/description.xml?parentIdentifier=EOP:NASA:ECHO:doi:10.3334/ORNLDAAC/228&amp;archivingCenter=ORNL_DAAC" rel="search" type="application/opensearchdescription+xml"/>
+<title>Amazon River Basin Precipitation, 1972-1992</title>
+<dc:identifier>C179003397-ORNL_DAAC</dc:identifier>
+<author>
+<name>CMR</name>
+<email>support@echo.nasa.gov</email>
+</author>
+<updated>1999-01-30T00:00:00.000Z</updated>
+<dc:date>1972-01-01T00:00:00.000Z/1992-12-31T00:00:00.000Z</dc:date>
+<summary xmlns:dc="http://purl.org/dc/terms/" xmlns:esipdiscovery="http://commons.esipfed.org/ns/discovery/1.2/" type="text">The precipitation data is 0.2 degree gridded monthly precipitation data based upon monthly rain data from Peru and Bolivia and daily rain data from Brazil. The extent of the data ranges from 5.2N and -20.0S to -49.4W to -79.6W</summary>
+<link href="http://webmap.ornl.gov/sdat/pimg/228_1.png" rel="icon" title="Quicklook" type="image/jpeg"/>
+<link href="http://daac.ornl.gov/cgi-bin/dsviewer.pl?ds_id=228" rel="enclosure" type="text/html"/>
+<link href="http://gcmd.nasa.gov/getdif.htm?richriver" rel="enclosure" title="doi:10.3334/ORNLDAAC/228" type="text/html"/>
+<link href="http://daac.ornl.gov/LBA/guides/amazon_precip_guide.html" rel="describedby" title="Description" type="text/html"/>
+<link href="http://cmr.earthdata.nasa.gov/search/concepts/C179003397-ORNL_DAAC.xml" rel="via" title="Product metadata" type="application/xml"/>
+<georss:box>-20 -79.6 5.2 -49.4</georss:box>
+<gmi:MI_Metadata xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:ows="http://www.opengis.net/ows/2.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<gmd:fileIdentifier>
+<gco:CharacterString>C179003397-ORNL_DAAC</gco:CharacterString>
+</gmd:fileIdentifier>
+<gmd:language>
+<gmd:LanguageCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
+</gmd:language>
+<gmd:hierarchyLevel>
+<gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_ScopeCode" codeListValue="series">series</gmd:MD_ScopeCode>
+</gmd:hierarchyLevel>
+<gmd:contact>
+<gmd:CI_ResponsibleParty>
+<gmd:organisationName>
+<gco:CharacterString>CMR</gco:CharacterString>
+</gmd:organisationName>
+<gmd:contactInfo>
+<gmd:CI_Contact>
+<gmd:address>
+<gmd:CI_Address>
+<gmd:electronicMailAddress>
+<gco:CharacterString>support@echo.nasa.gov</gco:CharacterString>
+</gmd:electronicMailAddress>
+</gmd:CI_Address>
+</gmd:address>
+</gmd:CI_Contact>
+</gmd:contactInfo>
+<gmd:role>
+<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+</gmd:role>
+</gmd:CI_ResponsibleParty>
+</gmd:contact>
+<gmd:dateStamp>
+<gco:DateTime>1972-01-01T00:00:00.000Z</gco:DateTime>
+</gmd:dateStamp>
+<gmd:metadataStandardName>
+<gco:CharacterString>ISO19115</gco:CharacterString>
+</gmd:metadataStandardName>
+<gmd:metadataStandardVersion>
+<gco:CharacterString>2005/Cor.1:2006</gco:CharacterString>
+</gmd:metadataStandardVersion>
+<gmd:identificationInfo>
+<gmd:MD_DataIdentification>
+<gmd:citation>
+<gmd:CI_Citation>
+<gmd:title>
+<gco:CharacterString>Amazon River Basin Precipitation, 1972-1992</gco:CharacterString>
+</gmd:title>
+<gmd:date>
+<gmd:CI_Date>
+<gmd:date>
+<gco:DateTime>1972-01-01T00:00:00.000Z</gco:DateTime>
+</gmd:date>
+<gmd:dateType>
+<gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="creation"/>
+</gmd:dateType>
+</gmd:CI_Date>
+</gmd:date>
+<gmd:identifier>
+<gmd:RS_Identifier>
+<gmd:code>
+<gco:CharacterString>C179003397-ORNL_DAAC</gco:CharacterString>
+</gmd:code>
+</gmd:RS_Identifier>
+</gmd:identifier>
+</gmd:CI_Citation>
+</gmd:citation>
+<gmd:abstract>
+<gco:CharacterString>The precipitation data is 0.2 degree gridded monthly precipitation data based upon monthly rain data from Peru and Bolivia and daily rain data from Brazil. The extent of the data ranges from 5.2N and -20.0S to -49.4W to -79.6W</gco:CharacterString>
+</gmd:abstract>
+<gmd:pointOfContact>
+<gmd:CI_ResponsibleParty>
+<gmd:organisationName>
+<gco:CharacterString>CMR</gco:CharacterString>
+</gmd:organisationName>
+<gmd:contactInfo>
+<gmd:CI_Contact>
+<gmd:address>
+<gmd:CI_Address>
+<gmd:electronicMailAddress>
+<gco:CharacterString>support@echo.nasa.gov</gco:CharacterString>
+</gmd:electronicMailAddress>
+</gmd:CI_Address>
+</gmd:address>
+</gmd:CI_Contact>
+</gmd:contactInfo>
+<gmd:role>
+<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+</gmd:role>
+</gmd:CI_ResponsibleParty>
+</gmd:pointOfContact>
+<gmd:language>
+<gmd:LanguageCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
+</gmd:language>
+<gmd:topicCategory>
+<gmd:MD_TopicCategoryCode>geoscientificInformation</gmd:MD_TopicCategoryCode>
+</gmd:topicCategory>
+<gmd:extent>
+<gmd:EX_Extent>
+<gmd:temporalElement>
+<gmd:EX_TemporalExtent>
+<gmd:extent>
+<gml:TimePeriod gml:id="timeperiod1">
+<gml:beginPosition>1972-01-01T00:00:00.000Z</gml:beginPosition>
+<gml:endPosition>1992-12-31T00:00:00.000Z</gml:endPosition>
+</gml:TimePeriod>
+</gmd:extent>
+</gmd:EX_TemporalExtent>
+</gmd:temporalElement>
+</gmd:EX_Extent>
+</gmd:extent>
+<gmd:extent>
+<gmd:EX_Extent>
+<gmd:geographicElement>
+<gmd:EX_GeographicBoundingBox>
+<gmd:westBoundLongitude>
+<gco:Decimal>-79.6</gco:Decimal>
+</gmd:westBoundLongitude>
+<gmd:eastBoundLongitude>
+<gco:Decimal>-49.4</gco:Decimal>
+</gmd:eastBoundLongitude>
+<gmd:southBoundLatitude>
+<gco:Decimal>-20</gco:Decimal>
+</gmd:southBoundLatitude>
+<gmd:northBoundLatitude>
+<gco:Decimal>5.2</gco:Decimal>
+</gmd:northBoundLatitude>
+</gmd:EX_GeographicBoundingBox>
+</gmd:geographicElement>
+</gmd:EX_Extent>
+</gmd:extent>
+</gmd:MD_DataIdentification>
+</gmd:identificationInfo>
+</gmi:MI_Metadata>
+<media:group>
+<media:content medium="image" type="image/jpeg" url="http://webmap.ornl.gov/sdat/pimg/228_1.png">
+<media:category scheme="http://www.opengis.net/spec/EOMPOM/1.0">QUICKLOOK</media:category>
+</media:content>
+</media:group>
+</entry>
+<entry>
+<id>http://geo.spacebel.be/opensearch/request/?httpAccept=application/atom%2Bxml&amp;parentIdentifier=EOP%3ANASA%3AECHO&amp;uid=C179003615-ORNL_DAAC&amp;recordSchema=iso</id>
+<link href="http://geo.spacebel.be/opensearch/request/?httpAccept=application/atom%2Bxml&amp;parentIdentifier=EOP%3ANASA%3AECHO&amp;uid=C179003615-ORNL_DAAC&amp;recordSchema=iso" rel="alternate" title="Atom format" type="application/atom+xml"/>
+<link href="http://geo.spacebel.be/opensearch/description.xml?parentIdentifier=EOP:NASA:ECHO:doi:10.3334/ORNLDAAC/12&amp;archivingCenter=ORNL_DAAC" rel="search" type="application/opensearchdescription+xml"/>
+<title>AMS (Automated Met Station) Data (FIFE)</title>
+<dc:identifier>C179003615-ORNL_DAAC</dc:identifier>
+<author>
+<name>CMR</name>
+<email>support@echo.nasa.gov</email>
+</author>
+<updated>1994-07-24T00:00:00.000Z</updated>
+<dc:date>1987-05-01T00:00:00.000Z/1989-11-10T00:00:00.000Z</dc:date>
+<summary xmlns:dc="http://purl.org/dc/terms/" xmlns:esipdiscovery="http://commons.esipfed.org/ns/discovery/1.2/" type="text">30 minute average meteorological data from NCARs Portable Automated Mesonet Station</summary>
+<link href="http://daac.ornl.gov/cgi-bin/dsviewer.pl?ds_id=12" rel="enclosure" type="text/html"/>
+<link href="http://gcmd.nasa.gov/getdif.htm?FIFE_AMS_DATA" rel="enclosure" title="doi:10.3334/ORNLDAAC/12" type="text/html"/>
+<link href="http://daac.ornl.gov/FIFE/guides/AMS_Data.html" rel="describedby" title="Description" type="text/html"/>
+<link href="http://cmr.earthdata.nasa.gov/search/concepts/C179003615-ORNL_DAAC.xml" rel="via" title="Product metadata" type="application/xml"/>
+<georss:box>38.98 -96.61 39.12 -96.47</georss:box>
+<gmi:MI_Metadata xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:ows="http://www.opengis.net/ows/2.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<gmd:fileIdentifier>
+<gco:CharacterString>C179003615-ORNL_DAAC</gco:CharacterString>
+</gmd:fileIdentifier>
+<gmd:language>
+<gmd:LanguageCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
+</gmd:language>
+<gmd:hierarchyLevel>
+<gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_ScopeCode" codeListValue="series">series</gmd:MD_ScopeCode>
+</gmd:hierarchyLevel>
+<gmd:contact>
+<gmd:CI_ResponsibleParty>
+<gmd:organisationName>
+<gco:CharacterString>CMR</gco:CharacterString>
+</gmd:organisationName>
+<gmd:contactInfo>
+<gmd:CI_Contact>
+<gmd:address>
+<gmd:CI_Address>
+<gmd:electronicMailAddress>
+<gco:CharacterString>support@echo.nasa.gov</gco:CharacterString>
+</gmd:electronicMailAddress>
+</gmd:CI_Address>
+</gmd:address>
+</gmd:CI_Contact>
+</gmd:contactInfo>
+<gmd:role>
+<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+</gmd:role>
+</gmd:CI_ResponsibleParty>
+</gmd:contact>
+<gmd:dateStamp>
+<gco:DateTime>1987-05-01T00:00:00.000Z</gco:DateTime>
+</gmd:dateStamp>
+<gmd:metadataStandardName>
+<gco:CharacterString>ISO19115</gco:CharacterString>
+</gmd:metadataStandardName>
+<gmd:metadataStandardVersion>
+<gco:CharacterString>2005/Cor.1:2006</gco:CharacterString>
+</gmd:metadataStandardVersion>
+<gmd:identificationInfo>
+<gmd:MD_DataIdentification>
+<gmd:citation>
+<gmd:CI_Citation>
+<gmd:title>
+<gco:CharacterString>AMS (Automated Met Station) Data (FIFE)</gco:CharacterString>
+</gmd:title>
+<gmd:date>
+<gmd:CI_Date>
+<gmd:date>
+<gco:DateTime>1987-05-01T00:00:00.000Z</gco:DateTime>
+</gmd:date>
+<gmd:dateType>
+<gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="creation"/>
+</gmd:dateType>
+</gmd:CI_Date>
+</gmd:date>
+<gmd:identifier>
+<gmd:RS_Identifier>
+<gmd:code>
+<gco:CharacterString>C179003615-ORNL_DAAC</gco:CharacterString>
+</gmd:code>
+</gmd:RS_Identifier>
+</gmd:identifier>
+</gmd:CI_Citation>
+</gmd:citation>
+<gmd:abstract>
+<gco:CharacterString>30 minute average meteorological data from NCARs Portable Automated Mesonet Station</gco:CharacterString>
+</gmd:abstract>
+<gmd:pointOfContact>
+<gmd:CI_ResponsibleParty>
+<gmd:organisationName>
+<gco:CharacterString>CMR</gco:CharacterString>
+</gmd:organisationName>
+<gmd:contactInfo>
+<gmd:CI_Contact>
+<gmd:address>
+<gmd:CI_Address>
+<gmd:electronicMailAddress>
+<gco:CharacterString>support@echo.nasa.gov</gco:CharacterString>
+</gmd:electronicMailAddress>
+</gmd:CI_Address>
+</gmd:address>
+</gmd:CI_Contact>
+</gmd:contactInfo>
+<gmd:role>
+<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+</gmd:role>
+</gmd:CI_ResponsibleParty>
+</gmd:pointOfContact>
+<gmd:language>
+<gmd:LanguageCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
+</gmd:language>
+<gmd:topicCategory>
+<gmd:MD_TopicCategoryCode>geoscientificInformation</gmd:MD_TopicCategoryCode>
+</gmd:topicCategory>
+<gmd:extent>
+<gmd:EX_Extent>
+<gmd:temporalElement>
+<gmd:EX_TemporalExtent>
+<gmd:extent>
+<gml:TimePeriod gml:id="timeperiod1">
+<gml:beginPosition>1987-05-01T00:00:00.000Z</gml:beginPosition>
+<gml:endPosition>1989-11-10T00:00:00.000Z</gml:endPosition>
+</gml:TimePeriod>
+</gmd:extent>
+</gmd:EX_TemporalExtent>
+</gmd:temporalElement>
+</gmd:EX_Extent>
+</gmd:extent>
+<gmd:extent>
+<gmd:EX_Extent>
+<gmd:geographicElement>
+<gmd:EX_GeographicBoundingBox>
+<gmd:westBoundLongitude>
+<gco:Decimal>-96.61</gco:Decimal>
+</gmd:westBoundLongitude>
+<gmd:eastBoundLongitude>
+<gco:Decimal>-96.47</gco:Decimal>
+</gmd:eastBoundLongitude>
+<gmd:southBoundLatitude>
+<gco:Decimal>38.98</gco:Decimal>
+</gmd:southBoundLatitude>
+<gmd:northBoundLatitude>
+<gco:Decimal>39.12</gco:Decimal>
+</gmd:northBoundLatitude>
+</gmd:EX_GeographicBoundingBox>
+</gmd:geographicElement>
+</gmd:EX_Extent>
+</gmd:extent>
+</gmd:MD_DataIdentification>
+</gmd:identificationInfo>
+</gmi:MI_Metadata>
+</entry>
+<entry>
+<id>http://geo.spacebel.be/opensearch/request/?httpAccept=application/atom%2Bxml&amp;parentIdentifier=EOP%3ANASA%3AECHO&amp;uid=C179003586-ORNL_DAAC&amp;recordSchema=iso</id>
+<link href="http://geo.spacebel.be/opensearch/request/?httpAccept=application/atom%2Bxml&amp;parentIdentifier=EOP%3ANASA%3AECHO&amp;uid=C179003586-ORNL_DAAC&amp;recordSchema=iso" rel="alternate" title="Atom format" type="application/atom+xml"/>
+<link href="http://geo.spacebel.be/opensearch/description.xml?parentIdentifier=EOP:NASA:ECHO:doi:10.3334/ORNLDAAC/1065&amp;archivingCenter=ORNL_DAAC" rel="search" type="application/opensearchdescription+xml"/>
+<title>BIGFOOT Meteorological Data for North and South American Sites, 1991-2004</title>
+<dc:identifier>C179003586-ORNL_DAAC</dc:identifier>
+<author>
+<name>CMR</name>
+<email>support@echo.nasa.gov</email>
+</author>
+<updated>2012-02-27T00:00:00.000Z</updated>
+<dc:date>1991-01-01T00:00:00.000Z/2004-12-31T00:00:00.000Z</dc:date>
+<summary xmlns:dc="http://purl.org/dc/terms/" xmlns:esipdiscovery="http://commons.esipfed.org/ns/discovery/1.2/" type="text">The BigFoot Project has compiled daily meteorological measurements for nine EOS Land Validation Sites located from Alaska to Brazil from 1991 to 2004. Each site is representative of one or two distinct biomes, including the Arctic tundra; boreal evergreen needleleaf forest; temperate cropland, grassland, evergreen needleleaf forest, and deciduous broadleaf forest; desert grassland and shrubland; and tropical evergreen broadleaf forest.The BigFoot Project needed meteorological data to run the ecosystem process models used for scaling GPP and NPP products, for monitoring interannual variability, and for model testing. Meteorological data were obtained from various agencies collecting data in the vicinity of the BigFoot sites and for more recent years, collected on co-located CO2 flux measurement towers. A comparable set of original measurements from all sites were aggregated to a common daily time step for use in the BIOME-BGC model. </summary>
+<link href="http://daac.ornl.gov/cgi-bin/dsviewer.pl?ds_id=1065" rel="enclosure" type="text/html"/>
+<link href="http://gcmd.nasa.gov/getdif.htm?BIGFOOT_METEOROLOGICAL" rel="enclosure" title="doi:10.3334/ORNLDAAC/1065" type="text/html"/>
+<link href="http://daac.ornl.gov/BIGFOOT_VAL/guides/bigfoot_meteorological_data.html" rel="describedby" title="Description" type="text/html"/>
+<link href="http://cmr.earthdata.nasa.gov/search/concepts/C179003586-ORNL_DAAC.xml" rel="via" title="Product metadata" type="application/xml"/>
+<georss:box>-2.87 -156.61 71.27 -54.96</georss:box>
+<gmi:MI_Metadata xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:ows="http://www.opengis.net/ows/2.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<gmd:fileIdentifier>
+<gco:CharacterString>C179003586-ORNL_DAAC</gco:CharacterString>
+</gmd:fileIdentifier>
+<gmd:language>
+<gmd:LanguageCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
+</gmd:language>
+<gmd:hierarchyLevel>
+<gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_ScopeCode" codeListValue="series">series</gmd:MD_ScopeCode>
+</gmd:hierarchyLevel>
+<gmd:contact>
+<gmd:CI_ResponsibleParty>
+<gmd:organisationName>
+<gco:CharacterString>CMR</gco:CharacterString>
+</gmd:organisationName>
+<gmd:contactInfo>
+<gmd:CI_Contact>
+<gmd:address>
+<gmd:CI_Address>
+<gmd:electronicMailAddress>
+<gco:CharacterString>support@echo.nasa.gov</gco:CharacterString>
+</gmd:electronicMailAddress>
+</gmd:CI_Address>
+</gmd:address>
+</gmd:CI_Contact>
+</gmd:contactInfo>
+<gmd:role>
+<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+</gmd:role>
+</gmd:CI_ResponsibleParty>
+</gmd:contact>
+<gmd:dateStamp>
+<gco:DateTime>1991-01-01T00:00:00.000Z</gco:DateTime>
+</gmd:dateStamp>
+<gmd:metadataStandardName>
+<gco:CharacterString>ISO19115</gco:CharacterString>
+</gmd:metadataStandardName>
+<gmd:metadataStandardVersion>
+<gco:CharacterString>2005/Cor.1:2006</gco:CharacterString>
+</gmd:metadataStandardVersion>
+<gmd:identificationInfo>
+<gmd:MD_DataIdentification>
+<gmd:citation>
+<gmd:CI_Citation>
+<gmd:title>
+<gco:CharacterString>BIGFOOT Meteorological Data for North and South American Sites, 1991-2004</gco:CharacterString>
+</gmd:title>
+<gmd:date>
+<gmd:CI_Date>
+<gmd:date>
+<gco:DateTime>1991-01-01T00:00:00.000Z</gco:DateTime>
+</gmd:date>
+<gmd:dateType>
+<gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="creation"/>
+</gmd:dateType>
+</gmd:CI_Date>
+</gmd:date>
+<gmd:identifier>
+<gmd:RS_Identifier>
+<gmd:code>
+<gco:CharacterString>C179003586-ORNL_DAAC</gco:CharacterString>
+</gmd:code>
+</gmd:RS_Identifier>
+</gmd:identifier>
+</gmd:CI_Citation>
+</gmd:citation>
+<gmd:abstract>
+<gco:CharacterString>The BigFoot Project has compiled daily meteorological measurements for nine EOS Land Validation Sites located from Alaska to Brazil from 1991 to 2004. Each site is representative of one or two distinct biomes, including the Arctic tundra; boreal evergreen needleleaf forest; temperate cropland, grassland, evergreen needleleaf forest, and deciduous broadleaf forest; desert grassland and shrubland; and tropical evergreen broadleaf forest.The BigFoot Project needed meteorological data to run the ecosystem process models used for scaling GPP and NPP products, for monitoring interannual variability, and for model testing. Meteorological data were obtained from various agencies collecting data in the vicinity of the BigFoot sites and for more recent years, collected on co-located CO2 flux measurement towers. A comparable set of original measurements from all sites were aggregated to a common daily time step for use in the BIOME-BGC model. </gco:CharacterString>
+</gmd:abstract>
+<gmd:pointOfContact>
+<gmd:CI_ResponsibleParty>
+<gmd:organisationName>
+<gco:CharacterString>CMR</gco:CharacterString>
+</gmd:organisationName>
+<gmd:contactInfo>
+<gmd:CI_Contact>
+<gmd:address>
+<gmd:CI_Address>
+<gmd:electronicMailAddress>
+<gco:CharacterString>support@echo.nasa.gov</gco:CharacterString>
+</gmd:electronicMailAddress>
+</gmd:CI_Address>
+</gmd:address>
+</gmd:CI_Contact>
+</gmd:contactInfo>
+<gmd:role>
+<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+</gmd:role>
+</gmd:CI_ResponsibleParty>
+</gmd:pointOfContact>
+<gmd:language>
+<gmd:LanguageCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
+</gmd:language>
+<gmd:topicCategory>
+<gmd:MD_TopicCategoryCode>geoscientificInformation</gmd:MD_TopicCategoryCode>
+</gmd:topicCategory>
+<gmd:extent>
+<gmd:EX_Extent>
+<gmd:temporalElement>
+<gmd:EX_TemporalExtent>
+<gmd:extent>
+<gml:TimePeriod gml:id="timeperiod1">
+<gml:beginPosition>1991-01-01T00:00:00.000Z</gml:beginPosition>
+<gml:endPosition>2004-12-31T00:00:00.000Z</gml:endPosition>
+</gml:TimePeriod>
+</gmd:extent>
+</gmd:EX_TemporalExtent>
+</gmd:temporalElement>
+</gmd:EX_Extent>
+</gmd:extent>
+<gmd:extent>
+<gmd:EX_Extent>
+<gmd:geographicElement>
+<gmd:EX_GeographicBoundingBox>
+<gmd:westBoundLongitude>
+<gco:Decimal>-156.61</gco:Decimal>
+</gmd:westBoundLongitude>
+<gmd:eastBoundLongitude>
+<gco:Decimal>-54.96</gco:Decimal>
+</gmd:eastBoundLongitude>
+<gmd:southBoundLatitude>
+<gco:Decimal>-2.87</gco:Decimal>
+</gmd:southBoundLatitude>
+<gmd:northBoundLatitude>
+<gco:Decimal>71.27</gco:Decimal>
+</gmd:northBoundLatitude>
+</gmd:EX_GeographicBoundingBox>
+</gmd:geographicElement>
+</gmd:EX_Extent>
+</gmd:extent>
+</gmd:MD_DataIdentification>
+</gmd:identificationInfo>
+</gmi:MI_Metadata>
+</entry>
+<entry>
+<id>http://geo.spacebel.be/opensearch/request/?httpAccept=application/atom%2Bxml&amp;parentIdentifier=EOP%3ANASA%3AECHO&amp;uid=C179003027-ORNL_DAAC&amp;recordSchema=iso</id>
+<link href="http://geo.spacebel.be/opensearch/request/?httpAccept=application/atom%2Bxml&amp;parentIdentifier=EOP%3ANASA%3AECHO&amp;uid=C179003027-ORNL_DAAC&amp;recordSchema=iso" rel="alternate" title="Atom format" type="application/atom+xml"/>
+<link href="http://geo.spacebel.be/opensearch/description.xml?parentIdentifier=EOP:NASA:ECHO:doi:10.3334/ORNLDAAC/229&amp;archivingCenter=ORNL_DAAC" rel="search" type="application/opensearchdescription+xml"/>
+<title>BOREAS 1994 HYD-09 Belfort Rain Gauge Data</title>
+<dc:identifier>C179003027-ORNL_DAAC</dc:identifier>
+<author>
+<name>CMR</name>
+<email>support@echo.nasa.gov</email>
+</author>
+<updated>1999-01-30T00:00:00.000Z</updated>
+<dc:date>1994-04-10T00:00:00.000Z/1994-12-31T00:00:00.000Z</dc:date>
+<summary xmlns:dc="http://purl.org/dc/terms/" xmlns:esipdiscovery="http://commons.esipfed.org/ns/discovery/1.2/" type="text">Contains the Belfort rain gauge data that was collected by the HYD09 group at various locations.  </summary>
+<link href="http://daac.ornl.gov/cgi-bin/dsviewer.pl?ds_id=229" rel="enclosure" type="text/html"/>
+<link href="http://gcmd.nasa.gov/getdif.htm?BOREAS_H9RGBL94" rel="enclosure" title="doi:10.3334/ORNLDAAC/229" type="text/html"/>
+<link href="http://daac.ornl.gov/BOREAS/guides/HYD09_BELF_RG.html" rel="describedby" title="Description" type="text/html"/>
+<link href="http://cmr.earthdata.nasa.gov/search/concepts/C179003027-ORNL_DAAC.xml" rel="via" title="Product metadata" type="application/xml"/>
+<georss:box>53.89 -105.04 55.93 -98.34</georss:box>
+<gmi:MI_Metadata xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:ows="http://www.opengis.net/ows/2.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<gmd:fileIdentifier>
+<gco:CharacterString>C179003027-ORNL_DAAC</gco:CharacterString>
+</gmd:fileIdentifier>
+<gmd:language>
+<gmd:LanguageCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
+</gmd:language>
+<gmd:hierarchyLevel>
+<gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_ScopeCode" codeListValue="series">series</gmd:MD_ScopeCode>
+</gmd:hierarchyLevel>
+<gmd:contact>
+<gmd:CI_ResponsibleParty>
+<gmd:organisationName>
+<gco:CharacterString>CMR</gco:CharacterString>
+</gmd:organisationName>
+<gmd:contactInfo>
+<gmd:CI_Contact>
+<gmd:address>
+<gmd:CI_Address>
+<gmd:electronicMailAddress>
+<gco:CharacterString>support@echo.nasa.gov</gco:CharacterString>
+</gmd:electronicMailAddress>
+</gmd:CI_Address>
+</gmd:address>
+</gmd:CI_Contact>
+</gmd:contactInfo>
+<gmd:role>
+<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+</gmd:role>
+</gmd:CI_ResponsibleParty>
+</gmd:contact>
+<gmd:dateStamp>
+<gco:DateTime>1994-04-10T00:00:00.000Z</gco:DateTime>
+</gmd:dateStamp>
+<gmd:metadataStandardName>
+<gco:CharacterString>ISO19115</gco:CharacterString>
+</gmd:metadataStandardName>
+<gmd:metadataStandardVersion>
+<gco:CharacterString>2005/Cor.1:2006</gco:CharacterString>
+</gmd:metadataStandardVersion>
+<gmd:identificationInfo>
+<gmd:MD_DataIdentification>
+<gmd:citation>
+<gmd:CI_Citation>
+<gmd:title>
+<gco:CharacterString>BOREAS 1994 HYD-09 Belfort Rain Gauge Data</gco:CharacterString>
+</gmd:title>
+<gmd:date>
+<gmd:CI_Date>
+<gmd:date>
+<gco:DateTime>1994-04-10T00:00:00.000Z</gco:DateTime>
+</gmd:date>
+<gmd:dateType>
+<gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="creation"/>
+</gmd:dateType>
+</gmd:CI_Date>
+</gmd:date>
+<gmd:identifier>
+<gmd:RS_Identifier>
+<gmd:code>
+<gco:CharacterString>C179003027-ORNL_DAAC</gco:CharacterString>
+</gmd:code>
+</gmd:RS_Identifier>
+</gmd:identifier>
+</gmd:CI_Citation>
+</gmd:citation>
+<gmd:abstract>
+<gco:CharacterString>Contains the Belfort rain gauge data that was collected by the HYD09 group at various locations.  </gco:CharacterString>
+</gmd:abstract>
+<gmd:pointOfContact>
+<gmd:CI_ResponsibleParty>
+<gmd:organisationName>
+<gco:CharacterString>CMR</gco:CharacterString>
+</gmd:organisationName>
+<gmd:contactInfo>
+<gmd:CI_Contact>
+<gmd:address>
+<gmd:CI_Address>
+<gmd:electronicMailAddress>
+<gco:CharacterString>support@echo.nasa.gov</gco:CharacterString>
+</gmd:electronicMailAddress>
+</gmd:CI_Address>
+</gmd:address>
+</gmd:CI_Contact>
+</gmd:contactInfo>
+<gmd:role>
+<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+</gmd:role>
+</gmd:CI_ResponsibleParty>
+</gmd:pointOfContact>
+<gmd:language>
+<gmd:LanguageCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
+</gmd:language>
+<gmd:topicCategory>
+<gmd:MD_TopicCategoryCode>geoscientificInformation</gmd:MD_TopicCategoryCode>
+</gmd:topicCategory>
+<gmd:extent>
+<gmd:EX_Extent>
+<gmd:temporalElement>
+<gmd:EX_TemporalExtent>
+<gmd:extent>
+<gml:TimePeriod gml:id="timeperiod1">
+<gml:beginPosition>1994-04-10T00:00:00.000Z</gml:beginPosition>
+<gml:endPosition>1994-12-31T00:00:00.000Z</gml:endPosition>
+</gml:TimePeriod>
+</gmd:extent>
+</gmd:EX_TemporalExtent>
+</gmd:temporalElement>
+</gmd:EX_Extent>
+</gmd:extent>
+<gmd:extent>
+<gmd:EX_Extent>
+<gmd:geographicElement>
+<gmd:EX_GeographicBoundingBox>
+<gmd:westBoundLongitude>
+<gco:Decimal>-105.04</gco:Decimal>
+</gmd:westBoundLongitude>
+<gmd:eastBoundLongitude>
+<gco:Decimal>-98.34</gco:Decimal>
+</gmd:eastBoundLongitude>
+<gmd:southBoundLatitude>
+<gco:Decimal>53.89</gco:Decimal>
+</gmd:southBoundLatitude>
+<gmd:northBoundLatitude>
+<gco:Decimal>55.93</gco:Decimal>
+</gmd:northBoundLatitude>
+</gmd:EX_GeographicBoundingBox>
+</gmd:geographicElement>
+</gmd:EX_Extent>
+</gmd:extent>
+</gmd:MD_DataIdentification>
+</gmd:identificationInfo>
+</gmi:MI_Metadata>
+</entry>
+<entry>
+<id>http://geo.spacebel.be/opensearch/request/?httpAccept=application/atom%2Bxml&amp;parentIdentifier=EOP%3ANASA%3AECHO&amp;uid=C179003488-ORNL_DAAC&amp;recordSchema=iso</id>
+<link href="http://geo.spacebel.be/opensearch/request/?httpAccept=application/atom%2Bxml&amp;parentIdentifier=EOP%3ANASA%3AECHO&amp;uid=C179003488-ORNL_DAAC&amp;recordSchema=iso" rel="alternate" title="Atom format" type="application/atom+xml"/>
+<link href="http://geo.spacebel.be/opensearch/description.xml?parentIdentifier=EOP:NASA:ECHO:doi:10.3334/ORNLDAAC/230&amp;archivingCenter=ORNL_DAAC" rel="search" type="application/opensearchdescription+xml"/>
+<title>BOREAS 1994 HYD-09 Tipping Bucket Rain Data</title>
+<dc:identifier>C179003488-ORNL_DAAC</dc:identifier>
+<author>
+<name>CMR</name>
+<email>support@echo.nasa.gov</email>
+</author>
+<updated>1999-01-30T00:00:00.000Z</updated>
+<dc:date>1994-04-10T00:00:00.000Z/1994-12-31T00:00:00.000Z</dc:date>
+<summary xmlns:dc="http://purl.org/dc/terms/" xmlns:esipdiscovery="http://commons.esipfed.org/ns/discovery/1.2/" type="text">Contains the Tipping Bucket rain gauge data that was collected by the HYD09 group at various locations.</summary>
+<link href="http://daac.ornl.gov/cgi-bin/dsviewer.pl?ds_id=230" rel="enclosure" type="text/html"/>
+<link href="http://gcmd.nasa.gov/getdif.htm?BOREAS_H9RGTB94" rel="enclosure" title="doi:10.3334/ORNLDAAC/230" type="text/html"/>
+<link href="http://daac.ornl.gov/BOREAS/guides/HYD09_TPBK_RG.html" rel="describedby" title="Description" type="text/html"/>
+<link href="http://cmr.earthdata.nasa.gov/search/concepts/C179003488-ORNL_DAAC.xml" rel="via" title="Product metadata" type="application/xml"/>
+<georss:box>53.9 -105.14 55.93 -98.34</georss:box>
+<gmi:MI_Metadata xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:ows="http://www.opengis.net/ows/2.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<gmd:fileIdentifier>
+<gco:CharacterString>C179003488-ORNL_DAAC</gco:CharacterString>
+</gmd:fileIdentifier>
+<gmd:language>
+<gmd:LanguageCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
+</gmd:language>
+<gmd:hierarchyLevel>
+<gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_ScopeCode" codeListValue="series">series</gmd:MD_ScopeCode>
+</gmd:hierarchyLevel>
+<gmd:contact>
+<gmd:CI_ResponsibleParty>
+<gmd:organisationName>
+<gco:CharacterString>CMR</gco:CharacterString>
+</gmd:organisationName>
+<gmd:contactInfo>
+<gmd:CI_Contact>
+<gmd:address>
+<gmd:CI_Address>
+<gmd:electronicMailAddress>
+<gco:CharacterString>support@echo.nasa.gov</gco:CharacterString>
+</gmd:electronicMailAddress>
+</gmd:CI_Address>
+</gmd:address>
+</gmd:CI_Contact>
+</gmd:contactInfo>
+<gmd:role>
+<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+</gmd:role>
+</gmd:CI_ResponsibleParty>
+</gmd:contact>
+<gmd:dateStamp>
+<gco:DateTime>1994-04-10T00:00:00.000Z</gco:DateTime>
+</gmd:dateStamp>
+<gmd:metadataStandardName>
+<gco:CharacterString>ISO19115</gco:CharacterString>
+</gmd:metadataStandardName>
+<gmd:metadataStandardVersion>
+<gco:CharacterString>2005/Cor.1:2006</gco:CharacterString>
+</gmd:metadataStandardVersion>
+<gmd:identificationInfo>
+<gmd:MD_DataIdentification>
+<gmd:citation>
+<gmd:CI_Citation>
+<gmd:title>
+<gco:CharacterString>BOREAS 1994 HYD-09 Tipping Bucket Rain Data</gco:CharacterString>
+</gmd:title>
+<gmd:date>
+<gmd:CI_Date>
+<gmd:date>
+<gco:DateTime>1994-04-10T00:00:00.000Z</gco:DateTime>
+</gmd:date>
+<gmd:dateType>
+<gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="creation"/>
+</gmd:dateType>
+</gmd:CI_Date>
+</gmd:date>
+<gmd:identifier>
+<gmd:RS_Identifier>
+<gmd:code>
+<gco:CharacterString>C179003488-ORNL_DAAC</gco:CharacterString>
+</gmd:code>
+</gmd:RS_Identifier>
+</gmd:identifier>
+</gmd:CI_Citation>
+</gmd:citation>
+<gmd:abstract>
+<gco:CharacterString>Contains the Tipping Bucket rain gauge data that was collected by the HYD09 group at various locations.</gco:CharacterString>
+</gmd:abstract>
+<gmd:pointOfContact>
+<gmd:CI_ResponsibleParty>
+<gmd:organisationName>
+<gco:CharacterString>CMR</gco:CharacterString>
+</gmd:organisationName>
+<gmd:contactInfo>
+<gmd:CI_Contact>
+<gmd:address>
+<gmd:CI_Address>
+<gmd:electronicMailAddress>
+<gco:CharacterString>support@echo.nasa.gov</gco:CharacterString>
+</gmd:electronicMailAddress>
+</gmd:CI_Address>
+</gmd:address>
+</gmd:CI_Contact>
+</gmd:contactInfo>
+<gmd:role>
+<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+</gmd:role>
+</gmd:CI_ResponsibleParty>
+</gmd:pointOfContact>
+<gmd:language>
+<gmd:LanguageCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
+</gmd:language>
+<gmd:topicCategory>
+<gmd:MD_TopicCategoryCode>geoscientificInformation</gmd:MD_TopicCategoryCode>
+</gmd:topicCategory>
+<gmd:extent>
+<gmd:EX_Extent>
+<gmd:temporalElement>
+<gmd:EX_TemporalExtent>
+<gmd:extent>
+<gml:TimePeriod gml:id="timeperiod1">
+<gml:beginPosition>1994-04-10T00:00:00.000Z</gml:beginPosition>
+<gml:endPosition>1994-12-31T00:00:00.000Z</gml:endPosition>
+</gml:TimePeriod>
+</gmd:extent>
+</gmd:EX_TemporalExtent>
+</gmd:temporalElement>
+</gmd:EX_Extent>
+</gmd:extent>
+<gmd:extent>
+<gmd:EX_Extent>
+<gmd:geographicElement>
+<gmd:EX_GeographicBoundingBox>
+<gmd:westBoundLongitude>
+<gco:Decimal>-105.14</gco:Decimal>
+</gmd:westBoundLongitude>
+<gmd:eastBoundLongitude>
+<gco:Decimal>-98.34</gco:Decimal>
+</gmd:eastBoundLongitude>
+<gmd:southBoundLatitude>
+<gco:Decimal>53.9</gco:Decimal>
+</gmd:southBoundLatitude>
+<gmd:northBoundLatitude>
+<gco:Decimal>55.93</gco:Decimal>
+</gmd:northBoundLatitude>
+</gmd:EX_GeographicBoundingBox>
+</gmd:geographicElement>
+</gmd:EX_Extent>
+</gmd:extent>
+</gmd:MD_DataIdentification>
+</gmd:identificationInfo>
+</gmi:MI_Metadata>
+</entry>
+<entry>
+<id>http://geo.spacebel.be/opensearch/request/?httpAccept=application/atom%2Bxml&amp;parentIdentifier=EOP%3ANASA%3AECHO&amp;uid=C179003608-ORNL_DAAC&amp;recordSchema=iso</id>
+<link href="http://geo.spacebel.be/opensearch/request/?httpAccept=application/atom%2Bxml&amp;parentIdentifier=EOP%3ANASA%3AECHO&amp;uid=C179003608-ORNL_DAAC&amp;recordSchema=iso" rel="alternate" title="Atom format" type="application/atom+xml"/>
+<link href="http://geo.spacebel.be/opensearch/description.xml?parentIdentifier=EOP:NASA:ECHO:doi:10.3334/ORNLDAAC/231&amp;archivingCenter=ORNL_DAAC" rel="search" type="application/opensearchdescription+xml"/>
+<title>BOREAS 1995 HYD-09 Belfort Rain Gauge Data</title>
+<dc:identifier>C179003608-ORNL_DAAC</dc:identifier>
+<author>
+<name>CMR</name>
+<email>support@echo.nasa.gov</email>
+</author>
+<updated>1999-01-30T00:00:00.000Z</updated>
+<dc:date>1995-01-01T00:00:00.000Z/1995-12-31T00:00:00.000Z</dc:date>
+<summary xmlns:dc="http://purl.org/dc/terms/" xmlns:esipdiscovery="http://commons.esipfed.org/ns/discovery/1.2/" type="text">Contains the Belfort rain gauge data that was collected by the HYD09 group at various locations.</summary>
+<link href="http://daac.ornl.gov/cgi-bin/dsviewer.pl?ds_id=231" rel="enclosure" type="text/html"/>
+<link href="http://gcmd.nasa.gov/getdif.htm?BOREAS_H9RGBL95" rel="enclosure" title="doi:10.3334/ORNLDAAC/231" type="text/html"/>
+<link href="http://daac.ornl.gov/BOREAS/guides/HYD09_BELF_RG.html" rel="describedby" title="Description" type="text/html"/>
+<link href="http://cmr.earthdata.nasa.gov/search/concepts/C179003608-ORNL_DAAC.xml" rel="via" title="Product metadata" type="application/xml"/>
+<georss:box>53.89 -105.04 55.92 -98.34</georss:box>
+<gmi:MI_Metadata xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:ows="http://www.opengis.net/ows/2.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<gmd:fileIdentifier>
+<gco:CharacterString>C179003608-ORNL_DAAC</gco:CharacterString>
+</gmd:fileIdentifier>
+<gmd:language>
+<gmd:LanguageCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
+</gmd:language>
+<gmd:hierarchyLevel>
+<gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_ScopeCode" codeListValue="series">series</gmd:MD_ScopeCode>
+</gmd:hierarchyLevel>
+<gmd:contact>
+<gmd:CI_ResponsibleParty>
+<gmd:organisationName>
+<gco:CharacterString>CMR</gco:CharacterString>
+</gmd:organisationName>
+<gmd:contactInfo>
+<gmd:CI_Contact>
+<gmd:address>
+<gmd:CI_Address>
+<gmd:electronicMailAddress>
+<gco:CharacterString>support@echo.nasa.gov</gco:CharacterString>
+</gmd:electronicMailAddress>
+</gmd:CI_Address>
+</gmd:address>
+</gmd:CI_Contact>
+</gmd:contactInfo>
+<gmd:role>
+<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+</gmd:role>
+</gmd:CI_ResponsibleParty>
+</gmd:contact>
+<gmd:dateStamp>
+<gco:DateTime>1995-01-01T00:00:00.000Z</gco:DateTime>
+</gmd:dateStamp>
+<gmd:metadataStandardName>
+<gco:CharacterString>ISO19115</gco:CharacterString>
+</gmd:metadataStandardName>
+<gmd:metadataStandardVersion>
+<gco:CharacterString>2005/Cor.1:2006</gco:CharacterString>
+</gmd:metadataStandardVersion>
+<gmd:identificationInfo>
+<gmd:MD_DataIdentification>
+<gmd:citation>
+<gmd:CI_Citation>
+<gmd:title>
+<gco:CharacterString>BOREAS 1995 HYD-09 Belfort Rain Gauge Data</gco:CharacterString>
+</gmd:title>
+<gmd:date>
+<gmd:CI_Date>
+<gmd:date>
+<gco:DateTime>1995-01-01T00:00:00.000Z</gco:DateTime>
+</gmd:date>
+<gmd:dateType>
+<gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="creation"/>
+</gmd:dateType>
+</gmd:CI_Date>
+</gmd:date>
+<gmd:identifier>
+<gmd:RS_Identifier>
+<gmd:code>
+<gco:CharacterString>C179003608-ORNL_DAAC</gco:CharacterString>
+</gmd:code>
+</gmd:RS_Identifier>
+</gmd:identifier>
+</gmd:CI_Citation>
+</gmd:citation>
+<gmd:abstract>
+<gco:CharacterString>Contains the Belfort rain gauge data that was collected by the HYD09 group at various locations.</gco:CharacterString>
+</gmd:abstract>
+<gmd:pointOfContact>
+<gmd:CI_ResponsibleParty>
+<gmd:organisationName>
+<gco:CharacterString>CMR</gco:CharacterString>
+</gmd:organisationName>
+<gmd:contactInfo>
+<gmd:CI_Contact>
+<gmd:address>
+<gmd:CI_Address>
+<gmd:electronicMailAddress>
+<gco:CharacterString>support@echo.nasa.gov</gco:CharacterString>
+</gmd:electronicMailAddress>
+</gmd:CI_Address>
+</gmd:address>
+</gmd:CI_Contact>
+</gmd:contactInfo>
+<gmd:role>
+<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+</gmd:role>
+</gmd:CI_ResponsibleParty>
+</gmd:pointOfContact>
+<gmd:language>
+<gmd:LanguageCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
+</gmd:language>
+<gmd:topicCategory>
+<gmd:MD_TopicCategoryCode>geoscientificInformation</gmd:MD_TopicCategoryCode>
+</gmd:topicCategory>
+<gmd:extent>
+<gmd:EX_Extent>
+<gmd:temporalElement>
+<gmd:EX_TemporalExtent>
+<gmd:extent>
+<gml:TimePeriod gml:id="timeperiod1">
+<gml:beginPosition>1995-01-01T00:00:00.000Z</gml:beginPosition>
+<gml:endPosition>1995-12-31T00:00:00.000Z</gml:endPosition>
+</gml:TimePeriod>
+</gmd:extent>
+</gmd:EX_TemporalExtent>
+</gmd:temporalElement>
+</gmd:EX_Extent>
+</gmd:extent>
+<gmd:extent>
+<gmd:EX_Extent>
+<gmd:geographicElement>
+<gmd:EX_GeographicBoundingBox>
+<gmd:westBoundLongitude>
+<gco:Decimal>-105.04</gco:Decimal>
+</gmd:westBoundLongitude>
+<gmd:eastBoundLongitude>
+<gco:Decimal>-98.34</gco:Decimal>
+</gmd:eastBoundLongitude>
+<gmd:southBoundLatitude>
+<gco:Decimal>53.89</gco:Decimal>
+</gmd:southBoundLatitude>
+<gmd:northBoundLatitude>
+<gco:Decimal>55.92</gco:Decimal>
+</gmd:northBoundLatitude>
+</gmd:EX_GeographicBoundingBox>
+</gmd:geographicElement>
+</gmd:EX_Extent>
+</gmd:extent>
+</gmd:MD_DataIdentification>
+</gmd:identificationInfo>
+</gmi:MI_Metadata>
+</entry>
+<entry>
+<id>http://geo.spacebel.be/opensearch/request/?httpAccept=application/atom%2Bxml&amp;parentIdentifier=EOP%3ANASA%3AECHO&amp;uid=C179003458-ORNL_DAAC&amp;recordSchema=iso</id>
+<link href="http://geo.spacebel.be/opensearch/request/?httpAccept=application/atom%2Bxml&amp;parentIdentifier=EOP%3ANASA%3AECHO&amp;uid=C179003458-ORNL_DAAC&amp;recordSchema=iso" rel="alternate" title="Atom format" type="application/atom+xml"/>
+<link href="http://geo.spacebel.be/opensearch/description.xml?parentIdentifier=EOP:NASA:ECHO:doi:10.3334/ORNLDAAC/232&amp;archivingCenter=ORNL_DAAC" rel="search" type="application/opensearchdescription+xml"/>
+<title>BOREAS 1995 HYD-09 Tipping Bucket Rain Data</title>
+<dc:identifier>C179003458-ORNL_DAAC</dc:identifier>
+<author>
+<name>CMR</name>
+<email>support@echo.nasa.gov</email>
+</author>
+<updated>1999-01-30T00:00:00.000Z</updated>
+<dc:date>1995-01-01T00:00:00.000Z/1995-12-31T00:00:00.000Z</dc:date>
+<summary xmlns:dc="http://purl.org/dc/terms/" xmlns:esipdiscovery="http://commons.esipfed.org/ns/discovery/1.2/" type="text">Contains the Tipping Bucket rain gauge data that was collected by the HYD09 group at various locations.</summary>
+<link href="http://daac.ornl.gov/cgi-bin/dsviewer.pl?ds_id=232" rel="enclosure" type="text/html"/>
+<link href="http://gcmd.nasa.gov/getdif.htm?BOREAS_H9RGTB95" rel="enclosure" title="doi:10.3334/ORNLDAAC/232" type="text/html"/>
+<link href="http://daac.ornl.gov/BOREAS/guides/HYD09_TPBK_RG.html" rel="describedby" title="Description" type="text/html"/>
+<link href="http://cmr.earthdata.nasa.gov/search/concepts/C179003458-ORNL_DAAC.xml" rel="via" title="Product metadata" type="application/xml"/>
+<georss:box>53.9 -105.14 55.93 -98.34</georss:box>
+<gmi:MI_Metadata xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:ows="http://www.opengis.net/ows/2.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<gmd:fileIdentifier>
+<gco:CharacterString>C179003458-ORNL_DAAC</gco:CharacterString>
+</gmd:fileIdentifier>
+<gmd:language>
+<gmd:LanguageCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
+</gmd:language>
+<gmd:hierarchyLevel>
+<gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_ScopeCode" codeListValue="series">series</gmd:MD_ScopeCode>
+</gmd:hierarchyLevel>
+<gmd:contact>
+<gmd:CI_ResponsibleParty>
+<gmd:organisationName>
+<gco:CharacterString>CMR</gco:CharacterString>
+</gmd:organisationName>
+<gmd:contactInfo>
+<gmd:CI_Contact>
+<gmd:address>
+<gmd:CI_Address>
+<gmd:electronicMailAddress>
+<gco:CharacterString>support@echo.nasa.gov</gco:CharacterString>
+</gmd:electronicMailAddress>
+</gmd:CI_Address>
+</gmd:address>
+</gmd:CI_Contact>
+</gmd:contactInfo>
+<gmd:role>
+<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+</gmd:role>
+</gmd:CI_ResponsibleParty>
+</gmd:contact>
+<gmd:dateStamp>
+<gco:DateTime>1995-01-01T00:00:00.000Z</gco:DateTime>
+</gmd:dateStamp>
+<gmd:metadataStandardName>
+<gco:CharacterString>ISO19115</gco:CharacterString>
+</gmd:metadataStandardName>
+<gmd:metadataStandardVersion>
+<gco:CharacterString>2005/Cor.1:2006</gco:CharacterString>
+</gmd:metadataStandardVersion>
+<gmd:identificationInfo>
+<gmd:MD_DataIdentification>
+<gmd:citation>
+<gmd:CI_Citation>
+<gmd:title>
+<gco:CharacterString>BOREAS 1995 HYD-09 Tipping Bucket Rain Data</gco:CharacterString>
+</gmd:title>
+<gmd:date>
+<gmd:CI_Date>
+<gmd:date>
+<gco:DateTime>1995-01-01T00:00:00.000Z</gco:DateTime>
+</gmd:date>
+<gmd:dateType>
+<gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="creation"/>
+</gmd:dateType>
+</gmd:CI_Date>
+</gmd:date>
+<gmd:identifier>
+<gmd:RS_Identifier>
+<gmd:code>
+<gco:CharacterString>C179003458-ORNL_DAAC</gco:CharacterString>
+</gmd:code>
+</gmd:RS_Identifier>
+</gmd:identifier>
+</gmd:CI_Citation>
+</gmd:citation>
+<gmd:abstract>
+<gco:CharacterString>Contains the Tipping Bucket rain gauge data that was collected by the HYD09 group at various locations.</gco:CharacterString>
+</gmd:abstract>
+<gmd:pointOfContact>
+<gmd:CI_ResponsibleParty>
+<gmd:organisationName>
+<gco:CharacterString>CMR</gco:CharacterString>
+</gmd:organisationName>
+<gmd:contactInfo>
+<gmd:CI_Contact>
+<gmd:address>
+<gmd:CI_Address>
+<gmd:electronicMailAddress>
+<gco:CharacterString>support@echo.nasa.gov</gco:CharacterString>
+</gmd:electronicMailAddress>
+</gmd:CI_Address>
+</gmd:address>
+</gmd:CI_Contact>
+</gmd:contactInfo>
+<gmd:role>
+<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+</gmd:role>
+</gmd:CI_ResponsibleParty>
+</gmd:pointOfContact>
+<gmd:language>
+<gmd:LanguageCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
+</gmd:language>
+<gmd:topicCategory>
+<gmd:MD_TopicCategoryCode>geoscientificInformation</gmd:MD_TopicCategoryCode>
+</gmd:topicCategory>
+<gmd:extent>
+<gmd:EX_Extent>
+<gmd:temporalElement>
+<gmd:EX_TemporalExtent>
+<gmd:extent>
+<gml:TimePeriod gml:id="timeperiod1">
+<gml:beginPosition>1995-01-01T00:00:00.000Z</gml:beginPosition>
+<gml:endPosition>1995-12-31T00:00:00.000Z</gml:endPosition>
+</gml:TimePeriod>
+</gmd:extent>
+</gmd:EX_TemporalExtent>
+</gmd:temporalElement>
+</gmd:EX_Extent>
+</gmd:extent>
+<gmd:extent>
+<gmd:EX_Extent>
+<gmd:geographicElement>
+<gmd:EX_GeographicBoundingBox>
+<gmd:westBoundLongitude>
+<gco:Decimal>-105.14</gco:Decimal>
+</gmd:westBoundLongitude>
+<gmd:eastBoundLongitude>
+<gco:Decimal>-98.34</gco:Decimal>
+</gmd:eastBoundLongitude>
+<gmd:southBoundLatitude>
+<gco:Decimal>53.9</gco:Decimal>
+</gmd:southBoundLatitude>
+<gmd:northBoundLatitude>
+<gco:Decimal>55.93</gco:Decimal>
+</gmd:northBoundLatitude>
+</gmd:EX_GeographicBoundingBox>
+</gmd:geographicElement>
+</gmd:EX_Extent>
+</gmd:extent>
+</gmd:MD_DataIdentification>
+</gmd:identificationInfo>
+</gmi:MI_Metadata>
+</entry>
+<entry>
+<id>http://geo.spacebel.be/opensearch/request/?httpAccept=application/atom%2Bxml&amp;parentIdentifier=EOP%3ANASA%3AECHO&amp;uid=C179003434-ORNL_DAAC&amp;recordSchema=iso</id>
+<link href="http://geo.spacebel.be/opensearch/request/?httpAccept=application/atom%2Bxml&amp;parentIdentifier=EOP%3ANASA%3AECHO&amp;uid=C179003434-ORNL_DAAC&amp;recordSchema=iso" rel="alternate" title="Atom format" type="application/atom+xml"/>
+<link href="http://geo.spacebel.be/opensearch/description.xml?parentIdentifier=EOP:NASA:ECHO:doi:10.3334/ORNLDAAC/233&amp;archivingCenter=ORNL_DAAC" rel="search" type="application/opensearchdescription+xml"/>
+<title>BOREAS 1996 HYD-09 Belfort Rain Gauge Data</title>
+<dc:identifier>C179003434-ORNL_DAAC</dc:identifier>
+<author>
+<name>CMR</name>
+<email>support@echo.nasa.gov</email>
+</author>
+<updated>1999-01-30T00:00:00.000Z</updated>
+<dc:date>1996-01-01T00:00:00.000Z/1996-12-31T00:00:00.000Z</dc:date>
+<summary xmlns:dc="http://purl.org/dc/terms/" xmlns:esipdiscovery="http://commons.esipfed.org/ns/discovery/1.2/" type="text">Contains the Belfort rain gauge data that was collected by the HYD09 group at various locations.</summary>
+<link href="http://daac.ornl.gov/cgi-bin/dsviewer.pl?ds_id=233" rel="enclosure" type="text/html"/>
+<link href="http://gcmd.nasa.gov/getdif.htm?BOREAS_H9RGBL96" rel="enclosure" title="doi:10.3334/ORNLDAAC/233" type="text/html"/>
+<link href="http://daac.ornl.gov/BOREAS/guides/HYD09_BELF_RG.html" rel="describedby" title="Description" type="text/html"/>
+<link href="http://cmr.earthdata.nasa.gov/search/concepts/C179003434-ORNL_DAAC.xml" rel="via" title="Product metadata" type="application/xml"/>
+<georss:box>53.89 -105.04 55.93 -98.34</georss:box>
+<gmi:MI_Metadata xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:ows="http://www.opengis.net/ows/2.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<gmd:fileIdentifier>
+<gco:CharacterString>C179003434-ORNL_DAAC</gco:CharacterString>
+</gmd:fileIdentifier>
+<gmd:language>
+<gmd:LanguageCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
+</gmd:language>
+<gmd:hierarchyLevel>
+<gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_ScopeCode" codeListValue="series">series</gmd:MD_ScopeCode>
+</gmd:hierarchyLevel>
+<gmd:contact>
+<gmd:CI_ResponsibleParty>
+<gmd:organisationName>
+<gco:CharacterString>CMR</gco:CharacterString>
+</gmd:organisationName>
+<gmd:contactInfo>
+<gmd:CI_Contact>
+<gmd:address>
+<gmd:CI_Address>
+<gmd:electronicMailAddress>
+<gco:CharacterString>support@echo.nasa.gov</gco:CharacterString>
+</gmd:electronicMailAddress>
+</gmd:CI_Address>
+</gmd:address>
+</gmd:CI_Contact>
+</gmd:contactInfo>
+<gmd:role>
+<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+</gmd:role>
+</gmd:CI_ResponsibleParty>
+</gmd:contact>
+<gmd:dateStamp>
+<gco:DateTime>1996-01-01T00:00:00.000Z</gco:DateTime>
+</gmd:dateStamp>
+<gmd:metadataStandardName>
+<gco:CharacterString>ISO19115</gco:CharacterString>
+</gmd:metadataStandardName>
+<gmd:metadataStandardVersion>
+<gco:CharacterString>2005/Cor.1:2006</gco:CharacterString>
+</gmd:metadataStandardVersion>
+<gmd:identificationInfo>
+<gmd:MD_DataIdentification>
+<gmd:citation>
+<gmd:CI_Citation>
+<gmd:title>
+<gco:CharacterString>BOREAS 1996 HYD-09 Belfort Rain Gauge Data</gco:CharacterString>
+</gmd:title>
+<gmd:date>
+<gmd:CI_Date>
+<gmd:date>
+<gco:DateTime>1996-01-01T00:00:00.000Z</gco:DateTime>
+</gmd:date>
+<gmd:dateType>
+<gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="creation"/>
+</gmd:dateType>
+</gmd:CI_Date>
+</gmd:date>
+<gmd:identifier>
+<gmd:RS_Identifier>
+<gmd:code>
+<gco:CharacterString>C179003434-ORNL_DAAC</gco:CharacterString>
+</gmd:code>
+</gmd:RS_Identifier>
+</gmd:identifier>
+</gmd:CI_Citation>
+</gmd:citation>
+<gmd:abstract>
+<gco:CharacterString>Contains the Belfort rain gauge data that was collected by the HYD09 group at various locations.</gco:CharacterString>
+</gmd:abstract>
+<gmd:pointOfContact>
+<gmd:CI_ResponsibleParty>
+<gmd:organisationName>
+<gco:CharacterString>CMR</gco:CharacterString>
+</gmd:organisationName>
+<gmd:contactInfo>
+<gmd:CI_Contact>
+<gmd:address>
+<gmd:CI_Address>
+<gmd:electronicMailAddress>
+<gco:CharacterString>support@echo.nasa.gov</gco:CharacterString>
+</gmd:electronicMailAddress>
+</gmd:CI_Address>
+</gmd:address>
+</gmd:CI_Contact>
+</gmd:contactInfo>
+<gmd:role>
+<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+</gmd:role>
+</gmd:CI_ResponsibleParty>
+</gmd:pointOfContact>
+<gmd:language>
+<gmd:LanguageCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
+</gmd:language>
+<gmd:topicCategory>
+<gmd:MD_TopicCategoryCode>geoscientificInformation</gmd:MD_TopicCategoryCode>
+</gmd:topicCategory>
+<gmd:extent>
+<gmd:EX_Extent>
+<gmd:temporalElement>
+<gmd:EX_TemporalExtent>
+<gmd:extent>
+<gml:TimePeriod gml:id="timeperiod1">
+<gml:beginPosition>1996-01-01T00:00:00.000Z</gml:beginPosition>
+<gml:endPosition>1996-12-31T00:00:00.000Z</gml:endPosition>
+</gml:TimePeriod>
+</gmd:extent>
+</gmd:EX_TemporalExtent>
+</gmd:temporalElement>
+</gmd:EX_Extent>
+</gmd:extent>
+<gmd:extent>
+<gmd:EX_Extent>
+<gmd:geographicElement>
+<gmd:EX_GeographicBoundingBox>
+<gmd:westBoundLongitude>
+<gco:Decimal>-105.04</gco:Decimal>
+</gmd:westBoundLongitude>
+<gmd:eastBoundLongitude>
+<gco:Decimal>-98.34</gco:Decimal>
+</gmd:eastBoundLongitude>
+<gmd:southBoundLatitude>
+<gco:Decimal>53.89</gco:Decimal>
+</gmd:southBoundLatitude>
+<gmd:northBoundLatitude>
+<gco:Decimal>55.93</gco:Decimal>
+</gmd:northBoundLatitude>
+</gmd:EX_GeographicBoundingBox>
+</gmd:geographicElement>
+</gmd:EX_Extent>
+</gmd:extent>
+</gmd:MD_DataIdentification>
+</gmd:identificationInfo>
+</gmi:MI_Metadata>
+</entry>
+<entry>
+<id>http://geo.spacebel.be/opensearch/request/?httpAccept=application/atom%2Bxml&amp;parentIdentifier=EOP%3ANASA%3AECHO&amp;uid=C179003371-ORNL_DAAC&amp;recordSchema=iso</id>
+<link href="http://geo.spacebel.be/opensearch/request/?httpAccept=application/atom%2Bxml&amp;parentIdentifier=EOP%3ANASA%3AECHO&amp;uid=C179003371-ORNL_DAAC&amp;recordSchema=iso" rel="alternate" title="Atom format" type="application/atom+xml"/>
+<link href="http://geo.spacebel.be/opensearch/description.xml?parentIdentifier=EOP:NASA:ECHO:doi:10.3334/ORNLDAAC/234&amp;archivingCenter=ORNL_DAAC" rel="search" type="application/opensearchdescription+xml"/>
+<title>BOREAS 1996 HYD-09 Tipping Bucket Rain Data</title>
+<dc:identifier>C179003371-ORNL_DAAC</dc:identifier>
+<author>
+<name>CMR</name>
+<email>support@echo.nasa.gov</email>
+</author>
+<updated>1999-01-30T00:00:00.000Z</updated>
+<dc:date>1996-01-01T00:00:00.000Z/1996-12-31T00:00:00.000Z</dc:date>
+<summary xmlns:dc="http://purl.org/dc/terms/" xmlns:esipdiscovery="http://commons.esipfed.org/ns/discovery/1.2/" type="text">Contains the Tipping Bucket rain gauge data that was collected by the HYD09 group at various locations.</summary>
+<link href="http://daac.ornl.gov/cgi-bin/dsviewer.pl?ds_id=234" rel="enclosure" type="text/html"/>
+<link href="http://gcmd.nasa.gov/getdif.htm?BOREAS_H9RGTB96" rel="enclosure" title="doi:10.3334/ORNLDAAC/234" type="text/html"/>
+<link href="http://daac.ornl.gov/BOREAS/guides/HYD09_TPBK_RG.html" rel="describedby" title="Description" type="text/html"/>
+<link href="http://cmr.earthdata.nasa.gov/search/concepts/C179003371-ORNL_DAAC.xml" rel="via" title="Product metadata" type="application/xml"/>
+<georss:box>53.9 -105.14 55.94 -98.34</georss:box>
+<gmi:MI_Metadata xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:ows="http://www.opengis.net/ows/2.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<gmd:fileIdentifier>
+<gco:CharacterString>C179003371-ORNL_DAAC</gco:CharacterString>
+</gmd:fileIdentifier>
+<gmd:language>
+<gmd:LanguageCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
+</gmd:language>
+<gmd:hierarchyLevel>
+<gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_ScopeCode" codeListValue="series">series</gmd:MD_ScopeCode>
+</gmd:hierarchyLevel>
+<gmd:contact>
+<gmd:CI_ResponsibleParty>
+<gmd:organisationName>
+<gco:CharacterString>CMR</gco:CharacterString>
+</gmd:organisationName>
+<gmd:contactInfo>
+<gmd:CI_Contact>
+<gmd:address>
+<gmd:CI_Address>
+<gmd:electronicMailAddress>
+<gco:CharacterString>support@echo.nasa.gov</gco:CharacterString>
+</gmd:electronicMailAddress>
+</gmd:CI_Address>
+</gmd:address>
+</gmd:CI_Contact>
+</gmd:contactInfo>
+<gmd:role>
+<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+</gmd:role>
+</gmd:CI_ResponsibleParty>
+</gmd:contact>
+<gmd:dateStamp>
+<gco:DateTime>1996-01-01T00:00:00.000Z</gco:DateTime>
+</gmd:dateStamp>
+<gmd:metadataStandardName>
+<gco:CharacterString>ISO19115</gco:CharacterString>
+</gmd:metadataStandardName>
+<gmd:metadataStandardVersion>
+<gco:CharacterString>2005/Cor.1:2006</gco:CharacterString>
+</gmd:metadataStandardVersion>
+<gmd:identificationInfo>
+<gmd:MD_DataIdentification>
+<gmd:citation>
+<gmd:CI_Citation>
+<gmd:title>
+<gco:CharacterString>BOREAS 1996 HYD-09 Tipping Bucket Rain Data</gco:CharacterString>
+</gmd:title>
+<gmd:date>
+<gmd:CI_Date>
+<gmd:date>
+<gco:DateTime>1996-01-01T00:00:00.000Z</gco:DateTime>
+</gmd:date>
+<gmd:dateType>
+<gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="creation"/>
+</gmd:dateType>
+</gmd:CI_Date>
+</gmd:date>
+<gmd:identifier>
+<gmd:RS_Identifier>
+<gmd:code>
+<gco:CharacterString>C179003371-ORNL_DAAC</gco:CharacterString>
+</gmd:code>
+</gmd:RS_Identifier>
+</gmd:identifier>
+</gmd:CI_Citation>
+</gmd:citation>
+<gmd:abstract>
+<gco:CharacterString>Contains the Tipping Bucket rain gauge data that was collected by the HYD09 group at various locations.</gco:CharacterString>
+</gmd:abstract>
+<gmd:pointOfContact>
+<gmd:CI_ResponsibleParty>
+<gmd:organisationName>
+<gco:CharacterString>CMR</gco:CharacterString>
+</gmd:organisationName>
+<gmd:contactInfo>
+<gmd:CI_Contact>
+<gmd:address>
+<gmd:CI_Address>
+<gmd:electronicMailAddress>
+<gco:CharacterString>support@echo.nasa.gov</gco:CharacterString>
+</gmd:electronicMailAddress>
+</gmd:CI_Address>
+</gmd:address>
+</gmd:CI_Contact>
+</gmd:contactInfo>
+<gmd:role>
+<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+</gmd:role>
+</gmd:CI_ResponsibleParty>
+</gmd:pointOfContact>
+<gmd:language>
+<gmd:LanguageCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
+</gmd:language>
+<gmd:topicCategory>
+<gmd:MD_TopicCategoryCode>geoscientificInformation</gmd:MD_TopicCategoryCode>
+</gmd:topicCategory>
+<gmd:extent>
+<gmd:EX_Extent>
+<gmd:temporalElement>
+<gmd:EX_TemporalExtent>
+<gmd:extent>
+<gml:TimePeriod gml:id="timeperiod1">
+<gml:beginPosition>1996-01-01T00:00:00.000Z</gml:beginPosition>
+<gml:endPosition>1996-12-31T00:00:00.000Z</gml:endPosition>
+</gml:TimePeriod>
+</gmd:extent>
+</gmd:EX_TemporalExtent>
+</gmd:temporalElement>
+</gmd:EX_Extent>
+</gmd:extent>
+<gmd:extent>
+<gmd:EX_Extent>
+<gmd:geographicElement>
+<gmd:EX_GeographicBoundingBox>
+<gmd:westBoundLongitude>
+<gco:Decimal>-105.14</gco:Decimal>
+</gmd:westBoundLongitude>
+<gmd:eastBoundLongitude>
+<gco:Decimal>-98.34</gco:Decimal>
+</gmd:eastBoundLongitude>
+<gmd:southBoundLatitude>
+<gco:Decimal>53.9</gco:Decimal>
+</gmd:southBoundLatitude>
+<gmd:northBoundLatitude>
+<gco:Decimal>55.94</gco:Decimal>
+</gmd:northBoundLatitude>
+</gmd:EX_GeographicBoundingBox>
+</gmd:geographicElement>
+</gmd:EX_Extent>
+</gmd:extent>
+</gmd:MD_DataIdentification>
+</gmd:identificationInfo>
+</gmi:MI_Metadata>
+</entry>
+</feed>

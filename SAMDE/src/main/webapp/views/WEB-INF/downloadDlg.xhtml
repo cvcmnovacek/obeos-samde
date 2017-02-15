@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<!-- Copyright (C) 2017 Siemens Convergence Creators, Prague (CZ) -->
+<!-- Licensed under the OBEOS SAMDE License, see LICENSE.txt      -->
+
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui"
+	xmlns:ui="http://java.sun.com/jsf/facelets">
+
+	<p:dialog header="Download file selection" widgetVar="downloadDlg"
+		minHeight="60">
+
+				<h:form id="downloadForm">
+					<p:dataList id="downloadList"
+						value="#{multipleFileEditingBean.downloadLinkMap.entrySet()}" var="entry"
+						type="ordered">
+						<f:facet name="header"> Metadata containers </f:facet>
+
+						<h:outputLink target="_blank" value="#{entry.value}">
+							<h:outputText value="#{entry.key}" />
+						</h:outputLink>
+					</p:dataList>
+					<p:commandButton value="Close" onclick="PF('downloadDlg').hide();"/>
+				</h:form>
+
+	</p:dialog>
+</ui:composition>

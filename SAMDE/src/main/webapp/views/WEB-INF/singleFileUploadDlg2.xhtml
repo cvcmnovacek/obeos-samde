@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<!-- Copyright (C) 2017 Siemens Convergence Creators, Prague (CZ) -->
+<!-- Licensed under the OBEOS SAMDE License, see LICENSE.txt      -->
+
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui"
+	xmlns:ui="http://java.sun.com/jsf/facelets">
+	<p:dialog widgetVar="genUplDlg" header="Fragment to insert">
+		<h:form enctype="multipart/form-data">
+
+			<p:fileUpload mode="simple" multiple="false"
+				value="#{fileUploadBean.singleFile}"
+				oncomplete="PF('genUplDlg').hide();" />
+			<p:commandButton value="Upload" ajax="false" update="#{p:component('textarea')}" action="#{textViewBean.loadText}">
+				<f:setPropertyActionListener value="#{fileUploadBean.singleFile}"
+					target="#{textViewBean.file}" />
+			</p:commandButton>
+			</h:form>
+			<h:form>
+		</h:form>
+	</p:dialog>
+</ui:composition>

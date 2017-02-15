@@ -1,0 +1,33 @@
+<!-- Copyright (C) 2017 Siemens Convergence Creators, Prague (CZ) -->
+<!-- Licensed under the OBEOS SAMDE License, see LICENSE.txt      -->
+
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui"
+	xmlns:ui="http://java.sun.com/jsf/facelets">
+
+	<p:dialog header="Select building blocks to download" widgetVar="downloadBuildingBlocksDlg"
+		minHeight="60">
+
+				<h:form id="downloadBuildingBlocksForm">
+					<p:dataList id="downloadBBList"
+						value="#{buildingBlockCollectionBean.buildingBlocks.entrySet()}" var="entry"
+						type="ordered">
+						<f:facet name="header"> Building blocks to download </f:facet>
+
+						<h:outputLink target="_blank" 
+						value="http://localhost:8080/SAMDE-0.1.0/rest/mde/downloadBuildingBlock/#{entry.key}">
+							<h:outputText value="#{entry.key}" />
+						</h:outputLink>
+					</p:dataList>
+					<br/>
+						<h:outputLink target="_blank" value="http://localhost:8080/SAMDE-0.1.0/rest/mde/downloadBuildingBlocks">
+							<h:outputText value="Download all in collection" />
+						</h:outputLink>
+					<br/>
+					<p:commandButton value="Close" onclick="PF('downloadBuildingBlocksDlg').hide();"/>
+				</h:form>
+
+	</p:dialog>
+</ui:composition>

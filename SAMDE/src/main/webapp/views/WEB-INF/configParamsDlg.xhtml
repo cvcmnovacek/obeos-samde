@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<!-- Copyright (C) 2017 Siemens Convergence Creators, Prague (CZ) -->
+<!-- Licensed under the OBEOS SAMDE License, see LICENSE.txt      -->
+
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui"
+	xmlns:ui="http://java.sun.com/jsf/facelets">
+
+	<p:dialog header="Settings" widgetVar="configParamsDlg" minHeight="60">
+
+		<ui:insert name="configuration">
+			<ui:include src="../templates/configParams.xhtml" />
+		</ui:insert>
+
+	</p:dialog>
+</ui:composition>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!-- Copyright (C) 2017 Siemens Convergence Creators, Prague (CZ) -->
+<!-- Licensed under the OBEOS SAMDE License, see LICENSE.txt      -->
+
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui"
+	xmlns:ui="http://java.sun.com/jsf/facelets">
+
+	<p:dialog header="Select base name for new metadata file series"
+		id="pfNamingNewFileDlg" widgetVar="namingNewFileDlg" minHeight="60">
+		<p:messages autoUpdate="true" rendered="true" />
+		<h:form>
+		
+		<p:remoteCommand name="buildTree" update="#{p:component('uitree')}" actionListener="#{treeBean.buildTree}"/>
+		
+			<p:outputLabel for="givenBaseName" value="Base name of new file(s):" />
+			<p:inputText id="givenBaseName"
+				value="#{fileCreatorBean.givenFileName}" />
+			<h:outputLabel for="nmbr" value="Number of files to generate: " />
+			<p:spinner id="nmbr" value="#{fileCreatorBean.numberToGenerate}" />
+			<br />
+			<p:commandButton value="Create File(s)"
+				actionListener="#{fileCreatorBean.createFileSeries}"
+				action="#{multipleFileEditingBean.getVisualFileFromMaster}"
+				update="#{p:component('filelist')}"
+				oncomplete="PF('namingNewFileDlg').hide();buildTree();" />
+			<br />
+			<p:panelGrid columns="2">
+				<p:outputLabel for="dispNewFile" value="display new file" />
+				
+				<p:selectBooleanCheckbox id="dispNewFile"
+					value="#{fileCreatorBean.newFileAsDisplay}" />
+			</p:panelGrid>
+		</h:form>
+	</p:dialog>
+</ui:composition>

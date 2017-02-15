@@ -1,0 +1,4279 @@
+<?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:eo="http://a9.com/-/opensearch/extensions/eo/1.0/" xmlns:geo="http://a9.com/-/opensearch/extensions/geo/1.0/" xmlns:georss="http://www.georss.org/georss" xmlns:gml="http://www.opengis.net/gml" xmlns:os="http://a9.com/-/spec/opensearch/1.1/" xmlns:semantic="http://a9.com/-/opensearch/extensions/semantic/1.0/" xmlns:sru="http://a9.com/-/opensearch/extensions/sru/2.0/" xmlns:time="http://a9.com/-/opensearch/extensions/time/1.0/" xmlns:urlencoder="java.net.URLEncoder" xmlns:wrs="http://www.opengis.net/cat/wrs/1.0" xmlns:xlink="http://www.w3.org/1999/xlink">
+<os:totalResults>5</os:totalResults>
+<os:startIndex>1</os:startIndex>
+<os:itemsPerPage>10</os:itemsPerPage>
+<os:Query count="10" dc:publisher="VITO" dc:type="collection" eo:parentIdentifier="EOP:ESA:FEDEO:COLLECTIONS" role="request" sru:recordSchema="iso" startIndex="1"/>
+<author>
+<name>FEDEO Clearinghouse</name>
+</author>
+<generator>FEDEO Clearinghouse</generator>
+<id>http://geo.spacebel.be/opensearch/request/?httpAccept=application/atom%2Bxml&amp;parentIdentifier=EOP:ESA:FEDEO:COLLECTIONS&amp;type=collection&amp;publisher=VITO&amp;recordSchema=iso</id>
+<dc:identifier>EOP:ESA:FEDEO:COLLECTIONS</dc:identifier>
+<title>FEDEO Clearinghouse - Search Response</title>
+<updated>2015-12-10T10:42:53Z</updated>
+<link href="http://geo.spacebel.be/opensearch/request/?httpAccept=application/atom%2Bxml&amp;parentIdentifier=EOP:ESA:FEDEO:COLLECTIONS&amp;type=collection&amp;publisher=VITO&amp;recordSchema=iso" rel="self" type="application/atom+xml"/>
+<link href="http://geo.spacebel.be/opensearch/request/?httpAccept=application/atom%2Bxml&amp;parentIdentifier=EOP:ESA:FEDEO:COLLECTIONS&amp;type=collection&amp;publisher=VITO&amp;recordSchema=iso&amp;startRecord=1" rel="first" type="application/atom+xml"/>
+<link href="http://geo.spacebel.be/opensearch/request/?httpAccept=application/atom%2Bxml&amp;parentIdentifier=EOP:ESA:FEDEO:COLLECTIONS&amp;type=collection&amp;publisher=VITO&amp;recordSchema=iso&amp;startRecord=1" rel="last" type="application/atom+xml"/>
+<link href="http://geo.spacebel.be/opensearch/description.xml" rel="search" type="application/opensearchdescription+xml"/>
+<entry xml:lang="en-US">
+<id>http://geo.spacebel.be/opensearch/request/?httpAccept=application/atom%2Bxml&amp;parentIdentifier=EOP:ESA:FEDEO:COLLECTIONS&amp;type=collection&amp;publisher=VITO&amp;recordSchema=iso&amp;uid=575240da-5fbe-486e-bf69-80655d059ff4</id>
+<title>Global 10 Days Synthesis of ENVISAT MERIS Images (EM10)</title>
+<dc:identifier>575240da-5fbe-486e-bf69-80655d059ff4</dc:identifier>
+<updated>2015-12-10T10:42:53Z</updated>
+<dc:date>2003-01-01T00:00:00/2012-03-31T23:59:59</dc:date>
+<georss:polygon>-56.0 -180.0 75.0 -180.0 75.0 180.0 -56.0 180.0 -56.0 -180.0</georss:polygon>
+<category label="FedEO" term="FedEO"/>
+<category label="Orthoimagery" term="Orthoimagery"/>
+<category label="geophysical environment" term="geophysical environment"/>
+<category label="ENVISAT" term="ENVISAT"/>
+<category label="MERIS" term="MERIS"/>
+<category label="NDVI" term="NDVI"/>
+<category label="FAPAR" term="FAPAR"/>
+<category label="Global land monitoring" term="Global land monitoring"/>
+<category label="agronomy" term="agronomy"/>
+<category label="environment" term="environment"/>
+<category label="climate change" term="climate change"/>
+<category label="AMs" term="AMs"/>
+<category label="Dekad" term="Dekad"/>
+<category label="10-day composite" term="10-day composite"/>
+<summary type="html"><![CDATA[
+<table xmlns="">
+<tr valign="top">
+<td>
+<b>Title </b>
+</td>
+<td>Global 10 Days Synthesis of ENVISAT MERIS Images (EM10)</td>
+</tr>
+<tr valign="top">
+<td>
+<b>Description </b>
+</td>
+<td>The ENVISAT MERIS S10 or "EM10" are near-global, 10-daily, maximum value composite images of the Fraction of Absorbed Photosyntheticly Active Radiation (fAPAR) and Normalized Difference Vegetation Index (NDVI), taken from ENVISAT MERIS Level 2 Reduces Resolution data (last available processing IPF 6.04, see http://earth.eo.esa.int/pcs/envisat/meris/documentation/MERIS_IPF_evolution.pdf). In particular, the standard FAPAR band and rectified Near-infrared and Red reflectance bands are used and filtered, using the L2 flags and a static mask, and mosaiced onto a grid of 112 pixels per degree, for easier comparison of SPOT-VEGETATION and MetOp-S10.</td>
+</tr>
+<tr valign="top">
+<td>
+<b>Type </b>
+</td>
+<td>Collection</td>
+</tr>
+<tr valign="top">
+<td>
+<b>Date </b>
+</td>
+<td>2003-01-01T00:00:00/2012-03-31T23:59:59</td>
+</tr>
+<td>
+<b>Media Type</b>
+</td>
+<td>
+<a href="http://geo.spacebel.be/opensearch/request?httpAccept=application/atom%2Bxml&amp;startRecord=1&amp;parentIdentifier=EOP:ESA:FEDEO:COLLECTIONS&amp;uid=575240da-5fbe-486e-bf69-80655d059ff4&amp;recordSchema=iso" title="ATOM format">ATOM</a>   |   <a href="http://geo.spacebel.be/opensearch/request?httpAccept=application/sru%2Bxml&amp;startRecord=1&amp;parentIdentifier=EOP:ESA:FEDEO:COLLECTIONS&amp;uid=575240da-5fbe-486e-bf69-80655d059ff4&amp;recordSchema=iso" title="SRU format">SRU</a>
+</td>
+<tr valign="top">
+<td>
+<b>Metadata </b>
+</td>
+<td>
+<a href="http://hma-se-services.spacebel.be:8080/i15/httpservice?request=GetRepositoryItem&amp;service=CSW-ebRIM&amp;Id=urn%3ACIM%3A575240da-5fbe-486e-bf69-80655d059ff4%3AResourceMetadata" title="ISO format">ISO</a>
+</td>
+</tr>
+</table>]]></summary>
+<link href="http://geo.spacebel.be/opensearch/request?httpAccept=application/atom%2Bxml&amp;startRecord=1&amp;parentIdentifier=EOP:ESA:FEDEO:COLLECTIONS&amp;uid=575240da-5fbe-486e-bf69-80655d059ff4&amp;recordSchema=iso" rel="alternate" title="Atom format" type="application/atom+xml"/>
+<link href="http://geo.spacebel.be/opensearch/description.xml?parentIdentifier=575240da-5fbe-486e-bf69-80655d059ff4" rel="search" type="application/opensearchdescription+xml"/>
+<gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<gmd:fileIdentifier>
+		<gco:CharacterString>575240da-5fbe-486e-bf69-80655d059ff4</gco:CharacterString>
+	</gmd:fileIdentifier>
+	<gmd:language>
+		<gco:CharacterString>eng</gco:CharacterString>
+	</gmd:language>
+	<gmd:characterSet>
+		<gmd:MD_CharacterSetCode codeList="MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
+	</gmd:characterSet>
+	<gmd:hierarchyLevel>
+		<gmd:MD_ScopeCode codeList="MD_ScopeCode" codeListValue="series">series</gmd:MD_ScopeCode>
+	</gmd:hierarchyLevel>
+	<gmd:hierarchyLevelName>
+		<gco:CharacterString>Spaceborne Level 1-3 Imagery</gco:CharacterString>
+	</gmd:hierarchyLevelName>
+	<gmd:contact>
+		<gmd:CI_ResponsibleParty>
+			<gmd:individualName>
+				<gco:CharacterString>CVB (Image Processing Centre for SPOT-VGT)</gco:CharacterString>
+			</gmd:individualName>
+			<gmd:organisationName>
+				<gco:CharacterString>VITO (Flemish Institute for Technological Research)</gco:CharacterString>
+			</gmd:organisationName>
+			<gmd:contactInfo>
+				<gmd:CI_Contact>
+					<gmd:phone>
+						<gmd:CI_Telephone>
+							<gmd:voice>
+								<gco:CharacterString>+32 14 33 68 14</gco:CharacterString>
+							</gmd:voice>
+							<gmd:facsimile>
+								<gco:CharacterString>+32 14 32 27 95</gco:CharacterString>
+							</gmd:facsimile>
+						</gmd:CI_Telephone>
+					</gmd:phone>
+					<gmd:address>
+						<gmd:CI_Address>
+							<gmd:deliveryPoint>
+								<gco:CharacterString>Boeretang 200</gco:CharacterString>
+							</gmd:deliveryPoint>
+							<gmd:city>
+								<gco:CharacterString>Mol</gco:CharacterString>
+							</gmd:city>
+							<gmd:postalCode>
+								<gco:CharacterString>B-2400</gco:CharacterString>
+							</gmd:postalCode>
+							<gmd:country>
+								<gco:CharacterString>Belgium</gco:CharacterString>
+							</gmd:country>
+							<gmd:electronicMailAddress>
+								<gco:CharacterString>helpdesk@vgt.vito.be</gco:CharacterString>
+							</gmd:electronicMailAddress>
+						</gmd:CI_Address>
+					</gmd:address>
+					<gmd:onlineResource>
+						<gmd:CI_OnlineResource>
+							<gmd:linkage>
+								<gmd:URL>http://www.vgt.vito.be</gmd:URL>
+							</gmd:linkage>
+							<gmd:function>
+								<gmd:CI_OnLineFunctionCode codeList="CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+							</gmd:function>
+						</gmd:CI_OnlineResource>
+					</gmd:onlineResource>
+					<gmd:hoursOfService>
+						<gco:CharacterString>Office hours, 7 days per week</gco:CharacterString>
+					</gmd:hoursOfService>
+					<gmd:contactInstructions>
+						<gco:CharacterString>Preferably by e-mail</gco:CharacterString>
+					</gmd:contactInstructions>
+				</gmd:CI_Contact>
+			</gmd:contactInfo>
+			<gmd:role>
+				<gmd:CI_RoleCode codeList="CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+			</gmd:role>
+		</gmd:CI_ResponsibleParty>
+	</gmd:contact>
+	<gmd:dateStamp>
+		<gco:DateTime>2012-11-08T11:37:54</gco:DateTime>
+	</gmd:dateStamp>
+	<gmd:metadataStandardName>
+		<gco:CharacterString>ISO19115</gco:CharacterString>
+	</gmd:metadataStandardName>
+	<gmd:metadataStandardVersion>
+		<gco:CharacterString>2003/Cor.1:2006</gco:CharacterString>
+	</gmd:metadataStandardVersion>
+	<gmd:spatialRepresentationInfo>
+		<gmd:MD_Georectified>
+			<gmd:axisDimensionProperties>
+				<gmd:MD_Dimension>
+					<gmd:dimensionName>
+						<gmd:MD_DimensionNameTypeCode codeList="MD_DimensionNameTypeCode" codeListValue="row">row</gmd:MD_DimensionNameTypeCode>
+					</gmd:dimensionName>
+					<gmd:dimensionSize>
+						<gco:Integer>14673</gco:Integer>
+					</gmd:dimensionSize>
+				</gmd:MD_Dimension>
+			</gmd:axisDimensionProperties>
+			<gmd:axisDimensionProperties>
+				<gmd:MD_Dimension>
+					<gmd:dimensionName>
+						<gmd:MD_DimensionNameTypeCode codeList="MD_DimensionNameTypeCode" codeListValue="column">column</gmd:MD_DimensionNameTypeCode>
+					</gmd:dimensionName>
+					<gmd:dimensionSize>
+						<gco:Integer>40320</gco:Integer>
+					</gmd:dimensionSize>
+				</gmd:MD_Dimension>
+			</gmd:axisDimensionProperties>
+		</gmd:MD_Georectified>
+	</gmd:spatialRepresentationInfo>
+	<gmd:spatialRepresentationInfo>
+		<gmd:MD_Georectified>
+			<gmd:checkPointDescription>
+				<gco:CharacterString>Location accuracy is monitored using approximately 20 sites spread over the world. Each site contains about 50 geographic position points to check the accuracy of the georeferenced grid data.</gco:CharacterString>
+			</gmd:checkPointDescription>
+		</gmd:MD_Georectified>
+	</gmd:spatialRepresentationInfo>
+	<gmd:referenceSystemInfo>
+		<gmd:MD_ReferenceSystem>
+			<gmd:referenceSystemIdentifier>
+				<gmd:RS_Identifier>
+					<gmd:code>
+						<gco:CharacterString>EPSG:32662</gco:CharacterString>
+					</gmd:code>
+					<gmd:codeSpace>
+						<gco:CharacterString>Unprojected Geographic Lon/Lat</gco:CharacterString>
+					</gmd:codeSpace>
+				</gmd:RS_Identifier>
+			</gmd:referenceSystemIdentifier>
+		</gmd:MD_ReferenceSystem>
+		<gmd:MD_ReferenceSystem>
+			<gmd:referenceSystemIdentifier>
+				<gmd:RS_Identifier>
+					<gmd:code>
+						<gco:CharacterString>WGS84</gco:CharacterString>
+					</gmd:code>
+					<gmd:codeSpace>
+						<gco:CharacterString>World Geodetic System</gco:CharacterString>
+					</gmd:codeSpace>
+				</gmd:RS_Identifier>
+			</gmd:referenceSystemIdentifier>
+		</gmd:MD_ReferenceSystem>
+	</gmd:referenceSystemInfo>
+	<gmd:identificationInfo>
+		<gmd:MD_DataIdentification uuid="575240da-5fbe-486e-bf69-80655d059ff4">
+			<gmd:citation>
+				<gmd:CI_Citation>
+					<gmd:title>
+						<gco:CharacterString>Global 10 Days Synthesis of ENVISAT MERIS Images (EM10)</gco:CharacterString>
+					</gmd:title>
+					<gmd:edition>
+						<gco:CharacterString>1</gco:CharacterString>
+					</gmd:edition>
+					<gmd:editionDate>
+						<gco:Date>2012-08-01</gco:Date>
+					</gmd:editionDate>
+					<gmd:identifier>
+						<gmd:MD_Identifier>
+							<gmd:code>
+								<gco:CharacterString>575240da-5fbe-486e-bf69-80655d059ff4</gco:CharacterString>
+							</gmd:code>
+						</gmd:MD_Identifier>
+					</gmd:identifier>
+				</gmd:CI_Citation>
+			</gmd:citation>
+			<gmd:abstract>
+				<gco:CharacterString>The ENVISAT MERIS S10 or "EM10" are near-global, 10-daily, maximum value composite images of the Fraction of Absorbed Photosyntheticly Active Radiation (fAPAR) and Normalized Difference Vegetation Index (NDVI), taken from ENVISAT MERIS Level 2 Reduces Resolution data (last available processing IPF 6.04, see http://earth.eo.esa.int/pcs/envisat/meris/documentation/MERIS_IPF_evolution.pdf). In particular, the standard FAPAR band and rectified Near-infrared and Red reflectance bands are used and filtered, using the L2 flags and a static mask, and mosaiced onto a grid of 112 pixels per degree, for easier comparison of SPOT-VEGETATION and MetOp-S10.</gco:CharacterString>
+			</gmd:abstract>
+			<gmd:purpose>
+				<gco:CharacterString>Monitoring of terrestrial surfaces, ecosystems mapping, biomass estimation, environment monitoring</gco:CharacterString>
+			</gmd:purpose>
+			<gmd:status>
+				<gmd:MD_ProgressCode codeList="MD_ProgressCode" codeListValue="completed">completed</gmd:MD_ProgressCode>
+			</gmd:status>
+			<gmd:pointOfContact>
+				<gmd:CI_ResponsibleParty>
+					<gmd:individualName>
+						<gco:CharacterString>CVB (Image Processing Centre for SPOT-VGT)</gco:CharacterString>
+					</gmd:individualName>
+					<gmd:organisationName>
+						<gco:CharacterString>VITO (Flemish Institute for Technological Research)</gco:CharacterString>
+					</gmd:organisationName>
+					<gmd:contactInfo>
+						<gmd:CI_Contact>
+							<gmd:phone>
+								<gmd:CI_Telephone>
+									<gmd:voice>
+										<gco:CharacterString>+32 14 33 68 14</gco:CharacterString>
+									</gmd:voice>
+									<gmd:facsimile>
+										<gco:CharacterString>+32 14 32 27 95</gco:CharacterString>
+									</gmd:facsimile>
+								</gmd:CI_Telephone>
+							</gmd:phone>
+							<gmd:address>
+								<gmd:CI_Address>
+									<gmd:deliveryPoint>
+										<gco:CharacterString>Boeretang 200</gco:CharacterString>
+									</gmd:deliveryPoint>
+									<gmd:city>
+										<gco:CharacterString>Mol</gco:CharacterString>
+									</gmd:city>
+									<gmd:postalCode>
+										<gco:CharacterString>B-2400</gco:CharacterString>
+									</gmd:postalCode>
+									<gmd:country>
+										<gco:CharacterString>Belgium</gco:CharacterString>
+									</gmd:country>
+									<gmd:electronicMailAddress>
+										<gco:CharacterString>ctiv@vgt.vito.be</gco:CharacterString>
+									</gmd:electronicMailAddress>
+								</gmd:CI_Address>
+							</gmd:address>
+							<gmd:onlineResource>
+								<gmd:CI_OnlineResource>
+									<gmd:linkage>
+										<gmd:URL>http://www.vgt.vito.be</gmd:URL>
+									</gmd:linkage>
+									<gmd:function>
+										<gmd:CI_OnLineFunctionCode codeList="CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+									</gmd:function>
+								</gmd:CI_OnlineResource>
+							</gmd:onlineResource>
+							<gmd:hoursOfService>
+								<gco:CharacterString>Office hours, 7 days per week</gco:CharacterString>
+							</gmd:hoursOfService>
+							<gmd:contactInstructions>
+								<gco:CharacterString>Preferably by e-mail</gco:CharacterString>
+							</gmd:contactInstructions>
+						</gmd:CI_Contact>
+					</gmd:contactInfo>
+					<gmd:role>
+						<gmd:CI_RoleCode codeList="CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+					</gmd:role>
+				</gmd:CI_ResponsibleParty>
+			</gmd:pointOfContact>
+			<gmd:resourceMaintenance>
+				<gmd:MD_MaintenanceInformation>
+					<gmd:maintenanceAndUpdateFrequency>
+						<gmd:MD_MaintenanceFrequencyCode codeList="MD_MaintenanceFrequencyCode" codeListValue="asNeeded">asNeeded</gmd:MD_MaintenanceFrequencyCode>
+					</gmd:maintenanceAndUpdateFrequency>
+					<gmd:maintenanceNote>
+						<gco:CharacterString>none</gco:CharacterString>
+					</gmd:maintenanceNote>
+				</gmd:MD_MaintenanceInformation>
+			</gmd:resourceMaintenance>
+			<gmd:graphicOverview>
+				<gmd:MD_BrowseGraphic>
+					<gmd:fileName>
+						<gco:CharacterString>http://meriss10.vgt.vito.be/sites/default/files/pictures/MERIS_QL_20080711.jpg</gco:CharacterString>
+					</gmd:fileName>
+				</gmd:MD_BrowseGraphic>
+			</gmd:graphicOverview>
+			<gmd:resourceFormat>
+				<gmd:MD_Format>
+					<gmd:name>
+						<gco:CharacterString>IMG</gco:CharacterString>
+					</gmd:name>
+					<gmd:version>
+						<gco:CharacterString/>
+					</gmd:version>
+					<gmd:specification>
+						<gco:CharacterString>Flat binary</gco:CharacterString>
+					</gmd:specification>
+				</gmd:MD_Format>
+			</gmd:resourceFormat>
+			<gmd:descriptiveKeywords>
+				<gmd:MD_Keywords>
+					<gmd:keyword>
+						<gco:CharacterString>FedEO</gco:CharacterString>
+					</gmd:keyword>	
+				</gmd:MD_Keywords>	
+			</gmd:descriptiveKeywords>
+			<gmd:descriptiveKeywords>
+				<gmd:MD_Keywords>
+					<gmd:keyword>
+						<gco:CharacterString>Orthoimagery</gco:CharacterString>
+					</gmd:keyword>
+					<gmd:type>
+						<gmd:MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+					</gmd:type>
+					<gmd:thesaurusName>
+						<gmd:CI_Citation>
+							<gmd:title>
+								<gco:CharacterString>GEMET - INSPIRE themes, version 1.0</gco:CharacterString>
+							</gmd:title>
+							<gmd:date>
+								<gmd:CI_Date>
+									<gmd:date>
+										<gco:Date>2008-06-01</gco:Date>
+									</gmd:date>
+									<gmd:dateType>
+										<gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+									</gmd:dateType>
+								</gmd:CI_Date>
+							</gmd:date>
+						</gmd:CI_Citation>
+					</gmd:thesaurusName>
+				</gmd:MD_Keywords>
+			</gmd:descriptiveKeywords>
+			<gmd:descriptiveKeywords>
+				<gmd:MD_Keywords>
+					<gmd:keyword>
+						<gco:CharacterString>geophysical environment</gco:CharacterString>
+					</gmd:keyword>
+					<gmd:thesaurusName>
+						<gmd:CI_Citation>
+							<gmd:title>
+								<gco:CharacterString>GEMET - Concepts, version 2.1</gco:CharacterString>
+							</gmd:title>
+							<gmd:date>
+								<gmd:CI_Date>
+									<gmd:date>
+										<gco:Date>2008-06-13</gco:Date>
+									</gmd:date>
+									<gmd:dateType>
+										<gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+									</gmd:dateType>
+								</gmd:CI_Date>
+							</gmd:date>
+						</gmd:CI_Citation>
+					</gmd:thesaurusName>
+				</gmd:MD_Keywords>
+			</gmd:descriptiveKeywords>
+			<gmd:descriptiveKeywords>
+				<gmd:MD_Keywords>
+					<gmd:keyword>
+						<gco:CharacterString>ENVISAT</gco:CharacterString>
+					</gmd:keyword>
+					<gmd:keyword>
+						<gco:CharacterString>MERIS</gco:CharacterString>
+					</gmd:keyword>
+					<gmd:keyword>
+						<gco:CharacterString>NDVI</gco:CharacterString>
+					</gmd:keyword>
+					<gmd:keyword>
+						<gco:CharacterString>FAPAR</gco:CharacterString>
+					</gmd:keyword>
+					<gmd:keyword>
+						<gco:CharacterString>Global land monitoring</gco:CharacterString>
+					</gmd:keyword>
+					<gmd:keyword>
+						<gco:CharacterString>agronomy</gco:CharacterString>
+					</gmd:keyword>
+					<gmd:keyword>
+						<gco:CharacterString>environment</gco:CharacterString>
+					</gmd:keyword>
+					<gmd:keyword>
+						<gco:CharacterString>climate change</gco:CharacterString>
+					</gmd:keyword>
+					<gmd:type>
+						<gmd:MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+					</gmd:type>
+				</gmd:MD_Keywords>
+			</gmd:descriptiveKeywords>
+			<gmd:descriptiveKeywords>
+				<gmd:MD_Keywords>
+					<gmd:keyword>
+						<gco:CharacterString>AMs</gco:CharacterString>
+					</gmd:keyword>
+					<gmd:type>
+						<gmd:MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="place">place</gmd:MD_KeywordTypeCode>
+					</gmd:type>
+				</gmd:MD_Keywords>
+			</gmd:descriptiveKeywords>
+			<gmd:descriptiveKeywords>
+				<gmd:MD_Keywords>
+					<gmd:keyword>
+						<gco:CharacterString>Dekad</gco:CharacterString>
+					</gmd:keyword>
+					<gmd:keyword>
+						<gco:CharacterString>10-day composite</gco:CharacterString>
+					</gmd:keyword>
+					<gmd:type>
+						<gmd:MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="temporal">temporal</gmd:MD_KeywordTypeCode>
+					</gmd:type>
+				</gmd:MD_Keywords>
+			</gmd:descriptiveKeywords>
+			<gmd:resourceConstraints>
+				<gmd:MD_Constraints>
+					<gmd:useLimitation>
+						<gco:CharacterString>No limitation of use, but when the EM10 data are used for reports, publications or similar, please mention the reference: "by courtesy of the CVB project, produced by VITO" and inform us (helpdesk@vgt.vito.be) for which purpose they are used.</gco:CharacterString>
+					</gmd:useLimitation>
+				</gmd:MD_Constraints>
+			</gmd:resourceConstraints>
+			<gmd:resourceConstraints>
+				<gmd:MD_LegalConstraints>
+					<gmd:useConstraints>
+						<gmd:MD_RestrictionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_RestrictionCode" codeListValue="copyright">Copyright by VITO - Flemish Institute for Technological Research. The product may be reproduced in any form for educational, promotional or non-profit purposes, without the special permission from the copyright holder, provided that acknowledgement of VITO is made and that the "VITO Copyright" is displayed.</gmd:MD_RestrictionCode>
+					</gmd:useConstraints>
+				</gmd:MD_LegalConstraints>
+			</gmd:resourceConstraints>
+			<gmd:aggregationInfo>
+				<gmd:MD_AggregateInformation>
+					<gmd:associationType>
+						<gmd:DS_AssociationTypeCode codeList="http://www.isotc211.org/2005/resources/codelist/gmxCodelists.xml#DS_AssociationTypeCode" codeListValue="partOfSeamlessDatabase">partOfSeamlessDatabase</gmd:DS_AssociationTypeCode>
+					</gmd:associationType>
+					<gmd:initiativeType>
+						<gmd:DS_InitiativeTypeCode codeList="http://www.isotc211.org/2005/resources/codelist/gmxCodelists.xml#DS_InitiativeTypeCode" codeListValue="project">project</gmd:DS_InitiativeTypeCode>
+					</gmd:initiativeType>
+				</gmd:MD_AggregateInformation>
+			</gmd:aggregationInfo>
+			<gmd:aggregationInfo>
+				<gmd:MD_AggregateInformation>
+					<gmd:associationType>
+						<gmd:DS_AssociationTypeCode codeList="http://www.isotc211.org/2005/resources/codelist/gmxCodelists.xml#DS_AssociationTypeCode" codeListValue="source">source</gmd:DS_AssociationTypeCode>
+					</gmd:associationType>
+					<gmd:initiativeType>
+						<gmd:DS_InitiativeTypeCode codeList="http://www.isotc211.org/2005/resources/codelist/gmxCodelists.xml#DS_AssociationTypeCode" codeListValue="platform">ENVISAT</gmd:DS_InitiativeTypeCode>
+					</gmd:initiativeType>
+				</gmd:MD_AggregateInformation>
+			</gmd:aggregationInfo>
+			<gmd:aggregationInfo>
+				<gmd:MD_AggregateInformation>
+					<gmd:associationType>
+						<gmd:DS_AssociationTypeCode codeList="http://www.isotc211.org/2005/resources/codelist/gmxCodelists.xml#DS_AssociationTypeCode" codeListValue="source">source</gmd:DS_AssociationTypeCode>
+					</gmd:associationType>
+					<gmd:initiativeType>
+						<gmd:DS_InitiativeTypeCode codeList="http://www.isotc211.org/2005/resources/codelist/gmxCodelists.xml#DS_AssociationTypeCode" codeListValue="sensor">MERIS</gmd:DS_InitiativeTypeCode>
+					</gmd:initiativeType>
+				</gmd:MD_AggregateInformation>
+			</gmd:aggregationInfo>
+			<gmd:spatialRepresentationType>
+				<gmd:MD_SpatialRepresentationTypeCode codeList="MD_SpatialRepresentationTypeCode" codeListValue="grid">grid</gmd:MD_SpatialRepresentationTypeCode>
+			</gmd:spatialRepresentationType>
+			<gmd:spatialResolution>
+				<gmd:MD_Resolution>
+					<gmd:distance>
+						<gco:Distance uom="deg">0.008928571</gco:Distance>
+					</gmd:distance>
+				</gmd:MD_Resolution>
+			</gmd:spatialResolution>
+			<gmd:language>
+				<gco:CharacterString>eng</gco:CharacterString>
+			</gmd:language>
+			<gmd:characterSet>
+				<gmd:MD_CharacterSetCode codeList="MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
+			</gmd:characterSet>
+			<gmd:topicCategory>
+				<gmd:MD_TopicCategoryCode>imageryBaseMapsEarthCover</gmd:MD_TopicCategoryCode>
+			</gmd:topicCategory>
+			<gmd:topicCategory>
+				<gmd:MD_TopicCategoryCode>climatologyMeteorologyAtmosphere</gmd:MD_TopicCategoryCode>
+			</gmd:topicCategory>
+			<gmd:topicCategory>
+				<gmd:MD_TopicCategoryCode>environment</gmd:MD_TopicCategoryCode>
+			</gmd:topicCategory>
+			<gmd:extent>
+				<gmd:EX_Extent>
+					<gmd:geographicElement>
+						<gmd:EX_GeographicBoundingBox>
+							<gmd:extentTypeCode>
+								<gco:Boolean>1</gco:Boolean>
+							</gmd:extentTypeCode>
+							<gmd:westBoundLongitude>
+								<gco:Decimal>-180.0</gco:Decimal>
+							</gmd:westBoundLongitude>
+							<gmd:eastBoundLongitude>
+								<gco:Decimal>180.0</gco:Decimal>
+							</gmd:eastBoundLongitude>
+							<gmd:southBoundLatitude>
+								<gco:Decimal>-56.0</gco:Decimal>
+							</gmd:southBoundLatitude>
+							<gmd:northBoundLatitude>
+								<gco:Decimal>75.0</gco:Decimal>
+							</gmd:northBoundLatitude>
+						</gmd:EX_GeographicBoundingBox>
+					</gmd:geographicElement>
+				</gmd:EX_Extent>
+			</gmd:extent>
+			<gmd:extent>
+				<gmd:EX_Extent>
+					<gmd:temporalElement>
+						<gmd:EX_TemporalExtent>
+							<gmd:extent>
+								<gml:TimePeriod frame="#ISO-8601" gml:id="extent_tp">
+									<gml:name>dekad</gml:name>
+									<gml:description>10 days composites</gml:description>
+									<gml:beginPosition>2003-01-01T00:00:00</gml:beginPosition>
+									<gml:endPosition>2012-03-31T23:59:59</gml:endPosition>
+								</gml:TimePeriod>
+							</gmd:extent>
+						</gmd:EX_TemporalExtent>
+					</gmd:temporalElement>
+				</gmd:EX_Extent>
+			</gmd:extent>
+		</gmd:MD_DataIdentification>
+	</gmd:identificationInfo>
+	<gmd:contentInfo>
+		<gmd:MD_ImageDescription uuid="">
+			<gmd:attributeDescription>
+				<gco:RecordType>10-day maximum FAPAR and NDVI with number valid daily observations and day in dekad, derived from ENVISAT-MERIS</gco:RecordType>
+			</gmd:attributeDescription>
+			<gmd:contentType>
+				<gmd:MD_CoverageContentTypeCode codeList="http://www.isotc211.org/2005/resources/codelist/gmxCodelists.xml#MD_CoverageContentTypeCode" codeListValue="image">image</gmd:MD_CoverageContentTypeCode>
+			</gmd:contentType>
+			<gmd:radiometricCalibrationDataAvailability>
+				<gco:Boolean>true</gco:Boolean>
+			</gmd:radiometricCalibrationDataAvailability>
+		</gmd:MD_ImageDescription>
+		<!--Future releases could add more MD_ImageDescription information-->
+	</gmd:contentInfo>
+	<gmd:contentInfo>
+		<gmd:MD_CoverageDescription uuid="NDV">
+			<gmd:attributeDescription>
+				<gco:RecordType>NDVI</gco:RecordType>
+			</gmd:attributeDescription>
+			<gmd:contentType>
+				<gmd:MD_CoverageContentTypeCode codeList="http://www.isotc211.org/2005/resources/codelist/gmxCodelists.xml#MD_CoverageContentTypeCode" codeListValue="image"/>
+			</gmd:contentType>
+			<gmd:dimension>
+				<gmd:MD_Band>
+					<gmd:sequenceIdentifier>
+						<gco:MemberName>
+							<gco:aName>
+								<gco:CharacterString>Digital Number</gco:CharacterString>
+							</gco:aName>
+							<gco:attributeType>
+								<gco:TypeName>
+									<gco:aName>
+										<gco:CharacterString>value type</gco:CharacterString>
+									</gco:aName>
+								</gco:TypeName>
+							</gco:attributeType>
+						</gco:MemberName>
+					</gmd:sequenceIdentifier>
+					<gmd:descriptor>
+						<gco:CharacterString>Significant digital value range</gco:CharacterString>
+					</gmd:descriptor>
+					<gmd:maxValue>
+						<gco:Real>250</gco:Real>
+					</gmd:maxValue>
+					<gmd:minValue>
+						<gco:Real>0</gco:Real>
+					</gmd:minValue>
+					<gmd:bitsPerValue>
+						<gco:Integer>8</gco:Integer>
+					</gmd:bitsPerValue>
+					<gmd:scaleFactor>
+						<gco:Real>0.004</gco:Real>
+					</gmd:scaleFactor>
+					<gmd:offset>
+						<gco:Real>-0.08</gco:Real>
+					</gmd:offset>
+				</gmd:MD_Band>
+			</gmd:dimension>
+			<gmd:dimension>
+				<gmd:MD_Band>
+					<gmd:sequenceIdentifier>
+						<gco:MemberName>
+							<gco:aName>
+								<gco:CharacterString>Physical value</gco:CharacterString>
+							</gco:aName>
+							<gco:attributeType>
+								<gco:TypeName>
+									<gco:aName>
+										<gco:CharacterString>value type</gco:CharacterString>
+									</gco:aName>
+								</gco:TypeName>
+							</gco:attributeType>
+						</gco:MemberName>
+					</gmd:sequenceIdentifier>
+					<gmd:descriptor>
+						<gco:CharacterString>Normalized Difference Vegetation Index</gco:CharacterString>
+					</gmd:descriptor>
+					<gmd:maxValue>
+						<gco:Real>0.92</gco:Real>
+					</gmd:maxValue>
+					<gmd:minValue>
+						<gco:Real>-0.08</gco:Real>
+					</gmd:minValue>
+					<gmd:units>
+						<gml:UnitDefinition gml:id="unitless">
+							<gml:description>Unitless index</gml:description>
+							<gml:identifier codeSpace="">unitless</gml:identifier>
+							<gml:name>-</gml:name>
+							<gml:remarks/>
+							<gml:quantityType>Normalized Difference Vegetation Index</gml:quantityType>
+						</gml:UnitDefinition>
+					</gmd:units>
+				</gmd:MD_Band>
+			</gmd:dimension>
+			<gmd:dimension>
+				<gmd:MD_Band>
+					<gmd:sequenceIdentifier>
+						<gco:MemberName>
+							<gco:aName>
+								<gco:CharacterString>Sea</gco:CharacterString>
+							</gco:aName>
+							<gco:attributeType>
+								<gco:TypeName>
+									<gco:aName>
+										<gco:CharacterString>flag type</gco:CharacterString>
+									</gco:aName>
+								</gco:TypeName>
+							</gco:attributeType>
+						</gco:MemberName>
+					</gmd:sequenceIdentifier>
+					<gmd:descriptor>
+						<gco:CharacterString>Sea</gco:CharacterString>
+					</gmd:descriptor>
+					<gmd:maxValue>
+						<gco:Real>254</gco:Real>
+					</gmd:maxValue>
+					<gmd:minValue>
+						<gco:Real>254</gco:Real>
+					</gmd:minValue>
+					<gmd:bitsPerValue>
+						<gco:Integer>8</gco:Integer>
+					</gmd:bitsPerValue>
+				</gmd:MD_Band>
+			</gmd:dimension>
+			<gmd:dimension>
+				<gmd:MD_Band>
+					<gmd:sequenceIdentifier>
+						<gco:MemberName>
+							<gco:aName>
+								<gco:CharacterString>Missing</gco:CharacterString>
+							</gco:aName>
+							<gco:attributeType>
+								<gco:TypeName>
+									<gco:aName>
+										<gco:CharacterString>flag type</gco:CharacterString>
+									</gco:aName>
+								</gco:TypeName>
+							</gco:attributeType>
+						</gco:MemberName>
+					</gmd:sequenceIdentifier>
+					<gmd:descriptor>
+						<gco:CharacterString>Missing</gco:CharacterString>
+					</gmd:descriptor>
+					<gmd:maxValue>
+						<gco:Real>255</gco:Real>
+					</gmd:maxValue>
+					<gmd:minValue>
+						<gco:Real>255</gco:Real>
+					</gmd:minValue>
+					<gmd:bitsPerValue>
+						<gco:Integer>8</gco:Integer>
+					</gmd:bitsPerValue>
+				</gmd:MD_Band>
+			</gmd:dimension>
+		</gmd:MD_CoverageDescription>
+	</gmd:contentInfo>
+	<gmd:contentInfo>
+		<gmd:MD_CoverageDescription uuid="NDV-TCO">
+			<gmd:attributeDescription>
+				<gco:RecordType>NDVI Nbr of valid daily Observations (NDV-TCO)</gco:RecordType>
+			</gmd:attributeDescription>
+			<gmd:contentType>
+				<MD_CoverageContentTypeCode codeList="http://www.isotc211.org/2005/resources/codelist/gmxCodelists.xml#MD_CoverageContentTypeCode" codeListValue="image"/>
+			</gmd:contentType>
+			<gmd:dimension>
+				<gmd:MD_Band>
+					<gmd:sequenceIdentifier>
+						<gco:MemberName>
+							<gco:aName>
+								<gco:CharacterString>Digital Number</gco:CharacterString>
+							</gco:aName>
+							<gco:attributeType>
+								<gco:TypeName>
+									<gco:aName>
+										<gco:CharacterString>value type</gco:CharacterString>
+									</gco:aName>
+								</gco:TypeName>
+							</gco:attributeType>
+						</gco:MemberName>
+					</gmd:sequenceIdentifier>
+					<gmd:descriptor>
+						<gco:CharacterString>Significant digital value range</gco:CharacterString>
+					</gmd:descriptor>
+					<gmd:maxValue>
+						<gco:Real>11</gco:Real>
+					</gmd:maxValue>
+					<gmd:minValue>
+						<gco:Real>1</gco:Real>
+					</gmd:minValue>
+					<gmd:bitsPerValue>
+						<gco:Integer>8</gco:Integer>
+					</gmd:bitsPerValue>
+					<gmd:scaleFactor>
+						<gco:Real>1</gco:Real>
+					</gmd:scaleFactor>
+					<gmd:offset>
+						<gco:Real>0</gco:Real>
+					</gmd:offset>
+				</gmd:MD_Band>
+			</gmd:dimension>
+			<gmd:dimension>
+				<gmd:MD_Band>
+					<gmd:sequenceIdentifier>
+						<gco:MemberName>
+							<gco:aName>
+								<gco:CharacterString>Physical value</gco:CharacterString>
+							</gco:aName>
+							<gco:attributeType>
+								<gco:TypeName>
+									<gco:aName>
+										<gco:CharacterString>value type</gco:CharacterString>
+									</gco:aName>
+								</gco:TypeName>
+							</gco:attributeType>
+						</gco:MemberName>
+					</gmd:sequenceIdentifier>
+					<gmd:descriptor>
+						<gco:CharacterString>NDVI Number of daily Observations</gco:CharacterString>
+					</gmd:descriptor>
+					<gmd:maxValue>
+						<gco:Real>11</gco:Real>
+					</gmd:maxValue>
+					<gmd:minValue>
+						<gco:Real>1</gco:Real>
+					</gmd:minValue>
+					<gmd:units>
+						<gml:UnitDefinition gml:id="obs">
+							<gml:description>Number of valid, daily Observations</gml:description>
+							<gml:identifier codeSpace="">NumberOfObservations</gml:identifier>
+							<gml:name>-</gml:name>
+							<gml:remarks/>
+							<gml:quantityType>NumberOfObservations</gml:quantityType>
+						</gml:UnitDefinition>
+					</gmd:units>
+				</gmd:MD_Band>
+			</gmd:dimension>
+			<gmd:dimension>
+				<gmd:MD_Band>
+					<gmd:sequenceIdentifier>
+						<gco:MemberName>
+							<gco:aName>
+								<gco:CharacterString>Missing</gco:CharacterString>
+							</gco:aName>
+							<gco:attributeType>
+								<gco:TypeName>
+									<gco:aName>
+										<gco:CharacterString>flag type</gco:CharacterString>
+									</gco:aName>
+								</gco:TypeName>
+							</gco:attributeType>
+						</gco:MemberName>
+					</gmd:sequenceIdentifier>
+					<gmd:descriptor>
+						<gco:CharacterString>Missing</gco:CharacterString>
+					</gmd:descriptor>
+					<gmd:maxValue>
+						<gco:Real>0</gco:Real>
+					</gmd:maxValue>
+					<gmd:minValue>
+						<gco:Real>0</gco:Real>
+					</gmd:minValue>
+					<gmd:bitsPerValue>
+						<gco:Integer>8</gco:Integer>
+					</gmd:bitsPerValue>
+				</gmd:MD_Band>
+			</gmd:dimension>
+		</gmd:MD_CoverageDescription>
+	</gmd:contentInfo>
+	<gmd:contentInfo>
+		<gmd:MD_CoverageDescription uuid="NDV-DAY">
+			<attributeDescription>
+				<gco:RecordType>Day of max NDVI in Dekad (NDV-DAY)</gco:RecordType>
+			</attributeDescription>
+			<contentType>
+				<MD_CoverageContentTypeCode codeList="http://www.isotc211.org/2005/resources/codelist/gmxCodelists.xml#MD_CoverageContentTypeCode" codeListValue="image"/>
+			</contentType>
+			<dimension>
+				<MD_Band>
+					<sequenceIdentifier>
+						<gco:MemberName>
+							<gco:aName>
+								<gco:CharacterString>Digital Number</gco:CharacterString>
+							</gco:aName>
+							<gco:attributeType>
+								<gco:TypeName>
+									<gco:aName>
+										<gco:CharacterString>value type</gco:CharacterString>
+									</gco:aName>
+								</gco:TypeName>
+							</gco:attributeType>
+						</gco:MemberName>
+					</sequenceIdentifier>
+					<descriptor>
+						<gco:CharacterString>Significant digital value range</gco:CharacterString>
+					</descriptor>
+					<maxValue>
+						<gco:Real>11</gco:Real>
+					</maxValue>
+					<minValue>
+						<gco:Real>1</gco:Real>
+					</minValue>
+					<bitsPerValue>
+						<gco:Integer>8</gco:Integer>
+					</bitsPerValue>
+					<scaleFactor>
+						<gco:Real>1</gco:Real>
+					</scaleFactor>
+					<offset>
+						<gco:Real>0</gco:Real>
+					</offset>
+				</MD_Band>
+			</dimension>
+			<dimension>
+				<MD_Band>
+					<sequenceIdentifier>
+						<gco:MemberName>
+							<gco:aName>
+								<gco:CharacterString>Physical value</gco:CharacterString>
+							</gco:aName>
+							<gco:attributeType>
+								<gco:TypeName>
+									<gco:aName>
+										<gco:CharacterString>value type</gco:CharacterString>
+									</gco:aName>
+								</gco:TypeName>
+							</gco:attributeType>
+						</gco:MemberName>
+					</sequenceIdentifier>
+					<descriptor>
+						<gco:CharacterString>NDVI Day of max in Dekad</gco:CharacterString>
+					</descriptor>
+					<maxValue>
+						<gco:Real>11</gco:Real>
+					</maxValue>
+					<minValue>
+						<gco:Real>1</gco:Real>
+					</minValue>
+					<units>
+						<gml:UnitDefinition gml:id="day">
+							<gml:description>Day of NDVI max in dekad</gml:description>
+							<gml:identifier codeSpace="">DayInDekad</gml:identifier>
+							<gml:name>-</gml:name>
+							<gml:remarks/>
+							<gml:quantityType>DayInDekad</gml:quantityType>
+						</gml:UnitDefinition>
+					</units>
+				</MD_Band>
+			</dimension>
+			<dimension>
+				<MD_Band>
+					<sequenceIdentifier>
+						<gco:MemberName>
+							<gco:aName>
+								<gco:CharacterString>Missing</gco:CharacterString>
+							</gco:aName>
+							<gco:attributeType>
+								<gco:TypeName>
+									<gco:aName>
+										<gco:CharacterString>flag type</gco:CharacterString>
+									</gco:aName>
+								</gco:TypeName>
+							</gco:attributeType>
+						</gco:MemberName>
+					</sequenceIdentifier>
+					<descriptor>
+						<gco:CharacterString>Missing</gco:CharacterString>
+					</descriptor>
+					<maxValue>
+						<gco:Real>0</gco:Real>
+					</maxValue>
+					<minValue>
+						<gco:Real>0</gco:Real>
+					</minValue>
+					<bitsPerValue>
+						<gco:Integer>8</gco:Integer>
+					</bitsPerValue>
+				</MD_Band>
+			</dimension>
+		</gmd:MD_CoverageDescription>
+	</gmd:contentInfo>
+	<gmd:contentInfo>
+		<gmd:MD_CoverageDescription uuid="FAP">
+			<attributeDescription>
+				<gco:RecordType>FAPAR</gco:RecordType>
+			</attributeDescription>
+			<contentType>
+				<MD_CoverageContentTypeCode codeList="http://www.isotc211.org/2005/resources/codelist/gmxCodelists.xml#MD_CoverageContentTypeCode" codeListValue="image"/>
+			</contentType>
+			<dimension>
+				<MD_Band>
+					<sequenceIdentifier>
+						<gco:MemberName>
+							<gco:aName>
+								<gco:CharacterString>Digital Number</gco:CharacterString>
+							</gco:aName>
+							<gco:attributeType>
+								<gco:TypeName>
+									<gco:aName>
+										<gco:CharacterString>value type</gco:CharacterString>
+									</gco:aName>
+								</gco:TypeName>
+							</gco:attributeType>
+						</gco:MemberName>
+					</sequenceIdentifier>
+					<descriptor>
+						<gco:CharacterString>Significant digital value range</gco:CharacterString>
+					</descriptor>
+					<maxValue>
+						<gco:Real>200</gco:Real>
+					</maxValue>
+					<minValue>
+						<gco:Real>0</gco:Real>
+					</minValue>
+					<bitsPerValue>
+						<gco:Integer>8</gco:Integer>
+					</bitsPerValue>
+					<scaleFactor>
+						<gco:Real>0.005</gco:Real>
+					</scaleFactor>
+					<offset>
+						<gco:Real>0</gco:Real>
+					</offset>
+				</MD_Band>
+			</dimension>
+			<dimension>
+				<MD_Band>
+					<sequenceIdentifier>
+						<gco:MemberName>
+							<gco:aName>
+								<gco:CharacterString>Physical value</gco:CharacterString>
+							</gco:aName>
+							<gco:attributeType>
+								<gco:TypeName>
+									<gco:aName>
+										<gco:CharacterString>value type</gco:CharacterString>
+									</gco:aName>
+								</gco:TypeName>
+							</gco:attributeType>
+						</gco:MemberName>
+					</sequenceIdentifier>
+					<descriptor>
+						<gco:CharacterString>Fraction Absorbed Photosyntheticly Active Radiation</gco:CharacterString>
+					</descriptor>
+					<maxValue>
+						<gco:Real>1</gco:Real>
+					</maxValue>
+					<minValue>
+						<gco:Real>0</gco:Real>
+					</minValue>
+					<units>
+						<gml:UnitDefinition gml:id="fraction">
+							<gml:description>Dimensionless fraction</gml:description>
+							<gml:identifier codeSpace="">unitless</gml:identifier>
+							<gml:name>-</gml:name>
+							<gml:remarks/>
+							<gml:quantityType>fraction Absorbed PAR
+</gml:quantityType>
+						</gml:UnitDefinition>
+					</units>
+				</MD_Band>
+			</dimension>
+			<dimension>
+				<MD_Band>
+					<sequenceIdentifier>
+						<gco:MemberName>
+							<gco:aName>
+								<gco:CharacterString>Sea</gco:CharacterString>
+							</gco:aName>
+							<gco:attributeType>
+								<gco:TypeName>
+									<gco:aName>
+										<gco:CharacterString>flag type</gco:CharacterString>
+									</gco:aName>
+								</gco:TypeName>
+							</gco:attributeType>
+						</gco:MemberName>
+					</sequenceIdentifier>
+					<descriptor>
+						<gco:CharacterString>Sea</gco:CharacterString>
+					</descriptor>
+					<maxValue>
+						<gco:Real>254</gco:Real>
+					</maxValue>
+					<minValue>
+						<gco:Real>254</gco:Real>
+					</minValue>
+					<bitsPerValue>
+						<gco:Integer>8</gco:Integer>
+					</bitsPerValue>
+				</MD_Band>
+			</dimension>
+			<dimension>
+				<MD_Band>
+					<sequenceIdentifier>
+						<gco:MemberName>
+							<gco:aName>
+								<gco:CharacterString>Missing</gco:CharacterString>
+							</gco:aName>
+							<gco:attributeType>
+								<gco:TypeName>
+									<gco:aName>
+										<gco:CharacterString>flag type</gco:CharacterString>
+									</gco:aName>
+								</gco:TypeName>
+							</gco:attributeType>
+						</gco:MemberName>
+					</sequenceIdentifier>
+					<descriptor>
+						<gco:CharacterString>Missing</gco:CharacterString>
+					</descriptor>
+					<maxValue>
+						<gco:Real>255</gco:Real>
+					</maxValue>
+					<minValue>
+						<gco:Real>255</gco:Real>
+					</minValue>
+					<bitsPerValue>
+						<gco:Integer>8</gco:Integer>
+					</bitsPerValue>
+				</MD_Band>
+			</dimension>
+		</gmd:MD_CoverageDescription>
+	</gmd:contentInfo>
+	<gmd:contentInfo>
+		<gmd:MD_CoverageDescription uuid="FAP-TCO">
+			<attributeDescription>
+				<gco:RecordType>FAPAR Nbr of valid daily Observations (FAP-TCO)</gco:RecordType>
+			</attributeDescription>
+			<contentType>
+				<MD_CoverageContentTypeCode codeList="http://www.isotc211.org/2005/resources/codelist/gmxCodelists.xml#MD_CoverageContentTypeCode" codeListValue="image"/>
+			</contentType>
+			<dimension>
+				<MD_Band>
+					<sequenceIdentifier>
+						<gco:MemberName>
+							<gco:aName>
+								<gco:CharacterString>Digital Number</gco:CharacterString>
+							</gco:aName>
+							<gco:attributeType>
+								<gco:TypeName>
+									<gco:aName>
+										<gco:CharacterString>value type</gco:CharacterString>
+									</gco:aName>
+								</gco:TypeName>
+							</gco:attributeType>
+						</gco:MemberName>
+					</sequenceIdentifier>
+					<descriptor>
+						<gco:CharacterString>Significant digital value range</gco:CharacterString>
+					</descriptor>
+					<maxValue>
+						<gco:Real>11</gco:Real>
+					</maxValue>
+					<minValue>
+						<gco:Real>1</gco:Real>
+					</minValue>
+					<bitsPerValue>
+						<gco:Integer>8</gco:Integer>
+					</bitsPerValue>
+					<scaleFactor>
+						<gco:Real>1</gco:Real>
+					</scaleFactor>
+					<offset>
+						<gco:Real>0</gco:Real>
+					</offset>
+				</MD_Band>
+			</dimension>
+			<dimension>
+				<MD_Band>
+					<sequenceIdentifier>
+						<gco:MemberName>
+							<gco:aName>
+								<gco:CharacterString>Physical value</gco:CharacterString>
+							</gco:aName>
+							<gco:attributeType>
+								<gco:TypeName>
+									<gco:aName>
+										<gco:CharacterString>value type</gco:CharacterString>
+									</gco:aName>
+								</gco:TypeName>
+							</gco:attributeType>
+						</gco:MemberName>
+					</sequenceIdentifier>
+					<descriptor>
+						<gco:CharacterString>FAPAR Number of daily Observations</gco:CharacterString>
+					</descriptor>
+					<maxValue>
+						<gco:Real>11</gco:Real>
+					</maxValue>
+					<minValue>
+						<gco:Real>1</gco:Real>
+					</minValue>
+					<units>
+						<gml:UnitDefinition gml:id="obs_">
+							<gml:description>Number of valid, daily Observations</gml:description>
+							<gml:identifier codeSpace="">NumberOfObservations</gml:identifier>
+							<gml:name>-</gml:name>
+							<gml:remarks/>
+							<gml:quantityType>NumberOfObservations</gml:quantityType>
+						</gml:UnitDefinition>
+					</units>
+				</MD_Band>
+			</dimension>
+			<dimension>
+				<MD_Band>
+					<sequenceIdentifier>
+						<gco:MemberName>
+							<gco:aName>
+								<gco:CharacterString>Missing</gco:CharacterString>
+							</gco:aName>
+							<gco:attributeType>
+								<gco:TypeName>
+									<gco:aName>
+										<gco:CharacterString>flag type</gco:CharacterString>
+									</gco:aName>
+								</gco:TypeName>
+							</gco:attributeType>
+						</gco:MemberName>
+					</sequenceIdentifier>
+					<descriptor>
+						<gco:CharacterString>Missing</gco:CharacterString>
+					</descriptor>
+					<maxValue>
+						<gco:Real>0</gco:Real>
+					</maxValue>
+					<minValue>
+						<gco:Real>0</gco:Real>
+					</minValue>
+					<bitsPerValue>
+						<gco:Integer>8</gco:Integer>
+					</bitsPerValue>
+				</MD_Band>
+			</dimension>
+		</gmd:MD_CoverageDescription>
+	</gmd:contentInfo>
+	<gmd:contentInfo>
+		<gmd:MD_CoverageDescription uuid="FAP-DAY">
+			<attributeDescription>
+				<gco:RecordType>Day of max FAPAR in Dekad (FAP-DAY)</gco:RecordType>
+			</attributeDescription>
+			<contentType>
+				<MD_CoverageContentTypeCode codeList="http://www.isotc211.org/2005/resources/codelist/gmxCodelists.xml#MD_CoverageContentTypeCode" codeListValue="image"/>
+			</contentType>
+			<dimension>
+				<MD_Band>
+					<sequenceIdentifier>
+						<gco:MemberName>
+							<gco:aName>
+								<gco:CharacterString>Digital Number</gco:CharacterString>
+							</gco:aName>
+							<gco:attributeType>
+								<gco:TypeName>
+									<gco:aName>
+										<gco:CharacterString>value type</gco:CharacterString>
+									</gco:aName>
+								</gco:TypeName>
+							</gco:attributeType>
+						</gco:MemberName>
+					</sequenceIdentifier>
+					<descriptor>
+						<gco:CharacterString>Significant digital value range</gco:CharacterString>
+					</descriptor>
+					<maxValue>
+						<gco:Real>11</gco:Real>
+					</maxValue>
+					<minValue>
+						<gco:Real>1</gco:Real>
+					</minValue>
+					<bitsPerValue>
+						<gco:Integer>8</gco:Integer>
+					</bitsPerValue>
+					<scaleFactor>
+						<gco:Real>1</gco:Real>
+					</scaleFactor>
+					<offset>
+						<gco:Real>0</gco:Real>
+					</offset>
+				</MD_Band>
+			</dimension>
+			<dimension>
+				<MD_Band>
+					<sequenceIdentifier>
+						<gco:MemberName>
+							<gco:aName>
+								<gco:CharacterString>Physical value</gco:CharacterString>
+							</gco:aName>
+							<gco:attributeType>
+								<gco:TypeName>
+									<gco:aName>
+										<gco:CharacterString>value type</gco:CharacterString>
+									</gco:aName>
+								</gco:TypeName>
+							</gco:attributeType>
+						</gco:MemberName>
+					</sequenceIdentifier>
+					<descriptor>
+						<gco:CharacterString>FAPAR Day of max in Dekad</gco:CharacterString>
+					</descriptor>
+					<maxValue>
+						<gco:Real>11</gco:Real>
+					</maxValue>
+					<minValue>
+						<gco:Real>1</gco:Real>
+					</minValue>
+					<units>
+						<gml:UnitDefinition gml:id="day_">
+							<gml:description>Day of FAPAR max in dekad</gml:description>
+							<gml:identifier codeSpace="">DayInDekad</gml:identifier>
+							<gml:name>-</gml:name>
+							<gml:remarks/>
+							<gml:quantityType>DayInDekad</gml:quantityType>
+						</gml:UnitDefinition>
+					</units>
+				</MD_Band>
+			</dimension>
+			<dimension>
+				<MD_Band>
+					<sequenceIdentifier>
+						<gco:MemberName>
+							<gco:aName>
+								<gco:CharacterString>Missing</gco:CharacterString>
+							</gco:aName>
+							<gco:attributeType>
+								<gco:TypeName>
+									<gco:aName>
+										<gco:CharacterString>flag type</gco:CharacterString>
+									</gco:aName>
+								</gco:TypeName>
+							</gco:attributeType>
+						</gco:MemberName>
+					</sequenceIdentifier>
+					<descriptor>
+						<gco:CharacterString>Missing</gco:CharacterString>
+					</descriptor>
+					<maxValue>
+						<gco:Real>0</gco:Real>
+					</maxValue>
+					<minValue>
+						<gco:Real>0</gco:Real>
+					</minValue>
+					<bitsPerValue>
+						<gco:Integer>8</gco:Integer>
+					</bitsPerValue>
+				</MD_Band>
+			</dimension>
+		</gmd:MD_CoverageDescription>
+	</gmd:contentInfo>
+	<gmd:distributionInfo>
+		<gmd:MD_Distribution>
+			<gmd:distributionFormat>
+				<gmd:MD_Format>
+					<gmd:name>
+						<gco:CharacterString>ZIP archive</gco:CharacterString>
+					</gmd:name>
+					<gmd:version>
+						<gco:CharacterString>v3.2</gco:CharacterString>
+					</gmd:version>
+					<gmd:specification>
+						<gco:CharacterString>Standard PKZIP compatible Unix/Linux ZIP format</gco:CharacterString>
+					</gmd:specification>
+					<gmd:fileDecompressionTechnique>
+						<gco:CharacterString>unzip or pkunzip</gco:CharacterString>
+					</gmd:fileDecompressionTechnique>
+				</gmd:MD_Format>
+			</gmd:distributionFormat>
+			<gmd:distributor>
+				<gmd:MD_Distributor>
+					<gmd:distributorContact>
+						<gmd:CI_ResponsibleParty>
+							<gmd:individualName>
+								<gco:CharacterString>Sales (Eric Gontier)</gco:CharacterString>
+							</gmd:individualName>
+							<gmd:organisationName>
+								<gco:CharacterString>VITO (Flemish Institute for Technological Research)</gco:CharacterString>
+							</gmd:organisationName>
+							<gmd:contactInfo>
+								<gmd:CI_Contact>
+									<gmd:phone>
+										<gmd:CI_Telephone>
+											<gmd:voice>
+												<gco:CharacterString>+32 14 33 68 77</gco:CharacterString>
+											</gmd:voice>
+											<gmd:facsimile>
+												<gco:CharacterString>+32 14 32 27 95</gco:CharacterString>
+											</gmd:facsimile>
+										</gmd:CI_Telephone>
+									</gmd:phone>
+									<gmd:address>
+										<gmd:CI_Address>
+											<gmd:deliveryPoint>
+												<gco:CharacterString>Boeretang 200</gco:CharacterString>
+											</gmd:deliveryPoint>
+											<gmd:city>
+												<gco:CharacterString>Mol</gco:CharacterString>
+											</gmd:city>
+											<gmd:postalCode>
+												<gco:CharacterString>B-2400</gco:CharacterString>
+											</gmd:postalCode>
+											<gmd:country>
+												<gco:CharacterString>Belgium</gco:CharacterString>
+											</gmd:country>
+											<gmd:electronicMailAddress>
+												<gco:CharacterString>helpdesk@vgt.vito.be</gco:CharacterString>
+											</gmd:electronicMailAddress>
+										</gmd:CI_Address>
+									</gmd:address>
+									<gmd:onlineResource>
+										<gmd:CI_OnlineResource>
+											<gmd:linkage>
+												<gmd:URL>http://www.spot-vegetation.com</gmd:URL>
+											</gmd:linkage>
+											<gmd:function>
+												<gmd:CI_OnLineFunctionCode codeList="CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+											</gmd:function>
+										</gmd:CI_OnlineResource>
+									</gmd:onlineResource>
+									<gmd:hoursOfService>
+										<gco:CharacterString>Office hours, 5 days per week</gco:CharacterString>
+									</gmd:hoursOfService>
+									<gmd:contactInstructions>
+										<gco:CharacterString>Preferably by e-mail</gco:CharacterString>
+									</gmd:contactInstructions>
+								</gmd:CI_Contact>
+							</gmd:contactInfo>
+							<gmd:role>
+								<gmd:CI_RoleCode codeList="CI_RoleCode" codeListValue="distributor">distributor</gmd:CI_RoleCode>
+							</gmd:role>
+						</gmd:CI_ResponsibleParty>
+					</gmd:distributorContact>
+					<gmd:distributionOrderProcess>
+						<gmd:MD_StandardOrderProcess>
+							<gmd:fees>
+								<gco:CharacterString>Free by ftp; cost of medium by DVD or tape</gco:CharacterString>
+							</gmd:fees>
+							<gmd:orderingInstructions>
+								<gco:CharacterString>ENVISAT MERIS S10 products can be ordered on the Internet through the PADUA Catalogue (http://www.vito-eodata.be/PDF). The catalogue is freely accessible for browsing, but for ordering you should be registered. To register, you should contact VITO (helpdesk@vgt.vito.be). The products can be ordered by catalogue (archive) or subscription (images over a future period, a few weeks to several years, covering a particular region of interest. The following order information is needed for both orders: Region of interest, period, product type, projection and delivery media.</gco:CharacterString>
+							</gmd:orderingInstructions>
+						</gmd:MD_StandardOrderProcess>
+					</gmd:distributionOrderProcess>
+				</gmd:MD_Distributor>
+			</gmd:distributor>
+			<gmd:transferOptions>
+				<gmd:MD_DigitalTransferOptions>
+					<gmd:onLine>
+						<gmd:CI_OnlineResource>
+							<gmd:linkage>
+								<gmd:URL>http://www.vito-eodata.be/PDF</gmd:URL>
+							</gmd:linkage>
+						</gmd:CI_OnlineResource>
+					</gmd:onLine>
+				</gmd:MD_DigitalTransferOptions>
+			</gmd:transferOptions>
+		</gmd:MD_Distribution>
+	</gmd:distributionInfo>
+	<gmd:dataQualityInfo>
+		<gmd:DQ_DataQuality>
+			<gmd:scope>
+				<gmd:DQ_Scope>
+					<gmd:level>
+						<gmd:MD_ScopeCode codeList="MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
+					</gmd:level>
+				</gmd:DQ_Scope>
+			</gmd:scope>
+			<gmd:report>
+				<gmd:DQ_DomainConsistency>
+					<gmd:result>
+						<gmd:DQ_ConformanceResult>
+							<gmd:specification>
+								<gmd:CI_Citation>
+									<gmd:title>
+										<gco:CharacterString>INSPIRE Data Specification on orthoimagery - Guidelines</gco:CharacterString>
+									</gmd:title>
+									<gmd:date>
+										<gmd:CI_Date>
+											<gmd:date>
+												<gco:Date>2010-04-26</gco:Date>
+											</gmd:date>
+											<gmd:dateType>
+												<gmd:CI_DateTypeCode codeList="CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+											</gmd:dateType>
+										</gmd:CI_Date>
+									</gmd:date>
+								</gmd:CI_Citation>
+							</gmd:specification>
+							<gmd:explanation>
+								<gco:CharacterString>See the referenced specification</gco:CharacterString>
+							</gmd:explanation>
+							<gmd:pass>
+								<gco:Boolean>True</gco:Boolean>
+							</gmd:pass>
+						</gmd:DQ_ConformanceResult>
+					</gmd:result>
+				</gmd:DQ_DomainConsistency>
+			</gmd:report>
+			<gmd:lineage>
+				<gmd:LI_Lineage>
+					<gmd:statement>
+						<gco:CharacterString>The algorithm for MERIS L2 global vegetation indicators have been validated as per the online ESA product handbook and A TBD documentation. In addition, VITO has verified the composites by inter-comparison against SPOT_VEGETATION and MetOp-AVHRR data series.</gco:CharacterString>
+					</gmd:statement>
+				</gmd:LI_Lineage>
+			</gmd:lineage>
+		</gmd:DQ_DataQuality>
+	</gmd:dataQualityInfo>
+	<gmd:metadataMaintenance>
+		<gmd:MD_MaintenanceInformation>
+			<gmd:maintenanceAndUpdateFrequency>
+				<gmd:MD_MaintenanceFrequencyCode codeList="MD_MaintenanceFrequencyCode" codeListValue="asNeeded">asNeeded</gmd:MD_MaintenanceFrequencyCode>
+			</gmd:maintenanceAndUpdateFrequency>
+		</gmd:MD_MaintenanceInformation>
+	</gmd:metadataMaintenance>
+</gmd:MD_Metadata>
+</entry>
+<entry xml:lang="en-US">
+<id>http://geo.spacebel.be/opensearch/request/?httpAccept=application/atom%2Bxml&amp;parentIdentifier=EOP:ESA:FEDEO:COLLECTIONS&amp;type=collection&amp;publisher=VITO&amp;recordSchema=iso&amp;uid=EOP%3AVITO%3AVGT_P</id>
+<title>Physical products of SPOT VEGETATION</title>
+<dc:identifier>EOP:VITO:VGT_P</dc:identifier>
+<updated>2015-12-10T10:42:53Z</updated>
+<dc:date>1998-04-01T00:00:00/2013-12-31T00:00:00</dc:date>
+<georss:polygon>-56.0 -180.0 75.0 -180.0 75.0 180.0 -56.0 180.0 -56.0 -180.0</georss:polygon>
+<published>2010-07-16T00:00:00Z</published>
+<category label="land use" scheme="http://www.eionet.europa.eu/gemet/" term="http://www.eionet.europa.eu/gemet/concept/4678"/>
+<category label="Land cover" scheme="http://www.eionet.europa.eu/gemet/" term="http://www.eionet.europa.eu/gemet/concept/4612"/>
+<category label="environmental monitoring" scheme="http://www.eionet.europa.eu/gemet/" term="http://www.eionet.europa.eu/gemet/concept/2882"/>
+<category label="radiometric" term="radiometric"/>
+<category label="FedEO" term="FedEO"/>
+<category label="Land Use" scheme="http://thesauri.esa.int/MultiDomain_Thesaurus" term="http://thesauri.esa.int/MultiDomain_Thesaurus/Land_Use"/>
+<category label="Land Cover" scheme="http://thesauri.esa.int/MultiDomain_Thesaurus" term="http://thesauri.esa.int/MultiDomain_Thesaurus/Land_Cover"/>
+<category label="Land Monitoring" scheme="http://thesauri.esa.int/MultiDomain_Thesaurus" term="http://thesauri.esa.int/MultiDomain_Thesaurus/Land_Monitoring"/>
+<category label="Dekad" scheme="http://thesauri.esa.int/MultiDomain_Thesaurus" term="http://thesauri.esa.int/MultiDomain_Thesaurus/Dekad"/>
+<category label="SPOT" term="SPOT"/>
+<category label="VEGETATION" term="VEGETATION"/>
+<summary type="html"><![CDATA[
+<table xmlns="">
+<tr valign="top">
+<td>
+<b>Title </b>
+</td>
+<td>Physical products of SPOT VEGETATION</td>
+</tr>
+<tr valign="top">
+<td>
+<b>Description </b>
+</td>
+<td>VGT-P (P= physical) products are adapted for scientific applications requiring highly accurate physical measurements. The data is corrected for system errors (error registration of the different channels, calibration of all the detectors along the line-array detectors for each spectral band) and resampled to predefined geographic projections chosen by the user. The pixel brightness count is the ground area's apparent reflectance as seen at the top of atmosphere (TOA). Auxiliary data supplied with the products allow users to process the original reflectance values using their own algorithms. The image products cover all or a part of a VEGETATION segment (data strip over land). The VEGETATION instrument is operational since April 1998, first with VGT1, from March 2003 onwards, with VGT2. More information is available on: http://www.vgt.vito.be/faq/faq.html</td>
+</tr>
+<tr valign="top">
+<td>
+<b>Type </b>
+</td>
+<td>Collection</td>
+</tr>
+<tr valign="top">
+<td>
+<b>Date </b>
+</td>
+<td>1998-04-01T00:00:00/2013-12-31T00:00:00</td>
+</tr>
+<td>
+<b>Media Type</b>
+</td>
+<td>
+<a href="http://geo.spacebel.be/opensearch/request?httpAccept=application/atom%2Bxml&amp;startRecord=1&amp;parentIdentifier=EOP:ESA:FEDEO:COLLECTIONS&amp;uid=EOP%3AVITO%3AVGT_P&amp;recordSchema=iso" title="ATOM format">ATOM</a>   |   <a href="http://geo.spacebel.be/opensearch/request?httpAccept=application/sru%2Bxml&amp;startRecord=1&amp;parentIdentifier=EOP:ESA:FEDEO:COLLECTIONS&amp;uid=EOP%3AVITO%3AVGT_P&amp;recordSchema=iso" title="SRU format">SRU</a>
+</td>
+<tr valign="top">
+<td>
+<b>Metadata </b>
+</td>
+<td>
+<a href="http://hma-se-services.spacebel.be:8080/i15/httpservice?request=GetRepositoryItem&amp;service=CSW-ebRIM&amp;Id=urn%3ACIM%3AEOP%3AVITO%3AVGT_P%3AResourceMetadata" title="ISO format">ISO</a>
+</td>
+</tr>
+</table>]]></summary>
+<link href="http://geo.spacebel.be/opensearch/request?httpAccept=application/atom%2Bxml&amp;startRecord=1&amp;parentIdentifier=EOP:ESA:FEDEO:COLLECTIONS&amp;uid=EOP%3AVITO%3AVGT_P&amp;recordSchema=iso" rel="alternate" title="Atom format" type="application/atom+xml"/>
+<link href="http://geo.spacebel.be/opensearch/description.xml?parentIdentifier=EOP:VITO:VGT_P" rel="search" type="application/opensearchdescription+xml"/>
+<gmi:MI_Metadata xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.isotc211.org/2005/gmi ..\..\schema/ISO/gmi/gmi.xsd">
+	<gmd:fileIdentifier>
+		<gco:CharacterString>EOP:VITO:VGT_P</gco:CharacterString>
+	</gmd:fileIdentifier>
+	<gmd:language>
+		<gco:CharacterString>eng</gco:CharacterString>
+	</gmd:language>
+	<gmd:characterSet>
+		<gmd:MD_CharacterSetCode codeList="MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
+	</gmd:characterSet>
+	<gmd:hierarchyLevel>
+		<gmd:MD_ScopeCode codeList="MD_ScopeCode" codeListValue="series">series</gmd:MD_ScopeCode>
+	</gmd:hierarchyLevel>
+	<gmd:hierarchyLevelName>
+		<gco:CharacterString>Spaceborne Level 1-3 Imagery</gco:CharacterString>
+	</gmd:hierarchyLevelName>
+	<gmd:contact>
+		<gmd:CI_ResponsibleParty>
+			<gmd:individualName>
+				<gco:CharacterString>CVB (Image Processing Centre for SPOT-VGT)</gco:CharacterString>
+			</gmd:individualName>
+			<gmd:organisationName>
+				<gco:CharacterString>VITO (Flemish Institute for Technological Research)</gco:CharacterString>
+			</gmd:organisationName>
+			<gmd:contactInfo>
+				<gmd:CI_Contact>
+					<gmd:phone>
+						<gmd:CI_Telephone>
+							<gmd:voice>
+								<gco:CharacterString>+32 14 33 68 14</gco:CharacterString>
+							</gmd:voice>
+							<gmd:facsimile>
+								<gco:CharacterString>+32 14 32 27 95</gco:CharacterString>
+							</gmd:facsimile>
+						</gmd:CI_Telephone>
+					</gmd:phone>
+					<gmd:address>
+						<gmd:CI_Address>
+							<gmd:deliveryPoint>
+								<gco:CharacterString>Boeretang 200</gco:CharacterString>
+							</gmd:deliveryPoint>
+							<gmd:city>
+								<gco:CharacterString>Mol</gco:CharacterString>
+							</gmd:city>
+							<gmd:postalCode>
+								<gco:CharacterString>B-2400</gco:CharacterString>
+							</gmd:postalCode>
+							<gmd:country>
+								<gco:CharacterString>Belgium</gco:CharacterString>
+							</gmd:country>
+							<gmd:electronicMailAddress>
+								<gco:CharacterString>ctiv@vgt.vito.be</gco:CharacterString>
+							</gmd:electronicMailAddress>
+						</gmd:CI_Address>
+					</gmd:address>
+					<gmd:onlineResource>
+						<gmd:CI_OnlineResource>
+							<gmd:linkage>
+								<gmd:URL>http://www.vgt.vito.be</gmd:URL>
+							</gmd:linkage>
+							<gmd:function>
+								<gmd:CI_OnLineFunctionCode codeList="CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+							</gmd:function>
+						</gmd:CI_OnlineResource>
+					</gmd:onlineResource>
+					<gmd:hoursOfService>
+						<gco:CharacterString>Office hours, 7 days per week</gco:CharacterString>
+					</gmd:hoursOfService>
+					<gmd:contactInstructions>
+						<gco:CharacterString>Preferably by e-mail</gco:CharacterString>
+					</gmd:contactInstructions>
+				</gmd:CI_Contact>
+			</gmd:contactInfo>
+			<gmd:role>
+				<gmd:CI_RoleCode codeList="CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+			</gmd:role>
+		</gmd:CI_ResponsibleParty>
+	</gmd:contact>
+	<gmd:dateStamp>
+		<gco:DateTime>2010-04-30T11:37:54</gco:DateTime>
+	</gmd:dateStamp>
+	<gmd:metadataStandardName>
+		<gco:CharacterString>ISO 19115:2003, 19119:2006 (LMCS profile)</gco:CharacterString>
+	</gmd:metadataStandardName>
+	<gmd:metadataStandardVersion>
+		<gco:CharacterString>1.0</gco:CharacterString>
+	</gmd:metadataStandardVersion>
+	<gmd:referenceSystemInfo>
+		<gmd:MD_ReferenceSystem>
+			<gmd:referenceSystemIdentifier>
+				<gmd:RS_Identifier>
+					<gmd:code>
+						<gco:CharacterString>Plate Carree</gco:CharacterString>
+					</gmd:code>
+					<gmd:codeSpace>
+						<gco:CharacterString>Plate Carree</gco:CharacterString>
+					</gmd:codeSpace>
+				</gmd:RS_Identifier>
+			</gmd:referenceSystemIdentifier>
+		</gmd:MD_ReferenceSystem>
+	</gmd:referenceSystemInfo>
+	<gmd:identificationInfo>
+		<gmd:MD_DataIdentification uuid="EOP:VITO:VGT_P">
+			<gmd:citation>
+				<gmd:CI_Citation>
+					<gmd:title>
+						<gco:CharacterString>Physical products of SPOT VEGETATION</gco:CharacterString>
+					</gmd:title>
+					<gmd:alternateTitle>
+						<gco:CharacterString>VGT-P</gco:CharacterString>
+					</gmd:alternateTitle>
+					<!--
+					<gmd:edition>
+						<gco:CharacterString>1</gco:CharacterString>
+					</gmd:edition>
+-->
+					<gmd:date>
+						<gmd:CI_Date>
+							<gmd:date>
+								<gco:Date>2010-07-16</gco:Date>
+							</gmd:date>
+							<gmd:dateType>
+								<gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+							</gmd:dateType>
+						</gmd:CI_Date>
+					</gmd:date>
+					<gmd:identifier>
+						<gmd:MD_Identifier>
+							<gmd:code>
+								<gco:CharacterString>EOP:VITO:VGT_P</gco:CharacterString>
+							</gmd:code>
+						</gmd:MD_Identifier>
+					</gmd:identifier>
+				</gmd:CI_Citation>
+			</gmd:citation>
+			<gmd:abstract>
+				<gco:CharacterString>VGT-P (P= physical) products are adapted for scientific applications requiring highly accurate physical measurements. The data is corrected for system errors (error registration of the different channels, calibration of all the detectors along the line-array detectors for each spectral band) and resampled to predefined geographic projections chosen by the user. The pixel brightness count is the ground area's apparent reflectance as seen at the top of atmosphere (TOA). Auxiliary data supplied with the products allow users to process the original reflectance values using their own algorithms. The image products cover all or a part of a VEGETATION segment (data strip over land). The VEGETATION instrument is operational since April 1998, first with VGT1, from March 2003 onwards, with VGT2. More information is available on: http://www.vgt.vito.be/faq/faq.html</gco:CharacterString>
+			</gmd:abstract>
+			<gmd:purpose>
+				<gco:CharacterString/>
+			</gmd:purpose>
+			<gmd:status>
+				<gmd:MD_ProgressCode codeList="MD_ProgressCode" codeListValue="onGoing">onGoing</gmd:MD_ProgressCode>
+			</gmd:status>
+			<gmd:pointOfContact>
+				<gmd:CI_ResponsibleParty>
+					<gmd:individualName>
+						<gco:CharacterString>CVB (Image Processing Centre for SPOT-VGT)</gco:CharacterString>
+					</gmd:individualName>
+					<gmd:organisationName>
+						<gco:CharacterString>VITO (Flemish Institute for Technological Research)</gco:CharacterString>
+					</gmd:organisationName>
+					<gmd:contactInfo>
+						<gmd:CI_Contact>
+							<gmd:phone>
+								<gmd:CI_Telephone>
+									<gmd:voice>
+										<gco:CharacterString>+32 14 33 68 14</gco:CharacterString>
+									</gmd:voice>
+									<gmd:facsimile>
+										<gco:CharacterString>+32 14 32 27 95</gco:CharacterString>
+									</gmd:facsimile>
+								</gmd:CI_Telephone>
+							</gmd:phone>
+							<gmd:address>
+								<gmd:CI_Address>
+									<gmd:deliveryPoint>
+										<gco:CharacterString>Boeretang 200</gco:CharacterString>
+									</gmd:deliveryPoint>
+									<gmd:city>
+										<gco:CharacterString>Mol</gco:CharacterString>
+									</gmd:city>
+									<gmd:postalCode>
+										<gco:CharacterString>B-2400</gco:CharacterString>
+									</gmd:postalCode>
+									<gmd:country>
+										<gco:CharacterString>Belgium</gco:CharacterString>
+									</gmd:country>
+									<gmd:electronicMailAddress>
+										<gco:CharacterString>ctiv@vgt.vito.be</gco:CharacterString>
+									</gmd:electronicMailAddress>
+								</gmd:CI_Address>
+							</gmd:address>
+							<gmd:onlineResource>
+								<gmd:CI_OnlineResource>
+									<gmd:linkage>
+										<gmd:URL>http://www.vgt.vito.be</gmd:URL>
+									</gmd:linkage>
+									<gmd:function>
+										<gmd:CI_OnLineFunctionCode codeList="CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+									</gmd:function>
+								</gmd:CI_OnlineResource>
+							</gmd:onlineResource>
+							<gmd:hoursOfService>
+								<gco:CharacterString>Office hours, 7 days per week</gco:CharacterString>
+							</gmd:hoursOfService>
+							<gmd:contactInstructions>
+								<gco:CharacterString>Preferably by e-mail</gco:CharacterString>
+							</gmd:contactInstructions>
+						</gmd:CI_Contact>
+					</gmd:contactInfo>
+					<gmd:role>
+						<gmd:CI_RoleCode codeList="CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+					</gmd:role>
+				</gmd:CI_ResponsibleParty>
+			</gmd:pointOfContact>
+			<gmd:resourceMaintenance>
+				<gmd:MD_MaintenanceInformation>
+					<gmd:maintenanceAndUpdateFrequency>
+						<gmd:MD_MaintenanceFrequencyCode codeList="MD_MaintenanceFrequencyCode" codeListValue="continual">continual</gmd:MD_MaintenanceFrequencyCode>
+					</gmd:maintenanceAndUpdateFrequency>
+					<gmd:maintenanceNote>
+						<gco:CharacterString>Approx. 30 datasets every day (depends on the segment size)</gco:CharacterString>
+					</gmd:maintenanceNote>
+				</gmd:MD_MaintenanceInformation>
+			</gmd:resourceMaintenance>
+			<gmd:graphicOverview>
+				<gmd:MD_BrowseGraphic>
+					<gmd:fileName>
+						<gco:CharacterString>http://www.spot-vegetation.com/images/home/quick/prod_vgt_p.gif</gco:CharacterString>
+					</gmd:fileName>
+				</gmd:MD_BrowseGraphic>
+			</gmd:graphicOverview>
+			<gmd:resourceFormat>
+				<gmd:MD_Format>
+					<gmd:name>
+						<gco:CharacterString>HDF</gco:CharacterString>
+					</gmd:name>
+					<gmd:version>
+						<gco:CharacterString>4</gco:CharacterString>
+					</gmd:version>
+				</gmd:MD_Format>
+			</gmd:resourceFormat>
+			<!--
+			<gmd:descriptiveKeywords>
+				<gmd:MD_Keywords>
+					<gmd:keyword>
+						<gco:CharacterString>10-day composite</gco:CharacterString>
+					</gmd:keyword>
+					<gmd:keyword>
+						<gco:CharacterString>Dekad</gco:CharacterString>
+					</gmd:keyword>
+					<gmd:type>
+						<gmd:MD_KeywordTypeCode codeList="MD_KeywordTypeCode" codeListValue="temporal">temporal</gmd:MD_KeywordTypeCode>
+					</gmd:type>
+				</gmd:MD_Keywords>
+			</gmd:descriptiveKeywords>
+			
+			<gmd:descriptiveKeywords>
+				<gmd:MD_Keywords>
+					<gmd:keyword>
+						<gco:CharacterString>Cloud</gco:CharacterString>
+					</gmd:keyword>
+					<gmd:keyword>
+						<gco:CharacterString>Radiometric quality</gco:CharacterString>
+					</gmd:keyword>
+					<gmd:keyword>
+						<gco:CharacterString>Shadow</gco:CharacterString>
+					</gmd:keyword>
+					<gmd:keyword>
+						<gco:CharacterString>Snow</gco:CharacterString>
+					</gmd:keyword>
+					<gmd:keyword>
+						<gco:CharacterString>land use</gco:CharacterString>
+					</gmd:keyword>
+					<gmd:type>
+						<gmd:MD_KeywordTypeCode codeList="MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+					</gmd:type>
+				</gmd:MD_Keywords>
+			</gmd:descriptiveKeywords>
+			<gmd:descriptiveKeywords>
+				<gmd:MD_Keywords>
+					<gmd:keyword>
+						<gco:CharacterString>environmental monitoring facilities</gco:CharacterString>
+					</gmd:keyword>
+					<gmd:keyword>
+						<gco:CharacterString>land cover</gco:CharacterString>
+					</gmd:keyword>
+					<gmd:keyword>
+						<gco:CharacterString>land use</gco:CharacterString>
+					</gmd:keyword>
+					<gmd:type>
+						<gmd:MD_KeywordTypeCode codeList="MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+					</gmd:type>
+					<gmd:thesaurusName>
+						<gmd:CI_Citation>
+							<gmd:title>
+								<gco:CharacterString>GEMET - INSPIRE themes, version 1.0</gco:CharacterString>
+							</gmd:title>
+							<gmd:date>
+								<gmd:CI_Date>
+									<gmd:date>
+										<gco:Date>2009-06-30</gco:Date>
+									</gmd:date>
+									<gmd:dateType>
+										<gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmx
+Codelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+									</gmd:dateType>
+								</gmd:CI_Date>
+							</gmd:date>
+						</gmd:CI_Citation>
+					</gmd:thesaurusName>
+				</gmd:MD_Keywords>
+			</gmd:descriptiveKeywords>
+			-->
+			<gmd:descriptiveKeywords>
+				<gmd:MD_Keywords>
+					<gmd:keyword>
+						<Anchor xmlns="http://www.isotc211.org/2005/gmx" xlink:href="http://www.eionet.europa.eu/gemet/concept/4678">land use</Anchor>
+					</gmd:keyword>
+					<gmd:keyword>
+						<Anchor xmlns="http://www.isotc211.org/2005/gmx" xlink:href="http://www.eionet.europa.eu/gemet/concept/4612">Land cover</Anchor>
+					</gmd:keyword>
+					<gmd:keyword>
+						<Anchor xmlns="http://www.isotc211.org/2005/gmx" xlink:href="http://www.eionet.europa.eu/gemet/concept/2882">environmental monitoring</Anchor>
+					</gmd:keyword>
+					<gmd:thesaurusName>
+						<gmd:CI_Citation>
+							<gmd:title>
+								<Anchor xmlns="http://www.isotc211.org/2005/gmx" xlink:href="http://www.eionet.europa.eu/gemet/">GEMET - INSPIRE Themes, Version 1.0</Anchor>
+							</gmd:title>
+							<gmd:date>
+								<gmd:CI_Date>
+									<gmd:date>
+										<gco:Date>2008-06-01</gco:Date>
+									</gmd:date>
+									<gmd:dateType>
+										<gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+									</gmd:dateType>
+								</gmd:CI_Date>
+							</gmd:date>
+						</gmd:CI_Citation>
+					</gmd:thesaurusName>
+				</gmd:MD_Keywords>
+			</gmd:descriptiveKeywords>
+			<gmd:descriptiveKeywords>
+				<gmd:MD_Keywords>
+					<gmd:keyword>
+						<gco:CharacterString>radiometric</gco:CharacterString>
+					</gmd:keyword>
+					<gmd:keyword>
+						<gco:CharacterString>FedEO</gco:CharacterString>
+					</gmd:keyword>
+				</gmd:MD_Keywords>
+			</gmd:descriptiveKeywords>
+			<gmd:descriptiveKeywords>
+				<gmd:MD_Keywords>
+					<gmd:keyword>
+						<Anchor xmlns="http://www.isotc211.org/2005/gmx" xlink:href="http://thesauri.esa.int/MultiDomain_Thesaurus/Land_Use">Land Use</Anchor>
+					</gmd:keyword>
+					<gmd:keyword>
+						<Anchor xmlns="http://www.isotc211.org/2005/gmx" xlink:href="http://thesauri.esa.int/MultiDomain_Thesaurus/Land_Cover">Land Cover</Anchor>
+					</gmd:keyword>
+					<gmd:keyword>
+						<Anchor xmlns="http://www.isotc211.org/2005/gmx" xlink:href="http://thesauri.esa.int/MultiDomain_Thesaurus/Land_Monitoring">Land Monitoring</Anchor>
+					</gmd:keyword>
+					<gmd:keyword>
+						<Anchor xmlns="http://www.isotc211.org/2005/gmx" xlink:href="http://thesauri.esa.int/MultiDomain_Thesaurus/Dekad">Dekad</Anchor>
+					</gmd:keyword>
+					<gmd:thesaurusName>
+						<gmd:CI_Citation>
+							<gmd:title>
+								<Anchor xmlns="http://www.isotc211.org/2005/gmx" xlink:href="http://thesauri.esa.int/MultiDomain_Thesaurus">Land Ontology</Anchor>
+							</gmd:title>
+							<gmd:date/>
+						</gmd:CI_Citation>
+					</gmd:thesaurusName>
+				</gmd:MD_Keywords>
+			</gmd:descriptiveKeywords>
+			<gmd:resourceConstraints>
+				<gmd:MD_LegalConstraints>
+					<gmd:useLimitation>
+						<gco:CharacterString>Copyright CNES. Distributed by VITO</gco:CharacterString>
+					</gmd:useLimitation>
+					<gmd:accessConstraints>
+						<gmd:MD_RestrictionCode codeList="MD_RestrictionCode" codeListValue="copyright">copyright</gmd:MD_RestrictionCode>
+					</gmd:accessConstraints>
+				</gmd:MD_LegalConstraints>
+			</gmd:resourceConstraints>
+			<gmd:resourceConstraints>
+				<gmd:MD_SecurityConstraints>
+					<gmd:useLimitation>
+						<gco:CharacterString>Copyright CNES. Distributed by VITO</gco:CharacterString>
+					</gmd:useLimitation>
+					<gmd:classification>
+						<gmd:MD_ClassificationCode codeList="MD_ClassificationCode" codeListValue="unclassified">unclassified</gmd:MD_ClassificationCode>
+					</gmd:classification>
+				</gmd:MD_SecurityConstraints>
+			</gmd:resourceConstraints>
+			<!-- commented out: not correctly displayed in Geonetwork 
+			<gmd:aggregationInfo>
+				<gmd:MD_AggregateInformation>
+					<gmd:initiativeType>
+						<gmd:DS_InitiativeTypeCode codeListValue="platform" codeList="DS_InitiativeTypeCode">SPOT</gmd:DS_InitiativeTypeCode>
+					</gmd:initiativeType>
+				</gmd:MD_AggregateInformation>
+			</gmd:aggregationInfo>
+			<gmd:aggregationInfo>
+				<gmd:MD_AggregateInformation>
+					<gmd:initiativeType>
+						<gmd:DS_InitiativeTypeCode codeListValue="sensor" codeList="DS_InitiativeTypeCode">VEGETATION</gmd:DS_InitiativeTypeCode>
+					</gmd:initiativeType>
+				</gmd:MD_AggregateInformation>
+			</gmd:aggregationInfo>
+			-->
+			<gmd:spatialRepresentationType>
+				<gmd:MD_SpatialRepresentationTypeCode codeList="MD_SpatialRepresentationTypeCode" codeListValue="grid">grid</gmd:MD_SpatialRepresentationTypeCode>
+			</gmd:spatialRepresentationType>
+			<gmd:spatialResolution>
+				<gmd:MD_Resolution>
+					<gmd:distance>
+						<gco:Distance uom="m">1000</gco:Distance>
+					</gmd:distance>
+				</gmd:MD_Resolution>
+			</gmd:spatialResolution>
+			<gmd:language>
+				<gco:CharacterString>eng</gco:CharacterString>
+			</gmd:language>
+			<gmd:characterSet>
+				<gmd:MD_CharacterSetCode codeList="MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
+			</gmd:characterSet>
+			<gmd:topicCategory>
+				<gmd:MD_TopicCategoryCode>environment</gmd:MD_TopicCategoryCode>
+			</gmd:topicCategory>
+			<gmd:topicCategory>
+				<gmd:MD_TopicCategoryCode>geoscientificInformation</gmd:MD_TopicCategoryCode>
+			</gmd:topicCategory>
+			<gmd:extent>
+				<gmd:EX_Extent>
+					<gmd:geographicElement>
+						<gmd:EX_GeographicBoundingBox>
+							<gmd:extentTypeCode>
+								<gco:Boolean>1</gco:Boolean>
+							</gmd:extentTypeCode>
+							<gmd:westBoundLongitude>
+								<gco:Decimal>-180.0</gco:Decimal>
+							</gmd:westBoundLongitude>
+							<gmd:eastBoundLongitude>
+								<gco:Decimal>180.0</gco:Decimal>
+							</gmd:eastBoundLongitude>
+							<gmd:southBoundLatitude>
+								<gco:Decimal>-56.0</gco:Decimal>
+							</gmd:southBoundLatitude>
+							<gmd:northBoundLatitude>
+								<gco:Decimal>75.0</gco:Decimal>
+							</gmd:northBoundLatitude>
+						</gmd:EX_GeographicBoundingBox>
+					</gmd:geographicElement>
+				</gmd:EX_Extent>
+			</gmd:extent>
+			<gmd:extent>
+				<gmd:EX_Extent>
+					<gmd:temporalElement>
+						<gmd:EX_TemporalExtent>
+							<gmd:extent>
+								<gml:TimePeriod gml:id="ID_4">
+									<gml:beginPosition>1998-04-01T00:00:00</gml:beginPosition>
+									<gml:endPosition>2013-12-31T00:00:00</gml:endPosition>
+								</gml:TimePeriod>
+							</gmd:extent>
+						</gmd:EX_TemporalExtent>
+					</gmd:temporalElement>
+				</gmd:EX_Extent>
+			</gmd:extent>
+		</gmd:MD_DataIdentification>
+	</gmd:identificationInfo>
+	<gmd:distributionInfo>
+		<gmd:MD_Distribution>
+			<gmd:distributionFormat>
+				<gmd:MD_Format>
+					<gmd:name>
+						<gco:CharacterString>ZIP 2.0.1</gco:CharacterString>
+					</gmd:name>
+					<gmd:version>
+						<gco:CharacterString>v1.7</gco:CharacterString>
+					</gmd:version>
+					<gmd:specification>
+						<gco:CharacterString>Standard PKZIP compatible Unix/Linux ZIP format</gco:CharacterString>
+					</gmd:specification>
+					<gmd:fileDecompressionTechnique>
+						<gco:CharacterString>unzip or pkunzip</gco:CharacterString>
+					</gmd:fileDecompressionTechnique>
+				</gmd:MD_Format>
+			</gmd:distributionFormat>
+			<gmd:distributor>
+				<gmd:MD_Distributor>
+					<gmd:distributorContact>
+						<gmd:CI_ResponsibleParty>
+							<gmd:individualName>
+								<gco:CharacterString>Sales (Eric Gontier)</gco:CharacterString>
+							</gmd:individualName>
+							<gmd:organisationName>
+								<gco:CharacterString>VITO (Flemish Institute for Technological Research)</gco:CharacterString>
+							</gmd:organisationName>
+							<gmd:contactInfo>
+								<gmd:CI_Contact>
+									<gmd:phone>
+										<gmd:CI_Telephone>
+											<gmd:voice>
+												<gco:CharacterString>+32 14 33 68 77</gco:CharacterString>
+											</gmd:voice>
+											<gmd:facsimile>
+												<gco:CharacterString>+32 14 32 27 95</gco:CharacterString>
+											</gmd:facsimile>
+										</gmd:CI_Telephone>
+									</gmd:phone>
+									<gmd:address>
+										<gmd:CI_Address>
+											<gmd:deliveryPoint>
+												<gco:CharacterString>Boeretang 200</gco:CharacterString>
+											</gmd:deliveryPoint>
+											<gmd:city>
+												<gco:CharacterString>Mol</gco:CharacterString>
+											</gmd:city>
+											<gmd:postalCode>
+												<gco:CharacterString>B-2400</gco:CharacterString>
+											</gmd:postalCode>
+											<gmd:country>
+												<gco:CharacterString>Belgium</gco:CharacterString>
+											</gmd:country>
+											<gmd:electronicMailAddress>
+												<gco:CharacterString>sales@vgt.vito.be</gco:CharacterString>
+											</gmd:electronicMailAddress>
+										</gmd:CI_Address>
+									</gmd:address>
+									<gmd:onlineResource>
+										<gmd:CI_OnlineResource>
+											<gmd:linkage>
+												<gmd:URL>http://www.spot-vegetation.com</gmd:URL>
+											</gmd:linkage>
+											<gmd:function>
+												<gmd:CI_OnLineFunctionCode codeList="CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+											</gmd:function>
+										</gmd:CI_OnlineResource>
+									</gmd:onlineResource>
+									<gmd:hoursOfService>
+										<gco:CharacterString>Office hours, 5 days per week</gco:CharacterString>
+									</gmd:hoursOfService>
+									<gmd:contactInstructions>
+										<gco:CharacterString>Preferably by e-mail</gco:CharacterString>
+									</gmd:contactInstructions>
+								</gmd:CI_Contact>
+							</gmd:contactInfo>
+							<gmd:role>
+								<gmd:CI_RoleCode codeList="CI_RoleCode" codeListValue="distributor">distributor</gmd:CI_RoleCode>
+							</gmd:role>
+						</gmd:CI_ResponsibleParty>
+					</gmd:distributorContact>
+					<gmd:distributionOrderProcess>
+						<gmd:MD_StandardOrderProcess>
+							<gmd:fees>
+								<gco:CharacterString>For commercial use: depending on the region size. For scientific use: administrative cost, after approval by scientific officer</gco:CharacterString>
+							</gmd:fees>
+							<gmd:orderingInstructions>
+								<gco:CharacterString>VEGETATION products can be ordered on the Internet through the VEGETATION Catalogue (http://suvweb.vgt.vito.be). The catalogue is freely accessible for browsing, but for ordering you should be registered. To register, you should contact VITO (sales@vgt.vito.be). The products can be ordered by catalogue (archive) or subscription (images over a future period, a few weeks to several years, covering a particular region of interest. The following order information is needed for both orders: Region of interest, period, product type, projection and delivery media.</gco:CharacterString>
+							</gmd:orderingInstructions>
+							<gmd:turnaround>
+								<gco:CharacterString>NRT: max. 5 days. From archive: depending on the volume.</gco:CharacterString>
+							</gmd:turnaround>
+						</gmd:MD_StandardOrderProcess>
+					</gmd:distributionOrderProcess>
+				</gmd:MD_Distributor>
+			</gmd:distributor>
+			<gmd:transferOptions>
+				<gmd:MD_DigitalTransferOptions>
+					<gmd:onLine>
+						<gmd:CI_OnlineResource>
+							<gmd:linkage>
+								<gmd:URL>http://suvweb.vgt.vito.be</gmd:URL>
+							</gmd:linkage>
+							<!--
+							<name>
+								<gco:CharacterString>VITO SPOT-VEGETATION Catalogue</gco:CharacterString>
+							</name>
+							<description>
+								<gco:CharacterString>VITO SPOT-VEGETATION Catalogue</gco:CharacterString>
+							</description>
+-->
+						</gmd:CI_OnlineResource>
+					</gmd:onLine>
+				</gmd:MD_DigitalTransferOptions>
+			</gmd:transferOptions>
+		</gmd:MD_Distribution>
+	</gmd:distributionInfo>
+	<gmd:dataQualityInfo>
+		<gmd:DQ_DataQuality>
+			<gmd:scope>
+				<gmd:DQ_Scope>
+					<gmd:level>
+						<gmd:MD_ScopeCode codeList="MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
+					</gmd:level>
+				</gmd:DQ_Scope>
+			</gmd:scope>
+			<gmd:report>
+				<gmd:DQ_DomainConsistency>
+					<gmd:result>
+						<gmd:DQ_ConformanceResult>
+							<gmd:specification>
+								<gmd:CI_Citation>
+									<gmd:title>
+										<gco:CharacterString>COMMISSION REGULATION (EU) No 1089/2010 of 23 November 2010 implementing Directive 2007/2/EC of the European Parliament and of the Council as regards interoperability of spatial data sets and services</gco:CharacterString>
+									</gmd:title>
+									<gmd:date>
+										<gmd:CI_Date>
+											<gmd:date>
+												<gco:Date>2010-12-08</gco:Date>
+											</gmd:date>
+											<gmd:dateType>
+												<gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="publication"/>
+											</gmd:dateType>
+										</gmd:CI_Date>
+									</gmd:date>
+								</gmd:CI_Citation>
+							</gmd:specification>
+							<gmd:explanation>
+								<gco:CharacterString>non testÃ©</gco:CharacterString>
+							</gmd:explanation>
+							<gmd:pass>
+								<gco:Boolean>false</gco:Boolean>
+							</gmd:pass>
+						</gmd:DQ_ConformanceResult>
+					</gmd:result>
+				</gmd:DQ_DomainConsistency>
+			</gmd:report>
+			<gmd:lineage>
+				<gmd:LI_Lineage>
+					<gmd:statement>
+						<gco:CharacterString>P products are adapted for the first type of users for which physical quality of data is important. They correspond to data which would have been acquired by an ideal instrument: they are corrected for system errors (misregistration of the different channels, calibration of all the detectors along the line-array detectors for each spectral bands) and resampled to geographic projections for multitemporal analysis as well as for comparison with high resolution data. The input system data is processed using ancillary data necessary for radiometric and geometric corrections and annotation of the data set. The output data will correspond to the entire lines of the orbital segment which is necessary to overlap the geographical area requested by the user. The products provide data from all spectral bands (SWIR, NIR, RED, BLUE), auxiliary data on image acquisition parameters and spectral band quality information.</gco:CharacterString>
+					</gmd:statement>
+				</gmd:LI_Lineage>
+			</gmd:lineage>
+		</gmd:DQ_DataQuality>
+	</gmd:dataQualityInfo>
+	<gmd:metadataMaintenance>
+		<gmd:MD_MaintenanceInformation>
+			<gmd:maintenanceAndUpdateFrequency>
+				<gmd:MD_MaintenanceFrequencyCode codeList="MD_MaintenanceFrequencyCode" codeListValue="asNeeded">asNeeded</gmd:MD_MaintenanceFrequencyCode>
+			</gmd:maintenanceAndUpdateFrequency>
+		</gmd:MD_MaintenanceInformation>
+	</gmd:metadataMaintenance>
+	<gmi:acquisitionInformation>
+		<gmi:MI_AcquisitionInformation>
+			<gmi:platform>
+				<gmi:MI_Platform>
+					<gmi:identifier>
+						<gmd:MD_Identifier>
+							<gmd:code>
+								<gco:CharacterString>SPOT</gco:CharacterString>
+							</gmd:code>
+						</gmd:MD_Identifier>
+					</gmi:identifier>
+					<gmi:description>
+						<gco:CharacterString>SPOT</gco:CharacterString>
+					</gmi:description>
+					<gmi:instrument>
+						<gmi:MI_Instrument>
+							<gmi:citation>
+								<gmd:CI_Citation>
+									<gmd:title>
+										<gco:CharacterString>VEGETATION</gco:CharacterString>
+									</gmd:title>
+									<gmd:date>
+										<gmd:CI_Date>
+											<gmd:date>
+												<gco:Date>2002-03-01</gco:Date>
+											</gmd:date>
+											<gmd:dateType>
+												<gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="creation">creation</gmd:CI_DateTypeCode>
+											</gmd:dateType>
+										</gmd:CI_Date>
+									</gmd:date>
+									<gmd:identifier>
+										<gmd:MD_Identifier>
+											<gmd:code>
+												<gco:CharacterString>VEGETATION</gco:CharacterString>
+											</gmd:code>
+										</gmd:MD_Identifier>
+									</gmd:identifier>
+								</gmd:CI_Citation>
+							</gmi:citation>
+							<gmi:type>
+								<gmi:MI_SensorTypeCode/>
+							</gmi:type>
+						</gmi:MI_Instrument>
+					</gmi:instrument>
+				</gmi:MI_Platform>
+			</gmi:platform>
+		</gmi:MI_AcquisitionInformation>
+	</gmi:acquisitionInformation>
+</gmi:MI_Metadata>
+</entry>
+<entry xml:lang="en-US">
+<id>http://geo.spacebel.be/opensearch/request/?httpAccept=application/atom%2Bxml&amp;parentIdentifier=EOP:ESA:FEDEO:COLLECTIONS&amp;type=collection&amp;publisher=VITO&amp;recordSchema=iso&amp;uid=EOP%3AVITO%3AVGT_S1</id>
+<title>Global 1 Day Synthesis of SPOT VEGETATION Images (VGT-S1)</title>
+<dc:identifier>EOP:VITO:VGT_S1</dc:identifier>
+<updated>2015-12-10T10:42:53Z</updated>
+<dc:date>1998-04-01T00:00:00/2013-12-31T00:00:00</dc:date>
+<georss:polygon>-56.0 -180.0 75.0 -180.0 75.0 180.0 -56.0 180.0 -56.0 -180.0</georss:polygon>
+<published>2010-07-16T00:00:00Z</published>
+<category label="radiometric" term="radiometric"/>
+<category label="FedEO" term="FedEO"/>
+<category label="Land Use" scheme="http://thesauri.esa.int/MultiDomain_Thesaurus" term="http://thesauri.esa.int/MultiDomain_Thesaurus/Land_Use"/>
+<category label="Land Cover" scheme="http://thesauri.esa.int/MultiDomain_Thesaurus" term="http://thesauri.esa.int/MultiDomain_Thesaurus/Land_Cover"/>
+<category label="Land Monitoring" scheme="http://thesauri.esa.int/MultiDomain_Thesaurus" term="http://thesauri.esa.int/MultiDomain_Thesaurus/Land_Monitoring"/>
+<category label="Dekad" scheme="http://thesauri.esa.int/MultiDomain_Thesaurus" term="http://thesauri.esa.int/MultiDomain_Thesaurus/Dekad"/>
+<category label="land use" scheme="http://www.eionet.europa.eu/gemet/" term="http://www.eionet.europa.eu/gemet/concept/4678"/>
+<category label="Land cover" scheme="http://www.eionet.europa.eu/gemet/" term="http://www.eionet.europa.eu/gemet/concept/4612"/>
+<category label="environmental monitoring" scheme="http://www.eionet.europa.eu/gemet/" term="http://www.eionet.europa.eu/gemet/concept/2882"/>
+<category label="SPOT" term="SPOT"/>
+<category label="VEGETATION" term="VEGETATION"/>
+<summary type="html"><![CDATA[
+<table xmlns="">
+<tr valign="top">
+<td>
+<b>Title </b>
+</td>
+<td>Global 1 Day Synthesis of SPOT VEGETATION Images (VGT-S1)</td>
+</tr>
+<tr valign="top">
+<td>
+<b>Description </b>
+</td>
+<td>VGT-S1 products (daily synthesis) are composed of the 'best' ground reflectance measurements of all segments received during one day for the entire surface of the Earth. This is done for each of the images covering the same geographical area. The areas distant from the equator have more overlapping parts so the choice for the best pixel will be out of more data. These products provide data from all spectral bands, the NDVI and auxiliary data on image acquisition parameters. The VEGETATION instrument is operational since April 1998, first with VGT1, from March 2003 onwards, with VGT2. More information is available on: http://www.vgt.vito.be/faq/faq.html</td>
+</tr>
+<tr valign="top">
+<td>
+<b>Type </b>
+</td>
+<td>Collection</td>
+</tr>
+<tr valign="top">
+<td>
+<b>Date </b>
+</td>
+<td>1998-04-01T00:00:00/2013-12-31T00:00:00</td>
+</tr>
+<td>
+<b>Media Type</b>
+</td>
+<td>
+<a href="http://geo.spacebel.be/opensearch/request?httpAccept=application/atom%2Bxml&amp;startRecord=1&amp;parentIdentifier=EOP:ESA:FEDEO:COLLECTIONS&amp;uid=EOP%3AVITO%3AVGT_S1&amp;recordSchema=iso" title="ATOM format">ATOM</a>   |   <a href="http://geo.spacebel.be/opensearch/request?httpAccept=application/sru%2Bxml&amp;startRecord=1&amp;parentIdentifier=EOP:ESA:FEDEO:COLLECTIONS&amp;uid=EOP%3AVITO%3AVGT_S1&amp;recordSchema=iso" title="SRU format">SRU</a>
+</td>
+<tr valign="top">
+<td>
+<b>Metadata </b>
+</td>
+<td>
+<a href="http://hma-se-services.spacebel.be:8080/i15/httpservice?request=GetRepositoryItem&amp;service=CSW-ebRIM&amp;Id=urn%3ACIM%3AEOP%3AVITO%3AVGT_S1%3AResourceMetadata" title="ISO format">ISO</a>
+</td>
+</tr>
+</table>]]></summary>
+<link href="http://geo.spacebel.be/opensearch/request?httpAccept=application/atom%2Bxml&amp;startRecord=1&amp;parentIdentifier=EOP:ESA:FEDEO:COLLECTIONS&amp;uid=EOP%3AVITO%3AVGT_S1&amp;recordSchema=iso" rel="alternate" title="Atom format" type="application/atom+xml"/>
+
+<gmi:MI_Metadata xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.isotc211.org/2005/gmi ..\..\schema/ISO/gmi/gmi.xsd">
+	<gmd:fileIdentifier>
+		<gco:CharacterString>EOP:VITO:VGT_S1</gco:CharacterString>
+	</gmd:fileIdentifier>
+	<gmd:language>
+		<gco:CharacterString>eng</gco:CharacterString>
+	</gmd:language>
+	<gmd:characterSet>
+		<gmd:MD_CharacterSetCode codeList="MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
+	</gmd:characterSet>
+	<gmd:hierarchyLevel>
+		<gmd:MD_ScopeCode codeList="MD_ScopeCode" codeListValue="series">series</gmd:MD_ScopeCode>
+	</gmd:hierarchyLevel>
+	<gmd:hierarchyLevelName>
+		<gco:CharacterString>Spaceborne Level 1-3 Imagery</gco:CharacterString>
+	</gmd:hierarchyLevelName>
+	<gmd:contact>
+		<gmd:CI_ResponsibleParty>
+			<gmd:individualName>
+				<gco:CharacterString>CVB (Image Processing Centre for SPOT-VGT)</gco:CharacterString>
+			</gmd:individualName>
+			<gmd:organisationName>
+				<gco:CharacterString>VITO (Flemish Institute for Technological Research)</gco:CharacterString>
+			</gmd:organisationName>
+			<gmd:contactInfo>
+				<gmd:CI_Contact>
+					<gmd:phone>
+						<gmd:CI_Telephone>
+							<gmd:voice>
+								<gco:CharacterString>+32 14 33 68 14</gco:CharacterString>
+							</gmd:voice>
+							<gmd:facsimile>
+								<gco:CharacterString>+32 14 32 27 95</gco:CharacterString>
+							</gmd:facsimile>
+						</gmd:CI_Telephone>
+					</gmd:phone>
+					<gmd:address>
+						<gmd:CI_Address>
+							<gmd:deliveryPoint>
+								<gco:CharacterString>Boeretang 200</gco:CharacterString>
+							</gmd:deliveryPoint>
+							<gmd:city>
+								<gco:CharacterString>Mol</gco:CharacterString>
+							</gmd:city>
+							<gmd:postalCode>
+								<gco:CharacterString>B-2400</gco:CharacterString>
+							</gmd:postalCode>
+							<gmd:country>
+								<gco:CharacterString>Belgium</gco:CharacterString>
+							</gmd:country>
+							<gmd:electronicMailAddress>
+								<gco:CharacterString>ctiv@vgt.vito.be</gco:CharacterString>
+							</gmd:electronicMailAddress>
+						</gmd:CI_Address>
+					</gmd:address>
+					<gmd:onlineResource>
+						<gmd:CI_OnlineResource>
+							<gmd:linkage>
+								<gmd:URL>http://www.vgt.vito.be</gmd:URL>
+							</gmd:linkage>
+							<gmd:function>
+								<gmd:CI_OnLineFunctionCode codeList="CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+							</gmd:function>
+						</gmd:CI_OnlineResource>
+					</gmd:onlineResource>
+					<gmd:hoursOfService>
+						<gco:CharacterString>Office hours, 7 days per week</gco:CharacterString>
+					</gmd:hoursOfService>
+					<gmd:contactInstructions>
+						<gco:CharacterString>Preferably by e-mail</gco:CharacterString>
+					</gmd:contactInstructions>
+				</gmd:CI_Contact>
+			</gmd:contactInfo>
+			<gmd:role>
+				<gmd:CI_RoleCode codeList="CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+			</gmd:role>
+		</gmd:CI_ResponsibleParty>
+	</gmd:contact>
+	<gmd:dateStamp>
+		<gco:DateTime>2010-04-30T11:37:54</gco:DateTime>
+	</gmd:dateStamp>
+	<gmd:metadataStandardName>
+		<gco:CharacterString>ISO 19115:2003, 19119:2006 (LMCS profile)</gco:CharacterString>
+	</gmd:metadataStandardName>
+	<gmd:metadataStandardVersion>
+		<gco:CharacterString>1.0</gco:CharacterString>
+	</gmd:metadataStandardVersion>
+	<gmd:referenceSystemInfo>
+		<gmd:MD_ReferenceSystem>
+			<gmd:referenceSystemIdentifier>
+				<gmd:RS_Identifier>
+					<gmd:code>
+						<gco:CharacterString>Plate Carree</gco:CharacterString>
+					</gmd:code>
+					<gmd:codeSpace>
+						<gco:CharacterString>Plate Carree</gco:CharacterString>
+					</gmd:codeSpace>
+				</gmd:RS_Identifier>
+			</gmd:referenceSystemIdentifier>
+		</gmd:MD_ReferenceSystem>
+	</gmd:referenceSystemInfo>
+	<gmd:identificationInfo>
+		<gmd:MD_DataIdentification uuid="cad690e7-fb8e-43ac-89b9-4e3e08a57fc5">
+			<gmd:citation>
+				<gmd:CI_Citation>
+					<gmd:title>
+						<gco:CharacterString>Global 1 Day Synthesis of SPOT VEGETATION Images (VGT-S1)</gco:CharacterString>
+					</gmd:title>
+					<!--					<gmd:edition>						<gco:CharacterString>1</gco:CharacterString>					</gmd:edition>-->
+					<gmd:date>
+						<gmd:CI_Date>
+							<gmd:date>
+								<gco:Date>2010-07-16</gco:Date>
+							</gmd:date>
+							<gmd:dateType>
+								<gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+							</gmd:dateType>
+						</gmd:CI_Date>
+					</gmd:date>
+					<gmd:identifier>
+						<gmd:MD_Identifier>
+							<gmd:code>
+								<gco:CharacterString>cad690e7-fb8e-43ac-89b9-4e3e08a57fc5</gco:CharacterString>
+							</gmd:code>
+						</gmd:MD_Identifier>
+					</gmd:identifier>
+				</gmd:CI_Citation>
+			</gmd:citation>
+			<gmd:abstract>
+				<gco:CharacterString>VGT-S1 products (daily synthesis) are composed of the 'best' ground reflectance measurements of all segments received during one day for the entire surface of the Earth. This is done for each of the images covering the same geographical area. The areas distant from the equator have more overlapping parts so the choice for the best pixel will be out of more data. These products provide data from all spectral bands, the NDVI and auxiliary data on image acquisition parameters. The VEGETATION instrument is operational since April 1998, first with VGT1, from March 2003 onwards, with VGT2. More information is available on: http://www.vgt.vito.be/faq/faq.html</gco:CharacterString>
+			</gmd:abstract>
+			<gmd:purpose>
+				<gco:CharacterString/>
+			</gmd:purpose>
+			<gmd:status>
+				<gmd:MD_ProgressCode codeList="MD_ProgressCode" codeListValue="onGoing">onGoing</gmd:MD_ProgressCode>
+			</gmd:status>
+			<gmd:pointOfContact>
+				<gmd:CI_ResponsibleParty>
+					<gmd:individualName>
+						<gco:CharacterString>CVB (Image Processing Centre for SPOT-VGT)</gco:CharacterString>
+					</gmd:individualName>
+					<gmd:organisationName>
+						<gco:CharacterString>VITO (Flemish Institute for Technological Research)</gco:CharacterString>
+					</gmd:organisationName>
+					<gmd:contactInfo>
+						<gmd:CI_Contact>
+							<gmd:phone>
+								<gmd:CI_Telephone>
+									<gmd:voice>
+										<gco:CharacterString>+32 14 33 68 14</gco:CharacterString>
+									</gmd:voice>
+									<gmd:facsimile>
+										<gco:CharacterString>+32 14 32 27 95</gco:CharacterString>
+									</gmd:facsimile>
+								</gmd:CI_Telephone>
+							</gmd:phone>
+							<gmd:address>
+								<gmd:CI_Address>
+									<gmd:deliveryPoint>
+										<gco:CharacterString>Boeretang 200</gco:CharacterString>
+									</gmd:deliveryPoint>
+									<gmd:city>
+										<gco:CharacterString>Mol</gco:CharacterString>
+									</gmd:city>
+									<gmd:postalCode>
+										<gco:CharacterString>B-2400</gco:CharacterString>
+									</gmd:postalCode>
+									<gmd:country>
+										<gco:CharacterString>Belgium</gco:CharacterString>
+									</gmd:country>
+									<gmd:electronicMailAddress>
+										<gco:CharacterString>ctiv@vgt.vito.be</gco:CharacterString>
+									</gmd:electronicMailAddress>
+								</gmd:CI_Address>
+							</gmd:address>
+							<gmd:onlineResource>
+								<gmd:CI_OnlineResource>
+									<gmd:linkage>
+										<gmd:URL>http://www.vgt.vito.be</gmd:URL>
+									</gmd:linkage>
+									<gmd:function>
+										<gmd:CI_OnLineFunctionCode codeList="CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+									</gmd:function>
+								</gmd:CI_OnlineResource>
+							</gmd:onlineResource>
+							<gmd:hoursOfService>
+								<gco:CharacterString>Office hours, 7 days per week</gco:CharacterString>
+							</gmd:hoursOfService>
+							<gmd:contactInstructions>
+								<gco:CharacterString>Preferably by e-mail</gco:CharacterString>
+							</gmd:contactInstructions>
+						</gmd:CI_Contact>
+					</gmd:contactInfo>
+					<gmd:role>
+						<gmd:CI_RoleCode codeList="CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+					</gmd:role>
+				</gmd:CI_ResponsibleParty>
+			</gmd:pointOfContact>
+			<gmd:resourceMaintenance>
+				<gmd:MD_MaintenanceInformation>
+					<gmd:maintenanceAndUpdateFrequency>
+						<gmd:MD_MaintenanceFrequencyCode codeList="MD_MaintenanceFrequencyCode" codeListValue="continual">continual</gmd:MD_MaintenanceFrequencyCode>
+					</gmd:maintenanceAndUpdateFrequency>
+					<gmd:maintenanceNote>
+						<gco:CharacterString>New dataset every day</gco:CharacterString>
+					</gmd:maintenanceNote>
+				</gmd:MD_MaintenanceInformation>
+			</gmd:resourceMaintenance>
+			<gmd:graphicOverview>
+				<gmd:MD_BrowseGraphic>
+					<gmd:fileName>
+						<gco:CharacterString>http://www.spot-vegetation.com/images/home/quick/prod_vgt_s1.gif</gco:CharacterString>
+					</gmd:fileName>
+				</gmd:MD_BrowseGraphic>
+			</gmd:graphicOverview>
+			<gmd:resourceFormat>
+				<gmd:MD_Format>
+					<gmd:name>
+						<gco:CharacterString>HDF</gco:CharacterString>
+					</gmd:name>
+					<gmd:version>
+						<gco:CharacterString>4</gco:CharacterString>
+					</gmd:version>
+				</gmd:MD_Format>
+			</gmd:resourceFormat>
+			<!--			<gmd:descriptiveKeywords>				<gmd:MD_Keywords>					<gmd:keyword>						<gco:CharacterString>1-day composite</gco:CharacterString>					</gmd:keyword>										<gmd:keyword>						<gco:CharacterString>Dekad</gco:CharacterString>					</gmd:keyword>										<gmd:type>						<gmd:MD_KeywordTypeCode codeList="MD_KeywordTypeCode" codeListValue="temporal">temporal</gmd:MD_KeywordTypeCode>					</gmd:type>				</gmd:MD_Keywords>			</gmd:descriptiveKeywords>			<gmd:descriptiveKeywords>				<gmd:MD_Keywords>					<gmd:keyword>						<gco:CharacterString>Cloud</gco:CharacterString>					</gmd:keyword>					<gmd:keyword>						<gco:CharacterString>Radiometric quality</gco:CharacterString>					</gmd:keyword>					<gmd:keyword>						<gco:CharacterString>Shadow</gco:CharacterString>					</gmd:keyword>					<gmd:keyword>						<gco:CharacterString>Snow</gco:CharacterString>					</gmd:keyword>					<gmd:keyword>						<gco:CharacterString>land use</gco:CharacterString>					</gmd:keyword>					<gmd:type>						<gmd:MD_KeywordTypeCode codeList="MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>					</gmd:type>				</gmd:MD_Keywords>			</gmd:descriptiveKeywords>			<gmd:descriptiveKeywords>				<gmd:MD_Keywords>					<gmd:keyword>						<gco:CharacterString>environmental monitoring facilities</gco:CharacterString>					</gmd:keyword>					<gmd:keyword>						<gco:CharacterString>land cover</gco:CharacterString>					</gmd:keyword>					<gmd:keyword>						<gco:CharacterString>land use</gco:CharacterString>					</gmd:keyword>					<gmd:type>						<gmd:MD_KeywordTypeCode codeList="MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>					</gmd:type>					<gmd:thesaurusName>						<gmd:CI_Citation>							<gmd:title>								<gco:CharacterString>GEMET - INSPIRE themes, version 1.0</gco:CharacterString>							</gmd:title>							<gmd:date>								<gmd:CI_Date>									<gmd:date>										<gco:Date>2009-06-30</gco:Date>									</gmd:date>									<gmd:dateType>										<gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>									</gmd:dateType>								</gmd:CI_Date>							</gmd:date>						</gmd:CI_Citation>					</gmd:thesaurusName>				</gmd:MD_Keywords>			</gmd:descriptiveKeywords>-->
+			<gmd:descriptiveKeywords>
+				<gmd:MD_Keywords>
+					<gmd:keyword>
+						<gco:CharacterString>radiometric</gco:CharacterString>
+					</gmd:keyword>
+					<gmd:keyword>
+						<gco:CharacterString>FedEO</gco:CharacterString>
+					</gmd:keyword>
+				</gmd:MD_Keywords>
+			</gmd:descriptiveKeywords>
+			<gmd:descriptiveKeywords>
+				<gmd:MD_Keywords>
+					<gmd:keyword>
+						<Anchor xmlns="http://www.isotc211.org/2005/gmx" xlink:href="http://thesauri.esa.int/MultiDomain_Thesaurus/Land_Use">Land Use</Anchor>
+					</gmd:keyword>
+					<gmd:keyword>
+						<Anchor xmlns="http://www.isotc211.org/2005/gmx" xlink:href="http://thesauri.esa.int/MultiDomain_Thesaurus/Land_Cover">Land Cover</Anchor>
+					</gmd:keyword>
+					<gmd:keyword>
+						<Anchor xmlns="http://www.isotc211.org/2005/gmx" xlink:href="http://thesauri.esa.int/MultiDomain_Thesaurus/Land_Monitoring">Land Monitoring</Anchor>
+					</gmd:keyword>
+					<gmd:keyword>
+						<Anchor xmlns="http://www.isotc211.org/2005/gmx" xlink:href="http://thesauri.esa.int/MultiDomain_Thesaurus/Dekad">Dekad</Anchor>
+					</gmd:keyword>
+					<gmd:thesaurusName>
+						<gmd:CI_Citation>
+							<gmd:title>
+								<Anchor xmlns="http://www.isotc211.org/2005/gmx" xlink:href="http://thesauri.esa.int/MultiDomain_Thesaurus">Land Ontology</Anchor>
+							</gmd:title>
+							<gmd:date/>
+						</gmd:CI_Citation>
+					</gmd:thesaurusName>
+				</gmd:MD_Keywords>
+			</gmd:descriptiveKeywords>
+			<gmd:descriptiveKeywords>
+				<gmd:MD_Keywords>
+					<gmd:keyword>
+						<Anchor xmlns="http://www.isotc211.org/2005/gmx" xlink:href="http://www.eionet.europa.eu/gemet/concept/4678">land use</Anchor>
+					</gmd:keyword>
+					<gmd:keyword>
+						<Anchor xmlns="http://www.isotc211.org/2005/gmx" xlink:href="http://www.eionet.europa.eu/gemet/concept/4612">Land cover</Anchor>
+					</gmd:keyword>
+					<gmd:keyword>
+						<Anchor xmlns="http://www.isotc211.org/2005/gmx" xlink:href="http://www.eionet.europa.eu/gemet/concept/2882">environmental monitoring</Anchor>
+					</gmd:keyword>
+					<gmd:thesaurusName>
+						<gmd:CI_Citation>
+							<gmd:title>
+								<Anchor xmlns="http://www.isotc211.org/2005/gmx" xlink:href="http://www.eionet.europa.eu/gemet/">GEMET (for testing)</Anchor>
+							</gmd:title>
+							<gmd:date/>
+						</gmd:CI_Citation>
+					</gmd:thesaurusName>
+				</gmd:MD_Keywords>
+			</gmd:descriptiveKeywords>
+			<gmd:resourceConstraints>
+				<gmd:MD_LegalConstraints>
+					<gmd:useLimitation>
+						<gco:CharacterString>Copyright CNES. Distributed by VITO</gco:CharacterString>
+					</gmd:useLimitation>
+					<gmd:accessConstraints>
+						<gmd:MD_RestrictionCode codeList="MD_RestrictionCode" codeListValue="copyright">copyright</gmd:MD_RestrictionCode>
+					</gmd:accessConstraints>
+				</gmd:MD_LegalConstraints>
+			</gmd:resourceConstraints>
+			<gmd:resourceConstraints>
+				<gmd:MD_SecurityConstraints>
+					<gmd:useLimitation>
+						<gco:CharacterString>Copyright CNES. Distributed by VITO</gco:CharacterString>
+					</gmd:useLimitation>
+					<gmd:classification>
+						<gmd:MD_ClassificationCode codeList="MD_ClassificationCode" codeListValue="unclassified">unclassified</gmd:MD_ClassificationCode>
+					</gmd:classification>
+				</gmd:MD_SecurityConstraints>
+			</gmd:resourceConstraints>
+			<!-- commented out: not correctly displayed in Geonetwork 			<gmd:aggregationInfo>				<gmd:MD_AggregateInformation>					<gmd:initiativeType>						<gmd:DS_InitiativeTypeCode codeListValue="platform" codeList="DS_InitiativeTypeCode">SPOT</gmd:DS_InitiativeTypeCode>					</gmd:initiativeType>				</gmd:MD_AggregateInformation>			</gmd:aggregationInfo>			<gmd:aggregationInfo>				<gmd:MD_AggregateInformation>					<gmd:initiativeType>						<gmd:DS_InitiativeTypeCode codeListValue="sensor" codeList="DS_InitiativeTypeCode">VEGETATION</gmd:DS_InitiativeTypeCode>					</gmd:initiativeType>				</gmd:MD_AggregateInformation>			</gmd:aggregationInfo>			-->
+			<gmd:spatialRepresentationType>
+				<gmd:MD_SpatialRepresentationTypeCode codeList="MD_SpatialRepresentationTypeCode" codeListValue="grid">grid</gmd:MD_SpatialRepresentationTypeCode>
+			</gmd:spatialRepresentationType>
+			<gmd:spatialResolution>
+				<gmd:MD_Resolution>
+					<gmd:distance>
+						<gco:Distance uom="m">1000</gco:Distance>
+					</gmd:distance>
+				</gmd:MD_Resolution>
+			</gmd:spatialResolution>
+			<gmd:language>
+				<gco:CharacterString>eng</gco:CharacterString>
+			</gmd:language>
+			<gmd:characterSet>
+				<gmd:MD_CharacterSetCode codeList="MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
+			</gmd:characterSet>
+			<gmd:topicCategory>
+				<gmd:MD_TopicCategoryCode>environment</gmd:MD_TopicCategoryCode>
+			</gmd:topicCategory>
+			<gmd:topicCategory>
+				<gmd:MD_TopicCategoryCode>geoscientificInformation</gmd:MD_TopicCategoryCode>
+			</gmd:topicCategory>
+			<gmd:extent>
+				<gmd:EX_Extent>
+					<gmd:geographicElement>
+						<gmd:EX_GeographicBoundingBox>
+							<gmd:extentTypeCode>
+								<gco:Boolean>1</gco:Boolean>
+							</gmd:extentTypeCode>
+							<gmd:westBoundLongitude>
+								<gco:Decimal>-180.0</gco:Decimal>
+							</gmd:westBoundLongitude>
+							<gmd:eastBoundLongitude>
+								<gco:Decimal>180.0</gco:Decimal>
+							</gmd:eastBoundLongitude>
+							<gmd:southBoundLatitude>
+								<gco:Decimal>-56.0</gco:Decimal>
+							</gmd:southBoundLatitude>
+							<gmd:northBoundLatitude>
+								<gco:Decimal>75.0</gco:Decimal>
+							</gmd:northBoundLatitude>
+						</gmd:EX_GeographicBoundingBox>
+					</gmd:geographicElement>
+				</gmd:EX_Extent>
+			</gmd:extent>
+			<gmd:extent>
+				<gmd:EX_Extent>
+					<gmd:temporalElement>
+						<gmd:EX_TemporalExtent>
+							<gmd:extent>
+								<gml:TimePeriod gml:id="ID_4">
+									<gml:beginPosition>1998-04-01T00:00:00</gml:beginPosition>
+									<gml:endPosition>2013-12-31T00:00:00</gml:endPosition>
+								</gml:TimePeriod>
+							</gmd:extent>
+						</gmd:EX_TemporalExtent>
+					</gmd:temporalElement>
+				</gmd:EX_Extent>
+			</gmd:extent>
+		</gmd:MD_DataIdentification>
+	</gmd:identificationInfo>
+	<gmd:distributionInfo>
+		<gmd:MD_Distribution>
+			<gmd:distributionFormat>
+				<gmd:MD_Format>
+					<gmd:name>
+						<gco:CharacterString>ZIP 2.0.1</gco:CharacterString>
+					</gmd:name>
+					<gmd:version>
+						<gco:CharacterString>v1.7</gco:CharacterString>
+					</gmd:version>
+					<gmd:specification>
+						<gco:CharacterString>Standard PKZIP compatible Unix/Linux ZIP format</gco:CharacterString>
+					</gmd:specification>
+					<gmd:fileDecompressionTechnique>
+						<gco:CharacterString>unzip or pkunzip</gco:CharacterString>
+					</gmd:fileDecompressionTechnique>
+				</gmd:MD_Format>
+			</gmd:distributionFormat>
+			<gmd:distributor>
+				<gmd:MD_Distributor>
+					<gmd:distributorContact>
+						<gmd:CI_ResponsibleParty>
+							<gmd:individualName>
+								<gco:CharacterString>Sales (Eric Gontier)</gco:CharacterString>
+							</gmd:individualName>
+							<gmd:organisationName>
+								<gco:CharacterString>VITO (Flemish Institute for Technological Research)</gco:CharacterString>
+							</gmd:organisationName>
+							<gmd:contactInfo>
+								<gmd:CI_Contact>
+									<gmd:phone>
+										<gmd:CI_Telephone>
+											<gmd:voice>
+												<gco:CharacterString>+32 14 33 68 77</gco:CharacterString>
+											</gmd:voice>
+											<gmd:facsimile>
+												<gco:CharacterString>+32 14 32 27 95</gco:CharacterString>
+											</gmd:facsimile>
+										</gmd:CI_Telephone>
+									</gmd:phone>
+									<gmd:address>
+										<gmd:CI_Address>
+											<gmd:deliveryPoint>
+												<gco:CharacterString>Boeretang 200</gco:CharacterString>
+											</gmd:deliveryPoint>
+											<gmd:city>
+												<gco:CharacterString>Mol</gco:CharacterString>
+											</gmd:city>
+											<gmd:postalCode>
+												<gco:CharacterString>B-2400</gco:CharacterString>
+											</gmd:postalCode>
+											<gmd:country>
+												<gco:CharacterString>Belgium</gco:CharacterString>
+											</gmd:country>
+											<gmd:electronicMailAddress>
+												<gco:CharacterString>sales@vgt.vito.be</gco:CharacterString>
+											</gmd:electronicMailAddress>
+										</gmd:CI_Address>
+									</gmd:address>
+									<gmd:onlineResource>
+										<gmd:CI_OnlineResource>
+											<gmd:linkage>
+												<gmd:URL>http://www.spot-vegetation.com</gmd:URL>
+											</gmd:linkage>
+											<gmd:function>
+												<gmd:CI_OnLineFunctionCode codeList="CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+											</gmd:function>
+										</gmd:CI_OnlineResource>
+									</gmd:onlineResource>
+									<gmd:hoursOfService>
+										<gco:CharacterString>Office hours, 5 days per week</gco:CharacterString>
+									</gmd:hoursOfService>
+									<gmd:contactInstructions>
+										<gco:CharacterString>Preferably by e-mail</gco:CharacterString>
+									</gmd:contactInstructions>
+								</gmd:CI_Contact>
+							</gmd:contactInfo>
+							<gmd:role>
+								<gmd:CI_RoleCode codeList="CI_RoleCode" codeListValue="distributor">distributor</gmd:CI_RoleCode>
+							</gmd:role>
+						</gmd:CI_ResponsibleParty>
+					</gmd:distributorContact>
+					<gmd:distributionOrderProcess>
+						<gmd:MD_StandardOrderProcess>
+							<gmd:fees>
+								<gco:CharacterString>For commercial use: depending on the region size. For scientific use: administrative cost, after approval by scientific officer</gco:CharacterString>
+							</gmd:fees>
+							<gmd:orderingInstructions>
+								<gco:CharacterString>VEGETATION products can be ordered on the Internet through the VEGETATION Catalogue (http://suvweb.vgt.vito.be). The catalogue is freely accessible for browsing, but for ordering you should be registered. To register, you should contact VITO (sales@vgt.vito.be). The products can be ordered by catalogue (archive) or subscription (images over a future period, a few weeks to several years, covering a particular region of interest. The following order information is needed for both orders: Region of interest, period, product type, projection and delivery media.</gco:CharacterString>
+							</gmd:orderingInstructions>
+							<gmd:turnaround>
+								<gco:CharacterString>NRT: max. 5 days. From archive: depending on the volume.</gco:CharacterString>
+							</gmd:turnaround>
+						</gmd:MD_StandardOrderProcess>
+					</gmd:distributionOrderProcess>
+				</gmd:MD_Distributor>
+			</gmd:distributor>
+			<gmd:transferOptions>
+				<gmd:MD_DigitalTransferOptions>
+					<gmd:onLine>
+						<gmd:CI_OnlineResource>
+							<gmd:linkage>
+								<gmd:URL>http://suvweb.vgt.vito.be</gmd:URL>
+							</gmd:linkage>
+							<!--			
+							<name>
+								<gco:CharacterString>VITO SPOT-VEGETATION Catalogue</gco:CharacterString>
+							</name>
+							<description>
+								<gco:CharacterString>VITO SPOT-VEGETATION Catalogue</gco:CharacterString>
+							</description>
+-->
+						</gmd:CI_OnlineResource>
+					</gmd:onLine>
+				</gmd:MD_DigitalTransferOptions>
+			</gmd:transferOptions>
+		</gmd:MD_Distribution>
+	</gmd:distributionInfo>
+	<gmd:dataQualityInfo>
+		<gmd:DQ_DataQuality>
+			<gmd:scope>
+				<gmd:DQ_Scope>
+					<gmd:level>
+						<gmd:MD_ScopeCode codeList="MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
+					</gmd:level>
+				</gmd:DQ_Scope>
+			</gmd:scope>
+			<gmd:report>
+				<gmd:DQ_DomainConsistency>
+					<gmd:result>
+						<gmd:DQ_ConformanceResult>
+							<gmd:specification>
+								<gmd:CI_Citation>
+									<gmd:title>
+										<gco:CharacterString>COMMISSION REGULATION (EU) No 1089/2010 of 23 November 2010 implementing Directive 2007/2/EC of the European Parliament and of the Council as regards interoperability of spatial data sets and services</gco:CharacterString>
+									</gmd:title>
+									<gmd:date>
+										<gmd:CI_Date>
+											<gmd:date>
+												<gco:Date>2010-12-08</gco:Date>
+											</gmd:date>
+											<gmd:dateType>
+												<gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="publication"/>
+											</gmd:dateType>
+										</gmd:CI_Date>
+									</gmd:date>
+								</gmd:CI_Citation>
+							</gmd:specification>
+							<gmd:explanation>
+								<gco:CharacterString>non testÃ©</gco:CharacterString>
+							</gmd:explanation>
+							<gmd:pass>
+								<gco:Boolean>false</gco:Boolean>
+							</gmd:pass>
+						</gmd:DQ_ConformanceResult>
+					</gmd:result>
+				</gmd:DQ_DomainConsistency>
+			</gmd:report>
+			<gmd:lineage>
+				<gmd:LI_Lineage>
+					<gmd:statement>
+						<gco:CharacterString>VGT-S1 products are MVC or Maximum Value Composite Syntheses. The pixels selected for the syntheses are based on the selection of the maximum NDVI value, to ensure coverage of all landmasses worldwide with a minimum effect of cloud cover. The pixel brightness count is the ground area's reflectance (corrected for atmospheric effects); pixels in the sea area are set to 0. A map of computed normalized difference vegetation index values (NDVI image plane) is also supplied with the product. The products provide data from all spectral bands (SWIR, NIR, RED, BLUE), the NDVI, auxiliary data on image acquisition parameters and spectral band quality information.</gco:CharacterString>
+					</gmd:statement>
+				</gmd:LI_Lineage>
+			</gmd:lineage>
+		</gmd:DQ_DataQuality>
+	</gmd:dataQualityInfo>
+	<gmd:metadataMaintenance>
+		<gmd:MD_MaintenanceInformation>
+			<gmd:maintenanceAndUpdateFrequency>
+				<gmd:MD_MaintenanceFrequencyCode codeList="MD_MaintenanceFrequencyCode" codeListValue="asNeeded">asNeeded</gmd:MD_MaintenanceFrequencyCode>
+			</gmd:maintenanceAndUpdateFrequency>
+		</gmd:MD_MaintenanceInformation>
+	</gmd:metadataMaintenance>
+	<gmi:acquisitionInformation>
+		<gmi:MI_AcquisitionInformation>
+			<gmi:platform>
+				<gmi:MI_Platform>
+					<gmi:identifier>
+						<gmd:MD_Identifier>
+							<gmd:code>
+								<gco:CharacterString>SPOT</gco:CharacterString>
+							</gmd:code>
+						</gmd:MD_Identifier>
+					</gmi:identifier>
+					<gmi:description>
+						<gco:CharacterString>SPOT</gco:CharacterString>
+					</gmi:description>
+					<gmi:instrument>
+						<gmi:MI_Instrument>
+							<gmi:citation>
+								<gmd:CI_Citation>
+									<gmd:title>
+										<gco:CharacterString>VEGETATION</gco:CharacterString>
+									</gmd:title>
+									<gmd:date>
+										<gmd:CI_Date>
+											<gmd:date>
+												<gco:Date>2002-03-01</gco:Date>
+											</gmd:date>
+											<gmd:dateType>
+												<gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="creation">creation</gmd:CI_DateTypeCode>
+											</gmd:dateType>
+										</gmd:CI_Date>
+									</gmd:date>
+									<gmd:identifier>
+										<gmd:MD_Identifier>
+											<gmd:code>
+												<gco:CharacterString>VEGETATION</gco:CharacterString>
+											</gmd:code>
+										</gmd:MD_Identifier>
+									</gmd:identifier>
+								</gmd:CI_Citation>
+							</gmi:citation>
+							<gmi:type>
+								<gmi:MI_SensorTypeCode/>
+							</gmi:type>
+						</gmi:MI_Instrument>
+					</gmi:instrument>
+				</gmi:MI_Platform>
+			</gmi:platform>
+		</gmi:MI_AcquisitionInformation>
+	</gmi:acquisitionInformation>
+</gmi:MI_Metadata>
+</entry>
+<entry xml:lang="en-US">
+<id>http://geo.spacebel.be/opensearch/request/?httpAccept=application/atom%2Bxml&amp;parentIdentifier=EOP:ESA:FEDEO:COLLECTIONS&amp;type=collection&amp;publisher=VITO&amp;recordSchema=iso&amp;uid=urn%3Aogc%3Adef%3AEOP%3AVITO%3AVGT_D10</id>
+<title>Global 10 Days BDC Synthesis of SPOT VEGETATION Images (VGT-D10)</title>
+<dc:identifier>urn:ogc:def:EOP:VITO:VGT_D10</dc:identifier>
+<updated>2015-12-10T10:42:53Z</updated>
+<dc:date>1998-04-01T00:00:00/2013-12-31T00:00:00</dc:date>
+<georss:polygon>-56.0 -180.0 75.0 -180.0 75.0 180.0 -56.0 180.0 -56.0 -180.0</georss:polygon>
+<published>2010-07-16T00:00:00Z</published>
+<category label="FedEO" term="FedEO"/>
+<category label="radiometric" term="radiometric"/>
+<category label="10-day composite" term="10-day composite"/>
+<category label="Land Use" scheme="http://thesauri.esa.int/MultiDomain_Thesaurus" term="http://thesauri.esa.int/MultiDomain_Thesaurus/Land_Use"/>
+<category label="Land Cover" scheme="http://thesauri.esa.int/MultiDomain_Thesaurus" term="http://thesauri.esa.int/MultiDomain_Thesaurus/Land_Cover"/>
+<category label="Land Monitoring" scheme="http://thesauri.esa.int/MultiDomain_Thesaurus" term="http://thesauri.esa.int/MultiDomain_Thesaurus/Land_Monitoring"/>
+<category label="Dekad" scheme="http://thesauri.esa.int/MultiDomain_Thesaurus" term="http://thesauri.esa.int/MultiDomain_Thesaurus/Dekad"/>
+<category label="Land use" scheme="http://www.eionet.europa.eu/gemet/" term="http://www.eionet.europa.eu/gemet/concept/4678"/>
+<category label="Land cover" scheme="http://www.eionet.europa.eu/gemet/" term="http://www.eionet.europa.eu/gemet/concept/4612"/>
+<category label="environmental monitoring" scheme="http://www.eionet.europa.eu/gemet/" term="http://www.eionet.europa.eu/gemet/concept/2882"/>
+<category label="SPOT" term="SPOT"/>
+<category label="VEGETATION" term="VEGETATION"/>
+<summary type="html"><![CDATA[
+<table xmlns="">
+<tr valign="top">
+<td>
+<b>Title </b>
+</td>
+<td>Global 10 Days BDC Synthesis of SPOT VEGETATION Images (VGT-D10)</td>
+</tr>
+<tr valign="top">
+<td>
+<b>Description </b>
+</td>
+<td>VGT D-10 products are BDC syntheses or BiDirectional Composite syntheses. These syntheses are based on a bidirectional reflectance distribution function. More information can be found in Duchemin, B., Maisongrande, P., Dedieu, G ., Leroy, M., Roujean, J .L., Bicheron, P., Hautecoeur, O., Lacaze, R., 2000. A 10-days compositing method accounting for bidirectional effects. Proceedings of the VEGETATION 2000, Belgirate Italy (3 - 6 April 2000): 313 – 318 (http://www.spot-vegetation.com/vegetationprogramme/Pages/vgtprep/vgt2000/duchemin.pdf). The VEGETATION instrument is operational since April 1998, first with VGT1, from March 2003 onwards, with VGT2. More information is available on: http://www.vgt.vito.be/faq/faq.html</td>
+</tr>
+<tr valign="top">
+<td>
+<b>Type </b>
+</td>
+<td>Collection</td>
+</tr>
+<tr valign="top">
+<td>
+<b>Date </b>
+</td>
+<td>1998-04-01T00:00:00/2013-12-31T00:00:00</td>
+</tr>
+<td>
+<b>Media Type</b>
+</td>
+<td>
+<a href="http://geo.spacebel.be/opensearch/request?httpAccept=application/atom%2Bxml&amp;startRecord=1&amp;parentIdentifier=EOP:ESA:FEDEO:COLLECTIONS&amp;uid=urn%3Aogc%3Adef%3AEOP%3AVITO%3AVGT_D10&amp;recordSchema=iso" title="ATOM format">ATOM</a>   |   <a href="http://geo.spacebel.be/opensearch/request?httpAccept=application/sru%2Bxml&amp;startRecord=1&amp;parentIdentifier=EOP:ESA:FEDEO:COLLECTIONS&amp;uid=urn%3Aogc%3Adef%3AEOP%3AVITO%3AVGT_D10&amp;recordSchema=iso" title="SRU format">SRU</a>
+</td>
+<tr valign="top">
+<td>
+<b>Metadata </b>
+</td>
+<td>
+<a href="http://hma-se-services.spacebel.be:8080/i15/httpservice?request=GetRepositoryItem&amp;service=CSW-ebRIM&amp;Id=urn%3Aogc%3Adef%3AEOP%3AVITO%3AVGT_D10%3AResourceMetadata" title="ISO format">ISO</a>
+</td>
+</tr>
+</table>]]></summary>
+<link href="http://geo.spacebel.be/opensearch/request?httpAccept=application/atom%2Bxml&amp;startRecord=1&amp;parentIdentifier=EOP:ESA:FEDEO:COLLECTIONS&amp;uid=urn%3Aogc%3Adef%3AEOP%3AVITO%3AVGT_D10&amp;recordSchema=iso" rel="alternate" title="Atom format" type="application/atom+xml"/>
+<link href="http://geo.spacebel.be/opensearch/description.xml?parentIdentifier=urn:ogc:def:EOP:VITO:VGT_D10" rel="search" type="application/opensearchdescription+xml"/>
+<gmi:MI_Metadata xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.isotc211.org/2005/gmi ..\..\schema/ISO/gmi/gmi.xsd">
+	<gmd:fileIdentifier>
+		<gco:CharacterString>urn:ogc:def:EOP:VITO:VGT_D10</gco:CharacterString>
+	</gmd:fileIdentifier>
+	<gmd:language>
+		<gco:CharacterString>eng</gco:CharacterString>
+	</gmd:language>
+	<gmd:characterSet>
+		<gmd:MD_CharacterSetCode codeList="MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
+	</gmd:characterSet>
+	<gmd:hierarchyLevel>
+		<gmd:MD_ScopeCode codeList="MD_ScopeCode" codeListValue="series">series</gmd:MD_ScopeCode>
+	</gmd:hierarchyLevel>
+	<gmd:hierarchyLevelName>
+		<gco:CharacterString>Spaceborne Level 1-3 Imagery</gco:CharacterString>
+	</gmd:hierarchyLevelName>
+	<gmd:contact>
+		<gmd:CI_ResponsibleParty>
+			<gmd:individualName>
+				<gco:CharacterString>CVB (Image Processing Centre for SPOT-VGT)</gco:CharacterString>
+			</gmd:individualName>
+			<gmd:organisationName>
+				<gco:CharacterString>VITO (Flemish Institute for Technological Research)</gco:CharacterString>
+			</gmd:organisationName>
+			<gmd:contactInfo>
+				<gmd:CI_Contact>
+					<gmd:phone>
+						<gmd:CI_Telephone>
+							<gmd:voice>
+								<gco:CharacterString>+32 14 33 68 14</gco:CharacterString>
+							</gmd:voice>
+							<gmd:facsimile>
+								<gco:CharacterString>+32 14 32 27 95</gco:CharacterString>
+							</gmd:facsimile>
+						</gmd:CI_Telephone>
+					</gmd:phone>
+					<gmd:address>
+						<gmd:CI_Address>
+							<gmd:deliveryPoint>
+								<gco:CharacterString>Boeretang 200</gco:CharacterString>
+							</gmd:deliveryPoint>
+							<gmd:city>
+								<gco:CharacterString>Mol</gco:CharacterString>
+							</gmd:city>
+							<gmd:postalCode>
+								<gco:CharacterString>B-2400</gco:CharacterString>
+							</gmd:postalCode>
+							<gmd:country>
+								<gco:CharacterString>Belgium</gco:CharacterString>
+							</gmd:country>
+							<gmd:electronicMailAddress>
+								<gco:CharacterString>ctiv@vgt.vito.be</gco:CharacterString>
+							</gmd:electronicMailAddress>
+						</gmd:CI_Address>
+					</gmd:address>
+					<gmd:onlineResource>
+						<gmd:CI_OnlineResource>
+							<gmd:linkage>
+								<gmd:URL>http://www.vgt.vito.be</gmd:URL>
+							</gmd:linkage>
+							<gmd:function>
+								<gmd:CI_OnLineFunctionCode codeList="CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+							</gmd:function>
+						</gmd:CI_OnlineResource>
+					</gmd:onlineResource>
+					<gmd:hoursOfService>
+						<gco:CharacterString>Office hours, 7 days per week</gco:CharacterString>
+					</gmd:hoursOfService>
+					<gmd:contactInstructions>
+						<gco:CharacterString>Preferably by e-mail</gco:CharacterString>
+					</gmd:contactInstructions>
+				</gmd:CI_Contact>
+			</gmd:contactInfo>
+			<gmd:role>
+				<gmd:CI_RoleCode codeList="CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+			</gmd:role>
+		</gmd:CI_ResponsibleParty>
+	</gmd:contact>
+	<gmd:dateStamp>
+		<gco:DateTime>2010-04-30T11:37:54</gco:DateTime>
+	</gmd:dateStamp>
+	<gmd:metadataStandardName>
+		<gco:CharacterString>ISO 19115:2003, 19119:2006 (LMCS profile)</gco:CharacterString>
+	</gmd:metadataStandardName>
+	<gmd:metadataStandardVersion>
+		<gco:CharacterString>1.0</gco:CharacterString>
+	</gmd:metadataStandardVersion>
+	<gmd:referenceSystemInfo>
+		<gmd:MD_ReferenceSystem>
+			<gmd:referenceSystemIdentifier>
+				<gmd:RS_Identifier>
+					<gmd:code>
+						<gco:CharacterString>Plate Carree</gco:CharacterString>
+					</gmd:code>
+					<gmd:codeSpace>
+						<gco:CharacterString>Plate Carree</gco:CharacterString>
+					</gmd:codeSpace>
+				</gmd:RS_Identifier>
+			</gmd:referenceSystemIdentifier>
+		</gmd:MD_ReferenceSystem>
+	</gmd:referenceSystemInfo>
+	<gmd:identificationInfo>
+		<gmd:MD_DataIdentification uuid="urn:ogc:def:EOP:VITO:VGT_D10">
+			<gmd:citation>
+				<gmd:CI_Citation>
+					<gmd:title>
+						<gco:CharacterString>Global 10 Days BDC Synthesis of SPOT VEGETATION Images (VGT-D10)</gco:CharacterString>
+					</gmd:title>
+					<!--					<gmd:edition>
+						<gco:CharacterString>1</gco:CharacterString>
+					</gmd:edition>
+-->
+					<gmd:date>
+						<gmd:CI_Date>
+							<gmd:date>
+								<gco:Date>2010-07-16</gco:Date>
+							</gmd:date>
+							<gmd:dateType>
+								<gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+							</gmd:dateType>
+						</gmd:CI_Date>
+					</gmd:date>
+					<gmd:identifier>
+						<gmd:MD_Identifier>
+							<gmd:code>
+								<gco:CharacterString>urn:ogc:def:EOP:VITO:VGT_D10</gco:CharacterString>
+							</gmd:code>
+						</gmd:MD_Identifier>
+					</gmd:identifier>
+				</gmd:CI_Citation>
+			</gmd:citation>
+			<gmd:abstract>
+				<gco:CharacterString>VGT D-10 products are BDC syntheses or BiDirectional Composite syntheses. These syntheses are based on a bidirectional reflectance distribution function. More information can be found in Duchemin, B., Maisongrande, P., Dedieu, G ., Leroy, M., Roujean, J .L., Bicheron, P., Hautecoeur, O., Lacaze, R., 2000. A 10-days compositing method accounting for bidirectional effects. Proceedings of the VEGETATION 2000, Belgirate  Italy (3 - 6 April 2000): 313 â&#128;&#147; 318 (http://www.spot-vegetation.com/vegetationprogramme/Pages/vgtprep/vgt2000/duchemin.pdf). The VEGETATION instrument is operational since April 1998, first with VGT1, from March 2003 onwards, with VGT2. More information is available on: http://www.vgt.vito.be/faq/faq.html</gco:CharacterString>
+			</gmd:abstract>
+			<gmd:purpose>
+				<gco:CharacterString/>
+			</gmd:purpose>
+			<gmd:status>
+				<gmd:MD_ProgressCode codeList="MD_ProgressCode" codeListValue="onGoing">onGoing</gmd:MD_ProgressCode>
+			</gmd:status>
+			<gmd:pointOfContact>
+				<gmd:CI_ResponsibleParty>
+					<gmd:individualName>
+						<gco:CharacterString>CVB (Image Processing Centre for SPOT-VGT)</gco:CharacterString>
+					</gmd:individualName>
+					<gmd:organisationName>
+						<gco:CharacterString>VITO (Flemish Institute for Technological Research)</gco:CharacterString>
+					</gmd:organisationName>
+					<gmd:contactInfo>
+						<gmd:CI_Contact>
+							<gmd:phone>
+								<gmd:CI_Telephone>
+									<gmd:voice>
+										<gco:CharacterString>+32 14 33 68 14</gco:CharacterString>
+									</gmd:voice>
+									<gmd:facsimile>
+										<gco:CharacterString>+32 14 32 27 95</gco:CharacterString>
+									</gmd:facsimile>
+								</gmd:CI_Telephone>
+							</gmd:phone>
+							<gmd:address>
+								<gmd:CI_Address>
+									<gmd:deliveryPoint>
+										<gco:CharacterString>Boeretang 200</gco:CharacterString>
+									</gmd:deliveryPoint>
+									<gmd:city>
+										<gco:CharacterString>Mol</gco:CharacterString>
+									</gmd:city>
+									<gmd:postalCode>
+										<gco:CharacterString>B-2400</gco:CharacterString>
+									</gmd:postalCode>
+									<gmd:country>
+										<gco:CharacterString>Belgium</gco:CharacterString>
+									</gmd:country>
+									<gmd:electronicMailAddress>
+										<gco:CharacterString>ctiv@vgt.vito.be</gco:CharacterString>
+									</gmd:electronicMailAddress>
+								</gmd:CI_Address>
+							</gmd:address>
+							<gmd:onlineResource>
+								<gmd:CI_OnlineResource>
+									<gmd:linkage>
+										<gmd:URL>http://www.vgt.vito.be</gmd:URL>
+									</gmd:linkage>
+									<gmd:function>
+										<gmd:CI_OnLineFunctionCode codeList="CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+									</gmd:function>
+								</gmd:CI_OnlineResource>
+							</gmd:onlineResource>
+							<gmd:hoursOfService>
+								<gco:CharacterString>Office hours, 7 days per week</gco:CharacterString>
+							</gmd:hoursOfService>
+							<gmd:contactInstructions>
+								<gco:CharacterString>Preferably by e-mail</gco:CharacterString>
+							</gmd:contactInstructions>
+						</gmd:CI_Contact>
+					</gmd:contactInfo>
+					<gmd:role>
+						<gmd:CI_RoleCode codeList="CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+					</gmd:role>
+				</gmd:CI_ResponsibleParty>
+			</gmd:pointOfContact>
+			<gmd:resourceMaintenance>
+				<gmd:MD_MaintenanceInformation>
+					<gmd:maintenanceAndUpdateFrequency>
+						<gmd:MD_MaintenanceFrequencyCode codeList="MD_MaintenanceFrequencyCode" codeListValue="continual">continual</gmd:MD_MaintenanceFrequencyCode>
+					</gmd:maintenanceAndUpdateFrequency>
+					<gmd:maintenanceNote>
+						<gco:CharacterString>New dataset every 10 days</gco:CharacterString>
+					</gmd:maintenanceNote>
+				</gmd:MD_MaintenanceInformation>
+			</gmd:resourceMaintenance>
+			<gmd:graphicOverview>
+				<gmd:MD_BrowseGraphic>
+					<gmd:fileName>
+						<gco:CharacterString>http://www.spot-vegetation.com/images/home/quick/prod_vgt_d10.gif</gco:CharacterString>
+					</gmd:fileName>
+				</gmd:MD_BrowseGraphic>
+			</gmd:graphicOverview>
+			<gmd:resourceFormat>
+				<gmd:MD_Format>
+					<gmd:name>
+						<gco:CharacterString>HDF</gco:CharacterString>
+					</gmd:name>
+					<gmd:version>
+						<gco:CharacterString>4</gco:CharacterString>
+					</gmd:version>
+				</gmd:MD_Format>
+			</gmd:resourceFormat>
+			<!--
+
+			<gmd:descriptiveKeywords>
+				<gmd:MD_Keywords>
+					<gmd:keyword>
+						<gco:CharacterString>10-day composite</gco:CharacterString>
+					</gmd:keyword>
+					<gmd:keyword>
+						<gco:CharacterString>Dekad</gco:CharacterString>
+					</gmd:keyword>
+					<gmd:type>
+						<gmd:MD_KeywordTypeCode codeList="MD_KeywordTypeCode" codeListValue="temporal">temporal</gmd:MD_KeywordTypeCode>
+					</gmd:type>
+				</gmd:MD_Keywords>
+			</gmd:descriptiveKeywords>
+			<gmd:descriptiveKeywords>
+				<gmd:MD_Keywords>
+					<gmd:keyword>
+						<gco:CharacterString>Cloud</gco:CharacterString>
+					</gmd:keyword>
+					<gmd:keyword>
+						<gco:CharacterString>Radiometric quality</gco:CharacterString>
+					</gmd:keyword>
+					<gmd:keyword>
+						<gco:CharacterString>Shadow</gco:CharacterString>
+					</gmd:keyword>
+					<gmd:keyword>
+						<gco:CharacterString>Snow</gco:CharacterString>
+					</gmd:keyword>
+					<gmd:keyword>
+						<gco:CharacterString>use</gco:CharacterString>
+					</gmd:keyword>
+					<gmd:type>
+						<gmd:MD_KeywordTypeCode codeList="MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+					</gmd:type>
+				</gmd:MD_Keywords>
+			</gmd:descriptiveKeywords>
+			<gmd:descriptiveKeywords>
+				<gmd:MD_Keywords>
+					<gmd:keyword>
+						<gco:CharacterString>environmental monitoring facilities</gco:CharacterString>
+					</gmd:keyword>
+					<gmd:keyword>
+						<gco:CharacterString>land cover</gco:CharacterString>
+					</gmd:keyword>
+					<gmd:keyword>
+						<gco:CharacterString>land use</gco:CharacterString>
+					</gmd:keyword>
+					<gmd:type>
+						<gmd:MD_KeywordTypeCode codeList="MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+					</gmd:type>
+					<gmd:thesaurusName>
+						<gmd:CI_Citation>
+							<gmd:title>
+								<gco:CharacterString>GEMET - INSPIRE themes, version 1.0</gco:CharacterString>
+							</gmd:title>
+							<gmd:date>
+								<gmd:CI_Date>
+									<gmd:date>
+										<gco:Date>2009-06-30</gco:Date>
+									</gmd:date>
+									<gmd:dateType>
+										<gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmx
+Codelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+									</gmd:dateType>
+								</gmd:CI_Date>
+							</gmd:date>
+						</gmd:CI_Citation>
+					</gmd:thesaurusName>
+				</gmd:MD_Keywords>
+			</gmd:descriptiveKeywords>
+-->
+			<gmd:descriptiveKeywords>
+				<gmd:MD_Keywords>
+					<gmd:keyword>
+						<gco:CharacterString>FedEO</gco:CharacterString>
+					</gmd:keyword>	
+					<gmd:keyword>
+						<gco:CharacterString>radiometric</gco:CharacterString>
+					</gmd:keyword>
+					<gmd:keyword>
+						<gco:CharacterString>10-day composite</gco:CharacterString>
+					</gmd:keyword>
+				</gmd:MD_Keywords>
+			</gmd:descriptiveKeywords>
+			<gmd:descriptiveKeywords>
+				<gmd:MD_Keywords>
+					<gmd:keyword>
+						<Anchor xmlns="http://www.isotc211.org/2005/gmx" xlink:href="http://thesauri.esa.int/MultiDomain_Thesaurus/Land_Use">Land Use</Anchor>
+					</gmd:keyword>
+					<gmd:keyword>
+						<Anchor xmlns="http://www.isotc211.org/2005/gmx" xlink:href="http://thesauri.esa.int/MultiDomain_Thesaurus/Land_Cover">Land Cover</Anchor>
+					</gmd:keyword>
+					<gmd:keyword>
+						<Anchor xmlns="http://www.isotc211.org/2005/gmx" xlink:href="http://thesauri.esa.int/MultiDomain_Thesaurus/Land_Monitoring">Land Monitoring</Anchor>
+					</gmd:keyword>
+					<gmd:keyword>
+						<Anchor xmlns="http://www.isotc211.org/2005/gmx" xlink:href="http://thesauri.esa.int/MultiDomain_Thesaurus/Dekad">Dekad</Anchor>
+					</gmd:keyword>
+					<gmd:thesaurusName>
+						<gmd:CI_Citation>
+							<gmd:title>
+								<Anchor xmlns="http://www.isotc211.org/2005/gmx" xlink:href="http://thesauri.esa.int/MultiDomain_Thesaurus">Land Ontology</Anchor>
+							</gmd:title>
+							<gmd:date/>
+						</gmd:CI_Citation>
+					</gmd:thesaurusName>
+				</gmd:MD_Keywords>
+			</gmd:descriptiveKeywords>
+			<gmd:descriptiveKeywords>
+				<gmd:MD_Keywords>
+					<gmd:keyword>
+						<Anchor xmlns="http://www.isotc211.org/2005/gmx" xlink:href="http://www.eionet.europa.eu/gemet/concept/4678">Land use</Anchor>
+					</gmd:keyword>
+					<gmd:keyword>
+						<Anchor xmlns="http://www.isotc211.org/2005/gmx" xlink:href="http://www.eionet.europa.eu/gemet/concept/4612">Land cover</Anchor>
+					</gmd:keyword>
+					<gmd:keyword>
+						<Anchor xmlns="http://www.isotc211.org/2005/gmx" xlink:href="http://www.eionet.europa.eu/gemet/concept/2882">environmental monitoring</Anchor>
+					</gmd:keyword>
+					<gmd:thesaurusName>
+						<gmd:CI_Citation>
+							<gmd:title>
+								<Anchor xmlns="http://www.isotc211.org/2005/gmx" xlink:href="http://www.eionet.europa.eu/gemet/">GEMET (for testing)</Anchor>
+							</gmd:title>
+							<gmd:date/>
+						</gmd:CI_Citation>
+					</gmd:thesaurusName>
+				</gmd:MD_Keywords>
+			</gmd:descriptiveKeywords>
+			<gmd:resourceConstraints>
+				<gmd:MD_LegalConstraints>
+					<gmd:useLimitation>
+						<gco:CharacterString>Copyright CNES. Distributed by VITO</gco:CharacterString>
+					</gmd:useLimitation>
+					<gmd:accessConstraints>
+						<gmd:MD_RestrictionCode codeList="MD_RestrictionCode" codeListValue="copyright">copyright</gmd:MD_RestrictionCode>
+					</gmd:accessConstraints>
+				</gmd:MD_LegalConstraints>
+			</gmd:resourceConstraints>
+			<gmd:resourceConstraints>
+				<gmd:MD_SecurityConstraints>
+					<gmd:useLimitation>
+						<gco:CharacterString>Copyright CNES. Distributed by VITO</gco:CharacterString>
+					</gmd:useLimitation>
+					<gmd:classification>
+						<gmd:MD_ClassificationCode codeList="MD_ClassificationCode" codeListValue="unclassified">unclassified</gmd:MD_ClassificationCode>
+					</gmd:classification>
+				</gmd:MD_SecurityConstraints>
+			</gmd:resourceConstraints>
+			<!-- commented out: not correctly displayed in Geonetwork 
+			<gmd:aggregationInfo>
+				<gmd:MD_AggregateInformation>
+					<gmd:initiativeType>
+						<gmd:DS_InitiativeTypeCode codeListValue="platform" codeList="DS_InitiativeTypeCode">SPOT</gmd:DS_InitiativeTypeCode>
+					</gmd:initiativeType>
+				</gmd:MD_AggregateInformation>
+			</gmd:aggregationInfo>
+			<gmd:aggregationInfo>
+				<gmd:MD_AggregateInformation>
+					<gmd:initiativeType>
+						<gmd:DS_InitiativeTypeCode codeListValue="sensor" codeList="DS_InitiativeTypeCode">VEGETATION</gmd:DS_InitiativeTypeCode>
+					</gmd:initiativeType>
+				</gmd:MD_AggregateInformation>
+			</gmd:aggregationInfo>
+			-->
+			<gmd:spatialRepresentationType>
+				<gmd:MD_SpatialRepresentationTypeCode codeList="MD_SpatialRepresentationTypeCode" codeListValue="grid">grid</gmd:MD_SpatialRepresentationTypeCode>
+			</gmd:spatialRepresentationType>
+			<gmd:spatialResolution>
+				<gmd:MD_Resolution>
+					<gmd:distance>
+						<gco:Distance uom="m">1000</gco:Distance>
+					</gmd:distance>
+				</gmd:MD_Resolution>
+			</gmd:spatialResolution>
+			<gmd:language>
+				<gco:CharacterString>eng</gco:CharacterString>
+			</gmd:language>
+			<gmd:characterSet>
+				<gmd:MD_CharacterSetCode codeList="MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
+			</gmd:characterSet>
+			<gmd:topicCategory>
+				<gmd:MD_TopicCategoryCode>environment</gmd:MD_TopicCategoryCode>
+			</gmd:topicCategory>
+			<gmd:topicCategory>
+				<gmd:MD_TopicCategoryCode>geoscientificInformation</gmd:MD_TopicCategoryCode>
+			</gmd:topicCategory>
+			<gmd:extent>
+				<gmd:EX_Extent>
+					<gmd:geographicElement>
+						<gmd:EX_GeographicBoundingBox>
+							<gmd:extentTypeCode>
+								<gco:Boolean>1</gco:Boolean>
+							</gmd:extentTypeCode>
+							<gmd:westBoundLongitude>
+								<gco:Decimal>-180.0</gco:Decimal>
+							</gmd:westBoundLongitude>
+							<gmd:eastBoundLongitude>
+								<gco:Decimal>180.0</gco:Decimal>
+							</gmd:eastBoundLongitude>
+							<gmd:southBoundLatitude>
+								<gco:Decimal>-56.0</gco:Decimal>
+							</gmd:southBoundLatitude>
+							<gmd:northBoundLatitude>
+								<gco:Decimal>75.0</gco:Decimal>
+							</gmd:northBoundLatitude>
+						</gmd:EX_GeographicBoundingBox>
+					</gmd:geographicElement>
+				</gmd:EX_Extent>
+			</gmd:extent>
+			<gmd:extent>
+				<gmd:EX_Extent>
+					<gmd:temporalElement>
+						<gmd:EX_TemporalExtent>
+							<gmd:extent>
+								<gml:TimePeriod gml:id="ID_4">
+									<gml:beginPosition>1998-04-01T00:00:00</gml:beginPosition>
+									<gml:endPosition>2013-12-31T00:00:00</gml:endPosition>
+								</gml:TimePeriod>
+							</gmd:extent>
+						</gmd:EX_TemporalExtent>
+					</gmd:temporalElement>
+				</gmd:EX_Extent>
+			</gmd:extent>
+		</gmd:MD_DataIdentification>
+	</gmd:identificationInfo>
+	<gmd:distributionInfo>
+		<gmd:MD_Distribution>
+			<gmd:distributionFormat>
+				<gmd:MD_Format>
+					<gmd:name>
+						<gco:CharacterString>ZIP 2.0.1</gco:CharacterString>
+					</gmd:name>
+					<gmd:version>
+						<gco:CharacterString>v1.7</gco:CharacterString>
+					</gmd:version>
+					<gmd:specification>
+						<gco:CharacterString>Standard PKZIP compatible Unix/Linux ZIP format</gco:CharacterString>
+					</gmd:specification>
+					<gmd:fileDecompressionTechnique>
+						<gco:CharacterString>unzip or pkunzip</gco:CharacterString>
+					</gmd:fileDecompressionTechnique>
+				</gmd:MD_Format>
+			</gmd:distributionFormat>
+			<gmd:distributor>
+				<gmd:MD_Distributor>
+					<gmd:distributorContact>
+						<gmd:CI_ResponsibleParty>
+							<gmd:individualName>
+								<gco:CharacterString>Sales (Eric Gontier)</gco:CharacterString>
+							</gmd:individualName>
+							<gmd:organisationName>
+								<gco:CharacterString>VITO (Flemish Institute for Technological Research)</gco:CharacterString>
+							</gmd:organisationName>
+							<gmd:contactInfo>
+								<gmd:CI_Contact>
+									<gmd:phone>
+										<gmd:CI_Telephone>
+											<gmd:voice>
+												<gco:CharacterString>+32 14 33 68 77</gco:CharacterString>
+											</gmd:voice>
+											<gmd:facsimile>
+												<gco:CharacterString>+32 14 32 27 95</gco:CharacterString>
+											</gmd:facsimile>
+										</gmd:CI_Telephone>
+									</gmd:phone>
+									<gmd:address>
+										<gmd:CI_Address>
+											<gmd:deliveryPoint>
+												<gco:CharacterString>Boeretang 200</gco:CharacterString>
+											</gmd:deliveryPoint>
+											<gmd:city>
+												<gco:CharacterString>Mol</gco:CharacterString>
+											</gmd:city>
+											<gmd:postalCode>
+												<gco:CharacterString>B-2400</gco:CharacterString>
+											</gmd:postalCode>
+											<gmd:country>
+												<gco:CharacterString>Belgium</gco:CharacterString>
+											</gmd:country>
+											<gmd:electronicMailAddress>
+												<gco:CharacterString>sales@vgt.vito.be</gco:CharacterString>
+											</gmd:electronicMailAddress>
+										</gmd:CI_Address>
+									</gmd:address>
+									<gmd:onlineResource>
+										<gmd:CI_OnlineResource>
+											<gmd:linkage>
+												<gmd:URL>http://www.spot-vegetation.com</gmd:URL>
+											</gmd:linkage>
+											<gmd:function>
+												<gmd:CI_OnLineFunctionCode codeList="CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+											</gmd:function>
+										</gmd:CI_OnlineResource>
+									</gmd:onlineResource>
+									<gmd:hoursOfService>
+										<gco:CharacterString>Office hours, 5 days per week</gco:CharacterString>
+									</gmd:hoursOfService>
+									<gmd:contactInstructions>
+										<gco:CharacterString>Preferably by e-mail</gco:CharacterString>
+									</gmd:contactInstructions>
+								</gmd:CI_Contact>
+							</gmd:contactInfo>
+							<gmd:role>
+								<gmd:CI_RoleCode codeList="CI_RoleCode" codeListValue="distributor">distributor</gmd:CI_RoleCode>
+							</gmd:role>
+						</gmd:CI_ResponsibleParty>
+					</gmd:distributorContact>
+					<gmd:distributionOrderProcess>
+						<gmd:MD_StandardOrderProcess>
+							<gmd:fees>
+								<gco:CharacterString>For commercial use: depending on the region size. For scientific use: administrative cost, after approval by scientific officer</gco:CharacterString>
+							</gmd:fees>
+							<gmd:orderingInstructions>
+								<gco:CharacterString>VEGETATION products can be ordered on the Internet through the VEGETATION Catalogue (http://suvweb.vgt.vito.be). The catalogue is freely accessible for browsing, but for ordering you should be registered. To register, you should contact VITO (sales@vgt.vito.be). The products can be ordered by catalogue (archive) or subscription (images over a future period, a few weeks to several years, covering a particular region of interest. The following order information is needed for both orders: Region of interest, period, product type, projection and delivery media.</gco:CharacterString>
+							</gmd:orderingInstructions>
+							<gmd:turnaround>
+								<gco:CharacterString>NRT: max. 5 days. From archive: depending on the volume.</gco:CharacterString>
+							</gmd:turnaround>
+						</gmd:MD_StandardOrderProcess>
+					</gmd:distributionOrderProcess>
+				</gmd:MD_Distributor>
+			</gmd:distributor>
+			<gmd:transferOptions>
+				<gmd:MD_DigitalTransferOptions>
+					<gmd:onLine>
+						<gmd:CI_OnlineResource>
+							<gmd:linkage>
+								<gmd:URL>http://suvweb.vgt.vito.be</gmd:URL>
+							</gmd:linkage>
+							<!--
+							<name>
+								<gco:CharacterString>VITO SPOT-VEGETATION Catalogue</gco:CharacterString>
+							</name>
+							<description>
+								<gco:CharacterString>VITO SPOT-VEGETATION Catalogue</gco:CharacterString>
+							</description>
+-->
+						</gmd:CI_OnlineResource>
+					</gmd:onLine>
+				</gmd:MD_DigitalTransferOptions>
+			</gmd:transferOptions>
+		</gmd:MD_Distribution>
+	</gmd:distributionInfo>
+	<gmd:dataQualityInfo>
+		<gmd:DQ_DataQuality>
+			<gmd:scope>
+				<gmd:DQ_Scope>
+					<gmd:level>
+						<gmd:MD_ScopeCode codeList="MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
+					</gmd:level>
+				</gmd:DQ_Scope>
+			</gmd:scope>
+			<gmd:report>
+				<gmd:DQ_DomainConsistency>
+					<gmd:result>
+						<gmd:DQ_ConformanceResult>
+							<gmd:specification>
+								<gmd:CI_Citation>
+									<gmd:title>
+										<gco:CharacterString>COMMISSION REGULATION (EU) No 1089/2010 of 23 November 2010 implementing Directive 2007/2/EC of the European Parliament and of the Council as regards interoperability of spatial data sets and services</gco:CharacterString>
+									</gmd:title>
+									<gmd:date>
+										<gmd:CI_Date>
+											<gmd:date>
+												<gco:Date>2010-12-08</gco:Date>
+											</gmd:date>
+											<gmd:dateType>
+												<gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="publication"/>
+											</gmd:dateType>
+										</gmd:CI_Date>
+									</gmd:date>
+								</gmd:CI_Citation>
+							</gmd:specification>
+							<gmd:explanation>
+								<gco:CharacterString>non testÃ©</gco:CharacterString>
+							</gmd:explanation>
+							<gmd:pass>
+								<gco:Boolean>false</gco:Boolean>
+							</gmd:pass>
+						</gmd:DQ_ConformanceResult>
+					</gmd:result>
+				</gmd:DQ_DomainConsistency>
+			</gmd:report>
+			<gmd:lineage>
+				<gmd:LI_Lineage>
+					<gmd:statement>
+						<gco:CharacterString>The VGT-D10 products are based on a bidirectional reflectance distribution function. BRDF-10 operates on the last 10-days cloud-free data, which are first corrected (in the same previous geometry of normalisation), then composed through an average. The BRDF is retrieved on 26-days sliding time windows, insuring the consistency with VEGETATION orbital cycle and few changes at the surface (more information can be found in http://www.spot-vegetation.com/vegetationprogramme/Pages/vgtprep/vgt2000/duchemin.pdf) The products provide data from all spectral bands (SWIR, NIR, RED, BLUE), the NDVI, spectral band quality information and specific parameters used for BDC calculation.</gco:CharacterString>
+					</gmd:statement>
+				</gmd:LI_Lineage>
+			</gmd:lineage>
+		</gmd:DQ_DataQuality>
+	</gmd:dataQualityInfo>
+	<gmd:metadataMaintenance>
+		<gmd:MD_MaintenanceInformation>
+			<gmd:maintenanceAndUpdateFrequency>
+				<gmd:MD_MaintenanceFrequencyCode codeList="MD_MaintenanceFrequencyCode" codeListValue="asNeeded">asNeeded</gmd:MD_MaintenanceFrequencyCode>
+			</gmd:maintenanceAndUpdateFrequency>
+		</gmd:MD_MaintenanceInformation>
+	</gmd:metadataMaintenance>
+	<gmi:acquisitionInformation>
+		<gmi:MI_AcquisitionInformation>
+			<gmi:platform>
+				<gmi:MI_Platform>
+					<gmi:identifier>
+						<gmd:MD_Identifier>
+							<gmd:code>
+								<gco:CharacterString>SPOT</gco:CharacterString>
+							</gmd:code>
+						</gmd:MD_Identifier>
+					</gmi:identifier>
+					<gmi:description>
+						<gco:CharacterString>SPOT</gco:CharacterString>
+					</gmi:description>
+					<gmi:instrument>
+						<gmi:MI_Instrument>
+							<gmi:citation>
+								<gmd:CI_Citation>
+									<gmd:title>
+										<gco:CharacterString>VEGETATION</gco:CharacterString>
+									</gmd:title>
+									<gmd:date>
+										<gmd:CI_Date>
+											<gmd:date>
+												<gco:Date>2002-03-01</gco:Date>
+											</gmd:date>
+											<gmd:dateType>
+												<gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="creation">creation</gmd:CI_DateTypeCode>
+											</gmd:dateType>
+										</gmd:CI_Date>
+									</gmd:date>
+									<gmd:identifier>
+										<gmd:MD_Identifier>
+											<gmd:code>
+												<gco:CharacterString>VEGETATION</gco:CharacterString>
+											</gmd:code>
+										</gmd:MD_Identifier>
+									</gmd:identifier>
+								</gmd:CI_Citation>
+							</gmi:citation>
+							<gmi:type>
+								<gmi:MI_SensorTypeCode/>
+							</gmi:type>
+						</gmi:MI_Instrument>
+					</gmi:instrument>
+				</gmi:MI_Platform>
+			</gmi:platform>
+		</gmi:MI_AcquisitionInformation>
+	</gmi:acquisitionInformation>
+</gmi:MI_Metadata>
+</entry>
+<entry xml:lang="en-US">
+<id>http://geo.spacebel.be/opensearch/request/?httpAccept=application/atom%2Bxml&amp;parentIdentifier=EOP:ESA:FEDEO:COLLECTIONS&amp;type=collection&amp;publisher=VITO&amp;recordSchema=iso&amp;uid=urn%3Aogc%3Adef%3AEOP%3AVITO%3AVGT_S10</id>
+<title>Global 10 Days Synthesis of SPOT VEGETATION Images (VGT-S10)</title>
+<dc:identifier>urn:ogc:def:EOP:VITO:VGT_S10</dc:identifier>
+<updated>2015-12-10T10:42:53Z</updated>
+<dc:date>1998-04-01T00:00:00/2013-12-31T00:00:00</dc:date>
+<georss:polygon>-56.0 -180.0 75.0 -180.0 75.0 180.0 -56.0 180.0 -56.0 -180.0</georss:polygon>
+<published>2010-07-16T00:00:00Z</published>
+<category label="radiometric" term="radiometric"/>
+<category label="10-day composite" term="10-day composite"/>
+<category label="FedEO" term="FedEO"/>
+<category label="Land Use" scheme="http://thesauri.esa.int/MultiDomain_Thesaurus" term="http://thesauri.esa.int/MultiDomain_Thesaurus/Land_Use"/>
+<category label="Land Cover" scheme="http://thesauri.esa.int/MultiDomain_Thesaurus" term="http://thesauri.esa.int/MultiDomain_Thesaurus/Land_Cover"/>
+<category label="Land Monitoring" scheme="http://thesauri.esa.int/MultiDomain_Thesaurus" term="http://thesauri.esa.int/MultiDomain_Thesaurus/Land_Monitoring"/>
+<category label="Dekad" scheme="http://thesauri.esa.int/MultiDomain_Thesaurus" term="http://thesauri.esa.int/MultiDomain_Thesaurus/Dekad"/>
+<category label="land use" scheme="http://www.eionet.europa.eu/gemet/" term="http://www.eionet.europa.eu/gemet/concept/4678"/>
+<category label="Land cover" scheme="http://www.eionet.europa.eu/gemet/" term="http://www.eionet.europa.eu/gemet/concept/4612"/>
+<category label="environmental monitoring" scheme="http://www.eionet.europa.eu/gemet/" term="http://www.eionet.europa.eu/gemet/concept/2882"/>
+<category label="SPOT" term="SPOT"/>
+<category label="VEGETATION" term="VEGETATION"/>
+<summary type="html"><![CDATA[
+<table xmlns="">
+<tr valign="top">
+<td>
+<b>Title </b>
+</td>
+<td>Global 10 Days Synthesis of SPOT VEGETATION Images (VGT-S10)</td>
+</tr>
+<tr valign="top">
+<td>
+<b>Description </b>
+</td>
+<td>The VGT-S10 are near-global, 10-daily composite images which are synthesised from the "best available" observations registered in the course of every "dekad" by the orbiting earth observation system SPOT-VEGETATION. The products provide data from all spectral bands (SWIR, NIR, RED, BLUE), the NDVI and auxiliary data on image acquisition parameters. The VEGETATION system allows operational and near real-time applications, at global, continental and regional scales, in very broad environmentally and socio-economically critical fields. The VEGETATION instrument is operational since April 1998, first with VGT1, from March 2003 onwards, with VGT2. More information is available on: http://www.vgt.vito.be/faq/faq.html</td>
+</tr>
+<tr valign="top">
+<td>
+<b>Type </b>
+</td>
+<td>Collection</td>
+</tr>
+<tr valign="top">
+<td>
+<b>Date </b>
+</td>
+<td>1998-04-01T00:00:00/2013-12-31T00:00:00</td>
+</tr>
+<td>
+<b>Media Type</b>
+</td>
+<td>
+<a href="http://geo.spacebel.be/opensearch/request?httpAccept=application/atom%2Bxml&amp;startRecord=1&amp;parentIdentifier=EOP:ESA:FEDEO:COLLECTIONS&amp;uid=urn%3Aogc%3Adef%3AEOP%3AVITO%3AVGT_S10&amp;recordSchema=iso" title="ATOM format">ATOM</a>   |   <a href="http://geo.spacebel.be/opensearch/request?httpAccept=application/sru%2Bxml&amp;startRecord=1&amp;parentIdentifier=EOP:ESA:FEDEO:COLLECTIONS&amp;uid=urn%3Aogc%3Adef%3AEOP%3AVITO%3AVGT_S10&amp;recordSchema=iso" title="SRU format">SRU</a>
+</td>
+<tr valign="top">
+<td>
+<b>Metadata </b>
+</td>
+<td>
+<a href="http://hma-se-services.spacebel.be:8080/i15/httpservice?request=GetRepositoryItem&amp;service=CSW-ebRIM&amp;Id=urn%3Aogc%3Adef%3AEOP%3AVITO%3AVGT_S10%3AResourceMetadata" title="ISO format">ISO</a>
+</td>
+</tr>
+</table>]]></summary>
+<link href="http://geo.spacebel.be/opensearch/request?httpAccept=application/atom%2Bxml&amp;startRecord=1&amp;parentIdentifier=EOP:ESA:FEDEO:COLLECTIONS&amp;uid=urn%3Aogc%3Adef%3AEOP%3AVITO%3AVGT_S10&amp;recordSchema=iso" rel="alternate" title="Atom format" type="application/atom+xml"/>
+<link href="http://geo.spacebel.be/opensearch/description.xml?parentIdentifier=urn:ogc:def:EOP:VITO:VGT_S10" rel="search" type="application/opensearchdescription+xml"/>
+<gmi:MI_Metadata xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.isotc211.org/2005/gmi ..\..\schema/ISO/gmi/gmi.xsd">
+	<gmd:fileIdentifier>
+		<gco:CharacterString>urn:ogc:def:EOP:VITO:VGT_S10</gco:CharacterString>
+	</gmd:fileIdentifier>
+	<gmd:language>
+		<gco:CharacterString>eng</gco:CharacterString>
+	</gmd:language>
+	<gmd:characterSet>
+		<gmd:MD_CharacterSetCode codeList="MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
+	</gmd:characterSet>
+	<gmd:hierarchyLevel>
+		<gmd:MD_ScopeCode codeList="MD_ScopeCode" codeListValue="series">series</gmd:MD_ScopeCode>
+	</gmd:hierarchyLevel>
+	<gmd:hierarchyLevelName>
+		<gco:CharacterString>Spaceborne Level 1-3 Imagery</gco:CharacterString>
+	</gmd:hierarchyLevelName>
+	<gmd:contact>
+		<gmd:CI_ResponsibleParty>
+			<gmd:individualName>
+				<gco:CharacterString>CVB (Image Processing Centre for SPOT-VGT)</gco:CharacterString>
+			</gmd:individualName>
+			<gmd:organisationName>
+				<gco:CharacterString>VITO (Flemish Institute for Technological Research)</gco:CharacterString>
+			</gmd:organisationName>
+			<gmd:contactInfo>
+				<gmd:CI_Contact>
+					<gmd:phone>
+						<gmd:CI_Telephone>
+							<gmd:voice>
+								<gco:CharacterString>+32 14 33 68 14</gco:CharacterString>
+							</gmd:voice>
+							<gmd:facsimile>
+								<gco:CharacterString>+32 14 32 27 95</gco:CharacterString>
+							</gmd:facsimile>
+						</gmd:CI_Telephone>
+					</gmd:phone>
+					<gmd:address>
+						<gmd:CI_Address>
+							<gmd:deliveryPoint>
+								<gco:CharacterString>Boeretang 200</gco:CharacterString>
+							</gmd:deliveryPoint>
+							<gmd:city>
+								<gco:CharacterString>Mol</gco:CharacterString>
+							</gmd:city>
+							<gmd:postalCode>
+								<gco:CharacterString>B-2400</gco:CharacterString>
+							</gmd:postalCode>
+							<gmd:country>
+								<gco:CharacterString>Belgium</gco:CharacterString>
+							</gmd:country>
+							<gmd:electronicMailAddress>
+								<gco:CharacterString>ctiv@vgt.vito.be</gco:CharacterString>
+							</gmd:electronicMailAddress>
+						</gmd:CI_Address>
+					</gmd:address>
+					<gmd:onlineResource>
+						<gmd:CI_OnlineResource>
+							<gmd:linkage>
+								<gmd:URL>http://www.vgt.vito.be</gmd:URL>
+							</gmd:linkage>
+							<gmd:function>
+								<gmd:CI_OnLineFunctionCode codeList="CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+							</gmd:function>
+						</gmd:CI_OnlineResource>
+					</gmd:onlineResource>
+					<gmd:hoursOfService>
+						<gco:CharacterString>Office hours, 7 days per week</gco:CharacterString>
+					</gmd:hoursOfService>
+					<gmd:contactInstructions>
+						<gco:CharacterString>Preferably by e-mail</gco:CharacterString>
+					</gmd:contactInstructions>
+				</gmd:CI_Contact>
+			</gmd:contactInfo>
+			<gmd:role>
+				<gmd:CI_RoleCode codeList="CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+			</gmd:role>
+		</gmd:CI_ResponsibleParty>
+	</gmd:contact>
+	<gmd:dateStamp>
+		<gco:DateTime>2010-04-30T11:37:54</gco:DateTime>
+	</gmd:dateStamp>
+	<gmd:metadataStandardName>
+		<gco:CharacterString>ISO 19115:2003, 19119:2006 (LMCS profile)</gco:CharacterString>
+	</gmd:metadataStandardName>
+	<gmd:metadataStandardVersion>
+		<gco:CharacterString>1.0</gco:CharacterString>
+	</gmd:metadataStandardVersion>
+	<gmd:referenceSystemInfo>
+		<gmd:MD_ReferenceSystem>
+			<gmd:referenceSystemIdentifier>
+				<gmd:RS_Identifier>
+					<gmd:code>
+						<gco:CharacterString>Plate Carree</gco:CharacterString>
+					</gmd:code>
+					<gmd:codeSpace>
+						<gco:CharacterString>Plate Carree</gco:CharacterString>
+					</gmd:codeSpace>
+				</gmd:RS_Identifier>
+			</gmd:referenceSystemIdentifier>
+		</gmd:MD_ReferenceSystem>
+	</gmd:referenceSystemInfo>
+	<gmd:identificationInfo>
+		<gmd:MD_DataIdentification uuid="urn:ogc:def:EOP:VITO:VGT_S10">
+			<gmd:citation>
+				<gmd:CI_Citation>
+					<gmd:title>
+						<gco:CharacterString>Global 10 Days Synthesis of SPOT VEGETATION Images (VGT-S10)</gco:CharacterString>
+					</gmd:title>
+					<!--					<gmd:edition>						<gco:CharacterString>1</gco:CharacterString>					</gmd:edition>-->
+					<gmd:date>
+						<gmd:CI_Date>
+							<gmd:date>
+								<gco:Date>2010-07-16</gco:Date>
+							</gmd:date>
+							<gmd:dateType>
+								<gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+							</gmd:dateType>
+						</gmd:CI_Date>
+					</gmd:date>
+					<gmd:identifier>
+						<gmd:MD_Identifier>
+							<gmd:code>
+								<gco:CharacterString>urn:ogc:def:EOP:VITO:VGT_S10</gco:CharacterString>
+							</gmd:code>
+						</gmd:MD_Identifier>
+					</gmd:identifier>
+				</gmd:CI_Citation>
+			</gmd:citation>
+			<gmd:abstract>
+				<gco:CharacterString>The VGT-S10 are near-global, 10-daily composite images which are synthesised from the "best available" observations registered in the course of every "dekad" by the orbiting earth observation system SPOT-VEGETATION. The products provide data from all spectral bands (SWIR, NIR, RED, BLUE), the NDVI and auxiliary data on image acquisition parameters. The VEGETATION system allows operational and near real-time applications, at global, continental and regional scales, in very broad environmentally and socio-economically critical fields. The VEGETATION instrument is operational since April 1998, first with VGT1, from March 2003 onwards, with VGT2. More information is available on: http://www.vgt.vito.be/faq/faq.html</gco:CharacterString>
+			</gmd:abstract>
+			<gmd:purpose>
+				<gco:CharacterString/>
+			</gmd:purpose>
+			<gmd:status>
+				<gmd:MD_ProgressCode codeList="MD_ProgressCode" codeListValue="onGoing">onGoing</gmd:MD_ProgressCode>
+			</gmd:status>
+			<gmd:pointOfContact>
+				<gmd:CI_ResponsibleParty>
+					<gmd:individualName>
+						<gco:CharacterString>CVB (Image Processing Centre for SPOT-VGT)</gco:CharacterString>
+					</gmd:individualName>
+					<gmd:organisationName>
+						<gco:CharacterString>VITO (Flemish Institute for Technological Research)</gco:CharacterString>
+					</gmd:organisationName>
+					<gmd:contactInfo>
+						<gmd:CI_Contact>
+							<gmd:phone>
+								<gmd:CI_Telephone>
+									<gmd:voice>
+										<gco:CharacterString>+32 14 33 68 14</gco:CharacterString>
+									</gmd:voice>
+									<gmd:facsimile>
+										<gco:CharacterString>+32 14 32 27 95</gco:CharacterString>
+									</gmd:facsimile>
+								</gmd:CI_Telephone>
+							</gmd:phone>
+							<gmd:address>
+								<gmd:CI_Address>
+									<gmd:deliveryPoint>
+										<gco:CharacterString>Boeretang 200</gco:CharacterString>
+									</gmd:deliveryPoint>
+									<gmd:city>
+										<gco:CharacterString>Mol</gco:CharacterString>
+									</gmd:city>
+									<gmd:postalCode>
+										<gco:CharacterString>B-2400</gco:CharacterString>
+									</gmd:postalCode>
+									<gmd:country>
+										<gco:CharacterString>Belgium</gco:CharacterString>
+									</gmd:country>
+									<gmd:electronicMailAddress>
+										<gco:CharacterString>ctiv@vgt.vito.be</gco:CharacterString>
+									</gmd:electronicMailAddress>
+								</gmd:CI_Address>
+							</gmd:address>
+							<gmd:onlineResource>
+								<gmd:CI_OnlineResource>
+									<gmd:linkage>
+										<gmd:URL>http://www.vgt.vito.be</gmd:URL>
+									</gmd:linkage>
+									<gmd:function>
+										<gmd:CI_OnLineFunctionCode codeList="CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+									</gmd:function>
+								</gmd:CI_OnlineResource>
+							</gmd:onlineResource>
+							<gmd:hoursOfService>
+								<gco:CharacterString>Office hours, 7 days per week</gco:CharacterString>
+							</gmd:hoursOfService>
+							<gmd:contactInstructions>
+								<gco:CharacterString>Preferably by e-mail</gco:CharacterString>
+							</gmd:contactInstructions>
+						</gmd:CI_Contact>
+					</gmd:contactInfo>
+					<gmd:role>
+						<gmd:CI_RoleCode codeList="CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+					</gmd:role>
+				</gmd:CI_ResponsibleParty>
+			</gmd:pointOfContact>
+			<gmd:resourceMaintenance>
+				<gmd:MD_MaintenanceInformation>
+					<gmd:maintenanceAndUpdateFrequency>
+						<gmd:MD_MaintenanceFrequencyCode codeList="MD_MaintenanceFrequencyCode" codeListValue="continual">continual</gmd:MD_MaintenanceFrequencyCode>
+					</gmd:maintenanceAndUpdateFrequency>
+					<gmd:maintenanceNote>
+						<gco:CharacterString>New dataset every 10 days</gco:CharacterString>
+					</gmd:maintenanceNote>
+				</gmd:MD_MaintenanceInformation>
+			</gmd:resourceMaintenance>
+			<gmd:graphicOverview>
+				<gmd:MD_BrowseGraphic>
+					<gmd:fileName>
+						<gco:CharacterString>http://www.spot-vegetation.com/images/home/quick/prod_vgt_s10.gif</gco:CharacterString>
+					</gmd:fileName>
+				</gmd:MD_BrowseGraphic>
+			</gmd:graphicOverview>
+			<gmd:resourceFormat>
+				<gmd:MD_Format>
+					<gmd:name>
+						<gco:CharacterString>HDF</gco:CharacterString>
+					</gmd:name>
+					<gmd:version>
+						<gco:CharacterString>4</gco:CharacterString>
+					</gmd:version>
+				</gmd:MD_Format>
+			</gmd:resourceFormat>
+			<!--			<gmd:descriptiveKeywords>				<gmd:MD_Keywords>					<gmd:keyword>						<gco:CharacterString>10-day composite</gco:CharacterString>					</gmd:keyword>					<gmd:keyword>						<gco:CharacterString>Dekad</gco:CharacterString>					</gmd:keyword>					<gmd:type>						<gmd:MD_KeywordTypeCode codeList="MD_KeywordTypeCode" codeListValue="temporal">temporal</gmd:MD_KeywordTypeCode>					</gmd:type>				</gmd:MD_Keywords>			</gmd:descriptiveKeywords>			<gmd:descriptiveKeywords>				<gmd:MD_Keywords>					<gmd:keyword>						<gco:CharacterString>Cloud</gco:CharacterString>					</gmd:keyword>					<gmd:keyword>						<gco:CharacterString>Radiometric quality</gco:CharacterString>					</gmd:keyword>					<gmd:keyword>						<gco:CharacterString>Shadow</gco:CharacterString>					</gmd:keyword>					<gmd:keyword>						<gco:CharacterString>Snow</gco:CharacterString>					</gmd:keyword>					<gmd:keyword>						<gco:CharacterString>land use</gco:CharacterString>					</gmd:keyword>					<gmd:type>						<gmd:MD_KeywordTypeCode codeList="MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>					</gmd:type>				</gmd:MD_Keywords>			</gmd:descriptiveKeywords>			<gmd:descriptiveKeywords>				<gmd:MD_Keywords>					<gmd:keyword>						<gco:CharacterString>environmental monitoring facilities</gco:CharacterString>					</gmd:keyword>					<gmd:keyword>						<gco:CharacterString>land cover</gco:CharacterString>					</gmd:keyword>					<gmd:keyword>						<gco:CharacterString>land use</gco:CharacterString>					</gmd:keyword>					<gmd:type>						<gmd:MD_KeywordTypeCode codeList="MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>					</gmd:type>					<gmd:thesaurusName>						<gmd:CI_Citation>							<gmd:title>								<gco:CharacterString>GEMET - INSPIRE themes, version 1.0</gco:CharacterString>							</gmd:title>							<gmd:date>								<gmd:CI_Date>									<gmd:date>										<gco:Date>2009-06-30</gco:Date>									</gmd:date>									<gmd:dateType>										<gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>									</gmd:dateType>								</gmd:CI_Date>							</gmd:date>						</gmd:CI_Citation>					</gmd:thesaurusName>				</gmd:MD_Keywords>			</gmd:descriptiveKeywords>-->
+			<gmd:descriptiveKeywords>
+				<gmd:MD_Keywords>
+					<gmd:keyword>
+						<gco:CharacterString>radiometric</gco:CharacterString>
+					</gmd:keyword>
+					<gmd:keyword>
+						<gco:CharacterString>10-day composite</gco:CharacterString>
+					</gmd:keyword>
+					<gmd:keyword>
+						<gco:CharacterString>FedEO</gco:CharacterString>
+					</gmd:keyword>	
+				</gmd:MD_Keywords>
+			</gmd:descriptiveKeywords>
+			<gmd:descriptiveKeywords>
+				<gmd:MD_Keywords>
+					<gmd:keyword>
+						<Anchor xmlns="http://www.isotc211.org/2005/gmx" xlink:href="http://thesauri.esa.int/MultiDomain_Thesaurus/Land_Use">Land Use</Anchor>
+					</gmd:keyword>
+					<gmd:keyword>
+						<Anchor xmlns="http://www.isotc211.org/2005/gmx" xlink:href="http://thesauri.esa.int/MultiDomain_Thesaurus/Land_Cover">Land Cover</Anchor>
+					</gmd:keyword>
+					<gmd:keyword>
+						<Anchor xmlns="http://www.isotc211.org/2005/gmx" xlink:href="http://thesauri.esa.int/MultiDomain_Thesaurus/Land_Monitoring">Land Monitoring</Anchor>
+					</gmd:keyword>
+					<gmd:keyword>
+						<Anchor xmlns="http://www.isotc211.org/2005/gmx" xlink:href="http://thesauri.esa.int/MultiDomain_Thesaurus/Dekad">Dekad</Anchor>
+					</gmd:keyword>
+					<gmd:thesaurusName>
+						<gmd:CI_Citation>
+							<gmd:title>
+								<Anchor xmlns="http://www.isotc211.org/2005/gmx" xlink:href="http://thesauri.esa.int/MultiDomain_Thesaurus">Land Ontology</Anchor>
+							</gmd:title>
+							<gmd:date/>
+						</gmd:CI_Citation>
+					</gmd:thesaurusName>
+				</gmd:MD_Keywords>
+			</gmd:descriptiveKeywords>
+			<gmd:descriptiveKeywords>
+				<gmd:MD_Keywords>
+					<gmd:keyword>
+						<Anchor xmlns="http://www.isotc211.org/2005/gmx" xlink:href="http://www.eionet.europa.eu/gemet/concept/4678">land use</Anchor>
+					</gmd:keyword>
+					<gmd:keyword>
+						<Anchor xmlns="http://www.isotc211.org/2005/gmx" xlink:href="http://www.eionet.europa.eu/gemet/concept/4612">Land cover</Anchor>
+					</gmd:keyword>
+					<gmd:keyword>
+						<Anchor xmlns="http://www.isotc211.org/2005/gmx" xlink:href="http://www.eionet.europa.eu/gemet/concept/2882">environmental monitoring</Anchor>
+					</gmd:keyword>
+					<gmd:thesaurusName>
+						<gmd:CI_Citation>
+							<gmd:title>
+								<Anchor xmlns="http://www.isotc211.org/2005/gmx" xlink:href="http://www.eionet.europa.eu/gemet/">GEMET (for testing)</Anchor>
+							</gmd:title>
+							<gmd:date/>
+						</gmd:CI_Citation>
+					</gmd:thesaurusName>
+				</gmd:MD_Keywords>
+			</gmd:descriptiveKeywords>
+			<gmd:resourceConstraints>
+				<gmd:MD_LegalConstraints>
+					<gmd:useLimitation>
+						<gco:CharacterString>Copyright CNES. Distributed by VITO</gco:CharacterString>
+					</gmd:useLimitation>
+					<gmd:accessConstraints>
+						<gmd:MD_RestrictionCode codeList="MD_RestrictionCode" codeListValue="copyright">copyright</gmd:MD_RestrictionCode>
+					</gmd:accessConstraints>
+				</gmd:MD_LegalConstraints>
+			</gmd:resourceConstraints>
+			<gmd:resourceConstraints>
+				<gmd:MD_SecurityConstraints>
+					<gmd:useLimitation>
+						<gco:CharacterString>Copyright CNES. Distributed by VITO</gco:CharacterString>
+					</gmd:useLimitation>
+					<gmd:classification>
+						<gmd:MD_ClassificationCode codeList="MD_ClassificationCode" codeListValue="unclassified">unclassified</gmd:MD_ClassificationCode>
+					</gmd:classification>
+				</gmd:MD_SecurityConstraints>
+			</gmd:resourceConstraints>
+			<!-- commented out: not correctly displayed in Geonetwork 			<gmd:aggregationInfo>				<gmd:MD_AggregateInformation>					<gmd:initiativeType>						<gmd:DS_InitiativeTypeCode codeListValue="platform" codeList="DS_InitiativeTypeCode">SPOT</gmd:DS_InitiativeTypeCode>					</gmd:initiativeType>				</gmd:MD_AggregateInformation>			</gmd:aggregationInfo>			<gmd:aggregationInfo>				<gmd:MD_AggregateInformation>					<gmd:initiativeType>						<gmd:DS_InitiativeTypeCode codeListValue="sensor" codeList="DS_InitiativeTypeCode">VEGETATION</gmd:DS_InitiativeTypeCode>					</gmd:initiativeType>				</gmd:MD_AggregateInformation>			</gmd:aggregationInfo>			-->
+			<gmd:spatialRepresentationType>
+				<gmd:MD_SpatialRepresentationTypeCode codeList="MD_SpatialRepresentationTypeCode" codeListValue="grid">grid</gmd:MD_SpatialRepresentationTypeCode>
+			</gmd:spatialRepresentationType>
+			<gmd:spatialResolution>
+				<gmd:MD_Resolution>
+					<gmd:distance>
+						<gco:Distance uom="m">1000</gco:Distance>
+					</gmd:distance>
+				</gmd:MD_Resolution>
+			</gmd:spatialResolution>
+			<gmd:language>
+				<gco:CharacterString>eng</gco:CharacterString>
+			</gmd:language>
+			<gmd:characterSet>
+				<gmd:MD_CharacterSetCode codeList="MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
+			</gmd:characterSet>
+			<gmd:topicCategory>
+				<gmd:MD_TopicCategoryCode>environment</gmd:MD_TopicCategoryCode>
+			</gmd:topicCategory>
+			<gmd:topicCategory>
+				<gmd:MD_TopicCategoryCode>geoscientificInformation</gmd:MD_TopicCategoryCode>
+			</gmd:topicCategory>
+			<gmd:extent>
+				<gmd:EX_Extent>
+					<gmd:geographicElement>
+						<gmd:EX_GeographicBoundingBox>
+							<gmd:extentTypeCode>
+								<gco:Boolean>1</gco:Boolean>
+							</gmd:extentTypeCode>
+							<gmd:westBoundLongitude>
+								<gco:Decimal>-180.0</gco:Decimal>
+							</gmd:westBoundLongitude>
+							<gmd:eastBoundLongitude>
+								<gco:Decimal>180.0</gco:Decimal>
+							</gmd:eastBoundLongitude>
+							<gmd:southBoundLatitude>
+								<gco:Decimal>-56.0</gco:Decimal>
+							</gmd:southBoundLatitude>
+							<gmd:northBoundLatitude>
+								<gco:Decimal>75.0</gco:Decimal>
+							</gmd:northBoundLatitude>
+						</gmd:EX_GeographicBoundingBox>
+					</gmd:geographicElement>
+				</gmd:EX_Extent>
+			</gmd:extent>
+			<gmd:extent>
+				<gmd:EX_Extent>
+					<gmd:temporalElement>
+						<gmd:EX_TemporalExtent>
+							<gmd:extent>
+								<gml:TimePeriod gml:id="ID_4">
+									<gml:beginPosition>1998-04-01T00:00:00</gml:beginPosition>
+									<gml:endPosition>2013-12-31T00:00:00</gml:endPosition>
+								</gml:TimePeriod>
+							</gmd:extent>
+						</gmd:EX_TemporalExtent>
+					</gmd:temporalElement>
+				</gmd:EX_Extent>
+			</gmd:extent>
+		</gmd:MD_DataIdentification>
+	</gmd:identificationInfo>
+	<gmd:distributionInfo>
+		<gmd:MD_Distribution>
+			<gmd:distributionFormat>
+				<gmd:MD_Format>
+					<gmd:name>
+						<gco:CharacterString>ZIP 2.0.1</gco:CharacterString>
+					</gmd:name>
+					<gmd:version>
+						<gco:CharacterString>v1.7</gco:CharacterString>
+					</gmd:version>
+					<gmd:specification>
+						<gco:CharacterString>Standard PKZIP compatible Unix/Linux ZIP format</gco:CharacterString>
+					</gmd:specification>
+					<gmd:fileDecompressionTechnique>
+						<gco:CharacterString>unzip or pkunzip</gco:CharacterString>
+					</gmd:fileDecompressionTechnique>
+				</gmd:MD_Format>
+			</gmd:distributionFormat>
+			<gmd:distributor>
+				<gmd:MD_Distributor>
+					<gmd:distributorContact>
+						<gmd:CI_ResponsibleParty>
+							<gmd:individualName>
+								<gco:CharacterString>Sales (Eric Gontier)</gco:CharacterString>
+							</gmd:individualName>
+							<gmd:organisationName>
+								<gco:CharacterString>VITO (Flemish Institute for Technological Research)</gco:CharacterString>
+							</gmd:organisationName>
+							<gmd:contactInfo>
+								<gmd:CI_Contact>
+									<gmd:phone>
+										<gmd:CI_Telephone>
+											<gmd:voice>
+												<gco:CharacterString>+32 14 33 68 77</gco:CharacterString>
+											</gmd:voice>
+											<gmd:facsimile>
+												<gco:CharacterString>+32 14 32 27 95</gco:CharacterString>
+											</gmd:facsimile>
+										</gmd:CI_Telephone>
+									</gmd:phone>
+									<gmd:address>
+										<gmd:CI_Address>
+											<gmd:deliveryPoint>
+												<gco:CharacterString>Boeretang 200</gco:CharacterString>
+											</gmd:deliveryPoint>
+											<gmd:city>
+												<gco:CharacterString>Mol</gco:CharacterString>
+											</gmd:city>
+											<gmd:postalCode>
+												<gco:CharacterString>B-2400</gco:CharacterString>
+											</gmd:postalCode>
+											<gmd:country>
+												<gco:CharacterString>Belgium</gco:CharacterString>
+											</gmd:country>
+											<gmd:electronicMailAddress>
+												<gco:CharacterString>sales@vgt.vito.be</gco:CharacterString>
+											</gmd:electronicMailAddress>
+										</gmd:CI_Address>
+									</gmd:address>
+									<gmd:onlineResource>
+										<gmd:CI_OnlineResource>
+											<gmd:linkage>
+												<gmd:URL>http://www.spot-vegetation.com</gmd:URL>
+											</gmd:linkage>
+											<gmd:function>
+												<gmd:CI_OnLineFunctionCode codeList="CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+											</gmd:function>
+										</gmd:CI_OnlineResource>
+									</gmd:onlineResource>
+									<gmd:hoursOfService>
+										<gco:CharacterString>Office hours, 5 days per week</gco:CharacterString>
+									</gmd:hoursOfService>
+									<gmd:contactInstructions>
+										<gco:CharacterString>Preferably by e-mail</gco:CharacterString>
+									</gmd:contactInstructions>
+								</gmd:CI_Contact>
+							</gmd:contactInfo>
+							<gmd:role>
+								<gmd:CI_RoleCode codeList="CI_RoleCode" codeListValue="distributor">distributor</gmd:CI_RoleCode>
+							</gmd:role>
+						</gmd:CI_ResponsibleParty>
+					</gmd:distributorContact>
+					<gmd:distributionOrderProcess>
+						<gmd:MD_StandardOrderProcess>
+							<gmd:fees>
+								<gco:CharacterString>For commercial use: depending on the region size. For scientific use: administrative cost, after approval by scientific officer</gco:CharacterString>
+							</gmd:fees>
+							<gmd:orderingInstructions>
+								<gco:CharacterString>VEGETATION products can be ordered on the Internet through the VEGETATION Catalogue (http://suvweb.vgt.vito.be). The catalogue is freely accessible for browsing, but for ordering you should be registered. To register, you should contact VITO (sales@vgt.vito.be). The products can be ordered by catalogue (archive) or subscription (images over a future period, a few weeks to several years, covering a particular region of interest. The following order information is needed for both orders: Region of interest, period, product type, projection and delivery media.</gco:CharacterString>
+							</gmd:orderingInstructions>
+							<gmd:turnaround>
+								<gco:CharacterString>NRT: max. 5 days. From archive: depending on the volume.</gco:CharacterString>
+							</gmd:turnaround>
+						</gmd:MD_StandardOrderProcess>
+					</gmd:distributionOrderProcess>
+				</gmd:MD_Distributor>
+			</gmd:distributor>
+			<gmd:transferOptions>
+				<gmd:MD_DigitalTransferOptions>
+					<gmd:onLine>
+						<gmd:CI_OnlineResource>
+							<gmd:linkage>
+								<gmd:URL>http://suvweb.vgt.vito.be</gmd:URL>
+							</gmd:linkage>
+							<!--							<name>								<gco:CharacterString>VITO SPOT-VEGETATION Catalogue</gco:CharacterString>							</name>							<description>								<gco:CharacterString>VITO SPOT-VEGETATION Catalogue</gco:CharacterString>							</description>-->
+						</gmd:CI_OnlineResource>
+					</gmd:onLine>
+				</gmd:MD_DigitalTransferOptions>
+			</gmd:transferOptions>
+		</gmd:MD_Distribution>
+	</gmd:distributionInfo>
+	<gmd:dataQualityInfo>
+		<gmd:DQ_DataQuality>
+			<gmd:scope>
+				<gmd:DQ_Scope>
+					<gmd:level>
+						<gmd:MD_ScopeCode codeList="MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
+					</gmd:level>
+				</gmd:DQ_Scope>
+			</gmd:scope>
+			<gmd:report>
+				<gmd:DQ_DomainConsistency>
+					<gmd:result>
+						<gmd:DQ_ConformanceResult>
+							<gmd:specification>
+								<gmd:CI_Citation>
+									<gmd:title>
+										<gco:CharacterString>COMMISSION REGULATION (EU) No 1089/2010 of 23 November 2010 implementing Directive 2007/2/EC of the European Parliament and of the Council as regards interoperability of spatial data sets and services</gco:CharacterString>
+									</gmd:title>
+									<gmd:date>
+										<gmd:CI_Date>
+											<gmd:date>
+												<gco:Date>2010-12-08</gco:Date>
+											</gmd:date>
+											<gmd:dateType>
+												<gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="publication"/>
+											</gmd:dateType>
+										</gmd:CI_Date>
+									</gmd:date>
+								</gmd:CI_Citation>
+							</gmd:specification>
+							<gmd:explanation>
+								<gco:CharacterString>non testÃ©</gco:CharacterString>
+							</gmd:explanation>
+							<gmd:pass>
+								<gco:Boolean>false</gco:Boolean>
+							</gmd:pass>
+						</gmd:DQ_ConformanceResult>
+					</gmd:result>
+				</gmd:DQ_DomainConsistency>
+			</gmd:report>
+			<gmd:lineage>
+				<gmd:LI_Lineage>
+					<gmd:statement>
+						<gco:CharacterString>VGT-S10 products are MVC or Maximum Value Composite Syntheses. The pixels selected for the syntheses are based on the selection of the maximum NDVI value, to ensure coverage of all landmasses worldwide with a minimum effect of cloud cover. The pixel brightness count is the ground area's reflectance (corrected for atmospheric effects); pixels in the sea area are set to 0. A map of computed normalized difference vegetation index values (NDVI image plane) is also supplied with the product. The products provide data from all spectral bands (SWIR, NIR, RED, BLUE), the NDVI, auxiliary data on image acquisition parameters and spectral band quality information.</gco:CharacterString>
+					</gmd:statement>
+				</gmd:LI_Lineage>
+			</gmd:lineage>
+		</gmd:DQ_DataQuality>
+	</gmd:dataQualityInfo>
+	<gmd:metadataMaintenance>
+		<gmd:MD_MaintenanceInformation>
+			<gmd:maintenanceAndUpdateFrequency>
+				<gmd:MD_MaintenanceFrequencyCode codeList="MD_MaintenanceFrequencyCode" codeListValue="asNeeded">asNeeded</gmd:MD_MaintenanceFrequencyCode>
+			</gmd:maintenanceAndUpdateFrequency>
+		</gmd:MD_MaintenanceInformation>
+	</gmd:metadataMaintenance>
+	<gmi:acquisitionInformation>
+		<gmi:MI_AcquisitionInformation>
+			<gmi:platform>
+				<gmi:MI_Platform>
+					<gmi:identifier>
+						<gmd:MD_Identifier>
+							<gmd:code>
+								<gco:CharacterString>SPOT</gco:CharacterString>
+							</gmd:code>
+						</gmd:MD_Identifier>
+					</gmi:identifier>
+					<gmi:description>
+						<gco:CharacterString>SPOT</gco:CharacterString>
+					</gmi:description>
+					<gmi:instrument>
+						<gmi:MI_Instrument>
+							<gmi:citation>
+								<gmd:CI_Citation>
+									<gmd:title>
+										<gco:CharacterString>VEGETATION</gco:CharacterString>
+									</gmd:title>
+									<gmd:date>
+										<gmd:CI_Date>
+											<gmd:date>
+												<gco:Date>2002-03-01</gco:Date>
+											</gmd:date>
+											<gmd:dateType>
+												<gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="creation">creation</gmd:CI_DateTypeCode>
+											</gmd:dateType>
+										</gmd:CI_Date>
+									</gmd:date>
+									<gmd:identifier>
+										<gmd:MD_Identifier>
+											<gmd:code>
+												<gco:CharacterString>VEGETATION</gco:CharacterString>
+											</gmd:code>
+										</gmd:MD_Identifier>
+									</gmd:identifier>
+								</gmd:CI_Citation>
+							</gmi:citation>
+							<gmi:type>
+								<gmi:MI_SensorTypeCode/>
+							</gmi:type>
+						</gmi:MI_Instrument>
+					</gmi:instrument>
+				</gmi:MI_Platform>
+			</gmi:platform>
+		</gmi:MI_AcquisitionInformation>
+	</gmi:acquisitionInformation>
+</gmi:MI_Metadata>
+</entry>
+</feed>

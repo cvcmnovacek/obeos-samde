@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!-- Copyright (C) 2017 Siemens Convergence Creators, Prague (CZ) -->
+<!-- Licensed under the OBEOS SAMDE License, see LICENSE.txt      -->
+
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui"
+	xmlns:ui="http://java.sun.com/jsf/facelets">
+
+	<p:dialog header="Select metadata file to be visualised" id="pfFileDispDlg"
+		widgetVar="fileDispDlg" minHeight="60">
+		<h:form>
+			<p:outputLabel for="filetoshowlist" value="Select file to work on:" />
+			<p:selectOneListbox id="filetoshowlist" style="width:auto"
+				value="#{multipleFileEditingBean.visualisedFile}">
+				<f:converter converterId="fileDataConverter"/>
+				<f:selectItems value="#{multipleFileEditingBean.fileDataList}" var="fd"
+					itemLabel="#{fd}   " itemValue="#{fd}">
+				</f:selectItems>
+				<p:ajax event="change"
+					listener="#{multipleFileEditingBean.checkIfDispFileSet}" update="sf">
+				</p:ajax>
+			</p:selectOneListbox>
+			<p:outputLabel for="sf" value="file selected for visualisation: "/>
+			<h:outputText id="sf" value="#{multipleFileEditingBean.visualisedFileName}"/>
+			<br/>
+			<p:commandButton value="Ok" actionListener="#{multipleFileEditingBean.onChangeDispFile}"
+			     action="#{treeBean.buildTree}"
+			     onmouseup="PF('fileDispDlg').hide();" process="@form"
+				 update=":checkboxform #{p:component('filelist')} #{p:component('selectionSizeIndicator')}">
+			</p:commandButton>
+		</h:form>
+	</p:dialog>
+</ui:composition>

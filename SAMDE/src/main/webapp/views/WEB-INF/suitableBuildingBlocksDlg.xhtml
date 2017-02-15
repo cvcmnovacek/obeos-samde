@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<!-- Copyright (C) 2017 Siemens Convergence Creators, Prague (CZ) -->
+<!-- Licensed under the OBEOS SAMDE License, see LICENSE.txt      -->
+
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui"
+	xmlns:ui="http://java.sun.com/jsf/facelets">
+
+	<p:dialog header="Building blocks at current position"
+		widgetVar="suitableBlocksDlg" style="min-width:30%;">
+		<p:messages autoUpdate="true" rendered="true" />
+		<h:form id="blockSuggestionForm">
+
+			<p:panelGrid columns="2">
+				<p:outputLabel for="onlyMatching"
+					value="Show only matching building blocks" />
+				<p:selectBooleanCheckbox id="onlyMatching"
+					value="#{buildingBlockCollectionBean.onlyMatchingOnes}" update="#{bbSuggestionPanel}">
+					<p:ajax update= "#{p:component('panelMatch')} #{p:component('panelAll')}"
+					 />
+				</p:selectBooleanCheckbox>
+			</p:panelGrid>
+
+			<p:panelGrid id="bbSuggestionPanel">
+				<f:facet name="header" />
+
+
+				<p:row>
+					<p:column>
+						<p:panel id="panelMatch" toggleable="true"
+							collapsed="#{!buildingBlockCollectionBean.onlyMatchingOnes}" >
+							<p:selectOneListbox
+								value="#{buildingBlockCollectionBean.selectedKey}">
+								<f:selectItems var="key"
+									value="#{buildingBlockCollectionBean.currentSuggestions}"
+									itemLabel="#{key}" itemValue="#{key}" />
+								<p:ajax event="change" update="#{p:component('previewPanel')}"
+									 />
+							</p:selectOneListbox>
+						</p:panel>
+						<br />
+						<p:panel id="panelAll" toggleable="true"
+							collapsed="#{buildingBlockCollectionBean.onlyMatchingOnes}">
+							<p:selectOneListbox id="blockselectionlist"
+								value="#{buildingBlockCollectionBean.selectedBlockFromAll}">
+								<f:selectItems
+									value="#{buildingBlockCollectionBean.buildingBlocks}" />
+								<p:ajax event="change" update="#{p:component('previewPanel')}"
+									>
+								</p:ajax>
+							</p:selectOneListbox>
+						</p:panel>
+
+					</p:column>
+
+					<p:column rowspan="2">
+						<h:outputText value="preview" style="font-weight:bold" />
+						<p:outputPanel id="previewPanel"
+							style="overflow:auto;max-height:300px">
+							<pre>#{buildingBlockCollectionBean.currentBlockContents}</pre>
+						</p:outputPanel>
+					</p:column>
+
+				</p:row>
+
+			</p:panelGrid>
+
+			<p:commandButton value="Ok"
+				oncomplete="PF('suitableBlocksDlg').hide();"
+				process="blockSuggestionForm @this"
+				update="#{p:component('textarea')}"
+				action="#{textViewBean.takeBuildingBlock}" />
+			<p:commandButton value="Cancel"
+				onclick="PF('suitableBlocksDlg').hide();" />
+		</h:form>
+
+
+	</p:dialog>
+</ui:composition>

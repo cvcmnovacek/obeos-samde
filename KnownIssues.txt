@@ -1,0 +1,2 @@
+Build issue:  when first compiling the entire package, the unit tests for
+the model will fail. The remedy is to simply build again.

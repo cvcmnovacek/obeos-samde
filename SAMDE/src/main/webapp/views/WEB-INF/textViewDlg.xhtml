@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!-- Copyright (C) 2017 Siemens Convergence Creators, Prague (CZ) -->
+<!-- Licensed under the OBEOS SAMDE License, see LICENSE.txt      -->
+
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui"
+	xmlns:ui="http://java.sun.com/jsf/facelets">
+
+	<p:dialog header="XML Text View of selected element" id="textViewDlg"
+		widgetVar="wvTextViewDlg" style="minWidth:30% !important">
+		<p:messages autoUpdate="true" rendered="true" />
+		<h:form>
+			<p:outputPanel id="textfieldpanel">
+				<p:outputLabel id="fragmentLabel" for="textarea"
+					value="edit XML subtree of element #{textViewBean.fieldName}" />
+				<h:inputTextarea id="textarea" rows="10" cols="600"
+					value="#{textViewBean.textRepresentation}"
+					style="overflow : auto; width:80%" />
+				<br />
+				<p:commandButton value="write back"
+					action="#{textViewBean.insertXmlFragment}"
+					oncomplete="PF('wvTextViewDlg').hide()"
+					title="insert xml fragment in text box into document" />
+				<p:commandButton value="load text block" onclick="PF('genUplDlg').show()"
+					title="upload textfile and replace current xml fragment with file contents">
+				</p:commandButton>
+				<p:commandButton value="cancel"
+					oncomplete="PF('wvTextViewDlg').hide()" />
+			</p:outputPanel>
+		</h:form>
+		<p:ajax event="close" />
+	</p:dialog>
+</ui:composition>

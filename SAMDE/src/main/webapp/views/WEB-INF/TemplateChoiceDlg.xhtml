@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!-- Copyright (C) 2017 Siemens Convergence Creators, Prague (CZ) -->
+<!-- Licensed under the OBEOS SAMDE License, see LICENSE.txt      -->
+
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui"
+	xmlns:ui="http://java.sun.com/jsf/facelets">
+
+	<p:dialog header="Select template" widgetVar="templateDlg"
+		minHeight="60">
+		<h:form>
+			<p:remoteCommand name="remoteTreeRebuild"
+				actionListener="#{treeBean.buildTree}" />
+
+			<p:panelGrid columns="2">
+
+				<p:selectOneMenu id="templateTypeVersion"
+					value="#{fileCreatorBean.modelVersion}">
+					<f:selectItem itemLabel="Beta"
+						itemValue="#{fileCreatorBean.betaVersion}" />
+					<f:selectItem itemLabel="Release"
+						itemValue="#{fileCreatorBean.releaseVersion}" />
+						<p:ajax event="change" update="#{p:component('templatelist')}" />
+				</p:selectOneMenu>
+				
+
+				<p:selectOneMenu id="templateTypeRoot" value="#{fileCreatorBean.modelType}">
+					<f:selectItem itemLabel="GMI" itemValue="#{fileCreatorBean.gmiType}" />
+					<f:selectItem itemLabel="GMD" itemValue="#{fileCreatorBean.gmdType}" />
+				</p:selectOneMenu>
+
+                 <br/>
+
+				<p:commandButton value="Ok" actionListener="#{fileCreatorBean.getAvailableTemplates}">
+				  
+				</p:commandButton>
+
+			</p:panelGrid>
+
+			<p:outputLabel for="templatelist"
+				value="Select template (#{fileCreatorBean.nmbrTemplates} available)" />
+			<p:selectOneListbox id="templatelist"
+				value="#{fileCreatorBean.pathChosenTemplate}">
+				<f:selectItems
+					value="#{fileCreatorBean.predefinedTemplates.entrySet()}"
+					var="entry" itemValue="#{entry.key}" itemLabel="#{entry.value}" />
+			</p:selectOneListbox>
+			<br />
+			<p:commandButton value="Ok"
+				onmouseup="PF('templateDlg').hide();"
+				onsuccess="PF('namingNewFileDlg').show()" />
+			<!-- 				oncomplete="remoteTreeRebuild();" update="@all" /> -->
+		</h:form>
+	</p:dialog>
+</ui:composition>

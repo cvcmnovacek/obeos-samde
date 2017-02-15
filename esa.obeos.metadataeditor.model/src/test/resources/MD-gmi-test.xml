@@ -1,0 +1,4560 @@
+<?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:eo="http://a9.com/-/opensearch/extensions/eo/1.0/" xmlns:geo="http://a9.com/-/opensearch/extensions/geo/1.0/" xmlns:georss="http://www.georss.org/georss" xmlns:gml="http://www.opengis.net/gml" xmlns:os="http://a9.com/-/spec/opensearch/1.1/" xmlns:semantic="http://a9.com/-/opensearch/extensions/semantic/1.0/" xmlns:sru="http://a9.com/-/opensearch/extensions/sru/2.0/" xmlns:time="http://a9.com/-/opensearch/extensions/time/1.0/" xmlns:urlencoder="java.net.URLEncoder" xmlns:wrs="http://www.opengis.net/cat/wrs/1.0" xmlns:xlink="http://www.w3.org/1999/xlink">
+<os:totalResults>56</os:totalResults>
+<os:startIndex>1</os:startIndex>
+<os:itemsPerPage>10</os:itemsPerPage>
+<os:Query count="10" dc:type="collection" eo:parentIdentifier="EOP:ESA:FEDEO:COLLECTIONS" role="request" semantic:classifiedAs="http://www.eionet.europa.eu/gemet/concept/3650" sru:recordSchema="iso" startIndex="1"/>
+<author>
+<name>FEDEO Clearinghouse</name>
+</author>
+<generator>FEDEO Clearinghouse</generator>
+<id>http://geo.spacebel.be/opensearch/request/?httpAccept=application/atom%2Bxml&amp;parentIdentifier=EOP:ESA:FEDEO:COLLECTIONS&amp;classifiedAs=http://www.eionet.europa.eu/gemet/concept/3650&amp;recordSchema=iso</id>
+<dc:identifier>EOP:ESA:FEDEO:COLLECTIONS</dc:identifier>
+<title>FEDEO Clearinghouse - Search Response</title>
+<updated>2015-12-10T10:43:56Z</updated>
+<link href="http://geo.spacebel.be/opensearch/request/?httpAccept=application/atom%2Bxml&amp;parentIdentifier=EOP:ESA:FEDEO:COLLECTIONS&amp;classifiedAs=http://www.eionet.europa.eu/gemet/concept/3650&amp;recordSchema=iso" rel="self" type="application/atom+xml"/>
+<link href="http://geo.spacebel.be/opensearch/request/?httpAccept=application/atom%2Bxml&amp;parentIdentifier=EOP:ESA:FEDEO:COLLECTIONS&amp;classifiedAs=http://www.eionet.europa.eu/gemet/concept/3650&amp;recordSchema=iso&amp;startRecord=1" rel="first" type="application/atom+xml"/>
+<link href="http://geo.spacebel.be/opensearch/request/?httpAccept=application/atom%2Bxml&amp;parentIdentifier=EOP:ESA:FEDEO:COLLECTIONS&amp;classifiedAs=http://www.eionet.europa.eu/gemet/concept/3650&amp;recordSchema=iso&amp;startRecord=11" rel="next" type="application/atom+xml"/>
+<link href="http://geo.spacebel.be/opensearch/request/?httpAccept=application/atom%2Bxml&amp;parentIdentifier=EOP:ESA:FEDEO:COLLECTIONS&amp;classifiedAs=http://www.eionet.europa.eu/gemet/concept/3650&amp;recordSchema=iso&amp;startRecord=51" rel="last" type="application/atom+xml"/>
+<link href="http://geo.spacebel.be/opensearch/description.xml" rel="search" type="application/opensearchdescription+xml"/>
+<entry xml:lang="en-US">
+<id>http://geo.spacebel.be/opensearch/request/?httpAccept=application/atom%2Bxml&amp;parentIdentifier=EOP:ESA:FEDEO:COLLECTIONS&amp;classifiedAs=http://www.eionet.europa.eu/gemet/concept/3650&amp;recordSchema=iso&amp;uid=EOP%3AASF%3AAIRSAR</id>
+<title>Airborne Synthetic Aperture Radar (ASF)</title>
+<dc:identifier>EOP:ASF:AIRSAR</dc:identifier>
+<updated>1990-01-01T00:00:00Z</updated>
+<dc:date>1990-01-01/2004-12-31</dc:date>
+<georss:polygon>-90.0 -180.0 90.0 -180.0 90.0 180.0 -90.0 180.0 -90.0 -180.0</georss:polygon>
+<category label="FedEO" term="FedEO"/>
+<category label="geology" scheme="http://www.eionet.europa.eu/gemet" term="http://www.eionet.europa.eu/gemet/concept/3650"/>
+<category label="Science Keywords &gt; Earth Science &gt; Spectral/Engineering &gt; Radar &gt; Radar Imagery" scheme="http://gcmd.gsfc.nasa.gov/skos/" term="http://gcmdservices.gsfc.nasa.gov/kms/concept/53f69037-ff05-4b09-a95d-e65ff42da595"/>
+<category label="AIRSAR" term="AIRSAR"/>
+<summary type="html"><![CDATA[
+<table xmlns="">
+<tr valign="top">
+<td>
+<b>Title </b>
+</td>
+<td>Airborne Synthetic Aperture Radar (ASF)</td>
+</tr>
+<tr valign="top">
+<td>
+<b>Description </b>
+</td>
+<td>AIRSAR was an all-weather imaging tool able to penetrate through clouds and collect data at night. The longer wavelengths could also penetrate into the forest canopy and, in extremely dry areas, through thin sand cover and dry snow pack. AIRSAR served as a NASA radar technology testbed for demonstrating new radar technology and acquiring data for the development of radar processing techniques and applications.</td>
+</tr>
+<tr valign="top">
+<td>
+<b>Type </b>
+</td>
+<td>Collection</td>
+</tr>
+<tr valign="top">
+<td>
+<b>Date </b>
+</td>
+<td>1990-01-01/2004-12-31</td>
+</tr>
+<td>
+<b>Media Type</b>
+</td>
+<td>
+<a href="http://geo.spacebel.be/opensearch/request?httpAccept=application/atom%2Bxml&amp;startRecord=1&amp;parentIdentifier=EOP:ESA:FEDEO:COLLECTIONS&amp;uid=EOP%3AASF%3AAIRSAR&amp;recordSchema=iso" title="ATOM format">ATOM</a>   |   <a href="http://geo.spacebel.be/opensearch/request?httpAccept=application/sru%2Bxml&amp;startRecord=1&amp;parentIdentifier=EOP:ESA:FEDEO:COLLECTIONS&amp;uid=EOP%3AASF%3AAIRSAR&amp;recordSchema=iso" title="SRU format">SRU</a>
+</td>
+<tr valign="top">
+<td>
+<b>Metadata </b>
+</td>
+<td>
+<a href="http://hma-se-services.spacebel.be:8080/i15/httpservice?request=GetRepositoryItem&amp;service=CSW-ebRIM&amp;Id=urn%3ACIM%3AEOP%3AASF%3AAIRSAR%3AResourceMetadata" title="ISO format">ISO</a>
+</td>
+</tr>
+</table>]]></summary>
+<link href="http://geo.spacebel.be/opensearch/request?httpAccept=application/atom%2Bxml&amp;startRecord=1&amp;parentIdentifier=EOP:ESA:FEDEO:COLLECTIONS&amp;uid=EOP%3AASF%3AAIRSAR&amp;recordSchema=iso" rel="alternate" title="Atom format" type="application/atom+xml"/>
+<link href="http://geo.spacebel.be/opensearch/description.xml?parentIdentifier=EOP:ASF&amp;sensorType=RADAR&amp;platform=AIRSAR&amp;startDate=1990-01-01&amp;endDate=2004-12-31" rel="search" type="application/opensearchdescription+xml"/>
+<gmi:MI_Metadata xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.isotc211.org/2005/gmi ..\..\schema/ISO/gmi/gmi.xsd ">
+	<gmd:fileIdentifier>
+		<gco:CharacterString>EOP:ASF:AIRSAR</gco:CharacterString>
+	</gmd:fileIdentifier>
+	<gmd:language>
+		<gmd:LanguageCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
+	</gmd:language>
+	<gmd:hierarchyLevel>
+		<gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_ScopeCode" codeListValue="series">series</gmd:MD_ScopeCode>
+	</gmd:hierarchyLevel>
+	
+<gmd:contact>
+
+	<gmd:CI_ResponsibleParty>
+		<gmd:organisationName>
+			<gco:CharacterString>ASF</gco:CharacterString>
+		</gmd:organisationName>
+		<gmd:positionName>
+			<gco:CharacterString>helpdesk</gco:CharacterString>
+		</gmd:positionName>
+		<gmd:contactInfo>
+			<gmd:CI_Contact>
+            				<gmd:address>
+					<gmd:CI_Address>
+										<gmd:electronicMailAddress>
+	<gco:CharacterString>uso@asf.alaska.edu</gco:CharacterString>
+</gmd:electronicMailAddress>					</gmd:CI_Address>
+				</gmd:address>
+							</gmd:CI_Contact>
+		</gmd:contactInfo>
+		<gmd:role>
+			<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+		</gmd:role>
+	</gmd:CI_ResponsibleParty>
+</gmd:contact>
+
+	<gmd:dateStamp>
+		<gco:Date>2015-09-18</gco:Date>
+	</gmd:dateStamp>
+	<gmd:metadataStandardName>
+		<gco:CharacterString>ISO19115</gco:CharacterString>
+	</gmd:metadataStandardName>
+	<gmd:metadataStandardVersion>
+		<gco:CharacterString>2005/Cor.1:2006</gco:CharacterString>
+	</gmd:metadataStandardVersion>
+	<gmd:identificationInfo>
+		<gmd:MD_DataIdentification>
+			<gmd:citation>
+				<gmd:CI_Citation>
+					<gmd:title>
+						<gco:CharacterString>Airborne Synthetic Aperture Radar (ASF)</gco:CharacterString>
+					</gmd:title>
+					<gmd:date>
+						<gmd:CI_Date>
+							<gmd:date>
+								<gco:Date>1990-01-01</gco:Date>
+							</gmd:date>
+							<gmd:dateType>
+								<gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="creation"/>
+							</gmd:dateType>
+						</gmd:CI_Date>
+					</gmd:date>
+					<gmd:identifier>
+						<gmd:RS_Identifier>
+							<gmd:code>
+								<gco:CharacterString>EOP:ASF:AIRSAR</gco:CharacterString>
+							</gmd:code>
+						</gmd:RS_Identifier>
+					</gmd:identifier>
+				</gmd:CI_Citation>
+			</gmd:citation>	
+			<gmd:abstract>
+	<gco:CharacterString> 
+	AIRSAR was an all-weather imaging tool able to penetrate through clouds and collect data at night. The longer wavelengths could also penetrate into the forest canopy and, in extremely dry areas, through thin sand cover and dry snow pack. AIRSAR served as a NASA radar technology testbed for demonstrating new radar technology and acquiring data for the development of radar processing techniques and applications.
+	</gco:CharacterString>
+</gmd:abstract>
+			<gmd:descriptiveKeywords>
+				<gmd:MD_Keywords>
+					<gmd:keyword> 
+						<gco:CharacterString>FedEO</gco:CharacterString>
+					</gmd:keyword>
+				</gmd:MD_Keywords>
+			</gmd:descriptiveKeywords>
+			<gmd:descriptiveKeywords>
+				<gmd:MD_Keywords>
+				<gmd:keyword>
+				<gmx:Anchor xlink:href="http://www.eionet.europa.eu/gemet/concept/3650">geology</gmx:Anchor>  
+				</gmd:keyword>
+					<gmd:type>
+						<gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode" codeListValue="theme"/>
+					</gmd:type>
+	                 <gmd:thesaurusName>
+	<gmd:CI_Citation>
+	<gmd:title>
+   <gmx:Anchor xlink:href="http://www.eionet.europa.eu/gemet">GEMET - INSPIRE Themes, Version 1.0</gmx:Anchor>	  
+</gmd:title>
+		<gmd:date>
+			<gmd:CI_Date>
+				<gmd:date>
+					<gco:Date>2008-06-01</gco:Date>
+				</gmd:date>
+				<gmd:dateType>
+					<gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+				</gmd:dateType>
+			</gmd:CI_Date>
+		</gmd:date>
+	</gmd:CI_Citation>
+</gmd:thesaurusName>
+				</gmd:MD_Keywords>
+			</gmd:descriptiveKeywords>
+			<gmd:descriptiveKeywords>
+				<gmd:MD_Keywords>	
+				<gmd:keyword>
+				 <gmx:Anchor xlink:href="http://gcmdservices.gsfc.nasa.gov/kms/concept/53f69037-ff05-4b09-a95d-e65ff42da595">Science Keywords &gt; Earth Science &gt; Spectral/Engineering &gt; Radar &gt; Radar Imagery</gmx:Anchor>  
+				 </gmd:keyword>			
+					<gmd:type>
+						<gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode" codeListValue="theme"/>
+					</gmd:type>
+					<gmd:thesaurusName>
+	<gmd:CI_Citation>
+	<gmd:title>
+   <gmx:Anchor xlink:href="http://gcmd.gsfc.nasa.gov/skos/">NASA/Global Change Master Directory (GCMD) Earth Science Keywords. Version 8.0.0.0.0</gmx:Anchor>	  
+</gmd:title>
+		<gmd:date>
+			<gmd:CI_Date>
+				<gmd:date>
+					<gco:Date>2013</gco:Date>
+				</gmd:date>
+				<gmd:dateType>
+					<gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+				</gmd:dateType>
+			</gmd:CI_Date>
+		</gmd:date>
+		<gmd:identifier>
+			<gmd:MD_Identifier>
+				<gmd:code>
+					<gco:CharacterString>http://idn.ceos.org/</gco:CharacterString>
+				</gmd:code>
+			</gmd:MD_Identifier>
+		</gmd:identifier>
+	</gmd:CI_Citation>
+</gmd:thesaurusName>
+				</gmd:MD_Keywords>
+			</gmd:descriptiveKeywords>
+			<gmd:resourceConstraints>
+	<gmd:MD_Constraints>
+		<gmd:useLimitation>
+			<gco:CharacterString>https://www.asf.alaska.edu/data-tools/submit-a-proposal/</gco:CharacterString>
+		</gmd:useLimitation>
+	</gmd:MD_Constraints>
+</gmd:resourceConstraints>
+			<gmd:resourceConstraints>
+	<gmd:MD_LegalConstraints>
+		<gmd:accessConstraints>
+			<gmd:MD_RestrictionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions">otherRestrictions</gmd:MD_RestrictionCode>
+		</gmd:accessConstraints>
+		<gmd:otherConstraints>
+			<gco:CharacterString>See https://www.asf.alaska.edu/data-tools/submit-a-proposal/</gco:CharacterString>
+		</gmd:otherConstraints>
+	</gmd:MD_LegalConstraints>
+</gmd:resourceConstraints>
+			<gmd:language>
+				<gmd:LanguageCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
+			</gmd:language>
+			<gmd:topicCategory>
+				<gmd:MD_TopicCategoryCode>geoscientificInformation</gmd:MD_TopicCategoryCode>
+			</gmd:topicCategory>
+			<gmd:extent>
+				<gmd:EX_Extent>
+					<gmd:temporalElement>
+						<gmd:EX_TemporalExtent>
+							<gmd:extent>
+								<gml:TimePeriod gml:id="timeperiod1">
+									<gml:beginPosition>1990-01-01</gml:beginPosition>
+									<gml:endPosition>2004-12-31</gml:endPosition>
+								</gml:TimePeriod>
+							</gmd:extent>
+						</gmd:EX_TemporalExtent>
+					</gmd:temporalElement>
+				</gmd:EX_Extent>
+			</gmd:extent>
+			<gmd:extent>
+				<gmd:EX_Extent>
+					<gmd:geographicElement>
+						<gmd:EX_GeographicBoundingBox>
+							<gmd:westBoundLongitude>
+								<gco:Decimal>-180</gco:Decimal>
+							</gmd:westBoundLongitude>
+							<gmd:eastBoundLongitude>
+								<gco:Decimal>180</gco:Decimal>
+							</gmd:eastBoundLongitude>
+							<gmd:southBoundLatitude>
+								<gco:Decimal>-90</gco:Decimal>
+							</gmd:southBoundLatitude>
+							<gmd:northBoundLatitude>
+								<gco:Decimal>90</gco:Decimal>
+							</gmd:northBoundLatitude>
+						</gmd:EX_GeographicBoundingBox>
+					</gmd:geographicElement>
+				</gmd:EX_Extent>
+			</gmd:extent>
+		</gmd:MD_DataIdentification>
+	</gmd:identificationInfo>
+	<gmd:distributionInfo>
+		<gmd:MD_Distribution>
+			<gmd:distributionFormat>
+				<gmd:MD_Format>
+					<gmd:name gco:nilReason="inapplicable"/>
+					<gmd:version gco:nilReason="inapplicable"/>
+				</gmd:MD_Format>
+			</gmd:distributionFormat>
+			<gmd:transferOptions>
+				<gmd:MD_DigitalTransferOptions>
+					<gmd:onLine>
+						<gmd:CI_OnlineResource>
+							<gmd:linkage>
+								<gmd:URL>https://www.asf.alaska.edu/sar-data/airsar/#</gmd:URL>
+							</gmd:linkage>
+						</gmd:CI_OnlineResource>
+					</gmd:onLine>
+					<gmd:onLine>
+	<gmd:CI_OnlineResource>
+		<gmd:linkage>
+			<gmd:URL>http://geo.spacebel.be/opensearch/description.xml?parentIdentifier=EOP:ASF&amp;sensorType=RADAR&amp;platform=AIRSAR</gmd:URL>
+		</gmd:linkage>
+		<gmd:name>
+			<gco:CharacterString>FedEO Clearinghouse</gco:CharacterString>
+		</gmd:name>
+		<gmd:description>
+			<gco:CharacterString>FedEO Clearinghouse</gco:CharacterString>
+		</gmd:description>
+		<gmd:function>
+			<gmd:CI_OnLineFunctionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="search"/>
+		</gmd:function>
+	</gmd:CI_OnlineResource>
+</gmd:onLine>
+				</gmd:MD_DigitalTransferOptions>
+			</gmd:transferOptions>
+		</gmd:MD_Distribution>
+	</gmd:distributionInfo>
+	<gmd:dataQualityInfo>
+		<gmd:DQ_DataQuality>
+			<gmd:scope>
+				<gmd:DQ_Scope>
+					<gmd:level>
+						<gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_ScopeCode" codeListValue="series">series</gmd:MD_ScopeCode>
+					</gmd:level>
+				</gmd:DQ_Scope>
+			</gmd:scope>
+
+		</gmd:DQ_DataQuality>
+	</gmd:dataQualityInfo>
+	<gmi:acquisitionInformation>
+		<gmi:MI_AcquisitionInformation>
+			<gmi:platform>
+				<gmi:MI_Platform>
+					<gmi:identifier>
+						<gmd:MD_Identifier>
+							<gmd:code>
+								<gco:CharacterString>AIRSAR</gco:CharacterString>
+							</gmd:code>
+						</gmd:MD_Identifier>
+					</gmi:identifier>
+					<gmi:description>
+						<gco:CharacterString>AIRSAR</gco:CharacterString>
+					</gmi:description>
+					<gmi:instrument/>
+				</gmi:MI_Platform>
+			</gmi:platform>
+		</gmi:MI_AcquisitionInformation>
+	</gmi:acquisitionInformation>
+</gmi:MI_Metadata>
+</entry>
+<entry xml:lang="en-US">
+<id>http://geo.spacebel.be/opensearch/request/?httpAccept=application/atom%2Bxml&amp;parentIdentifier=EOP:ESA:FEDEO:COLLECTIONS&amp;classifiedAs=http://www.eionet.europa.eu/gemet/concept/3650&amp;recordSchema=iso&amp;uid=EOP%3AASF%3AERS-1</id>
+<title>European Remote-Sensing Satellite 1 (ASF)</title>
+<dc:identifier>EOP:ASF:ERS-1</dc:identifier>
+<updated>1991-01-01T00:00:00Z</updated>
+<dc:date>1991-01-01/2000-12-31</dc:date>
+<georss:polygon>-90.0 -180.0 90.0 -180.0 90.0 180.0 -90.0 180.0 -90.0 -180.0</georss:polygon>
+<category label="FedEO" term="FedEO"/>
+<category label="geology" scheme="http://www.eionet.europa.eu/gemet" term="http://www.eionet.europa.eu/gemet/concept/3650"/>
+<category label="Science Keywords &gt; Earth Science &gt; Spectral/Engineering &gt; Radar &gt; Radar Imagery" scheme="http://gcmd.gsfc.nasa.gov/skos/" term="http://gcmdservices.gsfc.nasa.gov/kms/concept/53f69037-ff05-4b09-a95d-e65ff42da595"/>
+<category label="ERS-1" term="http://gcmdservices.gsfc.nasa.gov/kms/concept/02c85d04-228e-4bf3-bb03-d72c22681dff"/>
+<summary type="html"><![CDATA[
+<table xmlns="">
+<tr valign="top">
+<td>
+<b>Title </b>
+</td>
+<td>European Remote-Sensing Satellite 1 (ASF)</td>
+</tr>
+<tr valign="top">
+<td>
+<b>Description </b>
+</td>
+<td>In image mode, the SAR provides high resolution, two-dimensional images with a spatial resolution of 26 m in range (across track) and between 6 and 30 m in azimuth (along track). Image data was acquired for a maximum duration of approximately 10 minutes per orbit.</td>
+</tr>
+<tr valign="top">
+<td>
+<b>Type </b>
+</td>
+<td>Collection</td>
+</tr>
+<tr valign="top">
+<td>
+<b>Date </b>
+</td>
+<td>1991-01-01/2000-12-31</td>
+</tr>
+<td>
+<b>Media Type</b>
+</td>
+<td>
+<a href="http://geo.spacebel.be/opensearch/request?httpAccept=application/atom%2Bxml&amp;startRecord=1&amp;parentIdentifier=EOP:ESA:FEDEO:COLLECTIONS&amp;uid=EOP%3AASF%3AERS-1&amp;recordSchema=iso" title="ATOM format">ATOM</a>   |   <a href="http://geo.spacebel.be/opensearch/request?httpAccept=application/sru%2Bxml&amp;startRecord=1&amp;parentIdentifier=EOP:ESA:FEDEO:COLLECTIONS&amp;uid=EOP%3AASF%3AERS-1&amp;recordSchema=iso" title="SRU format">SRU</a>
+</td>
+<tr valign="top">
+<td>
+<b>Metadata </b>
+</td>
+<td>
+<a href="http://hma-se-services.spacebel.be:8080/i15/httpservice?request=GetRepositoryItem&amp;service=CSW-ebRIM&amp;Id=urn%3ACIM%3AEOP%3AASF%3AERS-1%3AResourceMetadata" title="ISO format">ISO</a>
+</td>
+</tr>
+</table>]]></summary>
+<link href="http://geo.spacebel.be/opensearch/request?httpAccept=application/atom%2Bxml&amp;startRecord=1&amp;parentIdentifier=EOP:ESA:FEDEO:COLLECTIONS&amp;uid=EOP%3AASF%3AERS-1&amp;recordSchema=iso" rel="alternate" title="Atom format" type="application/atom+xml"/>
+<link href="http://geo.spacebel.be/opensearch/description.xml?parentIdentifier=EOP:ASF&amp;sensorType=RADAR&amp;platform=ERS-1&amp;startDate=1991-01-01&amp;endDate=2000-12-31" rel="search" type="application/opensearchdescription+xml"/>
+<gmi:MI_Metadata xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.isotc211.org/2005/gmi ..\..\schema/ISO/gmi/gmi.xsd ">
+	<gmd:fileIdentifier>
+		<gco:CharacterString>EOP:ASF:ERS-1</gco:CharacterString>
+	</gmd:fileIdentifier>
+	<gmd:language>
+		<gmd:LanguageCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
+	</gmd:language>
+	<gmd:hierarchyLevel>
+		<gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_ScopeCode" codeListValue="series">series</gmd:MD_ScopeCode>
+	</gmd:hierarchyLevel>
+	
+<gmd:contact>
+
+	<gmd:CI_ResponsibleParty>
+		<gmd:organisationName>
+			<gco:CharacterString>ASF</gco:CharacterString>
+		</gmd:organisationName>
+		<gmd:positionName>
+			<gco:CharacterString>helpdesk</gco:CharacterString>
+		</gmd:positionName>
+		<gmd:contactInfo>
+			<gmd:CI_Contact>
+            				<gmd:address>
+					<gmd:CI_Address>
+										<gmd:electronicMailAddress>
+	<gco:CharacterString>uso@asf.alaska.edu</gco:CharacterString>
+</gmd:electronicMailAddress>					</gmd:CI_Address>
+				</gmd:address>
+							</gmd:CI_Contact>
+		</gmd:contactInfo>
+		<gmd:role>
+			<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+		</gmd:role>
+	</gmd:CI_ResponsibleParty>
+</gmd:contact>
+
+	<gmd:dateStamp>
+		<gco:Date>2015-09-18</gco:Date>
+	</gmd:dateStamp>
+	<gmd:metadataStandardName>
+		<gco:CharacterString>ISO19115</gco:CharacterString>
+	</gmd:metadataStandardName>
+	<gmd:metadataStandardVersion>
+		<gco:CharacterString>2005/Cor.1:2006</gco:CharacterString>
+	</gmd:metadataStandardVersion>
+	<gmd:identificationInfo>
+		<gmd:MD_DataIdentification>
+			<gmd:citation>
+				<gmd:CI_Citation>
+					<gmd:title>
+						<gco:CharacterString>European Remote-Sensing Satellite 1 (ASF)</gco:CharacterString>
+					</gmd:title>
+					<gmd:date>
+						<gmd:CI_Date>
+							<gmd:date>
+								<gco:Date>1991-01-01</gco:Date>
+							</gmd:date>
+							<gmd:dateType>
+								<gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="creation"/>
+							</gmd:dateType>
+						</gmd:CI_Date>
+					</gmd:date>
+					<gmd:identifier>
+						<gmd:RS_Identifier>
+							<gmd:code>
+								<gco:CharacterString>EOP:ASF:ERS-1</gco:CharacterString>
+							</gmd:code>
+						</gmd:RS_Identifier>
+					</gmd:identifier>
+				</gmd:CI_Citation>
+			</gmd:citation>	
+			<gmd:abstract>
+	<gco:CharacterString> 
+	In image mode, the SAR provides high resolution, two-dimensional images with a spatial resolution of 26 m in range (across track) and between 6 and 30 m in azimuth (along track). Image data was acquired for a maximum duration of approximately 10 minutes per orbit.
+	</gco:CharacterString>
+</gmd:abstract>
+			<gmd:descriptiveKeywords>
+				<gmd:MD_Keywords>
+					<gmd:keyword> 
+						<gco:CharacterString>FedEO</gco:CharacterString>
+					</gmd:keyword>
+				</gmd:MD_Keywords>
+			</gmd:descriptiveKeywords>
+			<gmd:descriptiveKeywords>
+				<gmd:MD_Keywords>
+				<gmd:keyword>
+				<gmx:Anchor xlink:href="http://www.eionet.europa.eu/gemet/concept/3650">geology</gmx:Anchor>  
+				</gmd:keyword>
+					<gmd:type>
+						<gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode" codeListValue="theme"/>
+					</gmd:type>
+	                 <gmd:thesaurusName>
+	<gmd:CI_Citation>
+	<gmd:title>
+   <gmx:Anchor xlink:href="http://www.eionet.europa.eu/gemet">GEMET - INSPIRE Themes, Version 1.0</gmx:Anchor>	  
+</gmd:title>
+		<gmd:date>
+			<gmd:CI_Date>
+				<gmd:date>
+					<gco:Date>2008-06-01</gco:Date>
+				</gmd:date>
+				<gmd:dateType>
+					<gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+				</gmd:dateType>
+			</gmd:CI_Date>
+		</gmd:date>
+	</gmd:CI_Citation>
+</gmd:thesaurusName>
+				</gmd:MD_Keywords>
+			</gmd:descriptiveKeywords>
+			<gmd:descriptiveKeywords>
+				<gmd:MD_Keywords>	
+				<gmd:keyword>
+				 <gmx:Anchor xlink:href="http://gcmdservices.gsfc.nasa.gov/kms/concept/53f69037-ff05-4b09-a95d-e65ff42da595">Science Keywords &gt; Earth Science &gt; Spectral/Engineering &gt; Radar &gt; Radar Imagery</gmx:Anchor>  
+				 </gmd:keyword>			
+					<gmd:type>
+						<gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode" codeListValue="theme"/>
+					</gmd:type>
+					<gmd:thesaurusName>
+	<gmd:CI_Citation>
+	<gmd:title>
+   <gmx:Anchor xlink:href="http://gcmd.gsfc.nasa.gov/skos/">NASA/Global Change Master Directory (GCMD) Earth Science Keywords. Version 8.0.0.0.0</gmx:Anchor>	  
+</gmd:title>
+		<gmd:date>
+			<gmd:CI_Date>
+				<gmd:date>
+					<gco:Date>2013</gco:Date>
+				</gmd:date>
+				<gmd:dateType>
+					<gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+				</gmd:dateType>
+			</gmd:CI_Date>
+		</gmd:date>
+		<gmd:identifier>
+			<gmd:MD_Identifier>
+				<gmd:code>
+					<gco:CharacterString>http://idn.ceos.org/</gco:CharacterString>
+				</gmd:code>
+			</gmd:MD_Identifier>
+		</gmd:identifier>
+	</gmd:CI_Citation>
+</gmd:thesaurusName>
+				</gmd:MD_Keywords>
+			</gmd:descriptiveKeywords>
+			<gmd:resourceConstraints>
+	<gmd:MD_Constraints>
+		<gmd:useLimitation>
+			<gco:CharacterString>https://www.asf.alaska.edu/data-tools/submit-a-proposal/</gco:CharacterString>
+		</gmd:useLimitation>
+	</gmd:MD_Constraints>
+</gmd:resourceConstraints>
+			<gmd:resourceConstraints>
+	<gmd:MD_LegalConstraints>
+		<gmd:accessConstraints>
+			<gmd:MD_RestrictionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions">otherRestrictions</gmd:MD_RestrictionCode>
+		</gmd:accessConstraints>
+		<gmd:otherConstraints>
+			<gco:CharacterString>See https://www.asf.alaska.edu/data-tools/submit-a-proposal/</gco:CharacterString>
+		</gmd:otherConstraints>
+	</gmd:MD_LegalConstraints>
+</gmd:resourceConstraints>
+			<gmd:language>
+				<gmd:LanguageCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
+			</gmd:language>
+			<gmd:topicCategory>
+				<gmd:MD_TopicCategoryCode>geoscientificInformation</gmd:MD_TopicCategoryCode>
+			</gmd:topicCategory>
+			<gmd:extent>
+				<gmd:EX_Extent>
+					<gmd:temporalElement>
+						<gmd:EX_TemporalExtent>
+							<gmd:extent>
+								<gml:TimePeriod gml:id="timeperiod1">
+									<gml:beginPosition>1991-01-01</gml:beginPosition>
+									<gml:endPosition>2000-12-31</gml:endPosition>
+								</gml:TimePeriod>
+							</gmd:extent>
+						</gmd:EX_TemporalExtent>
+					</gmd:temporalElement>
+				</gmd:EX_Extent>
+			</gmd:extent>
+			<gmd:extent>
+				<gmd:EX_Extent>
+					<gmd:geographicElement>
+						<gmd:EX_GeographicBoundingBox>
+							<gmd:westBoundLongitude>
+								<gco:Decimal>-180</gco:Decimal>
+							</gmd:westBoundLongitude>
+							<gmd:eastBoundLongitude>
+								<gco:Decimal>180</gco:Decimal>
+							</gmd:eastBoundLongitude>
+							<gmd:southBoundLatitude>
+								<gco:Decimal>-90</gco:Decimal>
+							</gmd:southBoundLatitude>
+							<gmd:northBoundLatitude>
+								<gco:Decimal>90</gco:Decimal>
+							</gmd:northBoundLatitude>
+						</gmd:EX_GeographicBoundingBox>
+					</gmd:geographicElement>
+				</gmd:EX_Extent>
+			</gmd:extent>
+		</gmd:MD_DataIdentification>
+	</gmd:identificationInfo>
+	<gmd:distributionInfo>
+		<gmd:MD_Distribution>
+			<gmd:distributionFormat>
+				<gmd:MD_Format>
+					<gmd:name gco:nilReason="inapplicable"/>
+					<gmd:version gco:nilReason="inapplicable"/>
+				</gmd:MD_Format>
+			</gmd:distributionFormat>
+			<gmd:transferOptions>
+				<gmd:MD_DigitalTransferOptions>
+					<gmd:onLine>
+						<gmd:CI_OnlineResource>
+							<gmd:linkage>
+								<gmd:URL>https://www.asf.alaska.edu/sar-data/ers-1/</gmd:URL>
+							</gmd:linkage>
+						</gmd:CI_OnlineResource>
+					</gmd:onLine>
+					<gmd:onLine>
+	<gmd:CI_OnlineResource>
+		<gmd:linkage>
+			<gmd:URL>http://geo.spacebel.be/opensearch/description.xml?parentIdentifier=EOP:ASF&amp;sensorType=RADAR&amp;platform=ERS-1</gmd:URL>
+		</gmd:linkage>
+		<gmd:name>
+			<gco:CharacterString>FedEO Clearinghouse</gco:CharacterString>
+		</gmd:name>
+		<gmd:description>
+			<gco:CharacterString>FedEO Clearinghouse</gco:CharacterString>
+		</gmd:description>
+		<gmd:function>
+			<gmd:CI_OnLineFunctionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="search"/>
+		</gmd:function>
+	</gmd:CI_OnlineResource>
+</gmd:onLine>
+				</gmd:MD_DigitalTransferOptions>
+			</gmd:transferOptions>
+		</gmd:MD_Distribution>
+	</gmd:distributionInfo>
+	<gmd:dataQualityInfo>
+		<gmd:DQ_DataQuality>
+			<gmd:scope>
+				<gmd:DQ_Scope>
+					<gmd:level>
+						<gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_ScopeCode" codeListValue="series">series</gmd:MD_ScopeCode>
+					</gmd:level>
+				</gmd:DQ_Scope>
+			</gmd:scope>
+
+		</gmd:DQ_DataQuality>
+	</gmd:dataQualityInfo>
+			    	        							    		<gmi:acquisitionInformation>
+		<gmi:MI_AcquisitionInformation>
+			<gmi:platform>
+				<gmi:MI_Platform>
+					<gmi:identifier>
+						<gmd:MD_Identifier>
+							<gmd:code>
+							 <gmx:Anchor xlink:href="http://gcmdservices.gsfc.nasa.gov/kms/concept/02c85d04-228e-4bf3-bb03-d72c22681dff">ERS-1</gmx:Anchor>  
+							</gmd:code>
+						</gmd:MD_Identifier>
+					</gmi:identifier>
+					<gmi:description>
+						<gco:CharacterString>ERS-1</gco:CharacterString>
+					</gmi:description>
+					<gmi:instrument/>
+				</gmi:MI_Platform>
+			</gmi:platform>
+		</gmi:MI_AcquisitionInformation>
+	</gmi:acquisitionInformation>
+		    	<gmi:acquisitionInformation>
+		<gmi:MI_AcquisitionInformation>
+			<gmi:platform>
+				<gmi:MI_Platform>
+					<gmi:identifier>
+						<gmd:MD_Identifier>
+							<gmd:code>
+							 <gco:CharacterString>ERS-1</gco:CharacterString>
+							</gmd:code>
+						</gmd:MD_Identifier>
+					</gmi:identifier>
+					<gmi:description>
+						<gco:CharacterString>ERS-1</gco:CharacterString>
+					</gmi:description>
+					<gmi:instrument/>
+				</gmi:MI_Platform>
+			</gmi:platform>
+		</gmi:MI_AcquisitionInformation>
+	</gmi:acquisitionInformation>
+</gmi:MI_Metadata>
+</entry>
+<entry xml:lang="en-US">
+<id>http://geo.spacebel.be/opensearch/request/?httpAccept=application/atom%2Bxml&amp;parentIdentifier=EOP:ESA:FEDEO:COLLECTIONS&amp;classifiedAs=http://www.eionet.europa.eu/gemet/concept/3650&amp;recordSchema=iso&amp;uid=EOP%3AASF%3AERS-2</id>
+<title>European Remote-Sensing Satellite 2 (ASF)</title>
+<dc:identifier>EOP:ASF:ERS-2</dc:identifier>
+<updated>1995-01-01T00:00:00Z</updated>
+<dc:date>1995-01-01/2011-12-31</dc:date>
+<georss:polygon>-90.0 -180.0 90.0 -180.0 90.0 180.0 -90.0 180.0 -90.0 -180.0</georss:polygon>
+<category label="FedEO" term="FedEO"/>
+<category label="geology" scheme="http://www.eionet.europa.eu/gemet" term="http://www.eionet.europa.eu/gemet/concept/3650"/>
+<category label="Science Keywords &gt; Earth Science &gt; Spectral/Engineering &gt; Radar &gt; Radar Imagery" scheme="http://gcmd.gsfc.nasa.gov/skos/" term="http://gcmdservices.gsfc.nasa.gov/kms/concept/53f69037-ff05-4b09-a95d-e65ff42da595"/>
+<category label="ERS-2" term="http://gcmdservices.gsfc.nasa.gov/kms/concept/affbd015-9373-4413-b76f-e91d01c4f5e3"/>
+<summary type="html"><![CDATA[
+<table xmlns="">
+<tr valign="top">
+<td>
+<b>Title </b>
+</td>
+<td>European Remote-Sensing Satellite 2 (ASF)</td>
+</tr>
+<tr valign="top">
+<td>
+<b>Description </b>
+</td>
+<td>In image mode the SAR provides high-resolution, two-dimensional images with a spatial resolution of 26 m in range (across track) and between 6 and 30 m in azimuth (along track). Image data is acquired for a maximum duration of approximately 10 minutes per orbit.</td>
+</tr>
+<tr valign="top">
+<td>
+<b>Type </b>
+</td>
+<td>Collection</td>
+</tr>
+<tr valign="top">
+<td>
+<b>Date </b>
+</td>
+<td>1995-01-01/2011-12-31</td>
+</tr>
+<td>
+<b>Media Type</b>
+</td>
+<td>
+<a href="http://geo.spacebel.be/opensearch/request?httpAccept=application/atom%2Bxml&amp;startRecord=1&amp;parentIdentifier=EOP:ESA:FEDEO:COLLECTIONS&amp;uid=EOP%3AASF%3AERS-2&amp;recordSchema=iso" title="ATOM format">ATOM</a>   |   <a href="http://geo.spacebel.be/opensearch/request?httpAccept=application/sru%2Bxml&amp;startRecord=1&amp;parentIdentifier=EOP:ESA:FEDEO:COLLECTIONS&amp;uid=EOP%3AASF%3AERS-2&amp;recordSchema=iso" title="SRU format">SRU</a>
+</td>
+<tr valign="top">
+<td>
+<b>Metadata </b>
+</td>
+<td>
+<a href="http://hma-se-services.spacebel.be:8080/i15/httpservice?request=GetRepositoryItem&amp;service=CSW-ebRIM&amp;Id=urn%3ACIM%3AEOP%3AASF%3AERS-2%3AResourceMetadata" title="ISO format">ISO</a>
+</td>
+</tr>
+</table>]]></summary>
+<link href="http://geo.spacebel.be/opensearch/request?httpAccept=application/atom%2Bxml&amp;startRecord=1&amp;parentIdentifier=EOP:ESA:FEDEO:COLLECTIONS&amp;uid=EOP%3AASF%3AERS-2&amp;recordSchema=iso" rel="alternate" title="Atom format" type="application/atom+xml"/>
+<link href="http://geo.spacebel.be/opensearch/description.xml?parentIdentifier=EOP:ASF&amp;sensorType=RADAR&amp;platform=ERS-2&amp;startDate=1995-01-01&amp;endDate=2011-12-31" rel="search" type="application/opensearchdescription+xml"/>
+<gmi:MI_Metadata xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.isotc211.org/2005/gmi ..\..\schema/ISO/gmi/gmi.xsd ">
+	<gmd:fileIdentifier>
+		<gco:CharacterString>EOP:ASF:ERS-2</gco:CharacterString>
+	</gmd:fileIdentifier>
+	<gmd:language>
+		<gmd:LanguageCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
+	</gmd:language>
+	<gmd:hierarchyLevel>
+		<gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_ScopeCode" codeListValue="series">series</gmd:MD_ScopeCode>
+	</gmd:hierarchyLevel>
+	
+<gmd:contact>
+
+	<gmd:CI_ResponsibleParty>
+		<gmd:organisationName>
+			<gco:CharacterString>ASF</gco:CharacterString>
+		</gmd:organisationName>
+		<gmd:positionName>
+			<gco:CharacterString>helpdesk</gco:CharacterString>
+		</gmd:positionName>
+		<gmd:contactInfo>
+			<gmd:CI_Contact>
+            				<gmd:address>
+					<gmd:CI_Address>
+										<gmd:electronicMailAddress>
+	<gco:CharacterString>uso@asf.alaska.edu</gco:CharacterString>
+</gmd:electronicMailAddress>					</gmd:CI_Address>
+				</gmd:address>
+							</gmd:CI_Contact>
+		</gmd:contactInfo>
+		<gmd:role>
+			<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+		</gmd:role>
+	</gmd:CI_ResponsibleParty>
+</gmd:contact>
+
+	<gmd:dateStamp>
+		<gco:Date>2015-09-18</gco:Date>
+	</gmd:dateStamp>
+	<gmd:metadataStandardName>
+		<gco:CharacterString>ISO19115</gco:CharacterString>
+	</gmd:metadataStandardName>
+	<gmd:metadataStandardVersion>
+		<gco:CharacterString>2005/Cor.1:2006</gco:CharacterString>
+	</gmd:metadataStandardVersion>
+	<gmd:identificationInfo>
+		<gmd:MD_DataIdentification>
+			<gmd:citation>
+				<gmd:CI_Citation>
+					<gmd:title>
+						<gco:CharacterString>European Remote-Sensing Satellite 2 (ASF)</gco:CharacterString>
+					</gmd:title>
+					<gmd:date>
+						<gmd:CI_Date>
+							<gmd:date>
+								<gco:Date>1995-01-01</gco:Date>
+							</gmd:date>
+							<gmd:dateType>
+								<gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="creation"/>
+							</gmd:dateType>
+						</gmd:CI_Date>
+					</gmd:date>
+					<gmd:identifier>
+						<gmd:RS_Identifier>
+							<gmd:code>
+								<gco:CharacterString>EOP:ASF:ERS-2</gco:CharacterString>
+							</gmd:code>
+						</gmd:RS_Identifier>
+					</gmd:identifier>
+				</gmd:CI_Citation>
+			</gmd:citation>	
+			<gmd:abstract>
+	<gco:CharacterString> 
+	In image mode the SAR provides high-resolution, two-dimensional images with a spatial resolution of 26 m in range (across track) and between 6 and 30 m in azimuth (along track). Image data is acquired for a maximum duration of approximately 10 minutes per orbit.
+	</gco:CharacterString>
+</gmd:abstract>
+			<gmd:descriptiveKeywords>
+				<gmd:MD_Keywords>
+					<gmd:keyword> 
+						<gco:CharacterString>FedEO</gco:CharacterString>
+					</gmd:keyword>
+				</gmd:MD_Keywords>
+			</gmd:descriptiveKeywords>
+			<gmd:descriptiveKeywords>
+				<gmd:MD_Keywords>
+				<gmd:keyword>
+				<gmx:Anchor xlink:href="http://www.eionet.europa.eu/gemet/concept/3650">geology</gmx:Anchor>  
+				</gmd:keyword>
+					<gmd:type>
+						<gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode" codeListValue="theme"/>
+					</gmd:type>
+	                 <gmd:thesaurusName>
+	<gmd:CI_Citation>
+	<gmd:title>
+   <gmx:Anchor xlink:href="http://www.eionet.europa.eu/gemet">GEMET - INSPIRE Themes, Version 1.0</gmx:Anchor>	  
+</gmd:title>
+		<gmd:date>
+			<gmd:CI_Date>
+				<gmd:date>
+					<gco:Date>2008-06-01</gco:Date>
+				</gmd:date>
+				<gmd:dateType>
+					<gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+				</gmd:dateType>
+			</gmd:CI_Date>
+		</gmd:date>
+	</gmd:CI_Citation>
+</gmd:thesaurusName>
+				</gmd:MD_Keywords>
+			</gmd:descriptiveKeywords>
+			<gmd:descriptiveKeywords>
+				<gmd:MD_Keywords>	
+				<gmd:keyword>
+				 <gmx:Anchor xlink:href="http://gcmdservices.gsfc.nasa.gov/kms/concept/53f69037-ff05-4b09-a95d-e65ff42da595">Science Keywords &gt; Earth Science &gt; Spectral/Engineering &gt; Radar &gt; Radar Imagery</gmx:Anchor>  
+				 </gmd:keyword>			
+					<gmd:type>
+						<gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode" codeListValue="theme"/>
+					</gmd:type>
+					<gmd:thesaurusName>
+	<gmd:CI_Citation>
+	<gmd:title>
+   <gmx:Anchor xlink:href="http://gcmd.gsfc.nasa.gov/skos/">NASA/Global Change Master Directory (GCMD) Earth Science Keywords. Version 8.0.0.0.0</gmx:Anchor>	  
+</gmd:title>
+		<gmd:date>
+			<gmd:CI_Date>
+				<gmd:date>
+					<gco:Date>2013</gco:Date>
+				</gmd:date>
+				<gmd:dateType>
+					<gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+				</gmd:dateType>
+			</gmd:CI_Date>
+		</gmd:date>
+		<gmd:identifier>
+			<gmd:MD_Identifier>
+				<gmd:code>
+					<gco:CharacterString>http://idn.ceos.org/</gco:CharacterString>
+				</gmd:code>
+			</gmd:MD_Identifier>
+		</gmd:identifier>
+	</gmd:CI_Citation>
+</gmd:thesaurusName>
+				</gmd:MD_Keywords>
+			</gmd:descriptiveKeywords>
+			<gmd:resourceConstraints>
+	<gmd:MD_Constraints>
+		<gmd:useLimitation>
+			<gco:CharacterString>https://www.asf.alaska.edu/data-tools/submit-a-proposal/</gco:CharacterString>
+		</gmd:useLimitation>
+	</gmd:MD_Constraints>
+</gmd:resourceConstraints>
+			<gmd:resourceConstraints>
+	<gmd:MD_LegalConstraints>
+		<gmd:accessConstraints>
+			<gmd:MD_RestrictionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions">otherRestrictions</gmd:MD_RestrictionCode>
+		</gmd:accessConstraints>
+		<gmd:otherConstraints>
+			<gco:CharacterString>See https://www.asf.alaska.edu/data-tools/submit-a-proposal/</gco:CharacterString>
+		</gmd:otherConstraints>
+	</gmd:MD_LegalConstraints>
+</gmd:resourceConstraints>
+			<gmd:language>
+				<gmd:LanguageCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
+			</gmd:language>
+			<gmd:topicCategory>
+				<gmd:MD_TopicCategoryCode>geoscientificInformation</gmd:MD_TopicCategoryCode>
+			</gmd:topicCategory>
+			<gmd:extent>
+				<gmd:EX_Extent>
+					<gmd:temporalElement>
+						<gmd:EX_TemporalExtent>
+							<gmd:extent>
+								<gml:TimePeriod gml:id="timeperiod1">
+									<gml:beginPosition>1995-01-01</gml:beginPosition>
+									<gml:endPosition>2011-12-31</gml:endPosition>
+								</gml:TimePeriod>
+							</gmd:extent>
+						</gmd:EX_TemporalExtent>
+					</gmd:temporalElement>
+				</gmd:EX_Extent>
+			</gmd:extent>
+			<gmd:extent>
+				<gmd:EX_Extent>
+					<gmd:geographicElement>
+						<gmd:EX_GeographicBoundingBox>
+							<gmd:westBoundLongitude>
+								<gco:Decimal>-180</gco:Decimal>
+							</gmd:westBoundLongitude>
+							<gmd:eastBoundLongitude>
+								<gco:Decimal>180</gco:Decimal>
+							</gmd:eastBoundLongitude>
+							<gmd:southBoundLatitude>
+								<gco:Decimal>-90</gco:Decimal>
+							</gmd:southBoundLatitude>
+							<gmd:northBoundLatitude>
+								<gco:Decimal>90</gco:Decimal>
+							</gmd:northBoundLatitude>
+						</gmd:EX_GeographicBoundingBox>
+					</gmd:geographicElement>
+				</gmd:EX_Extent>
+			</gmd:extent>
+		</gmd:MD_DataIdentification>
+	</gmd:identificationInfo>
+	<gmd:distributionInfo>
+		<gmd:MD_Distribution>
+			<gmd:distributionFormat>
+				<gmd:MD_Format>
+					<gmd:name gco:nilReason="inapplicable"/>
+					<gmd:version gco:nilReason="inapplicable"/>
+				</gmd:MD_Format>
+			</gmd:distributionFormat>
+			<gmd:transferOptions>
+				<gmd:MD_DigitalTransferOptions>
+					<gmd:onLine>
+						<gmd:CI_OnlineResource>
+							<gmd:linkage>
+								<gmd:URL>https://www.asf.alaska.edu/sar-data/ers-2/</gmd:URL>
+							</gmd:linkage>
+						</gmd:CI_OnlineResource>
+					</gmd:onLine>
+					<gmd:onLine>
+	<gmd:CI_OnlineResource>
+		<gmd:linkage>
+			<gmd:URL>http://geo.spacebel.be/opensearch/description.xml?parentIdentifier=EOP:ASF&amp;sensorType=RADAR&amp;platform=ERS-2</gmd:URL>
+		</gmd:linkage>
+		<gmd:name>
+			<gco:CharacterString>FedEO Clearinghouse</gco:CharacterString>
+		</gmd:name>
+		<gmd:description>
+			<gco:CharacterString>FedEO Clearinghouse</gco:CharacterString>
+		</gmd:description>
+		<gmd:function>
+			<gmd:CI_OnLineFunctionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="search"/>
+		</gmd:function>
+	</gmd:CI_OnlineResource>
+</gmd:onLine>
+				</gmd:MD_DigitalTransferOptions>
+			</gmd:transferOptions>
+		</gmd:MD_Distribution>
+	</gmd:distributionInfo>
+	<gmd:dataQualityInfo>
+		<gmd:DQ_DataQuality>
+			<gmd:scope>
+				<gmd:DQ_Scope>
+					<gmd:level>
+						<gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_ScopeCode" codeListValue="series">series</gmd:MD_ScopeCode>
+					</gmd:level>
+				</gmd:DQ_Scope>
+			</gmd:scope>
+
+		</gmd:DQ_DataQuality>
+	</gmd:dataQualityInfo>
+			    	        							    		<gmi:acquisitionInformation>
+		<gmi:MI_AcquisitionInformation>
+			<gmi:platform>
+				<gmi:MI_Platform>
+					<gmi:identifier>
+						<gmd:MD_Identifier>
+							<gmd:code>
+	                         <gmx:Anchor xlink:href="http://gcmdservices.gsfc.nasa.gov/kms/concept/affbd015-9373-4413-b76f-e91d01c4f5e3">ERS-2</gmx:Anchor>  
+							</gmd:code>
+						</gmd:MD_Identifier>
+					</gmi:identifier>
+					<gmi:description>
+						<gco:CharacterString>ERS-2</gco:CharacterString>
+					</gmi:description>
+					<gmi:instrument/>
+				</gmi:MI_Platform>
+			</gmi:platform>
+		</gmi:MI_AcquisitionInformation>
+	</gmi:acquisitionInformation>
+		    	<gmi:acquisitionInformation>
+		<gmi:MI_AcquisitionInformation>
+			<gmi:platform>
+				<gmi:MI_Platform>
+					<gmi:identifier>
+						<gmd:MD_Identifier>
+							<gmd:code>
+	                         <gco:CharacterString>ERS-2</gco:CharacterString>
+							</gmd:code>
+						</gmd:MD_Identifier>
+					</gmi:identifier>
+					<gmi:description>
+						<gco:CharacterString>ERS-2</gco:CharacterString>
+					</gmi:description>
+					<gmi:instrument/>
+				</gmi:MI_Platform>
+			</gmi:platform>
+		</gmi:MI_AcquisitionInformation>
+	</gmi:acquisitionInformation>
+</gmi:MI_Metadata>
+</entry>
+<entry xml:lang="en-US">
+<id>http://geo.spacebel.be/opensearch/request/?httpAccept=application/atom%2Bxml&amp;parentIdentifier=EOP:ESA:FEDEO:COLLECTIONS&amp;classifiedAs=http://www.eionet.europa.eu/gemet/concept/3650&amp;recordSchema=iso&amp;uid=EOP%3AASF%3ARADARSAT-1</id>
+<title>RADARSAT-1 SAR (ASF)</title>
+<dc:identifier>EOP:ASF:RADARSAT-1</dc:identifier>
+<updated>1995-01-01T00:00:00Z</updated>
+<dc:date>1995-01-01/2008-12-31</dc:date>
+<georss:polygon>-90.0 -180.0 90.0 -180.0 90.0 180.0 -90.0 180.0 -90.0 -180.0</georss:polygon>
+<category label="FedEO" term="FedEO"/>
+<category label="geology" scheme="http://www.eionet.europa.eu/gemet" term="http://www.eionet.europa.eu/gemet/concept/3650"/>
+<category label="Science Keywords &gt; Earth Science &gt; Spectral/Engineering &gt; Radar &gt; Radar Imagery" scheme="http://gcmd.gsfc.nasa.gov/skos/" term="http://gcmdservices.gsfc.nasa.gov/kms/concept/53f69037-ff05-4b09-a95d-e65ff42da595"/>
+<category label="RADARSAT-1" term="http://gcmdservices.gsfc.nasa.gov/kms/concept/d5e3bc6f-fea5-453e-9942-6ce982bca119"/>
+<summary type="html"><![CDATA[
+<table xmlns="">
+<tr valign="top">
+<td>
+<b>Title </b>
+</td>
+<td>RADARSAT-1 SAR (ASF)</td>
+</tr>
+<tr valign="top">
+<td>
+<b>Description </b>
+</td>
+<td>RADARSAT-1, which stopped transmitting because of a technical anomaly in March 2013, was equipped with synthetic aperture radar (SAR), a powerful microwave instrument. It transmitted and received signals for capturing high quality images of the Earth night and day and in all-weather conditions. RADARSAT-1's SAR transmitted a microwave energy pulse (C-band at 5.3 GHz frequency) to Earth, and the SAR measured the amount of energy reflected back to the satellite from the Earth's surface. The RADARSAT-1 SAR instrument was able to shape and steer its radar beam using C-band. A wide variety of beam widths were available to capture swaths of 45 to 500 kilometers, with a range of 8 to 100 meters in resolution and incidence angles of 10 to 60 degrees. RADARSAT could provide nearly complete global landmass coverage, and could support specific requirements. The satellite's orbit path repeated every 24 days. But RADARSAT could also: provide daily coverage of the Arctic, view any part of Canada within three days, achieve complete coverage at equatorial latitudes every six days using the 500-km wide swath.</td>
+</tr>
+<tr valign="top">
+<td>
+<b>Type </b>
+</td>
+<td>Collection</td>
+</tr>
+<tr valign="top">
+<td>
+<b>Date </b>
+</td>
+<td>1995-01-01/2008-12-31</td>
+</tr>
+<td>
+<b>Media Type</b>
+</td>
+<td>
+<a href="http://geo.spacebel.be/opensearch/request?httpAccept=application/atom%2Bxml&amp;startRecord=1&amp;parentIdentifier=EOP:ESA:FEDEO:COLLECTIONS&amp;uid=EOP%3AASF%3ARADARSAT-1&amp;recordSchema=iso" title="ATOM format">ATOM</a>   |   <a href="http://geo.spacebel.be/opensearch/request?httpAccept=application/sru%2Bxml&amp;startRecord=1&amp;parentIdentifier=EOP:ESA:FEDEO:COLLECTIONS&amp;uid=EOP%3AASF%3ARADARSAT-1&amp;recordSchema=iso" title="SRU format">SRU</a>
+</td>
+<tr valign="top">
+<td>
+<b>Metadata </b>
+</td>
+<td>
+<a href="http://hma-se-services.spacebel.be:8080/i15/httpservice?request=GetRepositoryItem&amp;service=CSW-ebRIM&amp;Id=urn%3ACIM%3AEOP%3AASF%3ARADARSAT-1%3AResourceMetadata" title="ISO format">ISO</a>
+</td>
+</tr>
+</table>]]></summary>
+<link href="http://geo.spacebel.be/opensearch/request?httpAccept=application/atom%2Bxml&amp;startRecord=1&amp;parentIdentifier=EOP:ESA:FEDEO:COLLECTIONS&amp;uid=EOP%3AASF%3ARADARSAT-1&amp;recordSchema=iso" rel="alternate" title="Atom format" type="application/atom+xml"/>
+<link href="http://geo.spacebel.be/opensearch/description.xml?parentIdentifier=EOP:ASF&amp;sensorType=RADAR&amp;platform=RADARSAT-1&amp;startDate=1995-01-01&amp;endDate=2008-12-31" rel="search" type="application/opensearchdescription+xml"/>
+<gmi:MI_Metadata xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.isotc211.org/2005/gmi ..\..\schema/ISO/gmi/gmi.xsd ">
+	<gmd:fileIdentifier>
+		<gco:CharacterString>EOP:ASF:RADARSAT-1</gco:CharacterString>
+	</gmd:fileIdentifier>
+	<gmd:language>
+		<gmd:LanguageCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
+	</gmd:language>
+	<gmd:hierarchyLevel>
+		<gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_ScopeCode" codeListValue="series">series</gmd:MD_ScopeCode>
+	</gmd:hierarchyLevel>
+	
+<gmd:contact>
+
+	<gmd:CI_ResponsibleParty>
+		<gmd:organisationName>
+			<gco:CharacterString>ASF</gco:CharacterString>
+		</gmd:organisationName>
+		<gmd:positionName>
+			<gco:CharacterString>helpdesk</gco:CharacterString>
+		</gmd:positionName>
+		<gmd:contactInfo>
+			<gmd:CI_Contact>
+            				<gmd:address>
+					<gmd:CI_Address>
+										<gmd:electronicMailAddress>
+	<gco:CharacterString>uso@asf.alaska.edu</gco:CharacterString>
+</gmd:electronicMailAddress>					</gmd:CI_Address>
+				</gmd:address>
+							</gmd:CI_Contact>
+		</gmd:contactInfo>
+		<gmd:role>
+			<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+		</gmd:role>
+	</gmd:CI_ResponsibleParty>
+</gmd:contact>
+
+	<gmd:dateStamp>
+		<gco:Date>2015-09-18</gco:Date>
+	</gmd:dateStamp>
+	<gmd:metadataStandardName>
+		<gco:CharacterString>ISO19115</gco:CharacterString>
+	</gmd:metadataStandardName>
+	<gmd:metadataStandardVersion>
+		<gco:CharacterString>2005/Cor.1:2006</gco:CharacterString>
+	</gmd:metadataStandardVersion>
+	<gmd:identificationInfo>
+		<gmd:MD_DataIdentification>
+			<gmd:citation>
+				<gmd:CI_Citation>
+					<gmd:title>
+						<gco:CharacterString>RADARSAT-1 SAR (ASF)</gco:CharacterString>
+					</gmd:title>
+					<gmd:date>
+						<gmd:CI_Date>
+							<gmd:date>
+								<gco:Date>1995-01-01</gco:Date>
+							</gmd:date>
+							<gmd:dateType>
+								<gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="creation"/>
+							</gmd:dateType>
+						</gmd:CI_Date>
+					</gmd:date>
+					<gmd:identifier>
+						<gmd:RS_Identifier>
+							<gmd:code>
+								<gco:CharacterString>EOP:ASF:RADARSAT-1</gco:CharacterString>
+							</gmd:code>
+						</gmd:RS_Identifier>
+					</gmd:identifier>
+				</gmd:CI_Citation>
+			</gmd:citation>	
+			<gmd:abstract>
+	<gco:CharacterString> 
+	RADARSAT-1, which stopped transmitting because of a technical anomaly in March 2013, was equipped with synthetic aperture radar (SAR), a powerful microwave instrument. It transmitted and received signals for capturing high quality images of the Earth night and day and in all-weather conditions. RADARSAT-1's SAR transmitted a microwave energy pulse (C-band at 5.3 GHz frequency) to Earth, and the SAR measured the amount of energy reflected back to the satellite from the Earth's surface.
+	The RADARSAT-1 SAR instrument was able to shape and steer its radar beam using C-band. A wide variety of beam widths were available to capture swaths of 45 to 500 kilometers, with a range of 8 to 100 meters in resolution and incidence angles of 10 to 60 degrees.
+	RADARSAT could provide nearly complete global landmass coverage, and could support specific requirements. The satellite's orbit path repeated every 24 days. But RADARSAT could also: provide daily coverage of the Arctic, view any part of Canada within three days, achieve complete coverage at equatorial latitudes every six days using the 500-km wide swath.
+	</gco:CharacterString>
+</gmd:abstract>
+			<gmd:descriptiveKeywords>
+				<gmd:MD_Keywords>
+					<gmd:keyword> 
+						<gco:CharacterString>FedEO</gco:CharacterString>
+					</gmd:keyword>
+				</gmd:MD_Keywords>
+			</gmd:descriptiveKeywords>
+			<gmd:descriptiveKeywords>
+				<gmd:MD_Keywords>
+				<gmd:keyword>
+				<gmx:Anchor xlink:href="http://www.eionet.europa.eu/gemet/concept/3650">geology</gmx:Anchor>  
+				</gmd:keyword>
+				<gmd:type>
+					<gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode" codeListValue="theme"/>
+				</gmd:type>
+	                        <gmd:thesaurusName>
+	                             <gmd:CI_Citation>
+	                                <gmd:title>
+                                            <gmx:Anchor xlink:href="http://www.eionet.europa.eu/gemet">GEMET - INSPIRE Themes, Version 1.0</gmx:Anchor>	  
+                                        </gmd:title>
+		                        <gmd:date>
+			                   <gmd:CI_Date>
+				              <gmd:date>
+					         <gco:Date>2008-06-01</gco:Date>
+				              </gmd:date>
+				              <gmd:dateType>
+					         <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+				              </gmd:dateType>
+			                  </gmd:CI_Date>
+		                       </gmd:date>
+	                           </gmd:CI_Citation>
+                              </gmd:thesaurusName>
+			      </gmd:MD_Keywords>
+		        </gmd:descriptiveKeywords>
+			<gmd:descriptiveKeywords>
+				<gmd:MD_Keywords>	
+				<gmd:keyword>
+				 <gmx:Anchor xlink:href="http://gcmdservices.gsfc.nasa.gov/kms/concept/53f69037-ff05-4b09-a95d-e65ff42da595">Science Keywords &gt; Earth Science &gt; Spectral/Engineering &gt; Radar &gt; Radar Imagery</gmx:Anchor>  
+				 </gmd:keyword>			
+					<gmd:type>
+						<gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode" codeListValue="theme"/>
+					</gmd:type>
+					<gmd:thesaurusName>
+	<gmd:CI_Citation>
+	<gmd:title>
+   <gmx:Anchor xlink:href="http://gcmd.gsfc.nasa.gov/skos/">NASA/Global Change Master Directory (GCMD) Earth Science Keywords. Version 8.0.0.0.0</gmx:Anchor>	  
+</gmd:title>
+		<gmd:date>
+			<gmd:CI_Date>
+				<gmd:date>
+					<gco:Date>2013</gco:Date>
+				</gmd:date>
+				<gmd:dateType>
+					<gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+				</gmd:dateType>
+			</gmd:CI_Date>
+		</gmd:date>
+		<gmd:identifier>
+			<gmd:MD_Identifier>
+				<gmd:code>
+					<gco:CharacterString>http://idn.ceos.org/</gco:CharacterString>
+				</gmd:code>
+			</gmd:MD_Identifier>
+		</gmd:identifier>
+	</gmd:CI_Citation>
+</gmd:thesaurusName>
+				</gmd:MD_Keywords>
+			</gmd:descriptiveKeywords>
+			<gmd:resourceConstraints>
+	<gmd:MD_Constraints>
+		<gmd:useLimitation>
+			<gco:CharacterString>https://www.asf.alaska.edu/data-tools/submit-a-proposal/</gco:CharacterString>
+		</gmd:useLimitation>
+	</gmd:MD_Constraints>
+</gmd:resourceConstraints>
+			<gmd:resourceConstraints>
+	<gmd:MD_LegalConstraints>
+		<gmd:accessConstraints>
+			<gmd:MD_RestrictionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions">otherRestrictions</gmd:MD_RestrictionCode>
+		</gmd:accessConstraints>
+		<gmd:otherConstraints>
+			<gco:CharacterString>See https://www.asf.alaska.edu/data-tools/submit-a-proposal/</gco:CharacterString>
+		</gmd:otherConstraints>
+	</gmd:MD_LegalConstraints>
+</gmd:resourceConstraints>
+			<gmd:language>
+				<gmd:LanguageCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
+			</gmd:language>
+			<gmd:topicCategory>
+				<gmd:MD_TopicCategoryCode>geoscientificInformation</gmd:MD_TopicCategoryCode>
+			</gmd:topicCategory>
+			<gmd:extent>
+				<gmd:EX_Extent>
+					<gmd:temporalElement>
+						<gmd:EX_TemporalExtent>
+							<gmd:extent>
+								<gml:TimePeriod gml:id="timeperiod1">
+									<gml:beginPosition>1995-01-01</gml:beginPosition>
+									<gml:endPosition>2008-12-31</gml:endPosition>
+								</gml:TimePeriod>
+							</gmd:extent>
+						</gmd:EX_TemporalExtent>
+					</gmd:temporalElement>
+				</gmd:EX_Extent>
+			</gmd:extent>
+			<gmd:extent>
+				<gmd:EX_Extent>
+					<gmd:geographicElement>
+						<gmd:EX_GeographicBoundingBox>
+							<gmd:westBoundLongitude>
+								<gco:Decimal>-180</gco:Decimal>
+							</gmd:westBoundLongitude>
+							<gmd:eastBoundLongitude>
+								<gco:Decimal>180</gco:Decimal>
+							</gmd:eastBoundLongitude>
+							<gmd:southBoundLatitude>
+								<gco:Decimal>-90</gco:Decimal>
+							</gmd:southBoundLatitude>
+							<gmd:northBoundLatitude>
+								<gco:Decimal>90</gco:Decimal>
+							</gmd:northBoundLatitude>
+						</gmd:EX_GeographicBoundingBox>
+					</gmd:geographicElement>
+				</gmd:EX_Extent>
+			</gmd:extent>
+		</gmd:MD_DataIdentification>
+	</gmd:identificationInfo>
+	<gmd:distributionInfo>
+		<gmd:MD_Distribution>
+			<gmd:distributionFormat>
+				<gmd:MD_Format>
+					<gmd:name gco:nilReason="inapplicable"/>
+					<gmd:version gco:nilReason="inapplicable"/>
+				</gmd:MD_Format>
+			</gmd:distributionFormat>
+			<gmd:transferOptions>
+				<gmd:MD_DigitalTransferOptions>
+					<gmd:onLine>
+						<gmd:CI_OnlineResource>
+							<gmd:linkage>
+								<gmd:URL>https://www.asf.alaska.edu/sar-data/radarsat-1/#</gmd:URL>
+							</gmd:linkage>
+						</gmd:CI_OnlineResource>
+					</gmd:onLine>
+					<gmd:onLine>
+	<gmd:CI_OnlineResource>
+		<gmd:linkage>
+			<gmd:URL>http://geo.spacebel.be/opensearch/description.xml?parentIdentifier=EOP:ASF&amp;sensorType=RADAR&amp;platform=RADARSAT-1</gmd:URL>
+		</gmd:linkage>
+		<gmd:name>
+			<gco:CharacterString>FedEO Clearinghouse</gco:CharacterString>
+		</gmd:name>
+		<gmd:description>
+			<gco:CharacterString>FedEO Clearinghouse</gco:CharacterString>
+		</gmd:description>
+		<gmd:function>
+			<gmd:CI_OnLineFunctionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="search"/>
+		</gmd:function>
+	</gmd:CI_OnlineResource>
+</gmd:onLine>
+				</gmd:MD_DigitalTransferOptions>
+			</gmd:transferOptions>
+		</gmd:MD_Distribution>
+	</gmd:distributionInfo>
+	<gmd:dataQualityInfo>
+		<gmd:DQ_DataQuality>
+			<gmd:scope>
+				<gmd:DQ_Scope>
+					<gmd:level>
+						<gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_ScopeCode" codeListValue="series">series</gmd:MD_ScopeCode>
+					</gmd:level>
+				</gmd:DQ_Scope>
+			</gmd:scope>
+		</gmd:DQ_DataQuality>
+	</gmd:dataQualityInfo>
+			    	        							    		<gmi:acquisitionInformation>
+		<gmi:MI_AcquisitionInformation>
+			<gmi:platform>
+				<gmi:MI_Platform>
+					<gmi:identifier>
+						<gmd:MD_Identifier>
+							<gmd:code>
+							    <gmx:Anchor xlink:href="http://gcmdservices.gsfc.nasa.gov/kms/concept/d5e3bc6f-fea5-453e-9942-6ce982bca119">RADARSAT-1</gmx:Anchor>  
+							</gmd:code>
+						</gmd:MD_Identifier>
+					</gmi:identifier>
+					<gmi:description>
+						<gco:CharacterString>RADARSAT-1</gco:CharacterString>
+					</gmi:description>
+					<gmi:instrument/>
+				</gmi:MI_Platform>
+			</gmi:platform>
+		</gmi:MI_AcquisitionInformation>
+	</gmi:acquisitionInformation>
+		    	<gmi:acquisitionInformation>
+		<gmi:MI_AcquisitionInformation>
+			<gmi:platform>
+				<gmi:MI_Platform>
+					<gmi:identifier>
+						<gmd:MD_Identifier>
+							<gmd:code>
+							    <gco:CharacterString>RADARSAT-1</gco:CharacterString>
+							</gmd:code>
+						</gmd:MD_Identifier>
+					</gmi:identifier>
+					<gmi:description>
+						<gco:CharacterString>RADARSAT-1</gco:CharacterString>
+					</gmi:description>
+					<gmi:instrument/>
+				</gmi:MI_Platform>
+			</gmi:platform>
+		</gmi:MI_AcquisitionInformation>
+	</gmi:acquisitionInformation>
+</gmi:MI_Metadata>
+</entry>
+<entry xml:lang="en-US">
+<id>http://geo.spacebel.be/opensearch/request/?httpAccept=application/atom%2Bxml&amp;parentIdentifier=EOP:ESA:FEDEO:COLLECTIONS&amp;classifiedAs=http://www.eionet.europa.eu/gemet/concept/3650&amp;recordSchema=iso&amp;uid=EOP%3AASF</id>
+<title>Alaska Satellite Facility (ASF) Provided Collections </title>
+<dc:identifier>EOP:ASF</dc:identifier>
+<updated>1990-01-01T00:00:00Z</updated>
+<dc:date>/</dc:date>
+<georss:polygon>-90.0 -180.0 90.0 -180.0 90.0 180.0 -90.0 180.0 -90.0 -180.0</georss:polygon>
+<category label="FedEO" term="FedEO"/>
+<category label="geology" scheme="http://www.eionet.europa.eu/gemet" term="http://www.eionet.europa.eu/gemet/concept/3650"/>
+<category label="Science Keywords &gt; Earth Science &gt; Spectral/Engineering &gt; Radar &gt; Radar Imagery" scheme="http://gcmd.gsfc.nasa.gov/skos/" term="http://gcmdservices.gsfc.nasa.gov/kms/concept/53f69037-ff05-4b09-a95d-e65ff42da595"/>
+<summary type="html"><![CDATA[
+<table xmlns="">
+<tr valign="top">
+<td>
+<b>Title </b>
+</td>
+<td>Alaska Satellite Facility (ASF) Provided Collections</td>
+</tr>
+<tr valign="top">
+<td>
+<b>Description </b>
+</td>
+<td>This collection represents the collections provided by the Alaska Satellite Facility that are available through the FedEO Opensearch Gateway (ERS-2, JERS-1, UAVSAR, AIRSAR...).</td>
+</tr>
+<tr valign="top">
+<td>
+<b>Type </b>
+</td>
+<td>Collection</td>
+</tr>
+<tr valign="top">
+<td>
+<b>Date </b>
+</td>
+<td>/</td>
+</tr>
+<td>
+<b>Media Type</b>
+</td>
+<td>
+<a href="http://geo.spacebel.be/opensearch/request?httpAccept=application/atom%2Bxml&amp;startRecord=1&amp;parentIdentifier=EOP:ESA:FEDEO:COLLECTIONS&amp;uid=EOP%3AASF&amp;recordSchema=iso" title="ATOM format">ATOM</a>   |   <a href="http://geo.spacebel.be/opensearch/request?httpAccept=application/sru%2Bxml&amp;startRecord=1&amp;parentIdentifier=EOP:ESA:FEDEO:COLLECTIONS&amp;uid=EOP%3AASF&amp;recordSchema=iso" title="SRU format">SRU</a>
+</td>
+<tr valign="top">
+<td>
+<b>Metadata </b>
+</td>
+<td>
+<a href="http://hma-se-services.spacebel.be:8080/i15/httpservice?request=GetRepositoryItem&amp;service=CSW-ebRIM&amp;Id=urn%3ACIM%3AEOP%3AASF%3AResourceMetadata" title="ISO format">ISO</a>
+</td>
+</tr>
+</table>]]></summary>
+<link href="http://geo.spacebel.be/opensearch/request?httpAccept=application/atom%2Bxml&amp;startRecord=1&amp;parentIdentifier=EOP:ESA:FEDEO:COLLECTIONS&amp;uid=EOP%3AASF&amp;recordSchema=iso" rel="alternate" title="Atom format" type="application/atom+xml"/>
+<link href="http://geo.spacebel.be/opensearch/description.xml?parentIdentifier=EOP:ASF" rel="search" type="application/opensearchdescription+xml"/>
+<gmi:MI_Metadata xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.isotc211.org/2005/gmi ..\..\schema/ISO/gmi/gmi.xsd ">
+	<gmd:fileIdentifier>
+		<gco:CharacterString>EOP:ASF</gco:CharacterString>
+	</gmd:fileIdentifier>
+	<gmd:language>
+		<gmd:LanguageCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
+	</gmd:language>
+	<gmd:hierarchyLevel>
+		<gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_ScopeCode" codeListValue="series">series</gmd:MD_ScopeCode>
+	</gmd:hierarchyLevel>
+	
+<gmd:contact>
+
+	<gmd:CI_ResponsibleParty>
+		<gmd:organisationName>
+			<gco:CharacterString>ASF</gco:CharacterString>
+		</gmd:organisationName>
+		<gmd:positionName>
+			<gco:CharacterString>helpdesk</gco:CharacterString>
+		</gmd:positionName>
+		<gmd:contactInfo>
+			<gmd:CI_Contact>
+            				<gmd:address>
+					<gmd:CI_Address>
+										<gmd:electronicMailAddress>
+	<gco:CharacterString>uso@asf.alaska.edu</gco:CharacterString>
+</gmd:electronicMailAddress>					</gmd:CI_Address>
+				</gmd:address>
+							</gmd:CI_Contact>
+		</gmd:contactInfo>
+		<gmd:role>
+			<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+		</gmd:role>
+	</gmd:CI_ResponsibleParty>
+</gmd:contact>
+
+	<gmd:dateStamp>
+		<gco:Date>2015-09-18</gco:Date>
+	</gmd:dateStamp>
+	<gmd:metadataStandardName>
+		<gco:CharacterString>ISO19115</gco:CharacterString>
+	</gmd:metadataStandardName>
+	<gmd:metadataStandardVersion>
+		<gco:CharacterString>2005/Cor.1:2006</gco:CharacterString>
+	</gmd:metadataStandardVersion>
+	<gmd:identificationInfo>
+		<gmd:MD_DataIdentification>
+			<gmd:citation>
+				<gmd:CI_Citation>
+					<gmd:title>
+						<gco:CharacterString>Alaska Satellite Facility (ASF) Provided Collections </gco:CharacterString>
+					</gmd:title>
+					<gmd:date>
+						<gmd:CI_Date>
+							<gmd:date>
+								<gco:Date>1990-01-01</gco:Date>
+							</gmd:date>
+							<gmd:dateType>
+								<gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="creation"/>
+							</gmd:dateType>
+						</gmd:CI_Date>
+					</gmd:date>
+					<gmd:identifier>
+						<gmd:RS_Identifier>
+							<gmd:code>
+								<gco:CharacterString>EOP:ASF</gco:CharacterString>
+							</gmd:code>
+						</gmd:RS_Identifier>
+					</gmd:identifier>
+				</gmd:CI_Citation>
+			</gmd:citation>	
+			<gmd:abstract>
+	<gco:CharacterString> This collection represents the collections provided by the Alaska Satellite Facility that are available through the FedEO Opensearch Gateway (ERS-2, JERS-1, UAVSAR, AIRSAR...).
+	</gco:CharacterString>
+</gmd:abstract>
+			<gmd:descriptiveKeywords>
+				<gmd:MD_Keywords>
+					<gmd:keyword> 
+						<gco:CharacterString>FedEO</gco:CharacterString>
+					</gmd:keyword>
+				</gmd:MD_Keywords>
+			</gmd:descriptiveKeywords>
+			<gmd:descriptiveKeywords>
+				<gmd:MD_Keywords>
+				<gmd:keyword>
+				<gmx:Anchor xlink:href="http://www.eionet.europa.eu/gemet/concept/3650">geology</gmx:Anchor>  
+				</gmd:keyword>
+					<gmd:type>
+						<gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode" codeListValue="theme"/>
+					</gmd:type>
+	                 <gmd:thesaurusName>
+	<gmd:CI_Citation>
+	<gmd:title>
+   <gmx:Anchor xlink:href="http://www.eionet.europa.eu/gemet">GEMET - INSPIRE Themes, Version 1.0</gmx:Anchor>	  
+</gmd:title>
+		<gmd:date>
+			<gmd:CI_Date>
+				<gmd:date>
+					<gco:Date>2008-06-01</gco:Date>
+				</gmd:date>
+				<gmd:dateType>
+					<gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+				</gmd:dateType>
+			</gmd:CI_Date>
+		</gmd:date>
+	</gmd:CI_Citation>
+</gmd:thesaurusName>
+				</gmd:MD_Keywords>
+			</gmd:descriptiveKeywords>
+			<gmd:descriptiveKeywords>
+				<gmd:MD_Keywords>	
+				<gmd:keyword>
+				 <gmx:Anchor xlink:href="http://gcmdservices.gsfc.nasa.gov/kms/concept/53f69037-ff05-4b09-a95d-e65ff42da595">Science Keywords &gt; Earth Science &gt; Spectral/Engineering &gt; Radar &gt; Radar Imagery</gmx:Anchor>  
+				 </gmd:keyword>			
+					<gmd:type>
+						<gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode" codeListValue="theme"/>
+					</gmd:type>
+					<gmd:thesaurusName>
+	<gmd:CI_Citation>
+	<gmd:title>
+   <gmx:Anchor xlink:href="http://gcmd.gsfc.nasa.gov/skos/">NASA/Global Change Master Directory (GCMD) Earth Science Keywords. Version 8.0.0.0.0</gmx:Anchor>	  
+</gmd:title>
+		<gmd:date>
+			<gmd:CI_Date>
+				<gmd:date>
+					<gco:Date>2013</gco:Date>
+				</gmd:date>
+				<gmd:dateType>
+					<gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+				</gmd:dateType>
+			</gmd:CI_Date>
+		</gmd:date>
+		<gmd:identifier>
+			<gmd:MD_Identifier>
+				<gmd:code>
+					<gco:CharacterString>http://idn.ceos.org/</gco:CharacterString>
+				</gmd:code>
+			</gmd:MD_Identifier>
+		</gmd:identifier>
+	</gmd:CI_Citation>
+</gmd:thesaurusName>
+				</gmd:MD_Keywords>
+			</gmd:descriptiveKeywords>
+			<gmd:resourceConstraints>
+	<gmd:MD_Constraints>
+		<gmd:useLimitation>
+			<gco:CharacterString>https://www.asf.alaska.edu/data-tools/submit-a-proposal/</gco:CharacterString>
+		</gmd:useLimitation>
+	</gmd:MD_Constraints>
+</gmd:resourceConstraints>
+			<gmd:resourceConstraints>
+	<gmd:MD_LegalConstraints>
+		<gmd:accessConstraints>
+			<gmd:MD_RestrictionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions">otherRestrictions</gmd:MD_RestrictionCode>
+		</gmd:accessConstraints>
+		<gmd:otherConstraints>
+			<gco:CharacterString>See https://www.asf.alaska.edu/data-tools/submit-a-proposal/</gco:CharacterString>
+		</gmd:otherConstraints>
+	</gmd:MD_LegalConstraints>
+</gmd:resourceConstraints>
+			<gmd:language>
+				<gmd:LanguageCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
+			</gmd:language>
+			<gmd:topicCategory>
+				<gmd:MD_TopicCategoryCode>geoscientificInformation</gmd:MD_TopicCategoryCode>
+			</gmd:topicCategory>
+			<gmd:extent>
+				<gmd:EX_Extent>
+					<gmd:geographicElement>
+						<gmd:EX_GeographicBoundingBox>
+							<gmd:westBoundLongitude>
+								<gco:Decimal>-180</gco:Decimal>
+							</gmd:westBoundLongitude>
+							<gmd:eastBoundLongitude>
+								<gco:Decimal>180</gco:Decimal>
+							</gmd:eastBoundLongitude>
+							<gmd:southBoundLatitude>
+								<gco:Decimal>-90</gco:Decimal>
+							</gmd:southBoundLatitude>
+							<gmd:northBoundLatitude>
+								<gco:Decimal>90</gco:Decimal>
+							</gmd:northBoundLatitude>
+						</gmd:EX_GeographicBoundingBox>
+					</gmd:geographicElement>
+				</gmd:EX_Extent>
+			</gmd:extent>
+		</gmd:MD_DataIdentification>
+	</gmd:identificationInfo>
+	<gmd:distributionInfo>
+		<gmd:MD_Distribution>
+			<gmd:distributionFormat>
+				<gmd:MD_Format>
+					<gmd:name gco:nilReason="inapplicable"/>
+					<gmd:version gco:nilReason="inapplicable"/>
+				</gmd:MD_Format>
+			</gmd:distributionFormat>
+			<gmd:transferOptions>
+				<gmd:MD_DigitalTransferOptions>
+					<gmd:onLine>
+						<gmd:CI_OnlineResource>
+							<gmd:linkage>
+								<gmd:URL>https://www.asf.alaska.edu/</gmd:URL>
+							</gmd:linkage>
+						</gmd:CI_OnlineResource>
+					</gmd:onLine>
+				</gmd:MD_DigitalTransferOptions>
+			</gmd:transferOptions>
+		</gmd:MD_Distribution>
+	</gmd:distributionInfo>
+	<gmd:dataQualityInfo>
+		<gmd:DQ_DataQuality>
+			<gmd:scope>
+				<gmd:DQ_Scope>
+					<gmd:level>
+						<gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_ScopeCode" codeListValue="series">series</gmd:MD_ScopeCode>
+					</gmd:level>
+				</gmd:DQ_Scope>
+			</gmd:scope>
+		</gmd:DQ_DataQuality>
+	</gmd:dataQualityInfo>
+</gmi:MI_Metadata>
+</entry>
+<entry xml:lang="en-US">
+<id>http://geo.spacebel.be/opensearch/request/?httpAccept=application/atom%2Bxml&amp;parentIdentifier=EOP:ESA:FEDEO:COLLECTIONS&amp;classifiedAs=http://www.eionet.europa.eu/gemet/concept/3650&amp;recordSchema=iso&amp;uid=EOP%3ACNES%3ATAKE5%3ASPOT4</id>
+<title>SPOT4 (SPOT Take5)</title>
+<dc:identifier>EOP:CNES:TAKE5:SPOT4</dc:identifier>
+<updated>2015-08-14T00:00:00Z</updated>
+<dc:date>1998-03-24/2002-12-31</dc:date>
+<georss:polygon>-90.0 -180.0 90.0 -180.0 90.0 180.0 -90.0 180.0 -90.0 -180.0</georss:polygon>
+<category label="FedEO" term="FedEO"/>
+<category label="Geology" scheme="http://www.eionet.europa.eu/gemet" term="http://www.eionet.europa.eu/gemet/concept/3650"/>
+<category label="Land cover" scheme="http://www.eionet.europa.eu/gemet" term="http://www.eionet.europa.eu/gemet/concept/4612"/>
+<category label="THEIA" term="THEIA"/>
+<category label="take" term="take"/>
+<category label="spot" term="spot"/>
+<category label="SPOT-4" term="http://gcmdservices.gsfc.nasa.gov/kms/concept/5fe45cae-f4ce-4287-8af8-0d824807f3fc"/>
+<category label="HRVIR" term="http://gcmdservices.gsfc.nasa.gov/kms/concept/d1917f5c-0f50-4b7b-adb5-08cd7a6510d3"/>
+<summary type="html"><![CDATA[
+<table xmlns="">
+<tr valign="top">
+<td>
+<b>Title </b>
+</td>
+<td>SPOT4 (SPOT Take5)</td>
+</tr>
+<tr valign="top">
+<td>
+<b>Description </b>
+</td>
+<td>SPOT (Satellite Probatoire d'Observation de la Terre) is the government sponsored civil Earth observation program, support from Belgium and Sweden. A single SPOT satellite complete coverage of the Earth every 26 days. Image from SPOT are handled by a commercial entity,Image Corp. Spacecraft payload includes two HRVIR (High Resolution Visible - Infrared) pushbrrom imaging instruments. HRVIR is derived from the HRV instruments on SPOT 1-3. This system will provide 10 m resolution in the panchromatic band and 20 m resolution in the multispectral bands. HRVIR includes a new medium IR channel to support vegetation analysis and harvest forecasting. The HRVIRs are steerable to within 27 deg off-nadir. Each HRVIR has a swath width of 60 km. The Vegetation Monitoring instrument has 1 km resolution in the same bands as the HRVIR. Additional information available at "http://samadhi.jpl.nasa.gov/msl/QuickLooks/spot4QL.html".</td>
+</tr>
+<tr valign="top">
+<td>
+<b>Type </b>
+</td>
+<td>Collection</td>
+</tr>
+<tr valign="top">
+<td>
+<b>Date </b>
+</td>
+<td>1998-03-24/2002-12-31</td>
+</tr>
+<td>
+<b>Media Type</b>
+</td>
+<td>
+<a href="http://geo.spacebel.be/opensearch/request?httpAccept=application/atom%2Bxml&amp;startRecord=1&amp;parentIdentifier=EOP:ESA:FEDEO:COLLECTIONS&amp;uid=EOP%3ACNES%3ATAKE5%3ASPOT4&amp;recordSchema=iso" title="ATOM format">ATOM</a>   |   <a href="http://geo.spacebel.be/opensearch/request?httpAccept=application/sru%2Bxml&amp;startRecord=1&amp;parentIdentifier=EOP:ESA:FEDEO:COLLECTIONS&amp;uid=EOP%3ACNES%3ATAKE5%3ASPOT4&amp;recordSchema=iso" title="SRU format">SRU</a>
+</td>
+<tr valign="top">
+<td>
+<b>Metadata </b>
+</td>
+<td>
+<a href="http://hma-se-services.spacebel.be:8080/i15/httpservice?request=GetRepositoryItem&amp;service=CSW-ebRIM&amp;Id=urn%3ACIM%3AEOP%3ACNES%3ATAKE5%3ASPOT4%3AResourceMetadata" title="ISO format">ISO</a>
+</td>
+</tr>
+</table>]]></summary>
+<link href="http://geo.spacebel.be/opensearch/request?httpAccept=application/atom%2Bxml&amp;startRecord=1&amp;parentIdentifier=EOP:ESA:FEDEO:COLLECTIONS&amp;uid=EOP%3ACNES%3ATAKE5%3ASPOT4&amp;recordSchema=iso" rel="alternate" title="Atom format" type="application/atom+xml"/>
+<link href="http://geo.spacebel.be/opensearch/description.xml?parentIdentifier=EOP:CNES:TAKE5&amp;sensorType=OPTICAL&amp;platform=SPOT4&amp;startDate=1998-03-24&amp;endDate=2002-12-31" rel="search" type="application/opensearchdescription+xml"/>
+<gmi:MI_Metadata xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.isotc211.org/2005/gmi ..\..\schema/ISO/gmi/gmi.xsd">
+	<gmd:fileIdentifier>
+		<gco:CharacterString>EOP:CNES:TAKE5:SPOT4</gco:CharacterString>
+	</gmd:fileIdentifier>
+	<gmd:language>
+		<gmd:LanguageCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
+	</gmd:language>
+	<gmd:hierarchyLevel>
+		<gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmx Codelists.xml#MD_ScopeCode" codeListValue="series">series</gmd:MD_ScopeCode>
+	</gmd:hierarchyLevel>
+	<gmd:contact>
+		<gmd:CI_ResponsibleParty>
+			<gmd:individualName>
+				<gco:CharacterString>CustomerTechnicalSupport</gco:CharacterString>
+			</gmd:individualName>
+			<gmd:organisationName>
+				<gco:CharacterString>CNES</gco:CharacterString>
+			</gmd:organisationName>
+			<gmd:contactInfo>
+				<gmd:CI_Contact>
+					<gmd:address>
+						<gmd:CI_Address>
+							<gmd:deliveryPoint>
+								<gco:CharacterString>18 avenue Edouard Belin</gco:CharacterString>
+							</gmd:deliveryPoint>
+							<gmd:city>
+								<gco:CharacterString>Toulouse</gco:CharacterString>
+							</gmd:city>
+							<gmd:postalCode>
+								<gco:CharacterString>31401</gco:CharacterString>
+							</gmd:postalCode>
+							<gmd:country>
+								<gco:CharacterString>France</gco:CharacterString>
+							</gmd:country>
+							<gmd:electronicMailAddress>
+								<gco:CharacterString>jerome.gasperi@cnes.fr</gco:CharacterString>
+							</gmd:electronicMailAddress>
+						</gmd:CI_Address>
+					</gmd:address>
+				</gmd:CI_Contact>
+			</gmd:contactInfo>
+			<gmd:role>
+				<gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_RoleCode" codeListValue="publisher"/>
+			</gmd:role>
+		</gmd:CI_ResponsibleParty>
+	</gmd:contact>
+	<gmd:dateStamp>
+		<gco:Date>2015-09-18</gco:Date>
+	</gmd:dateStamp>
+	<gmd:metadataStandardName>
+		<gco:CharacterString>ISO19115</gco:CharacterString>
+	</gmd:metadataStandardName>
+	<gmd:metadataStandardVersion>
+		<gco:CharacterString>2003/Cor.1:2006</gco:CharacterString>
+	</gmd:metadataStandardVersion>
+	<gmd:identificationInfo>
+		<gmd:MD_DataIdentification>
+			<gmd:citation>
+				<gmd:CI_Citation>
+					<gmd:title>
+						<gco:CharacterString>SPOT4 (SPOT Take5)</gco:CharacterString>
+					</gmd:title>
+					<gmd:date>
+						<gmd:CI_Date>
+							<gmd:date>
+								<gco:Date>2015-08-14</gco:Date>
+							</gmd:date>
+							<gmd:dateType>
+								<gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="creation"/>
+							</gmd:dateType>
+						</gmd:CI_Date>
+					</gmd:date>
+					<gmd:identifier>
+						<gmd:RS_Identifier>
+							<gmd:code>
+								<gco:CharacterString>EOP:CNES:TAKE5:SPOT4</gco:CharacterString>
+							</gmd:code>
+							<gmd:codeSpace>
+								<gco:CharacterString>https://spot-take5.org/</gco:CharacterString>
+							</gmd:codeSpace>
+						</gmd:RS_Identifier>
+					</gmd:identifier>
+				</gmd:CI_Citation>
+			</gmd:citation>
+			<gmd:abstract>
+				<gco:CharacterString>
+				SPOT (Satellite Probatoire d'Observation de la Terre) is the government sponsored civil Earth observation program, support from Belgium and Sweden. A single SPOT satellite complete coverage of the Earth every 26 days. Image from SPOT are handled by a commercial entity,Image Corp. Spacecraft payload includes two  HRVIR (High Resolution Visible - Infrared) pushbrrom imaging instruments.
+HRVIR is derived from the HRV instruments on SPOT 1-3. This system will provide 10 m resolution in the panchromatic band and 20 m resolution in the multispectral bands. HRVIR includes a new medium IR channel to support vegetation analysis and harvest forecasting. The HRVIRs are steerable to within 27 deg off-nadir. Each HRVIR has a swath width of 60 km. The Vegetation Monitoring instrument has 1 km resolution in the same bands as the HRVIR. Additional information available at "http://samadhi.jpl.nasa.gov/msl/QuickLooks/spot4QL.html".
+				</gco:CharacterString>
+			</gmd:abstract>
+			<gmd:pointOfContact>
+				<gmd:CI_ResponsibleParty>
+					<gmd:organisationName>
+						<gco:CharacterString>CNES</gco:CharacterString>
+					</gmd:organisationName>
+					<gmd:positionName>
+						<gco:CharacterString>CustomerTechnicalSupport</gco:CharacterString>
+					</gmd:positionName>
+					<gmd:contactInfo>
+						<gmd:CI_Contact>
+					<gmd:address>
+						<gmd:CI_Address>
+							<gmd:deliveryPoint>
+								<gco:CharacterString>18 avenue Edouard Belin</gco:CharacterString>
+							</gmd:deliveryPoint>
+							<gmd:city>
+								<gco:CharacterString>Toulouse</gco:CharacterString>
+							</gmd:city>
+							<gmd:postalCode>
+								<gco:CharacterString>31401</gco:CharacterString>
+							</gmd:postalCode>
+							<gmd:country>
+								<gco:CharacterString>France</gco:CharacterString>
+							</gmd:country>
+							<gmd:electronicMailAddress>
+								<gco:CharacterString>jerome.gasperi@cnes.fr</gco:CharacterString>
+							</gmd:electronicMailAddress>
+						</gmd:CI_Address>
+					</gmd:address>
+							<gmd:onlineResource>
+								<gmd:CI_OnlineResource>
+									<gmd:linkage>
+										<gmd:URL>https://spot-take5.org/</gmd:URL>
+									</gmd:linkage>
+								</gmd:CI_OnlineResource>
+							</gmd:onlineResource>
+						</gmd:CI_Contact>
+					</gmd:contactInfo>
+					<gmd:role>
+						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="originator">							originator						</gmd:CI_RoleCode>
+					</gmd:role>
+				</gmd:CI_ResponsibleParty>
+			</gmd:pointOfContact>
+									<gmd:descriptiveKeywords>
+		<gmd:MD_Keywords>
+			<gmd:keyword>
+				<gco:CharacterString>FedEO</gco:CharacterString>
+			</gmd:keyword>	
+		</gmd:MD_Keywords>	
+	</gmd:descriptiveKeywords>
+    <gmd:descriptiveKeywords>
+         <gmd:MD_Keywords>
+		    <gmd:keyword>
+			    <gmx:Anchor xlink:href="http://www.eionet.europa.eu/gemet/concept/3650">Geology</gmx:Anchor>  
+		    </gmd:keyword>
+		    <gmd:keyword>
+			    <gmx:Anchor xlink:href="http://www.eionet.europa.eu/gemet/concept/4612">Land cover</gmx:Anchor>  
+		    </gmd:keyword>
+		    <gmd:type>
+			    <gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode" codeListValue="theme"/>
+		    </gmd:type>
+		    <gmd:thesaurusName>
+			    <gmd:CI_Citation>
+			       <gmd:title>
+				    <gmx:Anchor xlink:href="http://www.eionet.europa.eu/gemet">GEMET - INSPIRE Themes, Version 1.0</gmx:Anchor>	  
+			       </gmd:title>
+			       <gmd:date>
+				  <gmd:CI_Date>
+				      <gmd:date>
+					  <gco:Date>2008-06-01</gco:Date>
+				      </gmd:date>
+				      <gmd:dateType>
+					   <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+				      </gmd:dateType>
+				  </gmd:CI_Date>
+			      </gmd:date>
+			    </gmd:CI_Citation>
+		    </gmd:thesaurusName>
+	</gmd:MD_Keywords>
+    </gmd:descriptiveKeywords>
+			<gmd:descriptiveKeywords>
+				<gmd:MD_Keywords>
+					<gmd:keyword> 
+						<gco:CharacterString>THEIA</gco:CharacterString>
+					</gmd:keyword>
+					<gmd:keyword> 
+						<gco:CharacterString>take</gco:CharacterString>
+					</gmd:keyword>
+					<gmd:keyword>
+						<gco:CharacterString>spot</gco:CharacterString>
+					</gmd:keyword>
+				</gmd:MD_Keywords>
+			</gmd:descriptiveKeywords>
+			<gmd:resourceConstraints>
+				<gmd:MD_Constraints>
+					<gmd:useLimitation>
+						<gco:CharacterString>http://earth.esa.int/dataproducts/accessingeodata/</gco:CharacterString>
+					</gmd:useLimitation>
+				</gmd:MD_Constraints>
+			</gmd:resourceConstraints>
+			<gmd:resourceConstraints>
+				<gmd:MD_LegalConstraints>
+					<gmd:accessConstraints>
+						<gmd:MD_RestrictionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions">otherRestrictions</gmd:MD_RestrictionCode>
+					</gmd:accessConstraints>
+	<!--				<gmd:otherConstraints>
+						<gco:CharacterString>The images are available on a free and open basis for any user, provided usage is non-commercial</gco:CharacterString>
+					</gmd:otherConstraints>-->
+				</gmd:MD_LegalConstraints>
+			</gmd:resourceConstraints>
+			<gmd:language>
+				<gmd:LanguageCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
+			</gmd:language>
+	<!--		<gmd:topicCategory>
+				<gmd:MD_TopicCategoryCode>farming</gmd:MD_TopicCategoryCode>
+			</gmd:topicCategory> -->
+			<gmd:extent>
+				<gmd:EX_Extent>
+					<gmd:geographicElement>
+						<gmd:EX_GeographicBoundingBox>
+							<gmd:westBoundLongitude>
+								<gco:Decimal>-180</gco:Decimal>
+							</gmd:westBoundLongitude>
+							<gmd:eastBoundLongitude>
+								<gco:Decimal>180</gco:Decimal>
+							</gmd:eastBoundLongitude>
+							<gmd:southBoundLatitude>
+								<gco:Decimal>-90</gco:Decimal>
+							</gmd:southBoundLatitude>
+							<gmd:northBoundLatitude>
+								<gco:Decimal>90</gco:Decimal>
+							</gmd:northBoundLatitude>
+						</gmd:EX_GeographicBoundingBox>
+					</gmd:geographicElement>
+				</gmd:EX_Extent>
+			</gmd:extent>
+			<gmd:extent>
+				<gmd:EX_Extent>
+					<gmd:temporalElement>
+						<gmd:EX_TemporalExtent>
+							<gmd:extent>
+								<gml:TimePeriod gml:id="IDf329b5fa-4ca4-4c8e-ad0f-27e399386ab2">
+									<gml:beginPosition>1998-03-24</gml:beginPosition>
+									<gml:endPosition>2002-12-31</gml:endPosition>
+								</gml:TimePeriod>
+							</gmd:extent>
+						</gmd:EX_TemporalExtent>
+					</gmd:temporalElement>
+				</gmd:EX_Extent>
+			</gmd:extent>
+		</gmd:MD_DataIdentification>
+	</gmd:identificationInfo>
+	<gmd:distributionInfo>
+		<gmd:MD_Distribution>
+			<gmd:distributionFormat>
+				<gmd:MD_Format>
+					<gmd:name gco:nilReason="inapplicable"/>
+					<gmd:version gco:nilReason="inapplicable"/>
+				</gmd:MD_Format>
+			</gmd:distributionFormat>
+			<gmd:transferOptions>
+				<gmd:MD_DigitalTransferOptions>
+				<gmd:onLine>
+	<gmd:CI_OnlineResource>
+		<gmd:linkage>
+			<gmd:URL>http://geo.spacebel.be/opensearch/description.xml?parentIdentifier=EOP:CNES:TAKE5&amp;sensorType=OPTICAL&amp;platform=SPOT4</gmd:URL>
+		</gmd:linkage>
+		<gmd:name>
+			<gco:CharacterString>FedEO Clearinghouse</gco:CharacterString>
+		</gmd:name>
+		<gmd:description>
+			<gco:CharacterString>FedEO Clearinghouse</gco:CharacterString>
+		</gmd:description>
+		<gmd:function>
+			<gmd:CI_OnLineFunctionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="search"/>
+		</gmd:function>
+	</gmd:CI_OnlineResource>
+</gmd:onLine>
+				</gmd:MD_DigitalTransferOptions>
+			</gmd:transferOptions>
+		</gmd:MD_Distribution>
+	</gmd:distributionInfo>
+	<gmd:dataQualityInfo>
+		<gmd:DQ_DataQuality>
+			<gmd:scope>
+				<gmd:DQ_Scope>
+					<gmd:level>
+						<gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_ScopeCode" codeListValue="series">series</gmd:MD_ScopeCode>
+					</gmd:level>
+				</gmd:DQ_Scope>
+			</gmd:scope>
+			<gmd:report>
+				<gmd:DQ_DomainConsistency>
+					<gmd:result>
+						<gmd:DQ_ConformanceResult>
+							<gmd:specification>
+								<gmd:CI_Citation>
+									<gmd:title>
+										<gco:CharacterString>COMMISSION REGULATION (EU) No 1089/2010 of 23 November 2010 implementing Directive 2007/2/EC of the European Parliament and of the Council as regards interoperability of spatial data sets and services</gco:CharacterString>
+									</gmd:title>
+									<gmd:date>
+										<gmd:CI_Date>
+											<gmd:date>
+												<gco:Date>2010-12-08</gco:Date>
+											</gmd:date>
+											<gmd:dateType>
+												<gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="publication"/>
+											</gmd:dateType>
+										</gmd:CI_Date>
+									</gmd:date>
+								</gmd:CI_Citation>
+							</gmd:specification>
+							<gmd:explanation>
+								<gco:CharacterString>non testÃ©</gco:CharacterString>
+							</gmd:explanation>
+							<gmd:pass>
+								<gco:Boolean>false</gco:Boolean>
+							</gmd:pass>
+						</gmd:DQ_ConformanceResult>
+					</gmd:result>
+				</gmd:DQ_DomainConsistency>
+			</gmd:report>
+			<gmd:lineage>
+				<gmd:LI_Lineage>
+					<gmd:statement>
+						<gco:CharacterString>SPOT4 -  HRVIR HRVIR1 HRVIR2</gco:CharacterString>
+					</gmd:statement>
+				</gmd:LI_Lineage>
+			</gmd:lineage>
+		</gmd:DQ_DataQuality>
+	</gmd:dataQualityInfo>
+        <gmi:acquisitionInformation>
+		<gmi:MI_AcquisitionInformation>
+			<gmi:platform>
+				<gmi:MI_Platform>
+					<gmi:identifier>
+						<gmd:MD_Identifier>
+							<gmd:code>
+								<gmx:Anchor xlink:href="http://gcmdservices.gsfc.nasa.gov/kms/concept/5fe45cae-f4ce-4287-8af8-0d824807f3fc">SPOT-4</gmx:Anchor>  
+							</gmd:code>
+						</gmd:MD_Identifier>
+					</gmi:identifier>
+					<gmi:description>
+						<gco:CharacterString>SPOT4 Satellite</gco:CharacterString>
+					</gmi:description>
+					<gmi:instrument>
+						<gmi:MI_Instrument>
+							<gmi:citation>
+								<gmd:CI_Citation>
+									<gmd:title>
+										<gmx:Anchor xlink:href="http://gcmdservices.gsfc.nasa.gov/kms/concept/d1917f5c-0f50-4b7b-adb5-08cd7a6510d3">HRVIR</gmx:Anchor>  
+									</gmd:title>
+									<gmd:date>
+										<gmd:CI_Date>
+											<gmd:date>
+												<gco:Date>1998-03-24</gco:Date>
+											</gmd:date>
+											<gmd:dateType>
+												<gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="creation">creation</gmd:CI_DateTypeCode>
+											</gmd:dateType>
+										</gmd:CI_Date>
+									</gmd:date>
+									<gmd:identifier>
+										<gmd:MD_Identifier>
+											<gmd:code>
+												<gco:CharacterString>HRVIR</gco:CharacterString>
+											</gmd:code>
+										</gmd:MD_Identifier>
+									</gmd:identifier>
+								</gmd:CI_Citation>
+							</gmi:citation>
+							<gmi:type>
+								<gmi:MI_SensorTypeCode/>
+							</gmi:type>
+						</gmi:MI_Instrument>
+					</gmi:instrument>	
+				</gmi:MI_Platform>
+			</gmi:platform>
+		</gmi:MI_AcquisitionInformation>
+	</gmi:acquisitionInformation>
+
+    		    	 	 	<gmi:acquisitionInformation>
+		<gmi:MI_AcquisitionInformation>
+			<gmi:platform>
+				<gmi:MI_Platform>
+					<gmi:identifier>
+						<gmd:MD_Identifier>
+							<gmd:code>
+								<gco:CharacterString>SPOT-4</gco:CharacterString>
+							</gmd:code>
+						</gmd:MD_Identifier>
+					</gmi:identifier>
+					<gmi:description>
+						<gco:CharacterString>SPOT4 Satellite</gco:CharacterString>
+					</gmi:description>
+					<gmi:instrument>
+						<gmi:MI_Instrument>
+							<gmi:citation>
+								<gmd:CI_Citation>
+									<gmd:title>
+										<gco:CharacterString>HRVIR</gco:CharacterString>
+									</gmd:title>
+									<gmd:date>
+										<gmd:CI_Date>
+											<gmd:date>
+												<gco:Date>1998-03-24</gco:Date>
+											</gmd:date>
+											<gmd:dateType>
+												<gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="creation">creation</gmd:CI_DateTypeCode>
+											</gmd:dateType>
+										</gmd:CI_Date>
+									</gmd:date>
+									<gmd:identifier>
+										<gmd:MD_Identifier>
+											<gmd:code>
+												<gco:CharacterString>HRVIR</gco:CharacterString>
+											</gmd:code>
+										</gmd:MD_Identifier>
+									</gmd:identifier>
+								</gmd:CI_Citation>
+							</gmi:citation>
+							<gmi:type>
+								<gmi:MI_SensorTypeCode/>
+							</gmi:type>
+						</gmi:MI_Instrument>
+					</gmi:instrument>	
+				</gmi:MI_Platform>
+			</gmi:platform>
+		</gmi:MI_AcquisitionInformation>
+	</gmi:acquisitionInformation>
+
+    </gmi:MI_Metadata>
+</entry>
+<entry xml:lang="en-US">
+<id>http://geo.spacebel.be/opensearch/request/?httpAccept=application/atom%2Bxml&amp;parentIdentifier=EOP:ESA:FEDEO:COLLECTIONS&amp;classifiedAs=http://www.eionet.europa.eu/gemet/concept/3650&amp;recordSchema=iso&amp;uid=EOP%3ACNES%3ATAKE5%3ASPOT5</id>
+<title>SPOT5  (SPOT Take5)</title>
+<dc:identifier>EOP:CNES:TAKE5:SPOT5</dc:identifier>
+<updated>2015-08-14T00:00:00Z</updated>
+<dc:date>1998-03-24/2002-12-31</dc:date>
+<georss:polygon>-90.0 -180.0 90.0 -180.0 90.0 180.0 -90.0 180.0 -90.0 -180.0</georss:polygon>
+<category label="FedEO" term="FedEO"/>
+<category label="Geology" scheme="http://www.eionet.europa.eu/gemet" term="http://www.eionet.europa.eu/gemet/concept/3650"/>
+<category label="Land cover" scheme="http://www.eionet.europa.eu/gemet" term="http://www.eionet.europa.eu/gemet/concept/4612"/>
+<category label="THEIA" term="THEIA"/>
+<category label="take" term="take"/>
+<category label="spot" term="spot"/>
+<category label="SPOT-5" term="http://gcmdservices.gsfc.nasa.gov/kms/concept/08e3f2c8-0d9d-4f94-b2fe-bb110b151134"/>
+<category label="HRG-1" term="http://gcmdservices.gsfc.nasa.gov/kms/concept/58faa563-84f4-4c0f-8c06-d6f75d8afb0f"/>
+<category label="HRG-2" term="http://gcmdservices.gsfc.nasa.gov/kms/concept/91c8e5fe-b933-4166-b118-dc54718c5147"/>
+<summary type="html"><![CDATA[
+<table xmlns="">
+<tr valign="top">
+<td>
+<b>Title </b>
+</td>
+<td>SPOT5 (SPOT Take5)</td>
+</tr>
+<tr valign="top">
+<td>
+<b>Description </b>
+</td>
+<td>Spot 5 is a French (CNES), Earth-imaging, three tonne satellite that was launched by an Ariane 42P rocket from Kourou at 00:31:00 UT on 4 May 2002. Its planar and stereoscopic relief images at about three meter resolution will be marketed for civilian and military uses, for cartographic and vegetation analyses. Panchromatic (at 2.5 m resolution) as well as multispectral images (at 10 m resolution) could be obtained. The position of the satellite, and hence the location of the images could be determined at 15 m accuracy by means of the DORIS position determination instrument. Extensive information on the instruments and data products is available via http://www.spotimage.com/.</td>
+</tr>
+<tr valign="top">
+<td>
+<b>Type </b>
+</td>
+<td>Collection</td>
+</tr>
+<tr valign="top">
+<td>
+<b>Date </b>
+</td>
+<td>1998-03-24/2002-12-31</td>
+</tr>
+<td>
+<b>Media Type</b>
+</td>
+<td>
+<a href="http://geo.spacebel.be/opensearch/request?httpAccept=application/atom%2Bxml&amp;startRecord=1&amp;parentIdentifier=EOP:ESA:FEDEO:COLLECTIONS&amp;uid=EOP%3ACNES%3ATAKE5%3ASPOT5&amp;recordSchema=iso" title="ATOM format">ATOM</a>   |   <a href="http://geo.spacebel.be/opensearch/request?httpAccept=application/sru%2Bxml&amp;startRecord=1&amp;parentIdentifier=EOP:ESA:FEDEO:COLLECTIONS&amp;uid=EOP%3ACNES%3ATAKE5%3ASPOT5&amp;recordSchema=iso" title="SRU format">SRU</a>
+</td>
+<tr valign="top">
+<td>
+<b>Metadata </b>
+</td>
+<td>
+<a href="http://hma-se-services.spacebel.be:8080/i15/httpservice?request=GetRepositoryItem&amp;service=CSW-ebRIM&amp;Id=urn%3ACIM%3AEOP%3ACNES%3ATAKE5%3ASPOT5%3AResourceMetadata" title="ISO format">ISO</a>
+</td>
+</tr>
+</table>]]></summary>
+<link href="http://geo.spacebel.be/opensearch/request?httpAccept=application/atom%2Bxml&amp;startRecord=1&amp;parentIdentifier=EOP:ESA:FEDEO:COLLECTIONS&amp;uid=EOP%3ACNES%3ATAKE5%3ASPOT5&amp;recordSchema=iso" rel="alternate" title="Atom format" type="application/atom+xml"/>
+<link href="http://geo.spacebel.be/opensearch/description.xml?parentIdentifier=EOP:CNES:TAKE5&amp;sensorType=OPTICAL&amp;platform=SPOT5&amp;startDate=1998-03-24&amp;endDate=2002-12-31" rel="search" type="application/opensearchdescription+xml"/>
+<gmi:MI_Metadata xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.isotc211.org/2005/gmi ..\..\schema/ISO/gmi/gmi.xsd ">
+	<gmd:fileIdentifier>
+		<gco:CharacterString>EOP:CNES:TAKE5:SPOT5</gco:CharacterString>
+	</gmd:fileIdentifier>
+	<gmd:language>
+		<gmd:LanguageCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
+	</gmd:language>
+	<gmd:hierarchyLevel>
+		<gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmx Codelists.xml#MD_ScopeCode" codeListValue="series">series</gmd:MD_ScopeCode>
+	</gmd:hierarchyLevel>
+	<gmd:contact>
+		<gmd:CI_ResponsibleParty>
+			<gmd:individualName>
+				<gco:CharacterString>CustomerTechnicalSupport</gco:CharacterString>
+			</gmd:individualName>
+			<gmd:organisationName>
+				<gco:CharacterString>CNES</gco:CharacterString>
+			</gmd:organisationName>
+			<gmd:contactInfo>
+				<gmd:CI_Contact>
+					<gmd:address>
+						<gmd:CI_Address>
+							<gmd:deliveryPoint>
+								<gco:CharacterString>18 avenue Edouard Belin</gco:CharacterString>
+							</gmd:deliveryPoint>
+							<gmd:city>
+								<gco:CharacterString>Toulouse</gco:CharacterString>
+							</gmd:city>
+							<gmd:postalCode>
+								<gco:CharacterString>31401</gco:CharacterString>
+							</gmd:postalCode>
+							<gmd:country>
+								<gco:CharacterString>France</gco:CharacterString>
+							</gmd:country>
+							<gmd:electronicMailAddress>
+								<gco:CharacterString>jerome.gasperi@cnes.fr</gco:CharacterString>
+							</gmd:electronicMailAddress>
+						</gmd:CI_Address>
+					</gmd:address>
+				</gmd:CI_Contact>
+			</gmd:contactInfo>
+			<gmd:role>
+				<gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_RoleCode" codeListValue="publisher"/>
+			</gmd:role>
+		</gmd:CI_ResponsibleParty>
+	</gmd:contact>
+	<gmd:dateStamp>
+		<gco:Date>2015-09-18</gco:Date>
+	</gmd:dateStamp>
+	<gmd:metadataStandardName>
+		<gco:CharacterString>ISO19115</gco:CharacterString>
+	</gmd:metadataStandardName>
+	<gmd:metadataStandardVersion>
+		<gco:CharacterString>2003/Cor.1:2006</gco:CharacterString>
+	</gmd:metadataStandardVersion>
+	<gmd:identificationInfo>
+		<gmd:MD_DataIdentification>
+			<gmd:citation>
+				<gmd:CI_Citation>
+					<gmd:title>
+						<gco:CharacterString>SPOT5  (SPOT Take5)</gco:CharacterString>
+					</gmd:title>
+					<gmd:date>
+						<gmd:CI_Date>
+							<gmd:date>
+								<gco:Date>2015-08-14</gco:Date>
+							</gmd:date>
+							<gmd:dateType>
+								<gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="creation"/>
+							</gmd:dateType>
+						</gmd:CI_Date>
+					</gmd:date>
+					<gmd:identifier>
+						<gmd:RS_Identifier>
+							<gmd:code>
+								<gco:CharacterString>EOP:CNES:TAKE5:SPOT5</gco:CharacterString>
+							</gmd:code>
+							<gmd:codeSpace>
+								<gco:CharacterString>https://spot-take5.org/</gco:CharacterString>
+							</gmd:codeSpace>
+						</gmd:RS_Identifier>
+					</gmd:identifier>
+				</gmd:CI_Citation>
+			</gmd:citation>
+			<gmd:abstract>
+				<gco:CharacterString>
+				Spot 5 is a French (CNES), Earth-imaging, three tonne satellite that was launched by an Ariane 42P rocket from Kourou at 00:31:00 UT on 4 May 2002. Its planar and stereoscopic relief images at about three meter resolution will be marketed for civilian and military uses, for cartographic and vegetation analyses. Panchromatic (at 2.5 m resolution) as well as multispectral images (at 10 m resolution) could be obtained. The position of the satellite, and hence the location of the images could be determined at 15 m accuracy by means of the DORIS position determination instrument. Extensive information on the instruments and data products is available via http://www.spotimage.com/.
+				</gco:CharacterString>
+			</gmd:abstract>
+			<gmd:pointOfContact>
+				<gmd:CI_ResponsibleParty>
+					<gmd:organisationName>
+						<gco:CharacterString>CNES</gco:CharacterString>
+					</gmd:organisationName>
+					<gmd:positionName>
+						<gco:CharacterString>CustomerTechnicalSupport</gco:CharacterString>
+					</gmd:positionName>
+					<gmd:contactInfo>
+						<gmd:CI_Contact>
+					<gmd:address>
+						<gmd:CI_Address>
+							<gmd:deliveryPoint>
+								<gco:CharacterString>18 avenue Edouard Belin</gco:CharacterString>
+							</gmd:deliveryPoint>
+							<gmd:city>
+								<gco:CharacterString>Toulouse</gco:CharacterString>
+							</gmd:city>
+							<gmd:postalCode>
+								<gco:CharacterString>31401</gco:CharacterString>
+							</gmd:postalCode>
+							<gmd:country>
+								<gco:CharacterString>France</gco:CharacterString>
+							</gmd:country>
+							<gmd:electronicMailAddress>
+								<gco:CharacterString>jerome.gasperi@cnes.fr</gco:CharacterString>
+							</gmd:electronicMailAddress>
+						</gmd:CI_Address>
+					</gmd:address>
+							<gmd:onlineResource>
+								<gmd:CI_OnlineResource>
+									<gmd:linkage>
+										<gmd:URL>https://spot-take5.org/</gmd:URL>
+									</gmd:linkage>
+								</gmd:CI_OnlineResource>
+							</gmd:onlineResource>
+						</gmd:CI_Contact>
+					</gmd:contactInfo>
+					<gmd:role>
+						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="originator">							originator						</gmd:CI_RoleCode>
+					</gmd:role>
+				</gmd:CI_ResponsibleParty>
+			</gmd:pointOfContact>
+			<gmd:descriptiveKeywords>
+				<gmd:MD_Keywords>
+					<gmd:keyword>
+						<gco:CharacterString>FedEO</gco:CharacterString>
+					</gmd:keyword>	
+				</gmd:MD_Keywords>	
+			</gmd:descriptiveKeywords>
+			<gmd:descriptiveKeywords>
+				<gmd:MD_Keywords>
+					<gmd:keyword>
+					    <gmx:Anchor xlink:href="http://www.eionet.europa.eu/gemet/concept/3650">Geology</gmx:Anchor>  
+					</gmd:keyword>
+					<gmd:keyword>
+					     <gmx:Anchor xlink:href="http://www.eionet.europa.eu/gemet/concept/4612">Land cover</gmx:Anchor>  
+					</gmd:keyword>
+					<gmd:type>
+						<gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode" codeListValue="theme"/>
+					</gmd:type>
+					<gmd:thesaurusName>
+	                                     <gmd:CI_Citation>
+	                                         <gmd:title>
+                                                       <gmx:Anchor xlink:href="http://www.eionet.europa.eu/gemet">GEMET - INSPIRE Themes, Version 1.0</gmx:Anchor>	  
+                                                 </gmd:title>
+		                                 <gmd:date>
+			                            <gmd:CI_Date>
+							<gmd:date>
+								<gco:Date>2008-06-01</gco:Date>
+							</gmd:date>
+							<gmd:dateType>
+								<gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+							</gmd:dateType>
+			                            </gmd:CI_Date>
+		                                 </gmd:date>
+	                                     </gmd:CI_Citation>
+                                        </gmd:thesaurusName>
+				</gmd:MD_Keywords>
+			</gmd:descriptiveKeywords>
+			<gmd:descriptiveKeywords>
+				<gmd:MD_Keywords>
+					<gmd:keyword> 
+						<gco:CharacterString>THEIA</gco:CharacterString>
+					</gmd:keyword>
+					<gmd:keyword> 
+						<gco:CharacterString>take</gco:CharacterString>
+					</gmd:keyword>
+					<gmd:keyword>
+						<gco:CharacterString>spot</gco:CharacterString>
+					</gmd:keyword>
+				</gmd:MD_Keywords>
+			</gmd:descriptiveKeywords>
+			<gmd:resourceConstraints>
+				<gmd:MD_Constraints>
+					<gmd:useLimitation>
+						<gco:CharacterString>http://earth.esa.int/dataproducts/accessingeodata/</gco:CharacterString>
+					</gmd:useLimitation>
+				</gmd:MD_Constraints>
+			</gmd:resourceConstraints>
+			<gmd:resourceConstraints>
+				<gmd:MD_LegalConstraints>
+					<gmd:accessConstraints>
+						<gmd:MD_RestrictionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions">otherRestrictions</gmd:MD_RestrictionCode>
+					</gmd:accessConstraints>
+
+				</gmd:MD_LegalConstraints>
+			</gmd:resourceConstraints>
+			<gmd:language>
+				<gmd:LanguageCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
+			</gmd:language>
+	
+			<gmd:extent>
+				<gmd:EX_Extent>
+					<gmd:geographicElement>
+						<gmd:EX_GeographicBoundingBox>
+							<gmd:westBoundLongitude>
+								<gco:Decimal>-180</gco:Decimal>
+							</gmd:westBoundLongitude>
+							<gmd:eastBoundLongitude>
+								<gco:Decimal>180</gco:Decimal>
+							</gmd:eastBoundLongitude>
+							<gmd:southBoundLatitude>
+								<gco:Decimal>-90</gco:Decimal>
+							</gmd:southBoundLatitude>
+							<gmd:northBoundLatitude>
+								<gco:Decimal>90</gco:Decimal>
+							</gmd:northBoundLatitude>
+						</gmd:EX_GeographicBoundingBox>
+					</gmd:geographicElement>
+				</gmd:EX_Extent>
+			</gmd:extent>
+			<gmd:extent>
+				<gmd:EX_Extent>
+					<gmd:temporalElement>
+						<gmd:EX_TemporalExtent>
+							<gmd:extent>
+								<gml:TimePeriod gml:id="IDf329b5fa-4ca4-4c8e-ad0f-27e399386ab2">
+									<gml:beginPosition>1998-03-24</gml:beginPosition>
+									<gml:endPosition>2002-12-31</gml:endPosition>
+								</gml:TimePeriod>
+							</gmd:extent>
+						</gmd:EX_TemporalExtent>
+					</gmd:temporalElement>
+				</gmd:EX_Extent>
+			</gmd:extent>
+		</gmd:MD_DataIdentification>
+	</gmd:identificationInfo>
+	<gmd:distributionInfo>
+		<gmd:MD_Distribution>
+			<gmd:distributionFormat>
+				<gmd:MD_Format>
+					<gmd:name gco:nilReason="inapplicable"/>
+					<gmd:version gco:nilReason="inapplicable"/>
+				</gmd:MD_Format>
+			</gmd:distributionFormat>
+			<gmd:transferOptions>
+				<gmd:MD_DigitalTransferOptions>	
+			    <gmd:onLine>
+	<gmd:CI_OnlineResource>
+		<gmd:linkage>
+			<gmd:URL>http://geo.spacebel.be/opensearch/description.xml?parentIdentifier=EOP:CNES:TAKE5&amp;sensorType=OPTICAL&amp;platform=SPOT5</gmd:URL>
+		</gmd:linkage>
+		<gmd:name>
+			<gco:CharacterString>FedEO Clearinghouse</gco:CharacterString>
+		</gmd:name>
+		<gmd:description>
+			<gco:CharacterString>FedEO Clearinghouse</gco:CharacterString>
+		</gmd:description>
+		<gmd:function>
+			<gmd:CI_OnLineFunctionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="search"/>
+		</gmd:function>
+	</gmd:CI_OnlineResource>
+</gmd:onLine>
+				</gmd:MD_DigitalTransferOptions>
+			</gmd:transferOptions>
+		</gmd:MD_Distribution>
+	</gmd:distributionInfo>
+	<gmd:dataQualityInfo>
+		<gmd:DQ_DataQuality>
+			<gmd:scope>
+				<gmd:DQ_Scope>
+					<gmd:level>
+						<gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_ScopeCode" codeListValue="series">series</gmd:MD_ScopeCode>
+					</gmd:level>
+				</gmd:DQ_Scope>
+			</gmd:scope>
+			<gmd:report>
+				<gmd:DQ_DomainConsistency>
+					<gmd:result>
+						<gmd:DQ_ConformanceResult>
+							<gmd:specification>
+								<gmd:CI_Citation>
+									<gmd:title>
+										<gco:CharacterString>COMMISSION REGULATION (EU) No 1089/2010 of 23 November 2010 implementing Directive 2007/2/EC of the European Parliament and of the Council as regards interoperability of spatial data sets and services</gco:CharacterString>
+									</gmd:title>
+									<gmd:date>
+										<gmd:CI_Date>
+											<gmd:date>
+												<gco:Date>2010-12-08</gco:Date>
+											</gmd:date>
+											<gmd:dateType>
+												<gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="publication"/>
+											</gmd:dateType>
+										</gmd:CI_Date>
+									</gmd:date>
+								</gmd:CI_Citation>
+							</gmd:specification>
+							<gmd:explanation>
+								<gco:CharacterString>non testÃ©</gco:CharacterString>
+							</gmd:explanation>
+							<gmd:pass>
+								<gco:Boolean>false</gco:Boolean>
+							</gmd:pass>
+						</gmd:DQ_ConformanceResult>
+					</gmd:result>
+				</gmd:DQ_DomainConsistency>
+			</gmd:report>
+			<gmd:lineage>
+				<gmd:LI_Lineage>
+					<gmd:statement>
+						<gco:CharacterString>SPOT5 -  HRG HRG1 HRG2</gco:CharacterString>
+					</gmd:statement>
+				</gmd:LI_Lineage>
+			</gmd:lineage>
+		</gmd:DQ_DataQuality>
+	</gmd:dataQualityInfo>
+			    	        							    		 	<gmi:acquisitionInformation>
+		<gmi:MI_AcquisitionInformation>
+			<gmi:platform>
+				<gmi:MI_Platform>
+					<gmi:identifier>
+						<gmd:MD_Identifier>
+							<gmd:code>
+								<gmx:Anchor xlink:href="http://gcmdservices.gsfc.nasa.gov/kms/concept/08e3f2c8-0d9d-4f94-b2fe-bb110b151134">SPOT-5</gmx:Anchor>  
+							</gmd:code>
+						</gmd:MD_Identifier>
+					</gmi:identifier>
+					<gmi:description>
+						<gco:CharacterString>SPOT5 Satellite</gco:CharacterString>
+					</gmi:description>
+					<gmi:instrument>
+						<gmi:MI_Instrument>
+							<gmi:citation>
+								<gmd:CI_Citation>
+									<gmd:title>
+										<gmx:Anchor xlink:href="http://gcmdservices.gsfc.nasa.gov/kms/concept/58faa563-84f4-4c0f-8c06-d6f75d8afb0f">HRG-1</gmx:Anchor>  
+									</gmd:title>
+									<gmd:date>
+										<gmd:CI_Date>
+											<gmd:date>
+												<gco:Date>1998-03-24</gco:Date>
+											</gmd:date>
+											<gmd:dateType>
+												<gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="creation">creation</gmd:CI_DateTypeCode>
+											</gmd:dateType>
+										</gmd:CI_Date>
+									</gmd:date>
+									<gmd:identifier>
+										<gmd:MD_Identifier>
+											<gmd:code>
+												<gco:CharacterString>HRG-1</gco:CharacterString>
+											</gmd:code>
+										</gmd:MD_Identifier>
+									</gmd:identifier>
+								</gmd:CI_Citation>
+							</gmi:citation>
+							<gmi:type>
+								<gmi:MI_SensorTypeCode/>
+							</gmi:type>
+						</gmi:MI_Instrument>
+					</gmi:instrument>
+					<gmi:instrument>
+						<gmi:MI_Instrument>
+							<gmi:citation>
+								<gmd:CI_Citation>
+									<gmd:title>
+										<gmx:Anchor xlink:href="http://gcmdservices.gsfc.nasa.gov/kms/concept/91c8e5fe-b933-4166-b118-dc54718c5147">HRG-2</gmx:Anchor>  
+									</gmd:title>
+									<gmd:date>
+										<gmd:CI_Date>
+											<gmd:date>
+												<gco:Date>1998-03-24</gco:Date>
+											</gmd:date>
+											<gmd:dateType>
+												<gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="creation">creation</gmd:CI_DateTypeCode>
+											</gmd:dateType>
+										</gmd:CI_Date>
+									</gmd:date>
+									<gmd:identifier>
+										<gmd:MD_Identifier>
+											<gmd:code>
+												<gco:CharacterString>HRG-2</gco:CharacterString>
+											</gmd:code>
+										</gmd:MD_Identifier>
+									</gmd:identifier>
+								</gmd:CI_Citation>
+							</gmi:citation>
+							<gmi:type>
+								<gmi:MI_SensorTypeCode/>
+							</gmi:type>
+						</gmi:MI_Instrument>
+					</gmi:instrument>
+				</gmi:MI_Platform>
+			</gmi:platform>
+		</gmi:MI_AcquisitionInformation>
+	</gmi:acquisitionInformation>
+			    	 	<gmi:acquisitionInformation>
+		<gmi:MI_AcquisitionInformation>
+			<gmi:platform>
+				<gmi:MI_Platform>
+					<gmi:identifier>
+						<gmd:MD_Identifier>
+							<gmd:code>
+								<gco:CharacterString>SPOT-5</gco:CharacterString>
+							</gmd:code>
+						</gmd:MD_Identifier>
+					</gmi:identifier>
+					<gmi:description>
+						<gco:CharacterString>SPOT5 Satellite</gco:CharacterString>
+					</gmi:description>
+					<gmi:instrument>
+						<gmi:MI_Instrument>
+							<gmi:citation>
+								<gmd:CI_Citation>
+									<gmd:title>
+										<gco:CharacterString>HRG-1</gco:CharacterString>
+									</gmd:title>
+									<gmd:date>
+										<gmd:CI_Date>
+											<gmd:date>
+												<gco:Date>1998-03-24</gco:Date>
+											</gmd:date>
+											<gmd:dateType>
+												<gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="creation">creation</gmd:CI_DateTypeCode>
+											</gmd:dateType>
+										</gmd:CI_Date>
+									</gmd:date>
+									<gmd:identifier>
+										<gmd:MD_Identifier>
+											<gmd:code>
+												<gco:CharacterString>HRG-1</gco:CharacterString>
+											</gmd:code>
+										</gmd:MD_Identifier>
+									</gmd:identifier>
+								</gmd:CI_Citation>
+							</gmi:citation>
+							<gmi:type>
+								<gmi:MI_SensorTypeCode/>
+							</gmi:type>
+						</gmi:MI_Instrument>
+					</gmi:instrument>
+					<gmi:instrument>
+						<gmi:MI_Instrument>
+							<gmi:citation>
+								<gmd:CI_Citation>
+									<gmd:title>
+										<gco:CharacterString>HRG-2</gco:CharacterString>
+									</gmd:title>
+									<gmd:date>
+										<gmd:CI_Date>
+											<gmd:date>
+												<gco:Date>1998-03-24</gco:Date>
+											</gmd:date>
+											<gmd:dateType>
+												<gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="creation">creation</gmd:CI_DateTypeCode>
+											</gmd:dateType>
+										</gmd:CI_Date>
+									</gmd:date>
+									<gmd:identifier>
+										<gmd:MD_Identifier>
+											<gmd:code>
+												<gco:CharacterString>HRG-2</gco:CharacterString>
+											</gmd:code>
+										</gmd:MD_Identifier>
+									</gmd:identifier>
+								</gmd:CI_Citation>
+							</gmi:citation>
+							<gmi:type>
+								<gmi:MI_SensorTypeCode/>
+							</gmi:type>
+						</gmi:MI_Instrument>
+					</gmi:instrument>
+				</gmi:MI_Platform>
+			</gmi:platform>
+		</gmi:MI_AcquisitionInformation>
+	</gmi:acquisitionInformation>
+	</gmi:MI_Metadata>
+</entry>
+<entry xml:lang="en-US">
+<id>http://geo.spacebel.be/opensearch/request/?httpAccept=application/atom%2Bxml&amp;parentIdentifier=EOP:ESA:FEDEO:COLLECTIONS&amp;classifiedAs=http://www.eionet.europa.eu/gemet/concept/3650&amp;recordSchema=iso&amp;uid=EOP%3ACNES%3ATHEIA%3ALandsat</id>
+<title>Landsat Level2A images (Theia)</title>
+<dc:identifier>EOP:CNES:THEIA:Landsat</dc:identifier>
+<updated>2015-08-14T00:00:00Z</updated>
+<dc:date>1978-11-25/</dc:date>
+<georss:polygon>-90.0 -180.0 90.0 -180.0 90.0 180.0 -90.0 180.0 -90.0 -180.0</georss:polygon>
+<category label="FedEO" term="FedEO"/>
+<category label="Geology" scheme="http://www.eionet.europa.eu/gemet" term="http://www.eionet.europa.eu/gemet/concept/3650"/>
+<category label="Land cover" scheme="http://www.eionet.europa.eu/gemet" term="http://www.eionet.europa.eu/gemet/concept/4612"/>
+<category label="THEIA" term="THEIA"/>
+<category label="muscate" term="muscate"/>
+<category label="level2A" term="level2A"/>
+<category label="reflectance" term="reflectance"/>
+<category label="landsat" term="landsat"/>
+<category label="CNES" term="CNES"/>
+<category label="LANDSAT" term="http://gcmdservices.gsfc.nasa.gov/kms/concept/77d92504-8160-4f72-90b9-a7c9640f4361"/>
+<category label="ETM" term="http://gcmdservices.gsfc.nasa.gov/kms/concept/4dbe7764-a2ea-4a19-b754-696c35ac3205"/>
+<category label="TM" term="http://gcmdservices.gsfc.nasa.gov/kms/concept/bfc07fb2-ca22-48e6-8171-84527b0faae7"/>
+<category label="OLI" term="http://gcmdservices.gsfc.nasa.gov/kms/concept/e8a6f9ad-e376-495c-869e-3467526b49ec"/>
+<category label="TIRS" term="http://gcmdservices.gsfc.nasa.gov/kms/concept/58207caf-121d-4f88-bd79-11cafefa3f5b"/>
+<summary type="html"><![CDATA[
+<table xmlns="">
+<tr valign="top">
+<td>
+<b>Title </b>
+</td>
+<td>Landsat Level2A images (Theia)</td>
+</tr>
+<tr valign="top">
+<td>
+<b>Description </b>
+</td>
+<td>Reflectance Landsat images (Level 2A) processed by the Theia Land Data Center (http://www.theia-land.fr) for the CNES French Space Agency (http://www.cnes.fr). The processing center developed by CNES uses the MACCS prototype L2A chain developed and designed by CESBIO. LANDSAT 8 L1T Input data come from USGS (http://earthexplorer.usgs.gov) that we would like to thank for releasing freely the LANDSAT 8 datasets.</td>
+</tr>
+<tr valign="top">
+<td>
+<b>Type </b>
+</td>
+<td>Collection</td>
+</tr>
+<tr valign="top">
+<td>
+<b>Date </b>
+</td>
+<td>1978-11-25/</td>
+</tr>
+<td>
+<b>Media Type</b>
+</td>
+<td>
+<a href="http://geo.spacebel.be/opensearch/request?httpAccept=application/atom%2Bxml&amp;startRecord=1&amp;parentIdentifier=EOP:ESA:FEDEO:COLLECTIONS&amp;uid=EOP%3ACNES%3ATHEIA%3ALandsat&amp;recordSchema=iso" title="ATOM format">ATOM</a>   |   <a href="http://geo.spacebel.be/opensearch/request?httpAccept=application/sru%2Bxml&amp;startRecord=1&amp;parentIdentifier=EOP:ESA:FEDEO:COLLECTIONS&amp;uid=EOP%3ACNES%3ATHEIA%3ALandsat&amp;recordSchema=iso" title="SRU format">SRU</a>
+</td>
+<tr valign="top">
+<td>
+<b>Metadata </b>
+</td>
+<td>
+<a href="http://hma-se-services.spacebel.be:8080/i15/httpservice?request=GetRepositoryItem&amp;service=CSW-ebRIM&amp;Id=urn%3ACIM%3AEOP%3ACNES%3ATHEIA%3ALandsat%3AResourceMetadata" title="ISO format">ISO</a>
+</td>
+</tr>
+</table>]]></summary>
+<link href="http://geo.spacebel.be/opensearch/request?httpAccept=application/atom%2Bxml&amp;startRecord=1&amp;parentIdentifier=EOP:ESA:FEDEO:COLLECTIONS&amp;uid=EOP%3ACNES%3ATHEIA%3ALandsat&amp;recordSchema=iso" rel="alternate" title="Atom format" type="application/atom+xml"/>
+<link href="http://geo.spacebel.be/opensearch/description.xml?parentIdentifier=EOP:CNES:THEIA&amp;subject=Landsat&amp;startDate=1978-11-25&amp;endDate=" rel="search" type="application/opensearchdescription+xml"/>
+<gmi:MI_Metadata xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.isotc211.org/2005/gmi ..\..\schema/ISO/gmi/gmi.xsd ">
+	<gmd:fileIdentifier>
+		<gco:CharacterString>EOP:CNES:THEIA:Landsat</gco:CharacterString>
+	</gmd:fileIdentifier>
+	<gmd:language>
+		<gmd:LanguageCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
+	</gmd:language>
+	<gmd:hierarchyLevel>
+		<gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmx Codelists.xml#MD_ScopeCode" codeListValue="series">series</gmd:MD_ScopeCode>
+	</gmd:hierarchyLevel>
+	<gmd:contact>
+		<gmd:CI_ResponsibleParty>
+			<gmd:individualName>
+				<gco:CharacterString>CustomerTechnicalSupport</gco:CharacterString>
+			</gmd:individualName>
+			<gmd:organisationName>
+				<gco:CharacterString>CNES</gco:CharacterString>
+			</gmd:organisationName>
+			<gmd:contactInfo>
+				<gmd:CI_Contact>
+					<gmd:address>
+						<gmd:CI_Address>
+							<gmd:deliveryPoint>
+								<gco:CharacterString>18 avenue Edouard Belin</gco:CharacterString>
+							</gmd:deliveryPoint>
+							<gmd:city>
+								<gco:CharacterString>Toulouse</gco:CharacterString>
+							</gmd:city>
+							<gmd:postalCode>
+								<gco:CharacterString>31401</gco:CharacterString>
+							</gmd:postalCode>
+							<gmd:country>
+								<gco:CharacterString>France</gco:CharacterString>
+							</gmd:country>
+							<gmd:electronicMailAddress>
+								<gco:CharacterString>jerome.gasperi@cnes.fr</gco:CharacterString>
+							</gmd:electronicMailAddress>
+						</gmd:CI_Address>
+					</gmd:address>
+				</gmd:CI_Contact>
+			</gmd:contactInfo>
+			<gmd:role>
+				<gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_RoleCode" codeListValue="publisher"/>
+			</gmd:role>
+		</gmd:CI_ResponsibleParty>
+	</gmd:contact>
+	<gmd:dateStamp>
+		<gco:Date>2015-09-18</gco:Date>
+	</gmd:dateStamp>
+	<gmd:metadataStandardName>
+		<gco:CharacterString>ISO19115</gco:CharacterString>
+	</gmd:metadataStandardName>
+	<gmd:metadataStandardVersion>
+		<gco:CharacterString>2003/Cor.1:2006</gco:CharacterString>
+	</gmd:metadataStandardVersion>
+	<gmd:identificationInfo>
+		<gmd:MD_DataIdentification>
+			<gmd:citation>
+				<gmd:CI_Citation>
+					<gmd:title>
+						<gco:CharacterString>Landsat Level2A images (Theia)</gco:CharacterString>
+					</gmd:title>
+					<gmd:date>
+						<gmd:CI_Date>
+							<gmd:date>
+								<gco:Date>2015-08-14</gco:Date>
+							</gmd:date>
+							<gmd:dateType>
+								<gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="creation"/>
+							</gmd:dateType>
+						</gmd:CI_Date>
+					</gmd:date>
+					<gmd:identifier>
+						<gmd:RS_Identifier>
+							<gmd:code>
+								<gco:CharacterString>EOP:CNES:THEIA:Landsat</gco:CharacterString>
+							</gmd:code>
+							<gmd:codeSpace>
+								<gco:CharacterString>http://www.theia-land.fr</gco:CharacterString>
+							</gmd:codeSpace>
+						</gmd:RS_Identifier>
+					</gmd:identifier>
+				</gmd:CI_Citation>
+			</gmd:citation>
+			<gmd:abstract>
+				<gco:CharacterString>Reflectance Landsat images (Level 2A) processed by the Theia Land Data Center (http://www.theia-land.fr) for the CNES French Space Agency (http://www.cnes.fr). The processing center developed by CNES uses the MACCS prototype L2A chain developed and designed by CESBIO. LANDSAT 8 L1T Input data come from USGS (http://earthexplorer.usgs.gov) that we would like to thank for releasing freely the LANDSAT 8 datasets.</gco:CharacterString>
+			</gmd:abstract>
+			<gmd:pointOfContact>
+				<gmd:CI_ResponsibleParty>
+					<gmd:organisationName>
+						<gco:CharacterString>CNES</gco:CharacterString>
+					</gmd:organisationName>
+					<gmd:positionName>
+						<gco:CharacterString>CustomerTechnicalSupport</gco:CharacterString>
+					</gmd:positionName>
+					<gmd:contactInfo>
+						<gmd:CI_Contact>
+					<gmd:address>
+						<gmd:CI_Address>
+							<gmd:deliveryPoint>
+								<gco:CharacterString>18 avenue Edouard Belin</gco:CharacterString>
+							</gmd:deliveryPoint>
+							<gmd:city>
+								<gco:CharacterString>Toulouse</gco:CharacterString>
+							</gmd:city>
+							<gmd:postalCode>
+								<gco:CharacterString>31401</gco:CharacterString>
+							</gmd:postalCode>
+							<gmd:country>
+								<gco:CharacterString>France</gco:CharacterString>
+							</gmd:country>
+							<gmd:electronicMailAddress>
+								<gco:CharacterString>jerome.gasperi@cnes.fr</gco:CharacterString>
+							</gmd:electronicMailAddress>
+						</gmd:CI_Address>
+					</gmd:address>
+							<gmd:onlineResource>
+								<gmd:CI_OnlineResource>
+									<gmd:linkage>
+										<gmd:URL>http://www.theia-land.fr/</gmd:URL>
+									</gmd:linkage>
+								</gmd:CI_OnlineResource>
+							</gmd:onlineResource>
+						</gmd:CI_Contact>
+					</gmd:contactInfo>
+					<gmd:role>
+						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="originator">							originator						</gmd:CI_RoleCode>
+					</gmd:role>
+				</gmd:CI_ResponsibleParty>
+			</gmd:pointOfContact>
+									<gmd:descriptiveKeywords>
+				<gmd:MD_Keywords>
+					<gmd:keyword>
+						<gco:CharacterString>FedEO</gco:CharacterString>
+					</gmd:keyword>	
+				</gmd:MD_Keywords>	
+			</gmd:descriptiveKeywords>
+			<gmd:descriptiveKeywords>
+				<gmd:MD_Keywords>
+					<gmd:keyword>
+						<gmx:Anchor xlink:href="http://www.eionet.europa.eu/gemet/concept/3650">Geology</gmx:Anchor>  
+					</gmd:keyword>
+					<gmd:keyword>
+						<gmx:Anchor xlink:href="http://www.eionet.europa.eu/gemet/concept/4612">Land cover</gmx:Anchor>  
+					</gmd:keyword>
+					<gmd:type>
+						<gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode" codeListValue="theme"/>
+					</gmd:type>
+					<gmd:thesaurusName>
+	<gmd:CI_Citation>
+	<gmd:title>
+   <gmx:Anchor xlink:href="http://www.eionet.europa.eu/gemet">GEMET - INSPIRE Themes, Version 1.0</gmx:Anchor>	  
+</gmd:title>
+		<gmd:date>
+			<gmd:CI_Date>
+				<gmd:date>
+					<gco:Date>2008-06-01</gco:Date>
+				</gmd:date>
+				<gmd:dateType>
+					<gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+				</gmd:dateType>
+			</gmd:CI_Date>
+		</gmd:date>
+	</gmd:CI_Citation>
+</gmd:thesaurusName>
+				</gmd:MD_Keywords>
+			</gmd:descriptiveKeywords>
+			<gmd:descriptiveKeywords>
+				<gmd:MD_Keywords>
+					<gmd:keyword> 
+						<gco:CharacterString>THEIA</gco:CharacterString>
+					</gmd:keyword>
+					<gmd:keyword> 
+						<gco:CharacterString>muscate</gco:CharacterString>
+					</gmd:keyword>
+					<gmd:keyword>
+						<gco:CharacterString>level2A</gco:CharacterString>
+					</gmd:keyword>
+					<gmd:keyword>
+						<gco:CharacterString>reflectance</gco:CharacterString>
+					</gmd:keyword>
+					<gmd:keyword>
+						<gco:CharacterString>landsat</gco:CharacterString>
+					</gmd:keyword>
+					<gmd:keyword>
+						<gco:CharacterString>CNES</gco:CharacterString>
+					</gmd:keyword>
+				</gmd:MD_Keywords>
+			</gmd:descriptiveKeywords>
+			<gmd:resourceConstraints>
+				<gmd:MD_Constraints>
+					<gmd:useLimitation>
+						<gco:CharacterString>http://earth.esa.int/dataproducts/accessingeodata/</gco:CharacterString>
+					</gmd:useLimitation>
+				</gmd:MD_Constraints>
+			</gmd:resourceConstraints>
+			<gmd:resourceConstraints>
+				<gmd:MD_LegalConstraints>
+					<gmd:accessConstraints>
+						<gmd:MD_RestrictionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions">otherRestrictions</gmd:MD_RestrictionCode>
+					</gmd:accessConstraints>
+	<!--				<gmd:otherConstraints>
+						<gco:CharacterString>The images are available on a free and open basis for any user, provided usage is non-commercial</gco:CharacterString>
+					</gmd:otherConstraints>-->
+				</gmd:MD_LegalConstraints>
+			</gmd:resourceConstraints>
+			<gmd:language>
+				<gmd:LanguageCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
+			</gmd:language>
+	<!--		<gmd:topicCategory>
+				<gmd:MD_TopicCategoryCode>farming</gmd:MD_TopicCategoryCode>
+			</gmd:topicCategory> -->
+			<gmd:extent>
+				<gmd:EX_Extent>
+					<gmd:geographicElement>
+						<gmd:EX_GeographicBoundingBox>
+							<gmd:westBoundLongitude>
+								<gco:Decimal>-180</gco:Decimal>
+							</gmd:westBoundLongitude>
+							<gmd:eastBoundLongitude>
+								<gco:Decimal>180</gco:Decimal>
+							</gmd:eastBoundLongitude>
+							<gmd:southBoundLatitude>
+								<gco:Decimal>-90</gco:Decimal>
+							</gmd:southBoundLatitude>
+							<gmd:northBoundLatitude>
+								<gco:Decimal>90</gco:Decimal>
+							</gmd:northBoundLatitude>
+						</gmd:EX_GeographicBoundingBox>
+					</gmd:geographicElement>
+				</gmd:EX_Extent>
+			</gmd:extent>
+			<gmd:extent>
+				<gmd:EX_Extent>
+					<gmd:temporalElement>
+						<gmd:EX_TemporalExtent>
+							<gmd:extent>
+								<gml:TimePeriod gml:id="IDf329b5fa-4ca4-4c8e-ad0f-27e399386ab2">
+									<gml:beginPosition>1978-11-25</gml:beginPosition>
+									<gml:endPosition/>
+								</gml:TimePeriod>
+							</gmd:extent>
+						</gmd:EX_TemporalExtent>
+					</gmd:temporalElement>
+				</gmd:EX_Extent>
+			</gmd:extent>
+		</gmd:MD_DataIdentification>
+	</gmd:identificationInfo>
+	<gmd:distributionInfo>
+		<gmd:MD_Distribution>
+			<gmd:distributionFormat>
+				<gmd:MD_Format>
+					<gmd:name gco:nilReason="inapplicable"/>
+					<gmd:version gco:nilReason="inapplicable"/>
+				</gmd:MD_Format>
+			</gmd:distributionFormat>
+			<gmd:transferOptions>
+				<gmd:MD_DigitalTransferOptions>
+				<gmd:onLine>
+	<gmd:CI_OnlineResource>
+		<gmd:linkage>
+			<gmd:URL>http://geo.spacebel.be/opensearch/description.xml?parentIdentifier=EOP:CNES:THEIA&amp;subject=Landsat</gmd:URL>
+		</gmd:linkage>
+		<gmd:name>
+			<gco:CharacterString>FedEO Clearinghouse</gco:CharacterString>
+		</gmd:name>
+		<gmd:description>
+			<gco:CharacterString>FedEO Clearinghouse</gco:CharacterString>
+		</gmd:description>
+		<gmd:function>
+			<gmd:CI_OnLineFunctionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="search"/>
+		</gmd:function>
+	</gmd:CI_OnlineResource>
+</gmd:onLine>
+				</gmd:MD_DigitalTransferOptions>
+			</gmd:transferOptions>
+		</gmd:MD_Distribution>
+	</gmd:distributionInfo>
+	<gmd:dataQualityInfo>
+		<gmd:DQ_DataQuality>
+			<gmd:scope>
+				<gmd:DQ_Scope>
+					<gmd:level>
+						<gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_ScopeCode" codeListValue="series">series</gmd:MD_ScopeCode>
+					</gmd:level>
+				</gmd:DQ_Scope>
+			</gmd:scope>
+			<gmd:report>
+				<gmd:DQ_DomainConsistency>
+					<gmd:result>
+						<gmd:DQ_ConformanceResult>
+							<gmd:specification>
+								<gmd:CI_Citation>
+									<gmd:title>
+										<gco:CharacterString>COMMISSION REGULATION (EU) No 1089/2010 of 23 November 2010 implementing Directive 2007/2/EC of the European Parliament and of the Council as regards interoperability of spatial data sets and services</gco:CharacterString>
+									</gmd:title>
+									<gmd:date>
+										<gmd:CI_Date>
+											<gmd:date>
+												<gco:Date>2010-12-08</gco:Date>
+											</gmd:date>
+											<gmd:dateType>
+												<gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="publication"/>
+											</gmd:dateType>
+										</gmd:CI_Date>
+									</gmd:date>
+								</gmd:CI_Citation>
+							</gmd:specification>
+							<gmd:explanation>
+								<gco:CharacterString>non testÃ©</gco:CharacterString>
+							</gmd:explanation>
+							<gmd:pass>
+								<gco:Boolean>false</gco:Boolean>
+							</gmd:pass>
+						</gmd:DQ_ConformanceResult>
+					</gmd:result>
+				</gmd:DQ_DomainConsistency>
+			</gmd:report>
+			<gmd:lineage>
+				<gmd:LI_Lineage>
+					<gmd:statement>
+						<gco:CharacterString>LANDSAT 5 7 8 - ETM, TM, OLI, TIRS</gco:CharacterString>
+					</gmd:statement>
+				</gmd:LI_Lineage>
+			</gmd:lineage>
+		</gmd:DQ_DataQuality>
+	</gmd:dataQualityInfo>
+			    	        							    		 	<gmi:acquisitionInformation>
+		<gmi:MI_AcquisitionInformation>
+			<gmi:platform>
+				<gmi:MI_Platform>
+					<gmi:identifier>
+						<gmd:MD_Identifier>
+							<gmd:code>
+							<gmx:Anchor xlink:href="http://gcmdservices.gsfc.nasa.gov/kms/concept/77d92504-8160-4f72-90b9-a7c9640f4361">LANDSAT</gmx:Anchor>  
+							</gmd:code>
+						</gmd:MD_Identifier>
+					</gmi:identifier>
+					<gmi:description>
+						<gco:CharacterString>LANDSAT 5 7 8 Satellites</gco:CharacterString>
+					</gmi:description>
+					<gmi:instrument>
+						<gmi:MI_Instrument>
+							<gmi:citation>
+								<gmd:CI_Citation>
+									<gmd:title>
+									<gmx:Anchor xlink:href="http://gcmdservices.gsfc.nasa.gov/kms/concept/4dbe7764-a2ea-4a19-b754-696c35ac3205">ETM</gmx:Anchor>  
+									</gmd:title>
+									<gmd:date>
+										<gmd:CI_Date>
+											<gmd:date>
+												<gco:Date>2009-06-11</gco:Date>
+											</gmd:date>
+											<gmd:dateType>
+												<gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="creation">creation</gmd:CI_DateTypeCode>
+											</gmd:dateType>
+										</gmd:CI_Date>
+									</gmd:date>
+									<gmd:identifier>
+										<gmd:RS_Identifier>
+											<gmd:code>
+												<gco:CharacterString>ETM Instrument</gco:CharacterString>
+											</gmd:code>
+										</gmd:RS_Identifier>
+									</gmd:identifier>
+								</gmd:CI_Citation>
+							</gmi:citation>
+							<gmi:type>
+								<gmi:MI_SensorTypeCode/>
+							</gmi:type>
+						</gmi:MI_Instrument>
+					</gmi:instrument>
+					<gmi:instrument>
+						<gmi:MI_Instrument>
+							<gmi:citation>
+								<gmd:CI_Citation>
+									<gmd:title>
+								<gmx:Anchor xlink:href="http://gcmdservices.gsfc.nasa.gov/kms/concept/bfc07fb2-ca22-48e6-8171-84527b0faae7">TM</gmx:Anchor>  
+									</gmd:title>
+									<gmd:date>
+										<gmd:CI_Date>
+											<gmd:date>
+												<gco:Date>2009-06-11</gco:Date>
+											</gmd:date>
+											<gmd:dateType>
+												<gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="creation">creation</gmd:CI_DateTypeCode>
+											</gmd:dateType>
+										</gmd:CI_Date>
+									</gmd:date>
+									<gmd:identifier>
+										<gmd:MD_Identifier>
+											<gmd:code>
+												<gco:CharacterString>TM Instrument</gco:CharacterString>
+											</gmd:code>
+										</gmd:MD_Identifier>
+									</gmd:identifier>
+								</gmd:CI_Citation>
+							</gmi:citation>
+							<gmi:type>
+								<gmi:MI_SensorTypeCode/>
+							</gmi:type>
+						</gmi:MI_Instrument>
+					</gmi:instrument>
+					<gmi:instrument>
+						<gmi:MI_Instrument>
+							<gmi:citation>
+								<gmd:CI_Citation>
+									<gmd:title>
+								<gmx:Anchor xlink:href="http://gcmdservices.gsfc.nasa.gov/kms/concept/e8a6f9ad-e376-495c-869e-3467526b49ec">OLI</gmx:Anchor>  
+									</gmd:title>
+									<gmd:date>
+										<gmd:CI_Date>
+											<gmd:date>
+												<gco:Date>2009-06-11</gco:Date>
+											</gmd:date>
+											<gmd:dateType>
+												<gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="creation">creation</gmd:CI_DateTypeCode>
+											</gmd:dateType>
+										</gmd:CI_Date>
+									</gmd:date>
+									<gmd:identifier>
+										<gmd:MD_Identifier>
+											<gmd:code>
+												<gco:CharacterString>OLI Instrument</gco:CharacterString>
+											</gmd:code>
+										</gmd:MD_Identifier>
+									</gmd:identifier>
+								</gmd:CI_Citation>
+							</gmi:citation>
+							<gmi:type>
+								<gmi:MI_SensorTypeCode/>
+							</gmi:type>
+						</gmi:MI_Instrument>
+					</gmi:instrument>
+					<gmi:instrument>
+						<gmi:MI_Instrument>
+							<gmi:citation>
+								<gmd:CI_Citation>
+									<gmd:title>
+									<gmx:Anchor xlink:href="http://gcmdservices.gsfc.nasa.gov/kms/concept/58207caf-121d-4f88-bd79-11cafefa3f5b">TIRS</gmx:Anchor>  
+									</gmd:title>
+									<gmd:date>
+										<gmd:CI_Date>
+											<gmd:date>
+												<gco:Date>2009-06-11</gco:Date>
+											</gmd:date>
+											<gmd:dateType>
+												<gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="creation">creation</gmd:CI_DateTypeCode>
+											</gmd:dateType>
+										</gmd:CI_Date>
+									</gmd:date>
+									<gmd:identifier>
+										<gmd:MD_Identifier>
+											<gmd:code>
+												<gco:CharacterString>TIRS Instrument</gco:CharacterString>
+											</gmd:code>
+										</gmd:MD_Identifier>
+									</gmd:identifier>
+								</gmd:CI_Citation>
+							</gmi:citation>
+							<gmi:type>
+								<gmi:MI_SensorTypeCode/>
+							</gmi:type>
+						</gmi:MI_Instrument>
+					</gmi:instrument>
+				</gmi:MI_Platform>
+			</gmi:platform>
+		</gmi:MI_AcquisitionInformation>
+	</gmi:acquisitionInformation>
+    		    	 	<gmi:acquisitionInformation>
+		<gmi:MI_AcquisitionInformation>
+			<gmi:platform>
+				<gmi:MI_Platform>
+					<gmi:identifier>
+						<gmd:MD_Identifier>
+							<gmd:code>
+							<gco:CharacterString>LANDSAT</gco:CharacterString>
+							</gmd:code>
+						</gmd:MD_Identifier>
+					</gmi:identifier>
+					<gmi:description>
+						<gco:CharacterString>LANDSAT 5 7 8 Satellites</gco:CharacterString>
+					</gmi:description>
+					<gmi:instrument>
+						<gmi:MI_Instrument>
+							<gmi:citation>
+								<gmd:CI_Citation>
+									<gmd:title>
+									<gco:CharacterString>ETM</gco:CharacterString>
+									</gmd:title>
+									<gmd:date>
+										<gmd:CI_Date>
+											<gmd:date>
+												<gco:Date>2009-06-11</gco:Date>
+											</gmd:date>
+											<gmd:dateType>
+												<gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="creation">creation</gmd:CI_DateTypeCode>
+											</gmd:dateType>
+										</gmd:CI_Date>
+									</gmd:date>
+									<gmd:identifier>
+										<gmd:RS_Identifier>
+											<gmd:code>
+												<gco:CharacterString>ETM Instrument</gco:CharacterString>
+											</gmd:code>
+										</gmd:RS_Identifier>
+									</gmd:identifier>
+								</gmd:CI_Citation>
+							</gmi:citation>
+							<gmi:type>
+								<gmi:MI_SensorTypeCode/>
+							</gmi:type>
+						</gmi:MI_Instrument>
+					</gmi:instrument>
+					<gmi:instrument>
+						<gmi:MI_Instrument>
+							<gmi:citation>
+								<gmd:CI_Citation>
+									<gmd:title>
+								<gco:CharacterString>TM</gco:CharacterString>
+									</gmd:title>
+									<gmd:date>
+										<gmd:CI_Date>
+											<gmd:date>
+												<gco:Date>2009-06-11</gco:Date>
+											</gmd:date>
+											<gmd:dateType>
+												<gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="creation">creation</gmd:CI_DateTypeCode>
+											</gmd:dateType>
+										</gmd:CI_Date>
+									</gmd:date>
+									<gmd:identifier>
+										<gmd:MD_Identifier>
+											<gmd:code>
+												<gco:CharacterString>TM Instrument</gco:CharacterString>
+											</gmd:code>
+										</gmd:MD_Identifier>
+									</gmd:identifier>
+								</gmd:CI_Citation>
+							</gmi:citation>
+							<gmi:type>
+								<gmi:MI_SensorTypeCode/>
+							</gmi:type>
+						</gmi:MI_Instrument>
+					</gmi:instrument>
+					<gmi:instrument>
+						<gmi:MI_Instrument>
+							<gmi:citation>
+								<gmd:CI_Citation>
+									<gmd:title>
+								<gco:CharacterString>OLI</gco:CharacterString>
+									</gmd:title>
+									<gmd:date>
+										<gmd:CI_Date>
+											<gmd:date>
+												<gco:Date>2009-06-11</gco:Date>
+											</gmd:date>
+											<gmd:dateType>
+												<gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="creation">creation</gmd:CI_DateTypeCode>
+											</gmd:dateType>
+										</gmd:CI_Date>
+									</gmd:date>
+									<gmd:identifier>
+										<gmd:MD_Identifier>
+											<gmd:code>
+												<gco:CharacterString>OLI Instrument</gco:CharacterString>
+											</gmd:code>
+										</gmd:MD_Identifier>
+									</gmd:identifier>
+								</gmd:CI_Citation>
+							</gmi:citation>
+							<gmi:type>
+								<gmi:MI_SensorTypeCode/>
+							</gmi:type>
+						</gmi:MI_Instrument>
+					</gmi:instrument>
+					<gmi:instrument>
+						<gmi:MI_Instrument>
+							<gmi:citation>
+								<gmd:CI_Citation>
+									<gmd:title>
+									<gco:CharacterString>TIRS</gco:CharacterString>
+									</gmd:title>
+									<gmd:date>
+										<gmd:CI_Date>
+											<gmd:date>
+												<gco:Date>2009-06-11</gco:Date>
+											</gmd:date>
+											<gmd:dateType>
+												<gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="creation">creation</gmd:CI_DateTypeCode>
+											</gmd:dateType>
+										</gmd:CI_Date>
+									</gmd:date>
+									<gmd:identifier>
+										<gmd:MD_Identifier>
+											<gmd:code>
+												<gco:CharacterString>TIRS Instrument</gco:CharacterString>
+											</gmd:code>
+										</gmd:MD_Identifier>
+									</gmd:identifier>
+								</gmd:CI_Citation>
+							</gmi:citation>
+							<gmi:type>
+								<gmi:MI_SensorTypeCode/>
+							</gmi:type>
+						</gmi:MI_Instrument>
+					</gmi:instrument>
+				</gmi:MI_Platform>
+			</gmi:platform>
+		</gmi:MI_AcquisitionInformation>
+	</gmi:acquisitionInformation>
+    </gmi:MI_Metadata>
+</entry>
+<entry xml:lang="en-US">
+<id>http://geo.spacebel.be/opensearch/request/?httpAccept=application/atom%2Bxml&amp;parentIdentifier=EOP:ESA:FEDEO:COLLECTIONS&amp;classifiedAs=http://www.eionet.europa.eu/gemet/concept/3650&amp;recordSchema=iso&amp;uid=EOP%3ACNES%3ATHEIA%3ASpirit</id>
+<title>SPOT5 stereoscopic survey of Polar Ice (Theia)</title>
+<dc:identifier>EOP:CNES:THEIA:Spirit</dc:identifier>
+<updated>2015-08-14T00:00:00Z</updated>
+<dc:date>2007-01-01/2009-12-31</dc:date>
+<georss:polygon>-90.0 -180.0 90.0 -180.0 90.0 180.0 -90.0 180.0 -90.0 -180.0</georss:polygon>
+<category label="FedEO" term="FedEO"/>
+<category label="Geology" scheme="http://www.eionet.europa.eu/gemet" term="http://www.eionet.europa.eu/gemet/concept/3650"/>
+<category label="Land cover" scheme="http://www.eionet.europa.eu/gemet" term="http://www.eionet.europa.eu/gemet/concept/4612"/>
+<category label="THEIA" term="THEIA"/>
+<category label="spirit" term="spirit"/>
+<category label="polar" term="polar"/>
+<category label="LEGOS " term="LEGOS "/>
+<category label="SPOT5 " term="SPOT5 "/>
+<category label="IGN" term="IGN"/>
+<category label="Astrium" term="Astrium"/>
+<category label="CNES" term="CNES"/>
+<category label="SPOT-5" term="http://gcmdservices.gsfc.nasa.gov/kms/concept/08e3f2c8-0d9d-4f94-b2fe-bb110b151134"/>
+<category label="HRS" term="http://gcmdservices.gsfc.nasa.gov/kms/concept/a4e5d987-10c4-4788-a1ac-8c8494be04ef"/>
+<summary type="html"><![CDATA[
+<table xmlns="">
+<tr valign="top">
+<td>
+<b>Title </b>
+</td>
+<td>SPOT5 stereoscopic survey of Polar Ice (Theia)</td>
+</tr>
+<tr valign="top">
+<td>
+<b>Description </b>
+</td>
+<td>Astrium Services and CNES supplied satellite data for the international Polar Year research programmes. Earth-observing satellites are mapping the poles to provide scientists with a more precise picture of how glaciers are changing and to help them understand the impacts of climate change on our planet. Astrium Services and CNES joined the SPIRIT project (SPOT 5 stereoscopic survey of Polar Ice: Reference Images and Topographies) in partnership with French survey, the French mapping agency IGN and the LEGOS, space geophysics and oceanography research laboratory. During two years, from 2007 to 2009, an archive of SPOT 5 HRS images was compiled over polar ice in order to produce DTMs and ortho-image</td>
+</tr>
+<tr valign="top">
+<td>
+<b>Type </b>
+</td>
+<td>Collection</td>
+</tr>
+<tr valign="top">
+<td>
+<b>Date </b>
+</td>
+<td>2007-01-01/2009-12-31</td>
+</tr>
+<td>
+<b>Media Type</b>
+</td>
+<td>
+<a href="http://geo.spacebel.be/opensearch/request?httpAccept=application/atom%2Bxml&amp;startRecord=1&amp;parentIdentifier=EOP:ESA:FEDEO:COLLECTIONS&amp;uid=EOP%3ACNES%3ATHEIA%3ASpirit&amp;recordSchema=iso" title="ATOM format">ATOM</a>   |   <a href="http://geo.spacebel.be/opensearch/request?httpAccept=application/sru%2Bxml&amp;startRecord=1&amp;parentIdentifier=EOP:ESA:FEDEO:COLLECTIONS&amp;uid=EOP%3ACNES%3ATHEIA%3ASpirit&amp;recordSchema=iso" title="SRU format">SRU</a>
+</td>
+<tr valign="top">
+<td>
+<b>Metadata </b>
+</td>
+<td>
+<a href="http://hma-se-services.spacebel.be:8080/i15/httpservice?request=GetRepositoryItem&amp;service=CSW-ebRIM&amp;Id=urn%3ACIM%3AEOP%3ACNES%3ATHEIA%3ASpirit%3AResourceMetadata" title="ISO format">ISO</a>
+</td>
+</tr>
+</table>]]></summary>
+<link href="http://geo.spacebel.be/opensearch/request?httpAccept=application/atom%2Bxml&amp;startRecord=1&amp;parentIdentifier=EOP:ESA:FEDEO:COLLECTIONS&amp;uid=EOP%3ACNES%3ATHEIA%3ASpirit&amp;recordSchema=iso" rel="alternate" title="Atom format" type="application/atom+xml"/>
+<link href="http://geo.spacebel.be/opensearch/description.xml?parentIdentifier=EOP:CNES:THEIA&amp;sensorType=OPTICAL&amp;subject=Spirit&amp;startDate=2007-01-01&amp;endDate=2009-12-31" rel="search" type="application/opensearchdescription+xml"/>
+<gmi:MI_Metadata xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.isotc211.org/2005/gmi ..\..\schema/ISO/gmi/gmi.xsd ">
+	<gmd:fileIdentifier>
+		<gco:CharacterString>EOP:CNES:THEIA:Spirit</gco:CharacterString>
+	</gmd:fileIdentifier>
+	<gmd:language>
+		<gmd:LanguageCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
+	</gmd:language>
+	<gmd:hierarchyLevel>
+		<gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmx Codelists.xml#MD_ScopeCode" codeListValue="series">series</gmd:MD_ScopeCode>
+	</gmd:hierarchyLevel>
+	<gmd:contact>
+		<gmd:CI_ResponsibleParty>
+			<gmd:individualName>
+				<gco:CharacterString>CustomerTechnicalSupport</gco:CharacterString>
+			</gmd:individualName>
+			<gmd:organisationName>
+				<gco:CharacterString>CNES</gco:CharacterString>
+			</gmd:organisationName>
+			<gmd:contactInfo>
+				<gmd:CI_Contact>
+					<gmd:address>
+						<gmd:CI_Address>
+							<gmd:deliveryPoint>
+								<gco:CharacterString>18 avenue Edouard Belin</gco:CharacterString>
+							</gmd:deliveryPoint>
+							<gmd:city>
+								<gco:CharacterString>Toulouse</gco:CharacterString>
+							</gmd:city>
+							<gmd:postalCode>
+								<gco:CharacterString>31401</gco:CharacterString>
+							</gmd:postalCode>
+							<gmd:country>
+								<gco:CharacterString>France</gco:CharacterString>
+							</gmd:country>
+							<gmd:electronicMailAddress>
+								<gco:CharacterString>jerome.gasperi@cnes.fr</gco:CharacterString>
+							</gmd:electronicMailAddress>
+						</gmd:CI_Address>
+					</gmd:address>
+				</gmd:CI_Contact>
+			</gmd:contactInfo>
+			<gmd:role>
+				<gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_RoleCode" codeListValue="publisher"/>
+			</gmd:role>
+		</gmd:CI_ResponsibleParty>
+	</gmd:contact>
+	<gmd:dateStamp>
+		<gco:Date>2015-09-18</gco:Date>
+	</gmd:dateStamp>
+	<gmd:metadataStandardName>
+		<gco:CharacterString>ISO19115</gco:CharacterString>
+	</gmd:metadataStandardName>
+	<gmd:metadataStandardVersion>
+		<gco:CharacterString>2003/Cor.1:2006</gco:CharacterString>
+	</gmd:metadataStandardVersion>
+	<gmd:identificationInfo>
+		<gmd:MD_DataIdentification>
+			<gmd:citation>
+				<gmd:CI_Citation>
+					<gmd:title>
+						<gco:CharacterString>SPOT5 stereoscopic survey of Polar Ice (Theia)</gco:CharacterString>
+					</gmd:title>
+					<gmd:date>
+						<gmd:CI_Date>
+							<gmd:date>
+								<gco:Date>2015-08-14</gco:Date>
+							</gmd:date>
+							<gmd:dateType>
+								<gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="creation"/>
+							</gmd:dateType>
+						</gmd:CI_Date>
+					</gmd:date>
+					<gmd:identifier>
+						<gmd:RS_Identifier>
+							<gmd:code>
+								<gco:CharacterString>EOP:CNES:THEIA:Spirit</gco:CharacterString>
+							</gmd:code>
+							<gmd:codeSpace>
+								<gco:CharacterString>https://theia.cnes.fr/</gco:CharacterString>
+							</gmd:codeSpace>
+						</gmd:RS_Identifier>
+					</gmd:identifier>
+				</gmd:CI_Citation>
+			</gmd:citation>
+			<gmd:abstract>
+				<gco:CharacterString>Astrium Services and CNES supplied satellite data for the international Polar Year research programmes. Earth-observing satellites are mapping the poles to provide scientists with a more precise picture of how glaciers are changing and to help them understand the impacts of climate change on our planet. Astrium Services and CNES joined the SPIRIT project (SPOT 5 stereoscopic survey of Polar Ice: Reference Images and Topographies) in partnership with French survey, the French mapping agency IGN and the LEGOS, space geophysics and oceanography research laboratory. During two years, from 2007 to 2009, an archive of SPOT 5 HRS images was compiled over polar ice in order to produce DTMs and ortho-image</gco:CharacterString>
+			</gmd:abstract>
+			<gmd:pointOfContact>
+				<gmd:CI_ResponsibleParty>
+					<gmd:organisationName>
+						<gco:CharacterString>CNES</gco:CharacterString>
+					</gmd:organisationName>
+					<gmd:positionName>
+						<gco:CharacterString>CustomerTechnicalSupport</gco:CharacterString>
+					</gmd:positionName>
+					<gmd:contactInfo>
+						<gmd:CI_Contact>
+					<gmd:address>
+						<gmd:CI_Address>
+							<gmd:deliveryPoint>
+								<gco:CharacterString>18 avenue Edouard Belin</gco:CharacterString>
+							</gmd:deliveryPoint>
+							<gmd:city>
+								<gco:CharacterString>Toulouse</gco:CharacterString>
+							</gmd:city>
+							<gmd:postalCode>
+								<gco:CharacterString>31401</gco:CharacterString>
+							</gmd:postalCode>
+							<gmd:country>
+								<gco:CharacterString>France</gco:CharacterString>
+							</gmd:country>
+							<gmd:electronicMailAddress>
+								<gco:CharacterString>jerome.gasperi@cnes.fr</gco:CharacterString>
+							</gmd:electronicMailAddress>
+						</gmd:CI_Address>
+					</gmd:address>
+							<gmd:onlineResource>
+								<gmd:CI_OnlineResource>
+									<gmd:linkage>
+										<gmd:URL>https://theia.cnes.fr/</gmd:URL>
+									</gmd:linkage>
+								</gmd:CI_OnlineResource>
+							</gmd:onlineResource>
+						</gmd:CI_Contact>
+					</gmd:contactInfo>
+					<gmd:role>
+						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="originator">							originator						</gmd:CI_RoleCode>
+					</gmd:role>
+				</gmd:CI_ResponsibleParty>
+			</gmd:pointOfContact>
+									<gmd:descriptiveKeywords>
+				<gmd:MD_Keywords>
+					<gmd:keyword>
+						<gco:CharacterString>FedEO</gco:CharacterString>
+					</gmd:keyword>	
+				</gmd:MD_Keywords>	
+			</gmd:descriptiveKeywords>
+			<gmd:descriptiveKeywords>
+				<gmd:MD_Keywords>
+					<gmd:keyword>
+						 <gmx:Anchor xlink:href="http://www.eionet.europa.eu/gemet/concept/3650">Geology</gmx:Anchor>  
+					</gmd:keyword>
+					<gmd:keyword>
+						<gmx:Anchor xlink:href="http://www.eionet.europa.eu/gemet/concept/4612">Land cover</gmx:Anchor>  
+					</gmd:keyword>
+					<gmd:type>
+						<gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode" codeListValue="theme"/>
+					</gmd:type>
+				<gmd:thesaurusName>
+	<gmd:CI_Citation>
+	<gmd:title>
+   <gmx:Anchor xlink:href="http://www.eionet.europa.eu/gemet">GEMET - INSPIRE Themes, Version 1.0</gmx:Anchor>	  
+</gmd:title>
+		<gmd:date>
+			<gmd:CI_Date>
+				<gmd:date>
+					<gco:Date>2008-06-01</gco:Date>
+				</gmd:date>
+				<gmd:dateType>
+					<gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+				</gmd:dateType>
+			</gmd:CI_Date>
+		</gmd:date>
+	</gmd:CI_Citation>
+</gmd:thesaurusName>
+				</gmd:MD_Keywords>
+			</gmd:descriptiveKeywords>
+			<gmd:descriptiveKeywords>
+				<gmd:MD_Keywords>
+					<gmd:keyword> 
+						<gco:CharacterString>THEIA</gco:CharacterString>
+					</gmd:keyword>
+					<gmd:keyword> 
+						<gco:CharacterString>spirit</gco:CharacterString>
+					</gmd:keyword>
+					<gmd:keyword>
+						<gco:CharacterString>polar</gco:CharacterString>
+					</gmd:keyword>
+					<gmd:keyword>
+						<gco:CharacterString>LEGOS </gco:CharacterString>
+					</gmd:keyword>
+					<gmd:keyword>
+						<gco:CharacterString>SPOT5 </gco:CharacterString>
+					</gmd:keyword>
+					<gmd:keyword>
+						<gco:CharacterString>IGN</gco:CharacterString>
+					</gmd:keyword>
+					<gmd:keyword>
+						<gco:CharacterString>Astrium</gco:CharacterString>
+					</gmd:keyword>
+					<gmd:keyword>
+						<gco:CharacterString>CNES</gco:CharacterString>
+					</gmd:keyword>
+				</gmd:MD_Keywords>
+			</gmd:descriptiveKeywords>
+			<gmd:resourceConstraints>
+				<gmd:MD_Constraints>
+					<gmd:useLimitation>
+						<gco:CharacterString>http://earth.esa.int/dataproducts/accessingeodata/</gco:CharacterString>
+					</gmd:useLimitation>
+				</gmd:MD_Constraints>
+			</gmd:resourceConstraints>
+			<gmd:resourceConstraints>
+				<gmd:MD_LegalConstraints>
+					<gmd:accessConstraints>
+						<gmd:MD_RestrictionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions">otherRestrictions</gmd:MD_RestrictionCode>
+					</gmd:accessConstraints>
+	<!--				<gmd:otherConstraints>
+						<gco:CharacterString>The images are available on a free and open basis for any user, provided usage is non-commercial</gco:CharacterString>
+					</gmd:otherConstraints>-->
+				</gmd:MD_LegalConstraints>
+			</gmd:resourceConstraints>
+			<gmd:language>
+				<gmd:LanguageCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
+			</gmd:language>
+	<!--		<gmd:topicCategory>
+				<gmd:MD_TopicCategoryCode>farming</gmd:MD_TopicCategoryCode>
+			</gmd:topicCategory> -->
+			<gmd:extent>
+				<gmd:EX_Extent>
+					<gmd:geographicElement>
+						<gmd:EX_GeographicBoundingBox>
+							<gmd:westBoundLongitude>
+								<gco:Decimal>-180</gco:Decimal>
+							</gmd:westBoundLongitude>
+							<gmd:eastBoundLongitude>
+								<gco:Decimal>180</gco:Decimal>
+							</gmd:eastBoundLongitude>
+							<gmd:southBoundLatitude>
+								<gco:Decimal>-90</gco:Decimal>
+							</gmd:southBoundLatitude>
+							<gmd:northBoundLatitude>
+								<gco:Decimal>90</gco:Decimal>
+							</gmd:northBoundLatitude>
+						</gmd:EX_GeographicBoundingBox>
+					</gmd:geographicElement>
+				</gmd:EX_Extent>
+			</gmd:extent>
+			<gmd:extent>
+				<gmd:EX_Extent>
+					<gmd:temporalElement>
+						<gmd:EX_TemporalExtent>
+							<gmd:extent>
+								<gml:TimePeriod gml:id="IDf329b5fa-4ca4-4c8e-ad0f-27e399386ab2">
+									<gml:beginPosition>2007-01-01</gml:beginPosition>
+									<gml:endPosition>2009-12-31</gml:endPosition>
+								</gml:TimePeriod>
+							</gmd:extent>
+						</gmd:EX_TemporalExtent>
+					</gmd:temporalElement>
+				</gmd:EX_Extent>
+			</gmd:extent>
+		</gmd:MD_DataIdentification>
+	</gmd:identificationInfo>
+	<gmd:distributionInfo>
+		<gmd:MD_Distribution>
+			<gmd:distributionFormat>
+				<gmd:MD_Format>
+					<gmd:name gco:nilReason="inapplicable"/>
+					<gmd:version gco:nilReason="inapplicable"/>
+				</gmd:MD_Format>
+			</gmd:distributionFormat>
+			<gmd:transferOptions>
+				<gmd:MD_DigitalTransferOptions>
+			    <gmd:onLine>
+	<gmd:CI_OnlineResource>
+		<gmd:linkage>
+			<gmd:URL>http://geo.spacebel.be/opensearch/description.xml?parentIdentifier=EOP:CNES:THEIA&amp;sensorType=OPTICAL&amp;subject=Spirit</gmd:URL>
+		</gmd:linkage>
+		<gmd:name>
+			<gco:CharacterString>FedEO Clearinghouse</gco:CharacterString>
+		</gmd:name>
+		<gmd:description>
+			<gco:CharacterString>FedEO Clearinghouse</gco:CharacterString>
+		</gmd:description>
+		<gmd:function>
+			<gmd:CI_OnLineFunctionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="search"/>
+		</gmd:function>
+	</gmd:CI_OnlineResource>
+</gmd:onLine>
+				</gmd:MD_DigitalTransferOptions>
+			</gmd:transferOptions>
+		</gmd:MD_Distribution>
+	</gmd:distributionInfo>
+	<gmd:dataQualityInfo>
+		<gmd:DQ_DataQuality>
+			<gmd:scope>
+				<gmd:DQ_Scope>
+					<gmd:level>
+						<gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_ScopeCode" codeListValue="series">series</gmd:MD_ScopeCode>
+					</gmd:level>
+				</gmd:DQ_Scope>
+			</gmd:scope>
+			<gmd:report>
+				<gmd:DQ_DomainConsistency>
+					<gmd:result>
+						<gmd:DQ_ConformanceResult>
+							<gmd:specification>
+								<gmd:CI_Citation>
+									<gmd:title>
+										<gco:CharacterString>COMMISSION REGULATION (EU) No 1089/2010 of 23 November 2010 implementing Directive 2007/2/EC of the European Parliament and of the Council as regards interoperability of spatial data sets and services</gco:CharacterString>
+									</gmd:title>
+									<gmd:date>
+										<gmd:CI_Date>
+											<gmd:date>
+												<gco:Date>2010-12-08</gco:Date>
+											</gmd:date>
+											<gmd:dateType>
+												<gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="publication"/>
+											</gmd:dateType>
+										</gmd:CI_Date>
+									</gmd:date>
+								</gmd:CI_Citation>
+							</gmd:specification>
+							<gmd:explanation>
+								<gco:CharacterString>non testÃ©</gco:CharacterString>
+							</gmd:explanation>
+							<gmd:pass>
+								<gco:Boolean>false</gco:Boolean>
+							</gmd:pass>
+						</gmd:DQ_ConformanceResult>
+					</gmd:result>
+				</gmd:DQ_DomainConsistency>
+			</gmd:report>
+			<gmd:lineage>
+				<gmd:LI_Lineage>
+					<gmd:statement>
+						<gco:CharacterString>SPOT5 -  HRS</gco:CharacterString>
+					</gmd:statement>
+				</gmd:LI_Lineage>
+			</gmd:lineage>
+		</gmd:DQ_DataQuality>
+	</gmd:dataQualityInfo>
+	
+			    	        							    		 	<gmi:acquisitionInformation>
+		<gmi:MI_AcquisitionInformation>
+			<gmi:platform>
+				<gmi:MI_Platform>
+					<gmi:identifier>
+						<gmd:MD_Identifier>
+							<gmd:code>
+								<gmx:Anchor xlink:href="http://gcmdservices.gsfc.nasa.gov/kms/concept/08e3f2c8-0d9d-4f94-b2fe-bb110b151134">SPOT-5</gmx:Anchor>  
+							</gmd:code>
+						</gmd:MD_Identifier>
+					</gmi:identifier>
+					<gmi:description>
+						<gco:CharacterString>SPOT5 Satellite</gco:CharacterString>
+					</gmi:description>
+					<gmi:instrument>
+						<gmi:MI_Instrument>
+							<gmi:citation>
+								<gmd:CI_Citation>
+									<gmd:title>
+										<gmx:Anchor xlink:href="http://gcmdservices.gsfc.nasa.gov/kms/concept/a4e5d987-10c4-4788-a1ac-8c8494be04ef">HRS</gmx:Anchor>  
+									</gmd:title>
+									<gmd:date>
+										<gmd:CI_Date>
+											<gmd:date>
+												<gco:Date>2007-01-01</gco:Date>
+											</gmd:date>
+											<gmd:dateType>
+												<gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="creation">creation</gmd:CI_DateTypeCode>
+											</gmd:dateType>
+										</gmd:CI_Date>
+									</gmd:date>
+									<gmd:identifier>
+										<gmd:MD_Identifier>
+											<gmd:code>
+												<gco:CharacterString>HRS Instrument</gco:CharacterString>
+											</gmd:code>
+										</gmd:MD_Identifier>
+									</gmd:identifier>
+								</gmd:CI_Citation>
+							</gmi:citation>
+							<gmi:type>
+								<gmi:MI_SensorTypeCode/>
+							</gmi:type>
+						</gmi:MI_Instrument>
+					</gmi:instrument>
+				</gmi:MI_Platform>
+			</gmi:platform>
+		</gmi:MI_AcquisitionInformation>
+	</gmi:acquisitionInformation>
+			    	 	<gmi:acquisitionInformation>
+		<gmi:MI_AcquisitionInformation>
+			<gmi:platform>
+				<gmi:MI_Platform>
+					<gmi:identifier>
+						<gmd:MD_Identifier>
+							<gmd:code>
+								<gco:CharacterString>SPOT-5</gco:CharacterString>
+							</gmd:code>
+						</gmd:MD_Identifier>
+					</gmi:identifier>
+					<gmi:description>
+						<gco:CharacterString>SPOT5 Satellite</gco:CharacterString>
+					</gmi:description>
+					<gmi:instrument>
+						<gmi:MI_Instrument>
+							<gmi:citation>
+								<gmd:CI_Citation>
+									<gmd:title>
+										<gco:CharacterString>HRS</gco:CharacterString>
+									</gmd:title>
+									<gmd:date>
+										<gmd:CI_Date>
+											<gmd:date>
+												<gco:Date>2007-01-01</gco:Date>
+											</gmd:date>
+											<gmd:dateType>
+												<gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="creation">creation</gmd:CI_DateTypeCode>
+											</gmd:dateType>
+										</gmd:CI_Date>
+									</gmd:date>
+									<gmd:identifier>
+										<gmd:MD_Identifier>
+											<gmd:code>
+												<gco:CharacterString>HRS Instrument</gco:CharacterString>
+											</gmd:code>
+										</gmd:MD_Identifier>
+									</gmd:identifier>
+								</gmd:CI_Citation>
+							</gmi:citation>
+							<gmi:type>
+								<gmi:MI_SensorTypeCode/>
+							</gmi:type>
+						</gmi:MI_Instrument>
+					</gmi:instrument>
+				</gmi:MI_Platform>
+			</gmi:platform>
+		</gmi:MI_AcquisitionInformation>
+	</gmi:acquisitionInformation>
+	</gmi:MI_Metadata>
+</entry>
+<entry xml:lang="en-US">
+<id>http://geo.spacebel.be/opensearch/request/?httpAccept=application/atom%2Bxml&amp;parentIdentifier=EOP:ESA:FEDEO:COLLECTIONS&amp;classifiedAs=http://www.eionet.europa.eu/gemet/concept/3650&amp;recordSchema=iso&amp;uid=EOP%3ACNES%3ATHEIA%3ASpotWorldHeritage</id>
+<title>SpotWorldHeritage (Theia)</title>
+<dc:identifier>EOP:CNES:THEIA:SpotWorldHeritage</dc:identifier>
+<updated>2015-08-14T00:00:00Z</updated>
+<dc:date>2000-01-01T00:00:00/</dc:date>
+<georss:polygon>-90.0 -180.0 90.0 -180.0 90.0 180.0 -90.0 180.0 -90.0 -180.0</georss:polygon>
+<category label="FedEO" term="FedEO"/>
+<category label="Geology" scheme="http://www.eionet.europa.eu/gemet" term="http://www.eionet.europa.eu/gemet/concept/3650"/>
+<category label="Land cover" scheme="http://www.eionet.europa.eu/gemet" term="http://www.eionet.europa.eu/gemet/concept/4612"/>
+<category label="THEIA" term="THEIA"/>
+<category label="spotworldheritage" term="spotworldheritage"/>
+<category label="level2A" term="level2A"/>
+<category label="reflectance" term="reflectance"/>
+<category label="spot" term="spot"/>
+<category label="CNES" term="CNES"/>
+<category label="SPOT1" term="SPOT1"/>
+<category label="HRV1 Instrument" term="HRV1 Instrument"/>
+<category label="HRV2 Instrument" term="HRV2 Instrument"/>
+<category label="SPOT2" term="SPOT2"/>
+<category label="HRV1 Instrument" term="HRV1 Instrument"/>
+<category label="SPOT-2 HRV2 Instrument" term="SPOT-2 HRV2 Instrument"/>
+<category label="SPOT4" term="SPOT4"/>
+<category label="HRVIR1 Instrument" term="HRVIR1 Instrument"/>
+<category label="HRVIR2 Instrument" term="HRVIR2 Instrument"/>
+<category label="SPOT5" term="SPOT5"/>
+<category label="HRG1 Instrument" term="HRG1 Instrument"/>
+<category label="HRG2 Instrument" term="HRG2 Instrument"/>
+<summary type="html"><![CDATA[
+<table xmlns="">
+<tr valign="top">
+<td>
+<b>Title </b>
+</td>
+<td>SpotWorldHeritage (Theia)</td>
+</tr>
+<tr valign="top">
+<td>
+<b>Description </b>
+</td>
+<td>Multispectral decametric images from the Spot 1-5 archive of more than 5 years old, acquired in the framework of the Spot World Heritage programme, based on a partnership between CNES and Airbus Defence and Space. The images are available on a free and open basis for any user, provided usage is non-commercial</td>
+</tr>
+<tr valign="top">
+<td>
+<b>Type </b>
+</td>
+<td>Collection</td>
+</tr>
+<tr valign="top">
+<td>
+<b>Date </b>
+</td>
+<td>2000-01-01T00:00:00/</td>
+</tr>
+<td>
+<b>Media Type</b>
+</td>
+<td>
+<a href="http://geo.spacebel.be/opensearch/request?httpAccept=application/atom%2Bxml&amp;startRecord=1&amp;parentIdentifier=EOP:ESA:FEDEO:COLLECTIONS&amp;uid=EOP%3ACNES%3ATHEIA%3ASpotWorldHeritage&amp;recordSchema=iso" title="ATOM format">ATOM</a>   |   <a href="http://geo.spacebel.be/opensearch/request?httpAccept=application/sru%2Bxml&amp;startRecord=1&amp;parentIdentifier=EOP:ESA:FEDEO:COLLECTIONS&amp;uid=EOP%3ACNES%3ATHEIA%3ASpotWorldHeritage&amp;recordSchema=iso" title="SRU format">SRU</a>
+</td>
+<tr valign="top">
+<td>
+<b>Metadata </b>
+</td>
+<td>
+<a href="http://hma-se-services.spacebel.be:8080/i15/httpservice?request=GetRepositoryItem&amp;service=CSW-ebRIM&amp;Id=urn%3ACIM%3AEOP%3ACNES%3ATHEIA%3ASpotWorldHeritage%3AResourceMetadata" title="ISO format">ISO</a>
+</td>
+</tr>
+</table>]]></summary>
+<link href="http://geo.spacebel.be/opensearch/request?httpAccept=application/atom%2Bxml&amp;startRecord=1&amp;parentIdentifier=EOP:ESA:FEDEO:COLLECTIONS&amp;uid=EOP%3ACNES%3ATHEIA%3ASpotWorldHeritage&amp;recordSchema=iso" rel="alternate" title="Atom format" type="application/atom+xml"/>
+<link href="http://geo.spacebel.be/opensearch/description.xml?parentIdentifier=EOP:CNES:THEIA&amp;sensorType=OPTICAL&amp;subject=SpotWorldHeritage&amp;startDate=2000-01-01T00:00:00&amp;endDate=" rel="search" type="application/opensearchdescription+xml"/>
+<gmi:MI_Metadata xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.isotc211.org/2005/gmi ..\..\schema/ISO/gmi/gmi.xsd ">
+	<gmd:fileIdentifier>
+		<gco:CharacterString>EOP:CNES:THEIA:SpotWorldHeritage</gco:CharacterString>
+	</gmd:fileIdentifier>
+	<gmd:language>
+		<gmd:LanguageCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
+	</gmd:language>
+	<gmd:hierarchyLevel>
+		<gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmx Codelists.xml#MD_ScopeCode" codeListValue="series">series</gmd:MD_ScopeCode>
+	</gmd:hierarchyLevel>
+	<gmd:contact>
+		<gmd:CI_ResponsibleParty>
+			<gmd:individualName>
+				<gco:CharacterString>CustomerTechnicalSupport</gco:CharacterString>
+			</gmd:individualName>
+			<gmd:organisationName>
+				<gco:CharacterString>CNES</gco:CharacterString>
+			</gmd:organisationName>
+			<gmd:contactInfo>
+				<gmd:CI_Contact>
+					<gmd:address>
+						<gmd:CI_Address>
+							<gmd:deliveryPoint>
+								<gco:CharacterString>18 avenue Edouard Belin</gco:CharacterString>
+							</gmd:deliveryPoint>
+							<gmd:city>
+								<gco:CharacterString>Toulouse</gco:CharacterString>
+							</gmd:city>
+							<gmd:postalCode>
+								<gco:CharacterString>31401</gco:CharacterString>
+							</gmd:postalCode>
+							<gmd:country>
+								<gco:CharacterString>France</gco:CharacterString>
+							</gmd:country>
+							<gmd:electronicMailAddress>
+								<gco:CharacterString>jerome.gasperi@cnes.fr</gco:CharacterString>
+							</gmd:electronicMailAddress>
+						</gmd:CI_Address>
+					</gmd:address>
+				</gmd:CI_Contact>
+			</gmd:contactInfo>
+			<gmd:role>
+				<gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_RoleCode" codeListValue="publisher"/>
+			</gmd:role>
+		</gmd:CI_ResponsibleParty>
+	</gmd:contact>
+	<gmd:dateStamp>
+		<gco:Date>2015-09-18</gco:Date>
+	</gmd:dateStamp>
+	<gmd:metadataStandardName>
+		<gco:CharacterString>ISO19115</gco:CharacterString>
+	</gmd:metadataStandardName>
+	<gmd:metadataStandardVersion>
+		<gco:CharacterString>2003/Cor.1:2006</gco:CharacterString>
+	</gmd:metadataStandardVersion>
+	<gmd:identificationInfo>
+		<gmd:MD_DataIdentification>
+			<gmd:citation>
+				<gmd:CI_Citation>
+					<gmd:title>
+						<gco:CharacterString>SpotWorldHeritage (Theia)</gco:CharacterString>
+					</gmd:title>
+					<gmd:date>
+						<gmd:CI_Date>
+							<gmd:date>
+								<gco:Date>2015-08-14</gco:Date>
+							</gmd:date>
+							<gmd:dateType>
+								<gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="creation"/>
+							</gmd:dateType>
+						</gmd:CI_Date>
+					</gmd:date>
+					<gmd:identifier>
+						<gmd:RS_Identifier>
+							<gmd:code>
+								<gco:CharacterString>EOP:CNES:THEIA:SpotWorldHeritage</gco:CharacterString>
+							</gmd:code>
+							<gmd:codeSpace>
+								<gco:CharacterString>https://theia.cnes.fr/</gco:CharacterString>
+							</gmd:codeSpace>
+						</gmd:RS_Identifier>
+					</gmd:identifier>
+				</gmd:CI_Citation>
+			</gmd:citation>
+			<gmd:abstract>
+				<gco:CharacterString>Multispectral decametric images from the Spot 1-5 archive of more than 5 years old, acquired in the framework of the Spot World Heritage programme, based on a partnership between CNES and Airbus Defence and Space. The images are available on a free and open basis for any user, provided usage is non-commercial</gco:CharacterString>
+			</gmd:abstract>
+			<gmd:pointOfContact>
+				<gmd:CI_ResponsibleParty>
+					<gmd:organisationName>
+						<gco:CharacterString>CNES</gco:CharacterString>
+					</gmd:organisationName>
+					<gmd:positionName>
+						<gco:CharacterString>CustomerTechnicalSupport</gco:CharacterString>
+					</gmd:positionName>
+					<gmd:contactInfo>
+						<gmd:CI_Contact>
+					<gmd:address>
+						<gmd:CI_Address>
+							<gmd:deliveryPoint>
+								<gco:CharacterString>18 avenue Edouard Belin</gco:CharacterString>
+							</gmd:deliveryPoint>
+							<gmd:city>
+								<gco:CharacterString>Toulouse</gco:CharacterString>
+							</gmd:city>
+							<gmd:postalCode>
+								<gco:CharacterString>31401</gco:CharacterString>
+							</gmd:postalCode>
+							<gmd:country>
+								<gco:CharacterString>France</gco:CharacterString>
+							</gmd:country>
+							<gmd:electronicMailAddress>
+								<gco:CharacterString>jerome.gasperi@cnes.fr</gco:CharacterString>
+							</gmd:electronicMailAddress>
+						</gmd:CI_Address>
+					</gmd:address>
+							<gmd:onlineResource>
+								<gmd:CI_OnlineResource>
+									<gmd:linkage>
+										<gmd:URL>https://theia.cnes.fr/</gmd:URL>
+									</gmd:linkage>
+								</gmd:CI_OnlineResource>
+							</gmd:onlineResource>
+						</gmd:CI_Contact>
+					</gmd:contactInfo>
+					<gmd:role>
+						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="originator">							originator						</gmd:CI_RoleCode>
+					</gmd:role>
+				</gmd:CI_ResponsibleParty>
+			</gmd:pointOfContact>
+									<gmd:descriptiveKeywords>
+				<gmd:MD_Keywords>
+					<gmd:keyword>
+						<gco:CharacterString>FedEO</gco:CharacterString>
+					</gmd:keyword>	
+				</gmd:MD_Keywords>	
+			</gmd:descriptiveKeywords>
+			<gmd:descriptiveKeywords>
+				<gmd:MD_Keywords>
+					<gmd:keyword>
+						 <gmx:Anchor xlink:href="http://www.eionet.europa.eu/gemet/concept/3650">Geology</gmx:Anchor>  
+					</gmd:keyword>
+					<gmd:keyword>
+						<gmx:Anchor xlink:href="http://www.eionet.europa.eu/gemet/concept/4612">Land cover</gmx:Anchor>  
+					</gmd:keyword>
+					<gmd:type>
+						<gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode" codeListValue="theme"/>
+					</gmd:type>
+	           <gmd:thesaurusName>
+	<gmd:CI_Citation>
+	<gmd:title>
+   <gmx:Anchor xlink:href="http://www.eionet.europa.eu/gemet">GEMET - INSPIRE Themes, Version 1.0</gmx:Anchor>	  
+</gmd:title>
+		<gmd:date>
+			<gmd:CI_Date>
+				<gmd:date>
+					<gco:Date>2008-06-01</gco:Date>
+				</gmd:date>
+				<gmd:dateType>
+					<gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+				</gmd:dateType>
+			</gmd:CI_Date>
+		</gmd:date>
+	</gmd:CI_Citation>
+</gmd:thesaurusName>
+				</gmd:MD_Keywords>
+			</gmd:descriptiveKeywords>
+			<gmd:descriptiveKeywords>
+				<gmd:MD_Keywords>
+					<gmd:keyword> 
+						<gco:CharacterString>THEIA</gco:CharacterString>
+					</gmd:keyword>
+					<gmd:keyword> 
+						<gco:CharacterString>spotworldheritage</gco:CharacterString>
+					</gmd:keyword>
+					<gmd:keyword>
+						<gco:CharacterString>level2A</gco:CharacterString>
+					</gmd:keyword>
+					<gmd:keyword>
+						<gco:CharacterString>reflectance</gco:CharacterString>
+					</gmd:keyword>
+					<gmd:keyword>
+						<gco:CharacterString>spot</gco:CharacterString>
+					</gmd:keyword>
+					<gmd:keyword>
+						<gco:CharacterString>CNES</gco:CharacterString>
+					</gmd:keyword>
+				</gmd:MD_Keywords>
+			</gmd:descriptiveKeywords>
+			<gmd:resourceConstraints>
+				<gmd:MD_Constraints>
+					<gmd:useLimitation>
+						<gco:CharacterString>http://earth.esa.int/dataproducts/accessingeodata/</gco:CharacterString>
+					</gmd:useLimitation>
+				</gmd:MD_Constraints>
+			</gmd:resourceConstraints>
+			<gmd:resourceConstraints>
+				<gmd:MD_LegalConstraints>
+					<gmd:accessConstraints>
+						<gmd:MD_RestrictionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions">otherRestrictions</gmd:MD_RestrictionCode>
+					</gmd:accessConstraints>
+					<gmd:otherConstraints>
+						<gco:CharacterString>The images are available on a free and open basis for any user, provided usage is non-commercial</gco:CharacterString>
+					</gmd:otherConstraints>
+				</gmd:MD_LegalConstraints>
+			</gmd:resourceConstraints>
+			<gmd:language>
+				<gmd:LanguageCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
+			</gmd:language>
+	<!--		<gmd:topicCategory>
+				<gmd:MD_TopicCategoryCode>farming</gmd:MD_TopicCategoryCode>
+			</gmd:topicCategory> -->
+			<gmd:extent>
+				<gmd:EX_Extent>
+					<gmd:geographicElement>
+						<gmd:EX_GeographicBoundingBox>
+							<gmd:westBoundLongitude>
+								<gco:Decimal>-180</gco:Decimal>
+							</gmd:westBoundLongitude>
+							<gmd:eastBoundLongitude>
+								<gco:Decimal>180</gco:Decimal>
+							</gmd:eastBoundLongitude>
+							<gmd:southBoundLatitude>
+								<gco:Decimal>-90</gco:Decimal>
+							</gmd:southBoundLatitude>
+							<gmd:northBoundLatitude>
+								<gco:Decimal>90</gco:Decimal>
+							</gmd:northBoundLatitude>
+						</gmd:EX_GeographicBoundingBox>
+					</gmd:geographicElement>
+				</gmd:EX_Extent>
+			</gmd:extent>
+			<gmd:extent>
+				<gmd:EX_Extent>
+					<gmd:temporalElement>
+						<gmd:EX_TemporalExtent>
+							<gmd:extent>
+								<gml:TimePeriod gml:id="IDf329b5fa-4ca4-4c8e-ad0f-27e399386ab2">
+									<gml:beginPosition>2000-01-01T00:00:00</gml:beginPosition>
+									<gml:endPosition/>
+								</gml:TimePeriod>
+							</gmd:extent>
+						</gmd:EX_TemporalExtent>
+					</gmd:temporalElement>
+				</gmd:EX_Extent>
+			</gmd:extent>
+		</gmd:MD_DataIdentification>
+	</gmd:identificationInfo>
+	<gmd:distributionInfo>
+		<gmd:MD_Distribution>
+			<gmd:distributionFormat>
+				<gmd:MD_Format>
+					<gmd:name gco:nilReason="inapplicable"/>
+					<gmd:version gco:nilReason="inapplicable"/>
+				</gmd:MD_Format>
+			</gmd:distributionFormat>
+			<gmd:transferOptions>
+				<gmd:MD_DigitalTransferOptions>
+			    <gmd:onLine>
+	<gmd:CI_OnlineResource>
+		<gmd:linkage>
+			<gmd:URL>http://geo.spacebel.be/opensearch/description.xml?parentIdentifier=EOP:CNES:THEIA&amp;sensorType=OPTICAL&amp;subject=SpotWorldHeritage</gmd:URL>
+		</gmd:linkage>
+		<gmd:name>
+			<gco:CharacterString>FedEO Clearinghouse</gco:CharacterString>
+		</gmd:name>
+		<gmd:description>
+			<gco:CharacterString>FedEO Clearinghouse</gco:CharacterString>
+		</gmd:description>
+		<gmd:function>
+			<gmd:CI_OnLineFunctionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="search"/>
+		</gmd:function>
+	</gmd:CI_OnlineResource>
+</gmd:onLine>
+				</gmd:MD_DigitalTransferOptions>
+			</gmd:transferOptions>
+		</gmd:MD_Distribution>
+	</gmd:distributionInfo>
+	<gmd:dataQualityInfo>
+		<gmd:DQ_DataQuality>
+			<gmd:scope>
+				<gmd:DQ_Scope>
+					<gmd:level>
+						<gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_ScopeCode" codeListValue="series">series</gmd:MD_ScopeCode>
+					</gmd:level>
+				</gmd:DQ_Scope>
+			</gmd:scope>
+			<gmd:report>
+				<gmd:DQ_DomainConsistency>
+					<gmd:result>
+						<gmd:DQ_ConformanceResult>
+							<gmd:specification>
+								<gmd:CI_Citation>
+									<gmd:title>
+										<gco:CharacterString>COMMISSION REGULATION (EU) No 1089/2010 of 23 November 2010 implementing Directive 2007/2/EC of the European Parliament and of the Council as regards interoperability of spatial data sets and services</gco:CharacterString>
+									</gmd:title>
+									<gmd:date>
+										<gmd:CI_Date>
+											<gmd:date>
+												<gco:Date>2010-12-08</gco:Date>
+											</gmd:date>
+											<gmd:dateType>
+												<gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="publication"/>
+											</gmd:dateType>
+										</gmd:CI_Date>
+									</gmd:date>
+								</gmd:CI_Citation>
+							</gmd:specification>
+							<gmd:explanation>
+								<gco:CharacterString>non testÃ©</gco:CharacterString>
+							</gmd:explanation>
+							<gmd:pass>
+								<gco:Boolean>false</gco:Boolean>
+							</gmd:pass>
+						</gmd:DQ_ConformanceResult>
+					</gmd:result>
+				</gmd:DQ_DomainConsistency>
+			</gmd:report>
+			<gmd:lineage>
+				<gmd:LI_Lineage>
+					<gmd:statement>
+						<gco:CharacterString>Spot 1,2,3,4,5 - HRV, HRVIR, HRG</gco:CharacterString>
+					</gmd:statement>
+				</gmd:LI_Lineage>
+			</gmd:lineage>
+		</gmd:DQ_DataQuality>
+	</gmd:dataQualityInfo>
+	<gmi:acquisitionInformation>
+		<gmi:MI_AcquisitionInformation>
+			<gmi:platform>
+				<gmi:MI_Platform>
+					<gmi:identifier>
+						<gmd:MD_Identifier>
+							<gmd:code>
+								<gco:CharacterString>SPOT1</gco:CharacterString>
+							</gmd:code>
+						</gmd:MD_Identifier>
+					</gmi:identifier>
+					<gmi:description>
+						<gco:CharacterString>SPOT-1 Satellite</gco:CharacterString>
+					</gmi:description>
+					<gmi:instrument>
+						<gmi:MI_Instrument>
+							<gmi:citation>
+								<gmd:CI_Citation>
+									<gmd:title>
+										<gco:CharacterString>HRV1 Instrument</gco:CharacterString>
+									</gmd:title>
+									<gmd:date>
+										<gmd:CI_Date>
+											<gmd:date>
+												<gco:Date>2009-06-11</gco:Date>
+											</gmd:date>
+											<gmd:dateType>
+												<gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="creation">creation</gmd:CI_DateTypeCode>
+											</gmd:dateType>
+										</gmd:CI_Date>
+									</gmd:date>
+									<gmd:identifier>
+										<gmd:RS_Identifier>
+											<gmd:code>
+												<gco:CharacterString>HRV1</gco:CharacterString>
+											</gmd:code>
+										</gmd:RS_Identifier>
+									</gmd:identifier>
+								</gmd:CI_Citation>
+							</gmi:citation>
+							<gmi:type>
+								<gmi:MI_SensorTypeCode/>
+							</gmi:type>
+						</gmi:MI_Instrument>
+					</gmi:instrument>
+					<gmi:instrument>
+						<gmi:MI_Instrument>
+							<gmi:citation>
+								<gmd:CI_Citation>
+									<gmd:title>
+										<gco:CharacterString>HRV2 Instrument</gco:CharacterString>
+									</gmd:title>
+									<gmd:date>
+										<gmd:CI_Date>
+											<gmd:date>
+												<gco:Date>2009-06-11</gco:Date>
+											</gmd:date>
+											<gmd:dateType>
+												<gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="creation">creation</gmd:CI_DateTypeCode>
+											</gmd:dateType>
+										</gmd:CI_Date>
+									</gmd:date>
+									<gmd:identifier>
+										<gmd:MD_Identifier>
+											<gmd:code>
+												<gco:CharacterString>HRV2</gco:CharacterString>
+											</gmd:code>
+										</gmd:MD_Identifier>
+									</gmd:identifier>
+								</gmd:CI_Citation>
+							</gmi:citation>
+							<gmi:type>
+								<gmi:MI_SensorTypeCode/>
+							</gmi:type>
+						</gmi:MI_Instrument>
+					</gmi:instrument>
+				</gmi:MI_Platform>
+			</gmi:platform>
+			<gmi:platform>
+				<gmi:MI_Platform>
+					<gmi:identifier>
+						<gmd:MD_Identifier>
+							<gmd:code>
+								<gco:CharacterString>SPOT2</gco:CharacterString>
+							</gmd:code>
+						</gmd:MD_Identifier>
+					</gmi:identifier>
+					<gmi:description>
+						<gco:CharacterString>SPOT-2 Satellite</gco:CharacterString>
+					</gmi:description>
+					<gmi:instrument>
+						<gmi:MI_Instrument>
+							<gmi:citation>
+								<gmd:CI_Citation>
+									<gmd:title>
+										<gco:CharacterString>HRV1 Instrument</gco:CharacterString>
+									</gmd:title>
+									<gmd:date>
+										<gmd:CI_Date>
+											<gmd:date>
+												<gco:Date>2009-06-11</gco:Date>
+											</gmd:date>
+											<gmd:dateType>
+												<gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="creation">creation</gmd:CI_DateTypeCode>
+											</gmd:dateType>
+										</gmd:CI_Date>
+									</gmd:date>
+									<gmd:identifier>
+										<gmd:MD_Identifier>
+											<gmd:code>
+												<gco:CharacterString>HRV1</gco:CharacterString>
+											</gmd:code>
+										</gmd:MD_Identifier>
+									</gmd:identifier>
+								</gmd:CI_Citation>
+							</gmi:citation>
+							<gmi:type>
+								<gmi:MI_SensorTypeCode/>
+							</gmi:type>
+						</gmi:MI_Instrument>
+					</gmi:instrument>
+					<gmi:instrument>
+						<gmi:MI_Instrument>
+							<gmi:citation>
+								<gmd:CI_Citation>
+									<gmd:title>
+										<gco:CharacterString>SPOT-2 HRV2 Instrument</gco:CharacterString>
+									</gmd:title>
+									<gmd:date>
+										<gmd:CI_Date>
+											<gmd:date>
+												<gco:Date>2009-06-11</gco:Date>
+											</gmd:date>
+											<gmd:dateType>
+												<gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="creation">creation</gmd:CI_DateTypeCode>
+											</gmd:dateType>
+										</gmd:CI_Date>
+									</gmd:date>
+									<gmd:identifier>
+										<gmd:MD_Identifier>
+											<gmd:code>
+												<gco:CharacterString>HRV2</gco:CharacterString>
+											</gmd:code>
+										</gmd:MD_Identifier>
+									</gmd:identifier>
+								</gmd:CI_Citation>
+							</gmi:citation>
+							<gmi:type>
+								<gmi:MI_SensorTypeCode/>
+							</gmi:type>
+						</gmi:MI_Instrument>
+					</gmi:instrument>
+				</gmi:MI_Platform>
+			</gmi:platform>
+			<gmi:platform>
+				<gmi:MI_Platform>
+					<gmi:identifier>
+						<gmd:MD_Identifier>
+							<gmd:code>
+								<gco:CharacterString>SPOT4</gco:CharacterString>
+							</gmd:code>
+						</gmd:MD_Identifier>
+					</gmi:identifier>
+					<gmi:description>
+						<gco:CharacterString>SPOT-4 Satellite</gco:CharacterString>
+					</gmi:description>
+					<gmi:instrument>
+						<gmi:MI_Instrument>
+							<gmi:citation>
+								<gmd:CI_Citation>
+									<gmd:title>
+										<gco:CharacterString>HRVIR1 Instrument</gco:CharacterString>
+									</gmd:title>
+									<gmd:date>
+										<gmd:CI_Date>
+											<gmd:date>
+												<gco:Date>2009-06-11</gco:Date>
+											</gmd:date>
+											<gmd:dateType>
+												<gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="creation">creation</gmd:CI_DateTypeCode>
+											</gmd:dateType>
+										</gmd:CI_Date>
+									</gmd:date>
+									<gmd:identifier>
+										<gmd:MD_Identifier>
+											<gmd:code>
+												<gco:CharacterString>HRVIR1</gco:CharacterString>
+											</gmd:code>
+										</gmd:MD_Identifier>
+									</gmd:identifier>
+								</gmd:CI_Citation>
+							</gmi:citation>
+							<gmi:type>
+								<gmi:MI_SensorTypeCode/>
+							</gmi:type>
+						</gmi:MI_Instrument>
+					</gmi:instrument>
+					<gmi:instrument>
+						<gmi:MI_Instrument>
+							<gmi:citation>
+								<gmd:CI_Citation>
+									<gmd:title>
+										<gco:CharacterString>HRVIR2 Instrument</gco:CharacterString>
+									</gmd:title>
+									<gmd:date>
+										<gmd:CI_Date>
+											<gmd:date>
+												<gco:Date>2009-06-11</gco:Date>
+											</gmd:date>
+											<gmd:dateType>
+												<gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="creation">creation</gmd:CI_DateTypeCode>
+											</gmd:dateType>
+										</gmd:CI_Date>
+									</gmd:date>
+									<gmd:identifier>
+										<gmd:MD_Identifier>
+											<gmd:code>
+												<gco:CharacterString>HRVIR2</gco:CharacterString>
+											</gmd:code>
+										</gmd:MD_Identifier>
+									</gmd:identifier>
+								</gmd:CI_Citation>
+							</gmi:citation>
+							<gmi:type>
+								<gmi:MI_SensorTypeCode/>
+							</gmi:type>
+						</gmi:MI_Instrument>
+					</gmi:instrument>
+				</gmi:MI_Platform>
+			</gmi:platform>
+			<gmi:platform>
+				<gmi:MI_Platform>
+					<gmi:identifier>
+						<gmd:MD_Identifier>
+							<gmd:code>
+								<gco:CharacterString>SPOT5</gco:CharacterString>
+							</gmd:code>
+						</gmd:MD_Identifier>
+					</gmi:identifier>
+					<gmi:description>
+						<gco:CharacterString>SPOT-5 Satellite</gco:CharacterString>
+					</gmi:description>
+					<gmi:instrument>
+						<gmi:MI_Instrument>
+							<gmi:citation>
+								<gmd:CI_Citation>
+									<gmd:title>
+										<gco:CharacterString>HRG1 Instrument</gco:CharacterString>
+									</gmd:title>
+									<gmd:date>
+										<gmd:CI_Date>
+											<gmd:date>
+												<gco:Date>2009-06-11</gco:Date>
+											</gmd:date>
+											<gmd:dateType>
+												<gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="creation">creation</gmd:CI_DateTypeCode>
+											</gmd:dateType>
+										</gmd:CI_Date>
+									</gmd:date>
+									<gmd:identifier>
+										<gmd:MD_Identifier>
+											<gmd:code>
+												<gco:CharacterString>HRG1</gco:CharacterString>
+											</gmd:code>
+										</gmd:MD_Identifier>
+									</gmd:identifier>
+								</gmd:CI_Citation>
+							</gmi:citation>
+							<gmi:type>
+								<gmi:MI_SensorTypeCode/>
+							</gmi:type>
+						</gmi:MI_Instrument>
+					</gmi:instrument>
+					<gmi:instrument>
+						<gmi:MI_Instrument>
+							<gmi:citation>
+								<gmd:CI_Citation>
+									<gmd:title>
+										<gco:CharacterString>HRG2 Instrument</gco:CharacterString>
+									</gmd:title>
+									<gmd:date>
+										<gmd:CI_Date>
+											<gmd:date>
+												<gco:Date>2009-06-11</gco:Date>
+											</gmd:date>
+											<gmd:dateType>
+												<gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="creation">creation</gmd:CI_DateTypeCode>
+											</gmd:dateType>
+										</gmd:CI_Date>
+									</gmd:date>
+									<gmd:identifier>
+										<gmd:MD_Identifier>
+											<gmd:code>
+												<gco:CharacterString>HRG2</gco:CharacterString>
+											</gmd:code>
+										</gmd:MD_Identifier>
+									</gmd:identifier>
+								</gmd:CI_Citation>
+							</gmi:citation>
+							<gmi:type>
+								<gmi:MI_SensorTypeCode/>
+							</gmi:type>
+						</gmi:MI_Instrument>
+					</gmi:instrument>
+				</gmi:MI_Platform>
+			</gmi:platform>
+		</gmi:MI_AcquisitionInformation>
+	</gmi:acquisitionInformation>
+</gmi:MI_Metadata>
+</entry>
+</feed>

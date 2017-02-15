@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!-- Copyright (C) 2017 Siemens Convergence Creators, Prague (CZ) -->
+<!-- Licensed under the OBEOS SAMDE License, see LICENSE.txt      -->
+
+<!-- Copyright (C) 2017 Siemens Convergence Creators, Prague (CZ) -->
+<!-- Licensed under the OBEOS SAMDE License, see LICENSE.txt      -->
+
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui"
+	xmlns:ui="http://java.sun.com/jsf/facelets">
+
+	<p:dialog header="Building blocks collection" widgetVar="blockCollectionDlg" minHeight="60">
+
+       <h:form id="blockSelectionForm">
+       <h:outputText id="nmbrAvailBlocks" value="#{buildingBlockCollectionBean.nmbrOfBlocks} blocks available"></h:outputText>
+       <br/>
+          <p:selectOneListbox id="blockselectionlist" value="#{buildingBlockCollectionBean.currentBuildingBlock}">
+             <f:selectItems value="#{buildingBlockCollectionBean.buildingBlocks}"/>
+         <p:ajax event="change" listener="#{buildingBlockCollectionBean.printInfo}">
+		   </p:ajax>
+          </p:selectOneListbox>
+       <br/>
+		
+		<p:commandButton value="Ok" oncomplete="PF('blockCollectionDlg').hide();" process="blockSelectionForm @this" 
+		update="#{p:component('textarea')}" actionListener="#{textViewBean.takeBuildingBlock}">
+
+<!-- 		   <f:setPropertyActionListener -->
+<!-- 		      target="#{textViewBean.textRepresentation}" -->
+<!-- 		      value="#{buildingBlockCollectionBean.currentBuildingBlock}"    -->
+<!-- 		   /> -->
+		   </p:commandButton>
+       </h:form>
+
+	</p:dialog>
+</ui:composition>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<!-- Copyright (C) 2017 Siemens Convergence Creators, Prague (CZ) -->
+<!-- Licensed under the OBEOS SAMDE License, see LICENSE.txt      -->
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	    xmlns:p="http://primefaces.org/ui">
+     
+    <h:head>
+        <title>Choose MdeElement to insert</title>
+        <style type="text/css">
+            .ui-widget {
+                font-size: 90%;
+            }
+        </style>
+    </h:head>
+     
+    <h:body>
+      <h:form>
+       <p:outputLabel for="eltlist" value="Select element to include:"/> 
+       <p:selectOneListbox id="eltlist" value="#{elementSelectionBean.selectedElement}">
+              <f:selectItems value="#{elementSelectionBean.possibleElements}"/>
+              <p:ajax event="select" listener="#{elementSelectionBean.propagateSelection}"/>
+       </p:selectOneListbox>
+       <p:commandButton value="Ok" actionListener="#{elementSelectionBean.submitChoice}" disabled="#{!elementSelectionBean.elementSelected}"/>
+       </h:form>
+    </h:body>
+</html>

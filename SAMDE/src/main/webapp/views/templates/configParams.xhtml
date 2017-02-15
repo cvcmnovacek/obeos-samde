@@ -1,0 +1,38 @@
+<!-- Copyright (C) 2017 Siemens Convergence Creators, Prague (CZ) -->
+<!-- Licensed under the OBEOS SAMDE License, see LICENSE.txt      -->
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:c="http://java.sun.com/jsp/jstl/core"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui"
+	xmlns:ui="http://java.sun.com/jsf/facelets">
+<ui:composition>
+	<h:form>
+			<h:panelGrid columns="2" cellpadding="3">
+				<p:outputLabel for="boolMultipleEditing"
+					value="apply changes to all selected files if possible" />
+				<p:selectBooleanCheckbox id="boolMultipleEditing"
+					value="#{multipleFileEditingBean.coeditSelection}" />
+				<p:outputLabel for="boolDateStamp"
+					value="automatically update revision date" />
+				<p:selectBooleanCheckbox id="boolDateStamp"
+					value="#{fileDownloadBean.automaticUpdateRevisionDate}" />
+
+				<h:outputText for="validateChkLoad" value="validate on loading " />
+				<p:selectBooleanCheckbox id="validateChkLoad"
+					value="#{fileUploadBean.validateOnUpload}" />
+
+				<h:outputText for="validateChk" value="validate on saving " />
+				<p:selectBooleanCheckbox id="validateChk"
+					value="#{fileDownloadBean.validateBeforeSave}" />
+					
+					
+				<h:outputText for="valOnDemandChk" value="include Inspire validation in validation on demand" />
+				<p:selectBooleanCheckbox id="valOnDemandChk"
+					value="#{validatorBean.includeInspireConstraints}" />
+			</h:panelGrid>
+			<p:commandButton value="Ok" process="@form" oncomplete="PF('configParamsDlg').hide()" />
+	</h:form>
+</ui:composition>
+</html>

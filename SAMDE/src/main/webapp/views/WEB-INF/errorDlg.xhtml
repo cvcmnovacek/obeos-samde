@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<!-- Copyright (C) 2017 Siemens Convergence Creators, Prague (CZ) -->
+<!-- Licensed under the OBEOS SAMDE License, see LICENSE.txt      -->
+
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui"
+	xmlns:ui="http://java.sun.com/jsf/facelets">
+
+	<p:dialog header="Info dialogue" widgetVar="errorDlg"
+		minHeight="60" maxWidth="800">
+
+				<h:form id="errorForm">
+					<p:dataTable id="errorTable"
+						value="#{errorBean.errorMessages.entrySet()}" var="errmsg"  style="overflow:auto;width:600px"
+						type="ordered">
+						<f:facet name="header"> Infos and error messages for file selection </f:facet>
+						<p:column>
+						    <h:outputText value="#{errmsg.key}"/>
+						</p:column>
+						<p:column>
+						    <h:outputText value="#{errmsg.value}"/>
+						</p:column>
+					</p:dataTable>
+					<p:commandButton value="Close" onclick="PF('errorDlg').hide();"/>
+				</h:form>
+
+	</p:dialog>
+</ui:composition>

@@ -1,0 +1,103 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- Copyright (C) 2017 Siemens Convergence Creators, Prague (CZ) -->
+<!-- Licensed under the OBEOS SAMDE License, see LICENSE.txt      -->
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui"
+	xmlns:ui="http://java.sun.com/jsf/facelets">
+	<p:dialog widgetVar="newInstrumentDlg" style="width:600px">
+		<h:form id="newInstrumentForm">
+			<h:outputText value="New instrument" style="font-weight:bold;" />
+			<p:panelGrid columns="2">
+				<h:outputText value="title: " />
+				<p:inputText id="instrTitleTxt"
+					value="#{annotationInserterBean.instrumentTitleName}" />
+			</p:panelGrid>
+			<p:panelGrid columns="3">
+				<h:outputText value="or fill in by" />
+				<p:commandButton value="URI lookup"
+					actionListener="#{annotationAdministratorBean.setLookupField('instrumentTitle')}"
+					onclick="PF('plainLookupDlg').show();" />
+				<p:commandButton value="VoID search"
+					actionListener="#{annotationInserterBean.propagateAnnotationType('instrumentTitle')}"
+					oncomplete="PF('voidExtractDlg').show();" />
+			</p:panelGrid>
+
+			<p:panelGrid>
+				<p:row>
+					<p:column>date</p:column>
+					<p:column>
+						<p:inputText
+							value="#{annotationInserterBean.instrumentBlockData.date}" />
+					</p:column>
+				</p:row>
+
+				<p:row>
+					<p:column style="font-weight:bold;" colespan="2">CI_DateTypeCode</p:column>
+				</p:row>
+				<p:row>
+					<p:column>codeList-Attribute:</p:column>
+					<p:column>
+						<p:inputText
+							value="#{annotationInserterBean.instrumentBlockData.dtcCodeListAttr}" />
+					</p:column>
+				</p:row>
+				<p:row>
+					<p:column>codeListValue-Attribute:</p:column>
+					<p:column>
+						<p:inputText
+							value="#{annotationInserterBean.instrumentBlockData.dtcCodeListValueAttr}" />
+					</p:column>
+				</p:row>
+				<p:row>
+					<p:column>DateTypeCode-leaf value :</p:column>
+					<p:column>
+						<p:inputText
+							value="#{annotationInserterBean.instrumentBlockData.dtcLeafValue}" />
+					</p:column>
+				</p:row>
+			</p:panelGrid>
+
+			<p:panelGrid columns="3">
+				<h:outputText value="identifier" />
+				<p:inputText id="newInstrIdText"
+					value="#{annotationInserterBean.newInstrIdentifier.conceptName}" />
+				<p:commandButton value="Add"
+					actionListener="#{annotationInserterBean.addIdentifierAndClearField}"
+					update="instrIdentifierTbl" />
+			</p:panelGrid>
+			<br />
+			<p:panelGrid columns="3">
+				<h:outputText value="or add identifier by" />
+				<p:commandButton value="URI lookup"
+					actionListener="#{annotationAdministratorBean.setLookupField('instrumentIdentifier')}"
+					onclick="PF('plainLookupDlg').show();"/>
+					<p:commandButton value="VoID search"
+						actionListener="#{annotationInserterBean.propagateAnnotationType('instrumentIdentifier')}"
+						oncomplete="PF('voidExtractDlg').show();" />
+			</p:panelGrid>
+			<br />
+
+			<p:dataTable style="width:400px" id="instrIdentifierTbl"
+				value="#{annotationInserterBean.instrumentBlockData.identifiers}"
+				var="ident">
+				<p:column headerText="identifiers">
+					<h:outputLink target="_blank" value="#{ident.conceptURI}">
+						<h:outputText value="#{ident.conceptName}" />
+					</h:outputLink>
+				</p:column>
+			</p:dataTable>
+			<p:spacer height="50px" />
+			<h:outputText value="create empty node MI_SensorTypeCode" />
+			<p:selectBooleanCheckbox
+				value="#{annotationInserterBean.sensorTypeCode}" />
+			<br />
+			<p:spacer height="50px" />
+			<p:commandButton value="Continue"
+				action="#{annotationInserterBean.createNewInstrument}"
+				oncomplete="PF('newInstrumentDlg').hide();" />
+		</h:form>
+	</p:dialog>
+</ui:composition>

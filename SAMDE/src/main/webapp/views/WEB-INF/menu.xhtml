@@ -1,0 +1,157 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- Copyright (C) 2017 Siemens Convergence Creators, Prague (CZ) -->
+<!-- Licensed under the OBEOS SAMDE License, see LICENSE.txt      -->
+
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:c="http://java.sun.com/jsp/jstl/core"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui"
+	xmlns:ui="http://java.sun.com/jsf/facelets">
+
+	<h:form id="menuform">
+		<p:menubar id="mainmenubar">
+			<p:submenu label="Open">
+				<p:menuitem value="Upload" onclick="PF('uploadDlg').show();" />
+				<p:menuitem value="URL" onclick="PF('urlDlg').show();" />
+				<p:menuitem value="OSDD Search" onclick="PF('osddDlg').show();" />
+			</p:submenu>
+			<p:submenu label="New ISO File">
+				<p:submenu label="Empty document">
+					<p:submenu label="Beta schema set">
+						<p:menuitem value="GMI root"
+							action="#{fileCreatorBean.printParams}"
+							onclick="PF('namingNewFileDlg').show();">
+							<f:setPropertyActionListener
+								value="#{fileCreatorBean.betaVersion}"
+								target="#{fileCreatorBean.modelVersion}" />
+							<f:setPropertyActionListener value="#{fileCreatorBean.gmiType}"
+								target="#{fileCreatorBean.modelType}" />
+						</p:menuitem>
+						<p:menuitem value="GMD root"
+							action="#{fileCreatorBean.printParams}"
+							onclick="PF('namingNewFileDlg').show();">
+							<f:setPropertyActionListener
+								value="#{fileCreatorBean.betaVersion}"
+								target="#{fileCreatorBean.modelVersion}" />
+							<f:setPropertyActionListener value="#{fileCreatorBean.gmdType}"
+								target="#{fileCreatorBean.modelType}" />
+						</p:menuitem>
+					</p:submenu>
+					<p:submenu label="Release schema set">
+						<p:menuitem value="GMI root"
+							action="#{fileCreatorBean.printParams}"
+							onclick="PF('namingNewFileDlg').show();">
+							<f:setPropertyActionListener
+								value="#{fileCreatorBean.releaseVersion}"
+								target="#{fileCreatorBean.modelVersion}" />
+							<f:setPropertyActionListener value="#{fileCreatorBean.gmiType}"
+								target="#{fileCreatorBean.modelType}" />
+						</p:menuitem>
+						<p:menuitem value="GMD root"
+							action="#{fileCreatorBean.printParams}"
+							onclick="PF('namingNewFileDlg').show();">
+							<f:setPropertyActionListener
+								value="#{fileCreatorBean.betaVersion}"
+								target="#{fileCreatorBean.modelVersion}" />
+							<f:setPropertyActionListener value="#{fileCreatorBean.gmdType}"
+								target="#{fileCreatorBean.modelType}" />
+						</p:menuitem>
+					</p:submenu>
+				</p:submenu>
+
+				<p:submenu label="Create from template">
+					<p:menuitem value="Choose template"
+						onclick="PF('templateDlg').show();" />
+					<p:menuitem value="Use existing file as a template"
+						onclick="PF('templateUploadDlg').show();" />
+				</p:submenu>
+			</p:submenu>
+
+			<p:submenu label="Edit">
+				<p:menuitem value="Delete selected node (Ctrl-d)"
+					actionListener="#{treeBean.onCheckedDelete}" />
+				<p:menuitem value="Set revision date"
+					action="#{treeBean.setDateStamp}" />
+			</p:submenu>
+			<p:submenu label="Validate">
+				<p:menuitem value="Validate active file"
+					actionListener="#{multipleFileEditingBean.onValidate}"
+					action="#{validatorBean.validateOnlyActiveFile}" />
+				<p:menuitem value="Validate all files in selection"
+					actionListener="#{multipleFileEditingBean.onValidate}"
+					action="#{validatorBean.validateAll}" />
+			</p:submenu>
+			<p:submenu label="Tree view">
+				<p:menuitem value="Collapse current subtree"
+					actionListener="#{treeBean.collapseCurrentSubtree}" />
+				<p:menuitem value="Expand current subtree"
+					actionListener="#{treeBean.expandCurrentSubtree}" />
+				<p:menuitem value="Refresh" actionListern="#{treeBean.refresh}" />
+				<p:menuitem value="Reset" actionListener="#{treeBean.reset}" />
+			</p:submenu>
+			<p:submenu label="Save">
+				<p:menuitem value="Download active file"
+					actionListener="#{treeBean.setDateStamp}"
+					action="#{multipleFileEditingBean.saveActiveFile}"
+					oncomplete="PF('downloadDlg').show()">
+				</p:menuitem>
+				<p:menuitem value="Download selection"
+					actionListener="#{treeBean.setDateStamp}"
+					action="#{multipleFileEditingBean.saveAllContainersAndActiveFile}"
+					oncomplete="PF('downloadDlg').show()" />
+				<p:menuitem value="Upload to Catalog"
+					actionListener="#{treeBean.setDateStamp}"
+					action="#{multipleFileEditingBean.saveAllContainersAndActiveFile}"
+					oncomplete="PF('uploadToCatalogDlg').show()" />
+
+				<p:menuitem value="Download building blocks"
+					oncomplete="PF('downloadBuildingBlocksDlg').show();" />
+			</p:submenu>
+			<p:submenu label="Semantic Annotation">
+<!-- 				<p:menuitem value="Refresh annotation display" -->
+<!-- 					action="#{annotationAdministratorBean.annotationFromSelection}" -->
+<!-- 					update="#{p:component('annotationTbl')} #{p:component('firstLevelInstrumentsDT')} #{p:component('platformTbl')}" /> -->
+					<p:menuitem value="Refresh annotation display" action="#{navigatorBean.switchToAnnotationView}"/>
+				<p:menuitem value="Insert free keywords" actionListener="#{annotationInserterBean.onMenuFreeKeywordsClicked}"
+				  update="#{p:component('keywordlist')}"
+					oncomplete="PF('freeKeywordsDlg').show();" />
+				<p:menuitem value="Upload VoID"
+					oncomplete="PF('voidUplDlg').show();" />
+				<p:menuitem value="Search descriptive keywords using VoID"
+					actionListener="#{annotationInserterBean.setFreeKeywords('false')}"
+					action="#{annotationInserterBean.propagateAnnotationType('descriptiveKeywords')}"
+					oncomplete="PF('voidExtractDlg').show();" />
+			</p:submenu>
+			<p:submenu label="Settings">
+				<p:menuitem value="Open Settings Dialogue"
+					onclick="PF('configParamsDlg').show();" />
+			</p:submenu>
+		</p:menubar>
+	</h:form>
+	<h:form id="dialogform" enctype="multipart/form-data">
+		<p:remoteCommand name="completeFromBean"
+			update="#{p:component('pfFileDispDlg')}"
+			actionListener="#{fileUploadBean.update}" />
+		<p:dialog header="Files to edit" widgetVar="uploadDlg">
+			<p:fileUpload mode="advanced" multiple="true"
+				fileUploadListener="#{fileUploadBean.fileUploadListener}"
+				update="#{p:component('filelist')} #{p:component('pfFileDispDlg')}"
+				oncomplete="PF('uploadDlg').hide();PF('fileDispDlg').show();" />
+			<!-- 			<p:ajax event="close" -->
+			<!--				update="#{p:component('filelist')} #{p:component('treeform')} #{p:component('pfFileDispDlg')}" -->
+			<!-- 				render="errmsg" /> -->
+		</p:dialog>
+	</h:form>
+	<h:form id="dialogform2">
+		<p:dialog header="URL to File(s) to edit" widgetVar="urlDlg">
+			<p:outputLabel for="urlTxt" value="URL:" />
+			<p:inputText id="urlTxt" value="#{urlLoaderBean.url}"
+				style="width: 90%" />
+			<p:commandButton value="Load"
+				actionListener="#{urlLoaderBean.loadMdFromUrl}"
+				oncomplete="PF('urlDlg').hide()" />
+		</p:dialog>
+	</h:form>
+</ui:composition>

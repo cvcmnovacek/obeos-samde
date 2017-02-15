@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jxb:bindings 
+	xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:jxb="http://java.sun.com/xml/ns/jaxb" 
+	xmlns:xjc="http://java.sun.com/xml/ns/jaxb/xjc"
+	jxb:extensionBindingPrefixes="xjc" jxb:version="2.1">
+
+	<!-- Let's all generated Java clases are derived from class MdeElement -->
+
+	<jxb:globalBindings generateElementProperty="false" choiceContentProperty="true">
+ 		<xjc:superClass name="esa.obeos.metadataeditor.model.impl.MdeElement"/>
+	</jxb:globalBindings>
+
+
+	<!-- Configure the mapping of schemas to Java packages -->
+
+	<jxb:bindings schemaLocation="../xsd/gco/gco.xsd">
+		<jxb:schemaBindings>
+			<jxb:package name="esa.obeos.metadataeditor.model.xsd.beta.gco" />
+		</jxb:schemaBindings>
+	</jxb:bindings>
+
+	<jxb:bindings schemaLocation="../xsd/gfc/gfc.xsd">
+		<jxb:schemaBindings>
+			<jxb:package name="esa.obeos.metadataeditor.model.xsd.beta.gfc" />
+		</jxb:schemaBindings>
+	</jxb:bindings>
+
+	<jxb:bindings schemaLocation="../xsd/gmd/gmd.xsd">
+		<jxb:schemaBindings>
+			<jxb:package name="esa.obeos.metadataeditor.model.xsd.beta.gmd" />
+		</jxb:schemaBindings>
+	</jxb:bindings>
+
+	<jxb:bindings schemaLocation="../xsd/gmi/gmi.xsd">
+		<jxb:schemaBindings>
+			<jxb:package name="esa.obeos.metadataeditor.model.xsd.beta.gmi" />
+		</jxb:schemaBindings>
+	</jxb:bindings>
+
+	<jxb:bindings schemaLocation="../xsd/gml/gml.xsd">
+		<jxb:schemaBindings>
+			<jxb:package name="esa.obeos.metadataeditor.model.xsd.beta.gml" />
+		</jxb:schemaBindings>
+	</jxb:bindings>
+
+	<jxb:bindings schemaLocation="../xsd/gmx/gmx.xsd">
+		<jxb:schemaBindings>
+			<jxb:package name="esa.obeos.metadataeditor.model.xsd.beta.gmx" />
+		</jxb:schemaBindings>
+	</jxb:bindings>
+
+	<jxb:bindings schemaLocation="../xsd/gsr/gsr.xsd">
+		<jxb:schemaBindings>
+			<jxb:package name="esa.obeos.metadataeditor.model.xsd.beta.gsr" />
+		</jxb:schemaBindings>
+	</jxb:bindings>
+
+	<jxb:bindings schemaLocation="../xsd/gss/gss.xsd">
+		<jxb:schemaBindings>
+			<jxb:package name="esa.obeos.metadataeditor.model.xsd.beta.gss" />
+		</jxb:schemaBindings>
+	</jxb:bindings>
+
+	<jxb:bindings schemaLocation="../xsd/gts/gts.xsd">
+		<jxb:schemaBindings>
+			<jxb:package name="esa.obeos.metadataeditor.model.xsd.beta.gts" />
+		</jxb:schemaBindings>
+	</jxb:bindings>
+
+	<jxb:bindings schemaLocation="../xsd/srv/srv.xsd">
+		<jxb:schemaBindings>
+			<jxb:package name="esa.obeos.metadataeditor.model.xsd.beta.srv" />
+		</jxb:schemaBindings>
+	</jxb:bindings>
+
+	<jxb:bindings schemaLocation="../xsd/xlink/xlinks.xsd">
+		<jxb:schemaBindings>
+			<jxb:package name="esa.obeos.metadataeditor.model.xsd.beta.xlink" />
+		</jxb:schemaBindings>
+	</jxb:bindings>
+
+	<jxb:bindings schemaLocation="http://schemas.opengis.net/gml/3.1.1/smil/smil20.xsd">
+		<jxb:schemaBindings>
+			<jxb:package name="esa.obeos.metadataeditor.model.xsd.beta.smil20" />
+		</jxb:schemaBindings>
+	</jxb:bindings>
+
+	<jxb:bindings
+		schemaLocation="http://schemas.opengis.net/gml/3.1.1/smil/smil20-language.xsd">
+		<jxb:schemaBindings>
+			<jxb:package name="esa.obeos.metadataeditor.model.xsd.beta.smil20.Language" />
+		</jxb:schemaBindings>
+	</jxb:bindings>
+
+
+	<!-- Resolve JAXB conflicts -->
+
+	<jxb:bindings node="//xs:element[@name='rows']"
+		schemaLocation="../xsd/gml/geometryPrimitives.xsd">
+		<jxb:property name="rowsElement" />
+	</jxb:bindings>
+
+	<jxb:bindings schemaLocation="../xsd/gml/datums.xsd">
+		<jxb:bindings node="//xs:element[@name='secondDefiningParameter']">
+			<jxb:class name="SecondDefiningParameters" />
+		</jxb:bindings>
+
+		<jxb:bindings
+			node="//xs:element[@name='ImageDatum'][@substitutionGroup='gml:AbstractDatum']">
+			<jxb:factoryMethod name="ImageDatumSubst" />
+		</jxb:bindings>
+
+		<jxb:bindings
+			node="//xs:element[@name='TemporalDatum'][@substitutionGroup='gml:AbstractDatum']">
+			<jxb:factoryMethod name="TemporalDatumSubst" />
+		</jxb:bindings>
+
+		<jxb:bindings
+			node="//xs:element[@name='VerticalDatum'][@substitutionGroup='gml:AbstractDatum']">
+			<jxb:factoryMethod name="VerticalDatumSubst" />
+		</jxb:bindings>
+
+		<jxb:bindings
+			node="//xs:element[@name='GeodeticDatum'][@substitutionGroup='gml:AbstractDatum']">
+			<jxb:factoryMethod name="GeodeticDatumSubst" />
+		</jxb:bindings>
+
+		<jxb:bindings
+			node="//xs:element[@name='EngineeringDatum'][@substitutionGroup='gml:AbstractDatum']">
+			<jxb:factoryMethod name="EngineeringDatumSubst" />
+		</jxb:bindings>
+
+		<jxb:bindings
+			node="//xs:element[@name='Ellipsoid'][@substitutionGroup='gml:Definition']">
+			<jxb:factoryMethod name="EllipsoidSubst" />
+		</jxb:bindings>
+
+		<jxb:bindings
+			node="//xs:element[@name='PrimeMeridian'][@substitutionGroup='gml:Definition']">
+			<jxb:factoryMethod name="PrimeMeridianSubst" />
+		</jxb:bindings>
+
+	</jxb:bindings>
+
+	<jxb:bindings schemaLocation="../xsd/gml/defaultStyle.xsd">
+		<jxb:bindings
+			node="//xs:element[@name='TopologyStyle'][@substitutionGroup='gml:AbstractGML']">
+			<jxb:factoryMethod name="TopologyStyleSubst" />
+		</jxb:bindings>
+
+		<jxb:bindings
+			node="//xs:element[@name='GraphStyle'][@substitutionGroup='gml:AbstractGML']">
+			<jxb:factoryMethod name="GraphStyleSubst" />
+		</jxb:bindings>
+
+		<jxb:bindings
+			node="//xs:element[@name='LabelStyle'][@substitutionGroup='gml:AbstractGML']">
+			<jxb:factoryMethod name="LabelStyleSubst" />
+		</jxb:bindings>
+
+		<jxb:bindings
+			node="//xs:element[@name='FeatureStyle'][@substitutionGroup='gml:AbstractGML']">
+			<jxb:factoryMethod name="FeatureStyleSubst" />
+		</jxb:bindings>
+
+		<jxb:bindings
+			node="//xs:element[@name='GeometryStyle'][@substitutionGroup='gml:AbstractGML']">
+			<jxb:factoryMethod name="GeometryStyleSubst" />
+		</jxb:bindings>
+
+
+	</jxb:bindings>
+
+	<jxb:bindings schemaLocation="../xsd/gml/coordinateOperations.xsd">
+		<jxb:bindings
+			node="//xs:element[@name='ParameterValue'][@substitutionGroup='gml:AbstractGeneralParameterValue']">
+			<jxb:factoryMethod name="ParameterValueSubst" />
+		</jxb:bindings>
+
+		<jxb:bindings
+			node="//xs:element[@name='OperationParameter'][@substitutionGroup='gml:AbstractGeneralOperationParameter']">
+			<jxb:factoryMethod name="OperationParameterSubst" />
+		</jxb:bindings>
+
+	</jxb:bindings>
+
+	<jxb:bindings schemaLocation="../xsd/gml/coordinateReferenceSystems.xsd">
+		<jxb:bindings node="//xs:element[@name='linearCS']">
+			<jxb:factoryMethod name="LinearCSR" />
+		</jxb:bindings>
+
+		<jxb:bindings node="//xs:element[@name='cylindricalCS']">
+			<jxb:factoryMethod name="CylindricalCSR" />
+		</jxb:bindings>
+
+		<jxb:bindings node="//xs:element[@name='verticalCS']">
+			<jxb:factoryMethod name="VerticalCSR" />
+		</jxb:bindings>
+
+		<jxb:bindings node="//xs:element[@name='sphericalCS']">
+			<jxb:factoryMethod name="SphericalCSR" />
+		</jxb:bindings>
+
+		<jxb:bindings node="//xs:element[@name='cartesianCS']">
+			<jxb:factoryMethod name="CartesianCSR" />
+		</jxb:bindings>
+
+		<jxb:bindings node="//xs:element[@name='affineCS']">
+			<jxb:factoryMethod name="AffineCSR" />
+		</jxb:bindings>
+
+		<jxb:bindings node="//xs:element[@name='timeCS']">
+			<jxb:factoryMethod name="TimeCSR" />
+		</jxb:bindings>
+
+		<jxb:bindings node="//xs:element[@name='polarCS']">
+			<jxb:factoryMethod name="PolarCSR" />
+		</jxb:bindings>
+
+		<jxb:bindings node="//xs:element[@name='ellipsoidalCS']">
+			<jxb:factoryMethod name="EllipsoidalCSR" />
+		</jxb:bindings>
+
+		<jxb:bindings node="//xs:element[@name='userDefinedCS']">
+			<jxb:factoryMethod name="UserDefinedCSR" />
+		</jxb:bindings>
+
+		<jxb:bindings node="//xs:element[@name='conversion']">
+			<jxb:factoryMethod name="conversionR" />
+		</jxb:bindings>
+
+
+	</jxb:bindings>
+
+	<!-- simple -->
+
+	<jxb:bindings schemaLocation="../xsd/gml/geometryBasic0d1d.xsd">
+
+		<jxb:bindings node="//xs:attribute[@name='axisLabels']">
+			<jxb:property name="AxisLabelsAttribute" />
+		</jxb:bindings>
+
+	</jxb:bindings>
+
+	<jxb:bindings schemaLocation="../xsd/gml/geometryAggregates.xsd">
+
+		<jxb:bindings node="//xs:element[@ref='gml:curveMember']">
+			<jxb:property name="gml:curveMember" />
+		</jxb:bindings>
+
+		<jxb:bindings node="//xs:element[@ref='gml:solidMember']">
+			<jxb:property name="gml:solidMember" />
+		</jxb:bindings>
+
+		<jxb:bindings node="//xs:element[@ref='gml:geometryMember']">
+			<jxb:property name="gml:geometryMember" />
+		</jxb:bindings>
+
+		<jxb:bindings node="//xs:element[@ref='gml:surfaceMember']">
+			<jxb:property name="gml:surfaceMember" />
+		</jxb:bindings>
+
+		<jxb:bindings node="//xs:element[@ref='gml:pointMember']">
+			<jxb:property name="gml:pointMember" />
+		</jxb:bindings>
+
+
+	</jxb:bindings>
+
+	<jxb:bindings schemaLocation="../xsd/gml/deprecatedTypes.xsd">
+
+		<jxb:bindings node="//xs:element[@ref='gml:featureMember']">
+			<jxb:property name="gml:featureMember" />
+		</jxb:bindings>
+
+		<jxb:bindings node="//xs:element[@ref='gml:member']">
+			<jxb:property name="gml:member" />
+		</jxb:bindings>
+
+
+
+	</jxb:bindings>
+
+	<jxb:bindings schemaLocation="../xsd/gml/valueObjects.xsd">
+
+		<jxb:bindings node="//xs:element[@ref='gml:valueComponent']">
+			<jxb:property name="gml:valueComponent" />
+		</jxb:bindings>
+
+	</jxb:bindings>
+
+	<jxb:bindings schemaLocation="../xsd/gml/topology.xsd">
+
+		<jxb:bindings node="//xs:element[@ref='gml:topoPrimitiveMember']">
+			<jxb:property name="gml:topoPrimitiveMember" />
+		</jxb:bindings>
+
+	</jxb:bindings>
+
+	<!-- simple + generateElementProperty="true" -->
+
+	<jxb:bindings schemaLocation="../xsd/srv/serviceModel.xsd">
+
+		<jxb:bindings
+			node="//xs:element[@name='SV_ServiceSpecification'][@substitutionGroup='srv:AbstractSV_AbstractServiceSpecification']">
+			<jxb:factoryMethod name="SvServiceSpecification" />
+		</jxb:bindings>
+
+	</jxb:bindings>
+
+	<jxb:bindings schemaLocation="../xsd/srv/serviceMetadata.xsd">
+
+		<jxb:bindings
+			node="//xs:element[@name='SV_ParameterDirection'][@substitutionGroup='gco:CharacterString']">
+			<jxb:factoryMethod name="SvParameterDirection" />
+		</jxb:bindings>
+
+	</jxb:bindings>
+
+</jxb:bindings>

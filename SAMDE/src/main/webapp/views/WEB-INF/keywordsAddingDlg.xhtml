@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!-- Copyright (C) 2017 Siemens Convergence Creators, Prague (CZ) -->
+<!-- Licensed under the OBEOS SAMDE License, see LICENSE.txt      -->
+
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui"
+	xmlns:ui="http://java.sun.com/jsf/facelets">
+	<p:dialog widgetVar="keywordsAddingDlg"
+		header="Add keyword to current group" style="width:300px;height:200px;">
+		<h:form id="addingKeywords">
+			<p:panelGrid columns="2">
+
+				<p:outputLabel value="thesaurus-URI" />
+				<p:outputLabel id="thesaurusFromEntry" value="#{annotationInserterBean.selectedExistingAnnotationBlock.thesaurusURI}"/>
+
+				<p:outputLabel value="complete concept URI (as shown in the file)" />
+				<p:inputText id="concept-uri" value="#{annotationInserterBean.conceptToAdd_uri}"/>
+
+			</p:panelGrid>
+
+			<p:panelGrid columns="3">
+				<p:commandButton value="Add" action="#{annotationInserterBean.tryToInsertKwInSelectedBlock}"/>
+                <p:commandButton value="Clear" action="#{annotationInserterBean.clearKwToAdd}" update="concept-uri"/>
+				<p:commandButton value="Close" onclick="PF('keywordsAddingDlg').hide();"/>
+			</p:panelGrid>
+
+		</h:form>
+	</p:dialog>
+</ui:composition>
