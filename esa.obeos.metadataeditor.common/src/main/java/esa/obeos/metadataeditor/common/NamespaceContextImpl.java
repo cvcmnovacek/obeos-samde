@@ -1,7 +1,7 @@
 //------------------------------------------------------------------------------
 //
 // Project: OBEOS METADATA EDITOR
-// Authors: Natasha Neumaerker, Siemens Convergence Creators, Prague (CZ)
+// Authors: Natascha Neumaerker, Siemens Convergence Creators, Prague (CZ)
 //          Milan Novacek, Siemens Convergence Creators, Prague (CZ)
 //          Radim Zajonc, Siemens Convergence Creators, Prague (CZ)
 //          
