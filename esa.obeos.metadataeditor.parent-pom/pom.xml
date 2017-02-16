@@ -43,9 +43,7 @@
 
     <modules>
         <module>../esa.obeos.metadataeditor.common</module>
-        <module>../esa.obeos.metadataeditor.xsd.downloader</module>
         <module>../esa.obeos.metadataeditor.model</module>
-        <module>../esa.obeos.metadataeditor.testView</module>
         <module>../esa.obeos.metadataeditor.jaxrs.api</module>
         <module>../esa.obeos.metadataeditor.jaxrs.service</module>
         <module>../SAMDE</module>
