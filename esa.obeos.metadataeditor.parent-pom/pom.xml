@@ -3,6 +3,7 @@
  Project: OBEOS METADATA EDITOR
  Authors: Natasha Neumaerker, Siemens Convergence Creators, Prague (CZ)
           Milan Novacek, Siemens Convergence Creators, Prague (CZ)
+          Radim Zajonc, Siemens Convergence Creators, Prague (CZ)
 
  Copyright (C) 2017 Siemens Convergence Creators, Prague (CZ)
     ===============================================================
@@ -30,7 +31,7 @@
 
     <groupId>esa.obeos.metadataeditor</groupId>
     <artifactId>esa.obeos.metadataeditor.parentPom</artifactId>
-    <version>0.1.0</version>
+    <version>1.0.0</version>
     <name>ESA OBEOS Metadata Editor - Parent POM</name>
     <packaging>pom</packaging>
 
