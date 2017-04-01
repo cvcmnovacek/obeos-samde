@@ -1,0 +1,13 @@
+
+The xml files here are are provided to suppoort the SVS test cases.
+The gcmd-osdd.xml file should be uploaded first, 
+see the procedure in the SVF.  After upload, it should
+be visible in the following directory, assuming the
+default upload location has not been changed (the upload
+location is specified in /srv/samde/samde.properties):
+tmp/uploads/OSDD/gcmd-osdd.xml
+
+The maven_setting.txt file should be merged with ~/.m2/settings.xml.
+Likewise, toolchains is optionally to be installed in ~/.m2/toolchains.xml. 
+
+

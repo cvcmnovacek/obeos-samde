@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF 
+   xmlns:foaf="http://xmlns.com/foaf/0.1/" 
+   xmlns:void="http://rdfs.org/ns/void#" 
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+   xmlns:dcterms="http://purl.org/dc/terms/" 
+   xml:base="#">
+
+  <!-- NASA KMS -->
+  <void:Dataset rdf:about="https://gcmdservices.gsfc.nasa.gov/kms/concept/">
+    <dcterms:description>GCMD KMS</dcterms:description>
+    <void:uriLookupEndpoint rdf:resource="https://gcmdservices.gsfc.nasa.gov/kms/concept/"/>
+    <void:openSearchDescription rdf:resource="http://localhost:8080/SAMDE-0.1.0/rest/mde/getOSDD?fileName=gcmd-osdd.xml"/>
+    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML" />
+    <void:rootResource 
+     rdf:resource="https://gcmdservices.gsfc.nasa.gov/kms/concept/1eb0ea0a-312c-4d74-8d42-6f1ad7581999" />
+    <void:uriSpace>https://gcmdservices.gsfc.nasa.gov/kms/concept/</void:uriSpace>
+    <foaf:account>
+        <foaf:OnlineAccount>
+            <foaf:accountName>test</foaf:accountName>
+        </foaf:OnlineAccount>
+    </foaf:account>
+  </void:Dataset>
+
+  <!-- GEMET -->
+  <void:Dataset rdf:about="http://www.eionet.europa.eu/gemet">
+    <dcterms:description>GEMET</dcterms:description>
+    <void:uriLookupEndpoint rdf:resource="http://www.eionet.europa.eu/gemet/concept/"/>
+    <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML" />
+    <void:rootResource 
+       rdf:resource="http://www.eionet.europa.eu/gemet/getTopmostConcepts?thesaurus_uri=http://www.eionet.europa.eu/gemet/group/"/>
+    <void:uriSpace>http://www.eionet.europa.eu/gemet</void:uriSpace>
+  </void:Dataset>
+
+</rdf:RDF>
