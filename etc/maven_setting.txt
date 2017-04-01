@@ -1,0 +1,18 @@
+ <profiles>
+  <profile>
+   <id>inject-liferay-properties</id>
+   <properties>
+    <liferay.version>6.2.1</liferay.version>
+    <liferay.maven.plugin.version>6.2.1</liferay.maven.plugin.version>
+    <liferay.auto.deploy.dir>/home/obeos/liferay-portal-6.2-ce-ga5/deploy</liferay.auto.deploy.dir>
+    <liferay.app.server.deploy.dir>/home/obeos/liferay-portal-6.2-ce-ga5/tomcat-7.0.62/webapps</liferay.app.server.deploy.dir>
+    <liferay.app.server.lib.global.dir>/home/obeos/liferay-portal-6.2-ce-ga5/tomcat-7.0.62/lib/ext</liferay.app.server.lib.global.dir>
+    <liferay.app.server.portal.dir>/home/obeos/liferay-portal-6.2-ce-ga5/tomcat-7.0.62/webapps/ROOT</liferay.app.server.portal.dir>
+   </properties>
+  </profile>
+ </profiles>
+
+ <activeProfiles>
+  <activeProfile>inject-liferay-properties</activeProfile>
+ </activeProfiles>
+</settings>
