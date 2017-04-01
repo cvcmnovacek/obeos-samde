@@ -16,7 +16,7 @@ The development of the Metadata Editor executed by Siemens Convergence
 Creators, Prague, is funded by the European Space Agency.
 
 Note about Java versions:
-Java 1.8 or newer is recommended.  While the editor v1.1.0 will compile
+Java 1.8 or newer is recommended.  While the editor v1.0.1 will compile
 under Java 1.7, there may be issues with connecting to certain sites
 running https.  Java 1.8 has modern default settings for the underlying SSL
 protocol including cypher suites, which may not be set up with Java 1.7.

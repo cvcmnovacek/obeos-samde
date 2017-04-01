@@ -31,7 +31,7 @@
 
     <groupId>esa.obeos.metadataeditor</groupId>
     <artifactId>esa.obeos.metadataeditor.parentPom</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <name>ESA OBEOS Metadata Editor - Parent POM</name>
     <packaging>pom</packaging>
 
