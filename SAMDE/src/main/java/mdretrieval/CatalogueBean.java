@@ -93,9 +93,25 @@ public class CatalogueBean implements Serializable
     {// throws FileNotFoundException {//for
      // the local variant
 
-        osddDoc = buildOsddDoc(FileFetcher.fetchFileFromUrl(osddUrlString));
-        osddProcessor.setOsddDoc(osddDoc);
+        InputStream is = FileFetcher.fetchFileFromUrl(osddUrlString);
+        if(null!=is)
+        {
+          osddDoc = buildOsddDoc(is);
+          osddProcessor.setOsddDoc(osddDoc);
+        }
+        else
+        {
+            osddProcessor.setOsddDoc(null);
+        }
         // osddProcessor.extractAndProcessUrlNodes();
+    }
+    
+    public void continueOnSuccess()
+    {
+        if(osddProcessor.getOsddDoc()!=null)
+        {
+            RequestContext.getCurrentInstance().execute("PF('osConfirmDlg').show();");
+        }
     }
 
     public void selectUrl()

@@ -37,7 +37,6 @@ import java.io.InputStream;
 import java.io.Serializable;
 import java.nio.charset.Charset;
 import java.nio.file.Files;
-import java.nio.file.Path;
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
@@ -195,7 +194,8 @@ public class DictionaryBean implements Serializable
             e.printStackTrace();
         }
     }
-
+    
+    @SuppressWarnings("unused")
     public void queryFromLookupEndpoint()
     {
         if (conceptURI.isEmpty())
@@ -230,13 +230,15 @@ public class DictionaryBean implements Serializable
         }
     }
 
-    public void queryConcept(String queryString)
+    @SuppressWarnings("unused")
+	public void queryConcept(String queryString)
     {
         String[] conceptDetail = { "", "" };
         try
         {
             conceptDetail = FileFetcher.loadStringFromURL(queryString, true);
-            if (conceptDetail[1].contains("application/rdf+xml") || conceptDetail[1].contains("application/xml"))
+            if (conceptDetail[1].contains("application/rdf+xml") || 
+            		conceptDetail[1].contains("application/xml"))
             {
 
                 if (Master.DEBUG_LEVEL > Master.LOW)
@@ -255,8 +257,12 @@ public class DictionaryBean implements Serializable
             }
             else
             {
-                // System.out.println(conceptDetail[1] + "---> assuming " +
-                // conceptDetail[1] + " is json");
+            	if (Master.DEBUG_LEVEL >= Master.LOW)
+            	{
+            		System.out.println(" Unsupported reply type: " + conceptDetail[1] );
+            		// + "---> assuming " +
+            		// conceptDetail[1] + " is json");
+            	}
                 GUIrefs.displayAlert("Info: processing of non-rdf reply currently not implemented - reply is "
                         + StringUtilities.escapeQuotes(conceptDetail[0]));
             }
@@ -274,7 +280,7 @@ public class DictionaryBean implements Serializable
         }
         catch (Exception e)
         {
-            GUIrefs.displayAlert(StringUtilities.escapeQuotes(e.getMessage()));
+            GUIrefs.displayAlert(StringUtilities.escapeQuotes("Query Concept Failed:\n" + e.getMessage()));
             if (Master.DEBUG_LEVEL > Master.LOW)
             {
                 e.printStackTrace();
@@ -344,7 +350,8 @@ public class DictionaryBean implements Serializable
             lookupBroaderNarrowerAndMarkAsTableMembers(ao);
         }
     }
-
+    
+    @SuppressWarnings("unused")
     public static AnnotationObject conceptLookup(Concept concept)
     {
         AnnotationObject ret = null;
@@ -352,7 +359,8 @@ public class DictionaryBean implements Serializable
         try
         {
             conceptDetail = FileFetcher.loadStringFromURL(concept.getConceptURI(), true);
-            if (conceptDetail[1].contains("application/rdf+xml") || conceptDetail[1].contains("application/xml"))
+            if (conceptDetail[1].contains("application/rdf+xml") || 
+            		conceptDetail[1].contains("application/xml"))
             {
 
                 if (Master.DEBUG_LEVEL > Master.LOW)
@@ -370,8 +378,13 @@ public class DictionaryBean implements Serializable
             }
             else
             {
-                // System.out.println(conceptDetail[1] + "---> assuming " +
-                // conceptDetail[1] + " is json");
+            	if (Master.DEBUG_LEVEL >= Master.LOW)
+            	{
+            		System.out.println(" Unsupported reply type: " + conceptDetail[1] );
+            		// + "---> assuming " +
+            		// conceptDetail[1] + " is json");
+            	}
+
                 GUIrefs.displayAlert("Info: processing of non-rdf reply currently not implemented - reply is "
                         + StringUtilities.escapeQuotes(conceptDetail[0]));
             }
@@ -411,7 +424,7 @@ public class DictionaryBean implements Serializable
         }
     }
 
-
+    @SuppressWarnings("unused")
     public void showDialog()
     {
 
@@ -422,7 +435,8 @@ public class DictionaryBean implements Serializable
         }
         RequestContext.getCurrentInstance().execute("PF('voidExtractDlg').show();");
     }
-
+    
+    @SuppressWarnings("unused")
     public void processOSDD()
     {
         try
@@ -787,7 +801,7 @@ public class DictionaryBean implements Serializable
         this.statusMsg = statusMsg;
     }
 
-
+    @SuppressWarnings("unused")
     public void printFilename()
     {
         if (voidFile == null)

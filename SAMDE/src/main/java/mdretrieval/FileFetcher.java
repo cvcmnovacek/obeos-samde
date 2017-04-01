@@ -48,6 +48,7 @@ import utilities.StringUtilities;
 
 public class FileFetcher
 {
+	private static String HTTP_RDFXML_PROP = "application/rdf+xml";
 
     public static InputStream fetchFileFromUrl(String urlString)
     {
@@ -77,11 +78,13 @@ public class FileFetcher
         {
             GUIrefs.displayAlert("Invalid URL " + urlString + "- \\n malformed expression");
             e.printStackTrace();
+            inputStream = null;
         }
         catch (IOException ioe)
         {
             GUIrefs.displayAlert("Cannot read from " + StringUtilities.escapeQuotes(urlString) + "- IOException");
             ioe.printStackTrace();
+            inputStream = null;
         }
 
         return inputStream;
@@ -89,14 +92,18 @@ public class FileFetcher
 
     public static String[] loadStringFromURL(String destinationURL, boolean acceptRDF) throws IOException
     {
+        String[] ret = new String[2];
+        
         HttpURLConnection urlConnection = null;
         InputStream inputStream = null;
 
-        URL url = new URL(destinationURL);
+        String dest = destinationURL;
+        URL url = new URL(dest);
+        Proxy proxy = null;
 
         if (ServerConstants.isProxyEnabled)
         {
-            Proxy proxy = new Proxy(Proxy.Type.HTTP,
+            proxy = new Proxy(Proxy.Type.HTTP,
                     new InetSocketAddress(ServerConstants.hostname, ServerConstants.port));
             urlConnection = (HttpURLConnection) url.openConnection(proxy);
         }
@@ -105,18 +112,49 @@ public class FileFetcher
             urlConnection = (HttpURLConnection) url.openConnection();
         }
 
-        urlConnection.setRequestMethod("GET");
-        urlConnection.setRequestProperty("Accept", "application/rdf+xml");
-        urlConnection.setDoInput(true);
-        urlConnection.setDoOutput(true);
+        
+        boolean redirect = false;
 
-        inputStream = urlConnection.getInputStream();
+        int status = urlConnection.getResponseCode();
+        if (Master.DEBUG_LEVEL >= Master.LOW) System.out.println("RESPONSE-CODE--> " + status);
+        if (status != HttpURLConnection.HTTP_OK) {
+            if (status == HttpURLConnection.HTTP_MOVED_TEMP
+                || status == HttpURLConnection.HTTP_MOVED_PERM
+                    || status == HttpURLConnection.HTTP_SEE_OTHER)
+            redirect = true;
+        }
+        
+        if(redirect)
+        {
+        	String newUrl = urlConnection.getHeaderField("Location");
+        	dest = newUrl;
+        	urlConnection.disconnect();
+        	if (Master.DEBUG_LEVEL > Master.LOW) System.out.println("REDIRECT--> " + newUrl);
+        	urlConnection = openMaybeProxyConnection(proxy, newUrl);
+        }
 
-        String[] ret = new String[2];
+        try {
+        	urlConnection.setRequestMethod("GET");
+        	urlConnection.setRequestProperty("Accept", HTTP_RDFXML_PROP);
+        	urlConnection.setDoInput(true);
+        	//urlConnection.setDoOutput(true);        	 
+            inputStream = urlConnection.getInputStream();
+            ret[1] = urlConnection.getHeaderField("Content-Type");
+        }
+        catch (IllegalStateException e){
+        	if (Master.DEBUG_LEVEL >= Master.LOW) System.out.println(" DEBUG: IllegalStateException");
+        	urlConnection.disconnect();
+        	HttpURLConnection conn2 = openMaybeProxyConnection(proxy, dest);
+        	conn2.setRequestMethod("GET");
+        	conn2.setRequestProperty("Accept", HTTP_RDFXML_PROP);
+        	conn2.setDoInput(true);
+        	inputStream = conn2.getInputStream();
+            ret[1] = conn2.getHeaderField("Content-Type");	
+        }
+
         try
         {
             ret[0] = IOUtils.toString(inputStream);
-            ret[1] = urlConnection.getHeaderField("Content-Type");
 
             if (Master.DEBUG_LEVEL > Master.LOW)
             {
@@ -126,11 +164,21 @@ public class FileFetcher
         finally
         {
             IOUtils.closeQuietly(inputStream);
+            urlConnection.disconnect();
         }
 
         if (Master.DEBUG_LEVEL > Master.LOW)
             System.out.println("Done reading " + destinationURL);
         return ret;
 
+    }
+    
+    private static HttpURLConnection openMaybeProxyConnection(Proxy proxy, String dest) 
+    		throws MalformedURLException, IOException
+    {
+        return
+        		proxy != null ? 
+        				(HttpURLConnection) new URL(dest).openConnection(proxy)
+                : (HttpURLConnection) new URL(dest).openConnection();
     }
 }

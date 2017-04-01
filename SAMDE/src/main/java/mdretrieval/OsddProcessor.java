@@ -78,7 +78,7 @@ public class OsddProcessor implements Serializable{
 	// OSDD for what
 	// Map<String, List<String>> userChoices = new HashMap<String,
 	// List<String>>();
-	Document osddDoc;
+	Document osddDoc=null;
 
 	public RequestData extractAndProcessUrlNodes(String typeArg, String relArg) 
 	{

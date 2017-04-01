@@ -14,8 +14,8 @@
 			<p:inputText id="osddTxt" value="#{catalogueBean.osddUrlString}"
 				style="width: 90%" />
 			<p:commandButton value="Get OSDD"
-				actionListener="#{catalogueBean.fetchOsddAndBuildDoc}"
-				oncomplete="PF('osddDlg').hide();PF('osConfirmDlg').show();" />
+				actionListener="#{catalogueBean.fetchOsddAndBuildDoc}" action="#{catalogueBean.continueOnSuccess}"
+				oncomplete="PF('osddDlg').hide();" />
 		</p:dialog>
 	</h:form>
 	<h:form>
